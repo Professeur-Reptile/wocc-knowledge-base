@@ -3730,7 +3730,10 @@
       "max": 9,
       "radius": 14,
       "name": "Grave Inferno",
-      "school": "fire"
+      "school": "fire",
+      "atHpPct": [
+        0.5
+      ]
     },
     "enrage": {
       "belowHpPct": 0.3,

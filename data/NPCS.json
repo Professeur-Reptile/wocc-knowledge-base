@@ -4,10 +4,10 @@
     "name": "The Merchant",
     "title": "Keeper of the World Market",
     "pos": {
-      "x": 0,
-      "z": 9.5
+      "x": -4.376409317062264,
+      "z": 7.967830304040863
     },
-    "facing": 3.141592653589793,
+    "facing": 2.508844,
     "color": 13938487,
     "questIds": [],
     "market": true,
@@ -18,10 +18,10 @@
     "name": "Marshal Redbrook",
     "title": "Town Marshal",
     "pos": {
-      "x": 4,
-      "z": 6
+      "x": 4.5,
+      "z": 5.5
     },
-    "facing": 3.141592653589793,
+    "facing": -2.2318394956455836,
     "color": 12031243,
     "questIds": [
       "q_wolves",
@@ -37,10 +37,10 @@
     "name": "Trader Wilkes",
     "title": "Provisioner",
     "pos": {
-      "x": -7,
-      "z": 3
+      "x": -7.125851435200138,
+      "z": 0.812357418766734
     },
-    "facing": 1.5707963267948966,
+    "facing": 1.405648,
     "color": 1999945,
     "questIds": [
       "q_boars",
@@ -74,10 +74,10 @@
     "name": "Apothecary Lin",
     "title": "Herbalist",
     "pos": {
-      "x": 11,
-      "z": -3
+      "x": 2.8431593444121797,
+      "z": 9.717148252611294
     },
-    "facing": -1.5707963267948966,
+    "facing": -2.788602,
     "color": 8207512,
     "questIds": [
       "q_spiders"
@@ -89,10 +89,10 @@
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": -14,
-      "z": -10
+      "x": -16.59147045515334,
+      "z": -1.3973000209293893
     },
-    "facing": 0.8,
+    "facing": 1.368826,
     "color": 16251385,
     "questIds": [
       "q_bones",
@@ -112,10 +112,10 @@
     "name": "Smith Haldren",
     "title": "Armorer & Weaponsmith",
     "pos": {
-      "x": 7,
-      "z": 16.5
+      "x": 5.617914034868791,
+      "z": 15.074687401746273
     },
-    "facing": -2.7,
+    "facing": -2.876775,
     "color": 7371644,
     "questIds": [
       "q_prof_hobby_switch"
@@ -140,10 +140,10 @@
     "name": "Fisherman Brandt",
     "title": "Old Salt",
     "pos": {
-      "x": -16,
-      "z": 6
+      "x": -22,
+      "z": 4
     },
-    "facing": -0.75,
+    "facing": 1.661456213995642,
     "color": 2388387,
     "questIds": [
       "q_murlocs"
@@ -158,10 +158,10 @@
     "name": "Foreman Odell",
     "title": "Mine Foreman",
     "pos": {
-      "x": -4,
-      "z": -14
+      "x": -8,
+      "z": -9.5
     },
-    "facing": -2.14,
+    "facing": 0.607802,
     "color": 10502144,
     "questIds": [
       "q_prof_intro",
@@ -174,10 +174,10 @@
     "name": "Bursar Fernando",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": 13,
-      "z": 8
+      "x": 14.156943251329539,
+      "z": 8.685223202016726
     },
-    "facing": -1.5707963267948966,
+    "facing": -2.0119758072098772,
     "color": 13214247,
     "questIds": [],
     "banker": true,
@@ -188,10 +188,10 @@
     "name": "Card Master",
     "title": "Dealer of Chance",
     "pos": {
-      "x": 13,
-      "z": 2
+      "x": 10.5,
+      "z": 1
     },
-    "facing": -1.5707963267948966,
+    "facing": -1.4758446204521403,
     "color": 8007567,
     "questIds": [],
     "cardMaster": true,
@@ -216,10 +216,10 @@
     "name": "Saul the Chronicler",
     "title": "The Vale Chronicle",
     "pos": {
-      "x": 15,
-      "z": -16
+      "x": 0,
+      "z": -14.5
     },
-    "facing": 2.4,
+    "facing": -0.3006056700423954,
     "color": 13666862,
     "questIds": [],
     "greeting": "Every deed worth doing is worth writing down twice, $N: once for the ledger and once for the fireside."
@@ -229,10 +229,10 @@
     "name": "Forgemistress Darva",
     "title": "Master of the Forge",
     "pos": {
-      "x": 5,
-      "z": 15
+      "x": 1.7573530626642033,
+      "z": 16.121620532318982
     },
-    "facing": -2.4,
+    "facing": -2.876775,
     "color": 11883548,
     "questIds": [
       "q_prof_attune_smith",
@@ -253,10 +253,10 @@
     "name": "Cook Marlow",
     "title": "Master of the Kitchens",
     "pos": {
-      "x": -12.5,
-      "z": 3
+      "x": -12.780764037489869,
+      "z": 10.316661779002187
     },
-    "facing": 1.5707963267948966,
+    "facing": 2.4301335278502854,
     "color": 13208139,
     "questIds": [
       "q_prof_attune_apothecary",
@@ -278,10 +278,10 @@
     "name": "Weaver Ottilie",
     "title": "Master of the Loom",
     "pos": {
-      "x": -4,
-      "z": -9
+      "x": -4.171032337012701,
+      "z": -18.01874944082567
     },
-    "facing": 0.8,
+    "facing": 0.30338,
     "color": 7430568,
     "questIds": [
       "q_prof_attune_outfitter",
@@ -302,10 +302,10 @@
     "name": "Tinker Gizzel",
     "title": "Master of the Toolworks",
     "pos": {
-      "x": 9.5,
-      "z": -14
+      "x": 6.999944260671105,
+      "z": -13.825962484617639
     },
-    "facing": -0.8,
+    "facing": -0.3006056700423954,
     "color": 11570519,
     "questIds": [
       "q_prof_attune_bombardier",
@@ -402,6 +402,12 @@
       "reedwoven_jerkin",
       "fenwalker_boots",
       "reedwoven_trousers",
+      "copper_mining_pick",
+      "iron_mining_pick",
+      "handaxe",
+      "felling_axe",
+      "gathering_sickle",
+      "bronze_sickle",
       "simple_fishing_pole"
     ],
     "greeting": "Dry boots, dry bread, dry powder — at Fenbridge you get two of the three on a good day."
@@ -599,6 +605,15 @@
       "stalkerhide_jerkin",
       "cragwalker_boots",
       "windguard_leggings",
+      "copper_mining_pick",
+      "iron_mining_pick",
+      "mithril_mining_pick",
+      "handaxe",
+      "felling_axe",
+      "ironbark_axe",
+      "gathering_sickle",
+      "bronze_sickle",
+      "silverleaf_sickle",
       "simple_fishing_pole",
       "thorium_ore",
       "arcanite_bar",
@@ -750,10 +765,10 @@
     "name": "FURY",
     "title": "Honor Quartermaster",
     "pos": {
-      "x": -11,
-      "z": 1
+      "x": -22.5,
+      "z": -7.5
     },
-    "facing": 1.5707963267948966,
+    "facing": 1.171280832795522,
     "color": 11872810,
     "questIds": [],
     "vendorItems": [

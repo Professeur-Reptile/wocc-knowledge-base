@@ -53,7 +53,7 @@
           "agi": 15,
           "critRating": 20
         },
-        "text": "Increases Agility by 15 and critical strike chance by 2%."
+        "text": "Increases Agility by 15 and critical strike chance by 1%."
       },
       {
         "pieces": 4,
@@ -128,7 +128,7 @@
           "sta": 15,
           "hasteRating": 150
         },
-        "text": "Increases Strength by 15, Stamina by 15, and attack and casting speed by 15%."
+        "text": "Increases Strength by 15, Stamina by 15, and attack and casting speed by 7.5%."
       },
       {
         "pieces": 4,
@@ -170,7 +170,7 @@
           "critRating": 20,
           "hasteRating": 150
         },
-        "text": "Increases Agility by 15, critical strike chance by 2%, and attack and casting speed by 15%."
+        "text": "Increases Agility by 15, critical strike chance by 1%, and attack and casting speed by 7.5%."
       },
       {
         "pieces": 4,
@@ -213,7 +213,7 @@
           "spi": 15,
           "hasteRating": 150
         },
-        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 15%."
+        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 7.5%."
       },
       {
         "pieces": 4,
@@ -252,7 +252,7 @@
           "spi": 15,
           "hasteRating": 150
         },
-        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 15%."
+        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 7.5%."
       },
       {
         "pieces": 4,
@@ -281,7 +281,7 @@
         "effect": {
           "hasteRating": 150
         },
-        "text": "Increases attack and casting speed by 15%."
+        "text": "Increases attack and casting speed by 7.5%."
       }
     ]
   },
@@ -294,7 +294,7 @@
         "effect": {
           "hasteRating": 150
         },
-        "text": "Increases attack and casting speed by 15%."
+        "text": "Increases attack and casting speed by 7.5%."
       }
     ]
   },
@@ -307,7 +307,7 @@
         "effect": {
           "hasteRating": 150
         },
-        "text": "Increases attack and casting speed by 15%."
+        "text": "Increases attack and casting speed by 7.5%."
       }
     ]
   }

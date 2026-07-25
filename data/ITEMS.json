@@ -145,6 +145,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -1418,7 +1420,7 @@
       "int": 6,
       "spi": 4
     },
-    "sellValue": 470
+    "sellValue": 280
   },
   "gravecaller_blade": {
     "id": "gravecaller_blade",
@@ -1667,6 +1669,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -2324,6 +2328,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -3577,6 +3583,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -3919,6 +3927,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -3964,6 +3974,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
@@ -7996,6 +8008,8 @@
       "mage",
       "priest",
       "warlock",
+      "shaman",
+      "paladin",
       "druid"
     ]
   },
