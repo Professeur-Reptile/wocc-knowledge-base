@@ -83,6 +83,7 @@
       }
     ],
     "interior": "crypt",
+    "tombDressing": "coffins",
     "suggestedPlayers": 5,
     "enterText": "You descend into the Hollow Crypt...",
     "leaveText": "You climb back into daylight."
@@ -171,6 +172,7 @@
       }
     ],
     "interior": "crypt",
+    "tombDressing": "cargo",
     "suggestedPlayers": 5,
     "enterText": "You wade down into the Sunken Bastion...",
     "leaveText": "You climb out of the drowning dark."
@@ -349,6 +351,7 @@
       }
     ],
     "interior": "crypt",
+    "tombDressing": "coffins",
     "suggestedPlayers": 1,
     "enterText": "You cross the threshold of the Abandoned Crypt.",
     "leaveText": "You return to the cold air of Thornpeak."
@@ -398,6 +401,7 @@
       }
     ],
     "interior": "nythraxis",
+    "tombDressing": "coffins",
     "suggestedPlayers": 10,
     "enterText": "You pass through the sealed royal door.",
     "leaveText": "You return to the cold air of Thornpeak."
