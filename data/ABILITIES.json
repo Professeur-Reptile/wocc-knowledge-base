@@ -3076,9 +3076,10 @@
     "effects": [
       {
         "type": "dot",
-        "total": 96,
+        "total": 16,
         "duration": 16,
-        "interval": 2
+        "interval": 2,
+        "perCombo": 16
       }
     ],
     "description": "Finishing move that wounds the target, causing it to bleed for $d over 16 sec."
@@ -6509,9 +6510,10 @@
     "effects": [
       {
         "type": "dot",
-        "total": 60,
+        "total": 10,
         "duration": 12,
-        "interval": 2
+        "interval": 2,
+        "perCombo": 10
       }
     ],
     "description": "Finishing move that causes $d Bleed damage over 12 sec. Consumes combo points. Wolf Form only."

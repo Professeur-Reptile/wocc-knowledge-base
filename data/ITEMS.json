@@ -493,6 +493,37 @@
     },
     "sellValue": 140
   },
+  "riding_training": {
+    "id": "riding_training",
+    "name": "Riding Training",
+    "kind": "tool",
+    "quality": "common",
+    "teachesRiding": true,
+    "sellValue": 0,
+    "buyValue": 800000,
+    "noMarketList": true
+  },
+  "reins_valorsteed": {
+    "id": "reins_valorsteed",
+    "name": "Reins of the Valorsteed",
+    "kind": "mount",
+    "mount": "valorsteed",
+    "quality": "common",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0,
+    "buyValue": 100000
+  },
+  "reins_grag_bear": {
+    "id": "reins_grag_bear",
+    "name": "Reins of the Goliath Grag-Bear",
+    "kind": "mount",
+    "mount": "grag_bear",
+    "quality": "rare",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
   "mistveil_cord": {
     "id": "mistveil_cord",
     "name": "Mistveil Cord",
@@ -3627,6 +3658,16 @@
       "shaman"
     ]
   },
+  "reins_stalkglider_snail": {
+    "id": "reins_stalkglider_snail",
+    "name": "Reins of the Moss-Shell Stalk-Glider",
+    "kind": "mount",
+    "mount": "stalkglider_snail",
+    "quality": "rare",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
   "fenmist_robe": {
     "id": "fenmist_robe",
     "name": "Fenmist Robe",
@@ -5832,6 +5873,36 @@
       }
     ]
   },
+  "reins_shadowjump_toad": {
+    "id": "reins_shadowjump_toad",
+    "name": "Reins of Kama-Kage the Shadow-Jump Toad",
+    "kind": "mount",
+    "mount": "shadowjump_toad",
+    "quality": "uncommon",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
+  "reins_stormfeather_griffin": {
+    "id": "reins_stormfeather_griffin",
+    "name": "Reins of the Sky-Reach Stormfeather",
+    "kind": "mount",
+    "mount": "stormfeather_griffin",
+    "quality": "uncommon",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
+  "reins_thunderstrut_gobbler": {
+    "id": "reins_thunderstrut_gobbler",
+    "name": "Reins of Thunderstrut the Grand Gobbler",
+    "kind": "mount",
+    "mount": "thunderstrut_gobbler",
+    "quality": "epic",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
   "crownforged_dreadhelm": {
     "id": "crownforged_dreadhelm",
     "set": "crownforged",
@@ -6907,6 +6978,16 @@
       "paladin",
       "shaman"
     ]
+  },
+  "reins_aether_hover_cycle": {
+    "id": "reins_aether_hover_cycle",
+    "name": "Ignition Key: Aether-Jouster Hover-Cycle",
+    "kind": "mount",
+    "mount": "aether_hover_cycle",
+    "quality": "epic",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
   },
   "moonshroud_robe": {
     "id": "moonshroud_robe",
@@ -9269,6 +9350,1310 @@
       "shaman",
       "paladin",
       "druid"
+    ]
+  },
+  "rift_essence": {
+    "id": "rift_essence",
+    "name": "Rift Essence",
+    "kind": "tool",
+    "quality": "rare",
+    "stackSize": 20,
+    "sellValue": 0,
+    "noMarketList": true
+  },
+  "rift_gem_crimson": {
+    "id": "rift_gem_crimson",
+    "name": "Crimson Rift Gem",
+    "kind": "tool",
+    "quality": "epic",
+    "stackSize": 20,
+    "sellValue": 0,
+    "noMarketList": true
+  },
+  "rift_gem_azure": {
+    "id": "rift_gem_azure",
+    "name": "Azure Rift Gem",
+    "kind": "tool",
+    "quality": "epic",
+    "stackSize": 20,
+    "sellValue": 0,
+    "noMarketList": true
+  },
+  "rift_gem_verdant": {
+    "id": "rift_gem_verdant",
+    "name": "Verdant Rift Gem",
+    "kind": "tool",
+    "quality": "epic",
+    "stackSize": 20,
+    "sellValue": 0,
+    "noMarketList": true
+  },
+  "riftbound_band_of_might": {
+    "id": "riftbound_band_of_might",
+    "name": "Riftbound Band of Might",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "str": 6,
+      "sta": 5
+    },
+    "sellValue": 5000,
+    "noMarketList": true
+  },
+  "riftbound_band_of_insight": {
+    "id": "riftbound_band_of_insight",
+    "name": "Riftbound Band of Insight",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "int": 6,
+      "spi": 5
+    },
+    "sellValue": 5000,
+    "noMarketList": true
+  },
+  "riftbound_band_of_guile": {
+    "id": "riftbound_band_of_guile",
+    "name": "Riftbound Band of Guile",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "agi": 6,
+      "sta": 5
+    },
+    "sellValue": 5000,
+    "noMarketList": true
+  },
+  "hoarfrost_edge": {
+    "id": "hoarfrost_edge",
+    "name": "Hoarfrost Edge",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "weapon": {
+      "min": 28,
+      "max": 42,
+      "speed": 2.4
+    },
+    "stats": {
+      "str": 10,
+      "sta": 5
+    },
+    "sellValue": 7500,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "emberforge_gauntlets": {
+    "id": "emberforge_gauntlets",
+    "name": "Emberforge Gauntlets",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "gloves",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 165,
+      "str": 6,
+      "sta": 4
+    },
+    "sellValue": 5000,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "broodmother_carapace": {
+    "id": "broodmother_carapace",
+    "name": "Broodmother Carapace",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "chest",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 165,
+      "agi": 9,
+      "sta": 6
+    },
+    "sellValue": 6000,
+    "requiredClass": [
+      "rogue",
+      "hunter",
+      "druid"
+    ]
+  },
+  "bonelord_mantle": {
+    "id": "bonelord_mantle",
+    "name": "Bonelord Mantle",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 38,
+      "int": 7,
+      "spi": 4
+    },
+    "sellValue": 5000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
+  "graskbreaker_girdle": {
+    "id": "graskbreaker_girdle",
+    "name": "Graskbreaker Girdle",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "waist",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 140,
+      "str": 6,
+      "sta": 4
+    },
+    "sellValue": 5000,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "voidscar_handwraps": {
+    "id": "voidscar_handwraps",
+    "name": "Voidscar Handwraps",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 42,
+      "int": 6,
+      "spi": 4
+    },
+    "sellValue": 5000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
+  "stormscale_treads": {
+    "id": "stormscale_treads",
+    "name": "Stormscale Treads",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "feet",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 85,
+      "agi": 6,
+      "sta": 3
+    },
+    "sellValue": 5000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ]
+  },
+  "abyssal_loop": {
+    "id": "abyssal_loop",
+    "name": "Abyssal Loop",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "sta": 5,
+      "spi": 4
+    },
+    "sellValue": 5000
+  },
+  "pactbound_vestments": {
+    "id": "pactbound_vestments",
+    "name": "Pactbound Vestments",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "chest",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 55,
+      "int": 9,
+      "spi": 6
+    },
+    "sellValue": 6500,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
+  "pitlords_cleaver": {
+    "id": "pitlords_cleaver",
+    "name": "Pit Lord's Cleaver",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "rare",
+    "requiredLevel": 20,
+    "weapon": {
+      "min": 34,
+      "max": 50,
+      "speed": 2.9
+    },
+    "stats": {
+      "str": 9,
+      "sta": 6
+    },
+    "sellValue": 8500,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "emberforged_bulwark": {
+    "id": "emberforged_bulwark",
+    "name": "Emberforged Bulwark",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "chest",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 360,
+      "str": 13,
+      "sta": 9
+    },
+    "hitRating": 40,
+    "sellValue": 16000,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "stormsunder_hood": {
+    "id": "stormsunder_hood",
+    "name": "Stormsunder Hood",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "helmet",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 118,
+      "agi": 11,
+      "sta": 7
+    },
+    "critRating": 40,
+    "sellValue": 13000,
+    "requiredClass": [
+      "rogue",
+      "hunter",
+      "druid"
+    ]
+  },
+  "voidweave_mantle": {
+    "id": "voidweave_mantle",
+    "name": "Voidweave Mantle",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 48,
+      "int": 10,
+      "spi": 6
+    },
+    "hasteRating": 40,
+    "sellValue": 13000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
+  "abysswrought_band": {
+    "id": "abysswrought_band",
+    "name": "Abysswrought Band",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "sta": 8,
+      "spi": 5
+    },
+    "hasteRating": 25,
+    "sellValue": 12000
+  },
+  "heart_of_the_rift": {
+    "id": "heart_of_the_rift",
+    "name": "Heart of the Rift",
+    "kind": "armor",
+    "slot": "neck",
+    "quality": "legendary",
+    "requiredLevel": 20,
+    "stats": {
+      "sta": 14,
+      "str": 6,
+      "agi": 6,
+      "int": 6
+    },
+    "sellValue": 50000
+  },
+  "voidsong_dirk": {
+    "id": "voidsong_dirk",
+    "name": "Voidsong, Dirk of the Sundered Veil",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "legendary",
+    "requiredLevel": 20,
+    "weapon": {
+      "min": 15,
+      "max": 25,
+      "speed": 1.8,
+      "dagger": true
+    },
+    "stats": {
+      "int": 19,
+      "spi": 17,
+      "sta": 13
+    },
+    "sellValue": 50000,
+    "weaponProcs": [
+      {
+        "id": "voidsong_echo",
+        "name": "Voidsong",
+        "trigger": "spellDamage",
+        "chance": 0.15,
+        "effects": [
+          {
+            "kind": "dot",
+            "name": "Voidsong",
+            "school": "shadow",
+            "perTick": 12,
+            "interval": 2,
+            "duration": 8
+          }
+        ]
+      }
+    ]
+  },
+  "duskwisp_essence": {
+    "id": "duskwisp_essence",
+    "name": "Duskwisp Essence",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_veil_thinned"
+  },
+  "spore_heart": {
+    "id": "spore_heart",
+    "name": "Spore Heart",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_spore_hearts"
+  },
+  "gleaming_antler": {
+    "id": "gleaming_antler",
+    "name": "Gleaming Antler",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_gleaming_antlers"
+  },
+  "wisp_mote": {
+    "id": "wisp_mote",
+    "name": "Wisp Mote",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_wisp_lights"
+  },
+  "starfall_shard": {
+    "id": "starfall_shard",
+    "name": "Starfall Shard",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_shards_of_starfall"
+  },
+  "elder_bark": {
+    "id": "elder_bark",
+    "name": "Elder Bark",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_treant_accord"
+  },
+  "hollow_sealstone": {
+    "id": "hollow_sealstone",
+    "name": "The Hollow Sealstone",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_seal_restored",
+    "noVendorSell": true,
+    "noDiscard": true,
+    "pickupDeny": "The sealstone waits, its socket empty. You have nothing that fits it.",
+    "pickupEnough": "The seal is set. The sealstone asks nothing more of you."
+  },
+  "monument_overlook": {
+    "id": "monument_overlook",
+    "name": "Weathered Monument",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_monument_tour",
+    "noVendorSell": true,
+    "pickupDeny": "The verse is worn shallow. Without a reason to read, it stays silent.",
+    "pickupEnough": "You have already read what the Overlook monument remembers."
+  },
+  "monument_court": {
+    "id": "monument_court",
+    "name": "Sunken Monument",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_monument_tour",
+    "noVendorSell": true,
+    "pickupDeny": "Ivy blankets the verse. Without a reason to read, it stays silent.",
+    "pickupEnough": "You have already read what the Court monument remembers."
+  },
+  "monument_north": {
+    "id": "monument_north",
+    "name": "Forgotten Monument",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_monument_tour",
+    "noVendorSell": true,
+    "pickupDeny": "The forgotten verse waits for a reader with a reason.",
+    "pickupEnough": "You have already read what the forgotten monument remembers."
+  },
+  "guardian_core": {
+    "id": "guardian_core",
+    "name": "Guardian Core",
+    "kind": "junk",
+    "sellValue": 180
+  },
+  "wardens_seal": {
+    "id": "wardens_seal",
+    "name": "The Warden's Seal",
+    "kind": "quest",
+    "sellValue": 0,
+    "noVendorSell": true
+  },
+  "gleamstag_charm": {
+    "id": "gleamstag_charm",
+    "name": "Gleamstag Charm",
+    "kind": "junk",
+    "quality": "rare",
+    "sellValue": 2500
+  },
+  "veilsteel_blade": {
+    "id": "veilsteel_blade",
+    "name": "Veilsteel Blade",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "uncommon",
+    "weapon": {
+      "min": 20,
+      "max": 32,
+      "speed": 2.4
+    },
+    "stats": {
+      "str": 6,
+      "sta": 3
+    },
+    "sellValue": 950,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "duskfang_dirk": {
+    "id": "duskfang_dirk",
+    "name": "Duskfang Dirk",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "uncommon",
+    "weapon": {
+      "min": 13,
+      "max": 21,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 6,
+      "sta": 2
+    },
+    "sellValue": 950,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ]
+  },
+  "gleamwood_stave": {
+    "id": "gleamwood_stave",
+    "name": "Gleamwood Stave",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "uncommon",
+    "weapon": {
+      "min": 22,
+      "max": 35,
+      "speed": 2.9
+    },
+    "stats": {
+      "int": 7,
+      "sta": 2
+    },
+    "sellValue": 950,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "shaman",
+      "paladin",
+      "druid"
+    ]
+  },
+  "wardens_oathband": {
+    "id": "wardens_oathband",
+    "name": "Warden's Oathband",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "rare",
+    "stats": {
+      "armor": 40,
+      "sta": 5,
+      "spi": 4
+    },
+    "sellValue": 1800
+  },
+  "wardplate_cuirass": {
+    "id": "wardplate_cuirass",
+    "name": "Wardplate Cuirass",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "chest",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 190,
+      "str": 5,
+      "sta": 4
+    },
+    "sellValue": 1100,
+    "buyValue": 5200
+  },
+  "nightweave_tunic": {
+    "id": "nightweave_tunic",
+    "name": "Nightweave Tunic",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "chest",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 120,
+      "agi": 5,
+      "sta": 4
+    },
+    "sellValue": 1100,
+    "buyValue": 5200
+  },
+  "veilcloth_robe": {
+    "id": "veilcloth_robe",
+    "name": "Veilcloth Robe",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "chest",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 70,
+      "int": 5,
+      "sta": 4
+    },
+    "sellValue": 1100,
+    "buyValue": 5200
+  },
+  "last_keep_signet": {
+    "id": "last_keep_signet",
+    "name": "Signet of the Last Keep",
+    "kind": "junk",
+    "sellValue": 25
+  },
+  "ashbone_war_brand": {
+    "id": "ashbone_war_brand",
+    "name": "Ashbone War-Brand",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_dk_marrow_and_ash"
+  },
+  "emberwing_scale": {
+    "id": "emberwing_scale",
+    "name": "Emberwing Scale",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_dk_scales_of_the_maw"
+  },
+  "scorched_supply_crate": {
+    "id": "scorched_supply_crate",
+    "name": "Scorched Supply Crate",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_dk_scorched_stores",
+    "noVendorSell": true,
+    "pickupDeny": "The crate is too hot to shoulder without a reason to brave it.",
+    "pickupEnough": "You have recovered every crate the quartermaster listed."
+  },
+  "wyrmwatch_warning_banner": {
+    "id": "wyrmwatch_warning_banner",
+    "name": "Wyrmwatch Warning Banner",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_dk_banners_over_the_dunes",
+    "noVendorSell": true,
+    "pickupDeny": "The banner pole is bundled tight. Wyrmwatch has not issued it to you.",
+    "pickupEnough": "Every warning banner is already planted."
+  },
+  "cinderwalk_treads": {
+    "id": "cinderwalk_treads",
+    "name": "Cinderwalk Treads",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "feet",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 58,
+      "sta": 4,
+      "spi": 3
+    },
+    "sellValue": 900
+  },
+  "mawscale_pauldrons": {
+    "id": "mawscale_pauldrons",
+    "name": "Mawscale Pauldrons",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 72,
+      "sta": 6,
+      "int": 4
+    },
+    "sellValue": 2200
+  },
+  "thick_winter_pelt": {
+    "id": "thick_winter_pelt",
+    "name": "Thick Winter Pelt",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fv_winter_pelts"
+  },
+  "aurora_mote": {
+    "id": "aurora_mote",
+    "name": "Aurora Mote",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fv_aurora_motes"
+  },
+  "hearth_ember_cache": {
+    "id": "hearth_ember_cache",
+    "name": "Ember Cache",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fv_ember_caches",
+    "noVendorSell": true,
+    "pickupDeny": "The ember kettle is banked and sealed. It is not yours to carry.",
+    "pickupEnough": "You have recovered every ember cache the lodge lost."
+  },
+  "sprung_trap": {
+    "id": "sprung_trap",
+    "name": "Sprung Fen Trap",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fv_sprung_traps",
+    "noVendorSell": true,
+    "pickupDeny": "The sprung iron is tangled in the reeds, and it is not your trapline.",
+    "pickupEnough": "You have gathered all of the traps Brosk asked for."
+  },
+  "hearthlined_treads": {
+    "id": "hearthlined_treads",
+    "name": "Hearth-Lined Treads",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "feet",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 58,
+      "sta": 4,
+      "spi": 3
+    },
+    "sellValue": 900
+  },
+  "frostmane_mantle": {
+    "id": "frostmane_mantle",
+    "name": "Mantle of the Frostmane",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 72,
+      "sta": 6,
+      "str": 4
+    },
+    "sellValue": 2200
+  },
+  "gilded_sap_clot": {
+    "id": "gilded_sap_clot",
+    "name": "Gilded Sap Clot",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_af_amber_from_the_herd"
+  },
+  "amberfall_sap_bucket": {
+    "id": "amberfall_sap_bucket",
+    "name": "Sap-Tap Bucket",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_af_sprites_and_spigots",
+    "noVendorSell": true,
+    "pickupDeny": "The sap bucket hangs on its tap, and the orchard is not yours to strip.",
+    "pickupEnough": "You are carrying all the sap buckets that overturned."
+  },
+  "mere_ferry_lantern": {
+    "id": "mere_ferry_lantern",
+    "name": "Ferry Lantern",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_af_lanterns_on_the_water",
+    "noVendorSell": true,
+    "pickupDeny": "The lantern bobs at the waterline, waiting for the ferry crew.",
+    "pickupEnough": "You have fished out every ferry lantern the mere took."
+  },
+  "orchard_sapbinder_grips": {
+    "id": "orchard_sapbinder_grips",
+    "name": "Sapbinder Grips",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 54,
+      "sta": 4,
+      "int": 3
+    },
+    "sellValue": 950
+  },
+  "mantle_of_the_meredark": {
+    "id": "mantle_of_the_meredark",
+    "name": "Mantle of the Meredark",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 74,
+      "sta": 6,
+      "spi": 4
+    },
+    "sellValue": 2300
+  },
+  "plump_fen_eel": {
+    "id": "plump_fen_eel",
+    "name": "Plump Fen Eel",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_wf_eels_for_the_smokehouse"
+  },
+  "wisplight_globe": {
+    "id": "wisplight_globe",
+    "name": "Wisplight Globe",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_wf_wisplight_charms"
+  },
+  "fenway_mooring_line": {
+    "id": "fenway_mooring_line",
+    "name": "Cut Mooring Line",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_wf_mind_the_moorings",
+    "noVendorSell": true,
+    "pickupDeny": "The cut line is snagged fast, and no one asked you to haul it.",
+    "pickupEnough": "You have recovered all the mooring line Alden needs."
+  },
+  "bridgemere_toll_chest": {
+    "id": "bridgemere_toll_chest",
+    "name": "Sunken Toll-Chest",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_wf_toll_and_tangle",
+    "noVendorSell": true,
+    "pickupDeny": "The toll-chest is bedded deep in fen mud and is not yours to raise.",
+    "pickupEnough": "You have raised every sunken toll-chest."
+  },
+  "eelskin_mudwaders": {
+    "id": "eelskin_mudwaders",
+    "name": "Eelskin Mudwaders",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "feet",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 60,
+      "sta": 3,
+      "spi": 2
+    },
+    "sellValue": 1000
+  },
+  "lilybed_mantle": {
+    "id": "lilybed_mantle",
+    "name": "Mantle of the Lily-Bed",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 76,
+      "sta": 6,
+      "spi": 4
+    },
+    "sellValue": 2400
+  },
+  "moonfleece_tuft": {
+    "id": "moonfleece_tuft",
+    "name": "Moonfleece Tuft",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_nb_wool_by_moonlight"
+  },
+  "gloamfield_nightbloom": {
+    "id": "gloamfield_nightbloom",
+    "name": "Nightbloom Blossom",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_nb_night_gardens",
+    "noVendorSell": true,
+    "pickupDeny": "The blossom only opens for a gardener of the night beds.",
+    "pickupEnough": "Your basket holds all the nightbloom it can."
+  },
+  "vigil_star_chart": {
+    "id": "vigil_star_chart",
+    "name": "Vigil Star Chart",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_nb_charts_of_the_stones",
+    "noVendorSell": true,
+    "pickupDeny": "The chart stone shows nothing to eyes the Astronomer has not guided.",
+    "pickupEnough": "You have read every chart the Vigil holds."
+  },
+  "barrow_grave_offering": {
+    "id": "barrow_grave_offering",
+    "name": "Scattered Grave Offering",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_nb_restless_mounds",
+    "noVendorSell": true,
+    "pickupDeny": "The scattered offering is grave-bound. Disturb it with cause, or not at all.",
+    "pickupEnough": "You have gathered all the scattered offerings."
+  },
+  "moonfleece_mitts": {
+    "id": "moonfleece_mitts",
+    "name": "Moonfleece Mitts",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 54,
+      "sta": 3,
+      "spi": 3
+    },
+    "sellValue": 1000
+  },
+  "barrowshade_mantle": {
+    "id": "barrowshade_mantle",
+    "name": "Barrowshade Mantle",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 76,
+      "sta": 6,
+      "spi": 4
+    },
+    "sellValue": 2400
+  },
+  "widowsilk_skein": {
+    "id": "widowsilk_skein",
+    "name": "Widowsilk Skein",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ww_widows_skeins"
+  },
+  "gallowmere_grave_candle": {
+    "id": "gallowmere_grave_candle",
+    "name": "Grave-Candle",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ww_candles_at_the_bounds",
+    "noVendorSell": true,
+    "pickupDeny": "The grave-candle is not yours to light without the candlewright's blessing.",
+    "pickupEnough": "Every boundary candle already burns."
+  },
+  "silkbound_remains": {
+    "id": "silkbound_remains",
+    "name": "Silkbound Remains",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ww_what_the_bark_holds",
+    "noVendorSell": true,
+    "pickupDeny": "The silk-wrapped shape is not yours to cut down.",
+    "pickupEnough": "You have cut down all the remains the vicar asked after."
+  },
+  "gravebound_silk_wraps": {
+    "id": "gravebound_silk_wraps",
+    "name": "Gravebound Silk Wraps",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 52,
+      "sta": 3,
+      "spi": 3
+    },
+    "sellValue": 1000
+  },
+  "mantle_of_the_unhorsed": {
+    "id": "mantle_of_the_unhorsed",
+    "name": "Mantle of the Unhorsed",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 76,
+      "sta": 6,
+      "spi": 4
+    },
+    "sellValue": 2400
+  },
+  "pearlwake_cargo_crate": {
+    "id": "pearlwake_cargo_crate",
+    "name": "Pearlwake Cargo Crate",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_pr_wreck_line_cargo",
+    "noVendorSell": true,
+    "pickupDeny": "The cargo crate is salvage-marked. The wreck line has rules.",
+    "pickupEnough": "You have hauled every crate off the wreck line."
+  },
+  "canopy_silk_hank": {
+    "id": "canopy_silk_hank",
+    "name": "Canopy Silk Hank",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_pr_canopy_silk"
+  },
+  "sunken_offering_bowl": {
+    "id": "sunken_offering_bowl",
+    "name": "Refilled Offering Bowl",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_pr_what_the_drums_guard",
+    "noVendorSell": true,
+    "pickupDeny": "The offering bowl is dry, and the idol road keeps its own accounts.",
+    "pickupEnough": "Every offering bowl on the idol road is filled."
+  },
+  "saltwalker_sandals": {
+    "id": "saltwalker_sandals",
+    "name": "Saltwalker Sandals",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "feet",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 60,
+      "sta": 2,
+      "agi": 3
+    },
+    "sellValue": 1000
+  },
+  "sunken_idol_mantle": {
+    "id": "sunken_idol_mantle",
+    "name": "Mantle of the Sunken Idol",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 76,
+      "sta": 6,
+      "spi": 4
+    },
+    "sellValue": 2400
+  },
+  "hedgewick_shears": {
+    "id": "hedgewick_shears",
+    "name": "Stolen Hedgewick Shears",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_eg_stolen_shears"
+  },
+  "evergarden_bloom_clipping": {
+    "id": "evergarden_bloom_clipping",
+    "name": "Pruned Bloom Clipping",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_eg_bloom_clippings"
+  },
+  "hedgewick_tool_cart": {
+    "id": "hedgewick_tool_cart",
+    "name": "Spilled Tool Cart",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_eg_gnomes_in_the_green",
+    "noVendorSell": true,
+    "pickupDeny": "The spilled cart is garden property, and the gardeners are counting.",
+    "pickupEnough": "You have righted every spilled tool cart."
+  },
+  "evergarden_statue_rubbing": {
+    "id": "evergarden_statue_rubbing",
+    "name": "Statue Rubbing",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_eg_four_statues",
+    "noVendorSell": true,
+    "pickupDeny": "The statue offers nothing to a passerby without a purpose.",
+    "pickupEnough": "You have taken a rubbing from all four sisters."
+  },
+  "shearkeeper_gloves": {
+    "id": "shearkeeper_gloves",
+    "name": "Shearkeeper Gloves",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 52,
+      "sta": 3,
+      "spi": 3
+    },
+    "sellValue": 950
+  },
+  "fountain_court_mantle": {
+    "id": "fountain_court_mantle",
+    "name": "Mantle of the Fountain Court",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 74,
+      "sta": 6,
+      "str": 4
+    },
+    "sellValue": 2400
+  },
+  "galecrest_ram_wool": {
+    "id": "galecrest_ram_wool",
+    "name": "Greasy Ram Wool",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_gc_wool_off_the_downs"
+  },
+  "shear_storm_lantern": {
+    "id": "shear_storm_lantern",
+    "name": "Doused Storm-Lantern",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_gc_lanterns_on_the_shear",
+    "noVendorSell": true,
+    "pickupDeny": "The storm-lantern is chained to its post against the gale.",
+    "pickupEnough": "Every lantern on the Shear is already lit."
+  },
+  "wreckfield_flotsam_crate": {
+    "id": "wreckfield_flotsam_crate",
+    "name": "Flotsam Crate",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_gc_dead_mens_cargo",
+    "noVendorSell": true,
+    "pickupDeny": "Salvage law is clear: no claim, no crate.",
+    "pickupEnough": "You have salvaged all the flotsam Edda marked."
+  },
+  "wickspun_treads": {
+    "id": "wickspun_treads",
+    "name": "Wickspun Treads",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "feet",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 62,
+      "sta": 3,
+      "spi": 2
+    },
+    "sellValue": 1000
+  },
+  "wreck_wardens_mantle": {
+    "id": "wreck_wardens_mantle",
+    "name": "Mantle of the Wreck Warden",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 76,
+      "sta": 6,
+      "str": 4
+    },
+    "sellValue": 2400
+  },
+  "breakscarred_steel": {
+    "id": "breakscarred_steel",
+    "name": "Break-Scarred Steel",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fs_steel_for_the_redoubt"
+  },
+  "farshore_salt_moss": {
+    "id": "farshore_salt_moss",
+    "name": "Farshore Salt Moss",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fs_moss_and_mending"
+  },
+  "gullhaven_watchbell": {
+    "id": "gullhaven_watchbell",
+    "name": "Coastal Watchbell",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_fs_the_three_bells",
+    "noVendorSell": true,
+    "pickupDeny": "The watchbell answers only the bellkeeper's errand.",
+    "pickupEnough": "Every coastal watchbell has been rung."
+  },
+  "saltforged_grips": {
+    "id": "saltforged_grips",
+    "name": "Saltforged Grips",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "gloves",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 18,
+      "sta": 2,
+      "str": 2
+    },
+    "sellValue": 250
+  },
+  "mantle_of_the_unbroken_shore": {
+    "id": "mantle_of_the_unbroken_shore",
+    "name": "Mantle of the Unbroken Shore",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "shoulder",
+    "quality": "rare",
+    "stats": {
+      "armor": 30,
+      "sta": 3,
+      "str": 2
+    },
+    "sellValue": 600
+  },
+  "wildheart_tuskblade": {
+    "id": "wildheart_tuskblade",
+    "name": "Wildheart Tuskblade",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "weapon": {
+      "min": 33,
+      "max": 53,
+      "speed": 2.6
+    },
+    "stats": {
+      "str": 14,
+      "sta": 9
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "warrior",
+      "hunter",
+      "shaman",
+      "paladin"
+    ]
+  },
+  "wildheart_hexwood_staff": {
+    "id": "wildheart_hexwood_staff",
+    "name": "Hexwood Staff of the Basin",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "weapon": {
+      "min": 40,
+      "max": 60,
+      "speed": 3
+    },
+    "stats": {
+      "int": 15,
+      "spi": 8
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "shaman",
+      "paladin",
+      "druid"
+    ]
+  },
+  "wildheart_fangknife": {
+    "id": "wildheart_fangknife",
+    "name": "Fangknife of Zulgar",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 19,
+      "max": 30,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 12,
+      "sta": 6
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
     ]
   },
   "heroic_tideguard_greaves": {

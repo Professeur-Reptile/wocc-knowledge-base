@@ -2914,6 +2914,25 @@
     "scale": 0.95,
     "color": 10466248
   },
+  "stable_horse": {
+    "id": "stable_horse",
+    "name": "Stable Horse",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "family": "beast",
+    "ambient": true,
+    "hpBase": 42,
+    "hpPerLevel": 0,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 0,
+    "moveSpeed": 3,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 9136970
+  },
   "crypt_shambler": {
     "id": "crypt_shambler",
     "name": "Crypt Shambler",
@@ -5194,6 +5213,1831 @@
     "color": 8952234,
     "ccImmune": true
   },
+  "rift_spawnling": {
+    "id": "rift_spawnling",
+    "name": "Rift Spawnling",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "hpBase": 30,
+    "hpPerLevel": 11,
+    "dmgBase": 6,
+    "dmgPerLevel": 1.9,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 10,
+    "moveSpeed": 7.5,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 0.85,
+    "color": 10181046,
+    "xpMult": 0.25
+  },
+  "rift_bonewalker": {
+    "id": "rift_bonewalker",
+    "name": "Risen Bonewalker",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "hpBase": 34,
+    "hpPerLevel": 12,
+    "dmgBase": 7,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 0.95,
+    "color": 13160392,
+    "xpMult": 0.25
+  },
+  "rift_frost_revenant": {
+    "id": "rift_frost_revenant",
+    "name": "Frostbound Revenant",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 50,
+    "hpPerLevel": 20,
+    "dmgBase": 8,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 18,
+    "moveSpeed": 6.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 120,
+        "chance": 1
+      },
+      {
+        "itemId": "hoarfrost_edge",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.1,
+    "color": 12575743,
+    "chillOnHit": {
+      "chance": 0.35,
+      "mult": 0.6,
+      "duration": 4,
+      "name": "Rimebite"
+    }
+  },
+  "rift_rime_elemental": {
+    "id": "rift_rime_elemental",
+    "name": "Rime Elemental",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "elite": true,
+    "hpBase": 54,
+    "hpPerLevel": 21,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "hoarfrost_edge",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.15,
+    "color": 9427199,
+    "frostbite": {
+      "chance": 0.3,
+      "perTick": 6,
+      "interval": 2,
+      "duration": 8,
+      "name": "Rime"
+    }
+  },
+  "rift_ember_fiend": {
+    "id": "rift_ember_fiend",
+    "name": "Ember Fiend",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "elite": true,
+    "hpBase": 48,
+    "hpPerLevel": 19,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2,
+    "armorPerLevel": 14,
+    "moveSpeed": 7.5,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "emberforge_gauntlets",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1,
+    "color": 16742972,
+    "cinder": {
+      "chance": 0.3,
+      "perTick": 7,
+      "interval": 2,
+      "duration": 8,
+      "name": "Cinders"
+    }
+  },
+  "rift_magma_brute": {
+    "id": "rift_magma_brute",
+    "name": "Magma Brute",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "elite": true,
+    "hpBase": 58,
+    "hpPerLevel": 22,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 20,
+    "moveSpeed": 6.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 150,
+        "chance": 1
+      },
+      {
+        "itemId": "emberforge_gauntlets",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.25,
+    "color": 14174762,
+    "smolder": {
+      "chance": 0.25,
+      "perTick": 9,
+      "interval": 2,
+      "duration": 6,
+      "name": "Smoulder"
+    }
+  },
+  "rift_venom_weaver": {
+    "id": "rift_venom_weaver",
+    "name": "Venom Weaver",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "elite": true,
+    "hpBase": 46,
+    "hpPerLevel": 18,
+    "dmgBase": 8,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 12,
+    "moveSpeed": 8,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 120,
+        "chance": 1
+      },
+      {
+        "itemId": "broodmother_carapace",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.2,
+    "color": 10145074,
+    "venom": {
+      "chance": 0.35,
+      "perTick": 8,
+      "interval": 2,
+      "duration": 8,
+      "name": "Venom"
+    },
+    "ensnare": {
+      "chance": 0.2,
+      "duration": 2,
+      "name": "Web"
+    }
+  },
+  "rift_thornback": {
+    "id": "rift_thornback",
+    "name": "Thornback Stalker",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "beast",
+    "elite": true,
+    "hpBase": 52,
+    "hpPerLevel": 20,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 16,
+    "moveSpeed": 8.5,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "broodmother_carapace",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.1,
+    "color": 7048739,
+    "bleed": {
+      "chance": 0.3,
+      "perTick": 7,
+      "interval": 2,
+      "duration": 8,
+      "name": "Serration"
+    },
+    "frenzyOnHit": {
+      "chance": 0.25,
+      "hasteMult": 1.3,
+      "duration": 5
+    }
+  },
+  "rift_boneclad": {
+    "id": "rift_boneclad",
+    "name": "Boneclad Warrior",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 56,
+    "hpPerLevel": 22,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 24,
+    "moveSpeed": 6.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 140,
+        "chance": 1
+      },
+      {
+        "itemId": "bonelord_mantle",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.15,
+    "color": 13617328,
+    "cleave": {
+      "radius": 7,
+      "mult": 0.5,
+      "name": "Sweeping Arc"
+    }
+  },
+  "rift_marrow_troll": {
+    "id": "rift_marrow_troll",
+    "name": "Marrow Troll",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "troll",
+    "elite": true,
+    "hpBase": 62,
+    "hpPerLevel": 23,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.7,
+    "armorPerLevel": 18,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 160,
+        "chance": 1
+      },
+      {
+        "itemId": "bonelord_mantle",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.2,
+    "color": 9083483,
+    "frenzyOnHit": {
+      "chance": 0.3,
+      "hasteMult": 1.35,
+      "duration": 6
+    }
+  },
+  "rift_void_acolyte": {
+    "id": "rift_void_acolyte",
+    "name": "Voidscar Acolyte",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "humanoid",
+    "elite": true,
+    "hpBase": 46,
+    "hpPerLevel": 18,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "voidscar_handwraps",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1,
+    "color": 9323693,
+    "manaBurn": {
+      "chance": 0.3,
+      "amount": 120,
+      "name": "Mana Burn"
+    },
+    "arcaneRot": {
+      "chance": 0.25,
+      "perTick": 8,
+      "interval": 2,
+      "duration": 8,
+      "name": "Void Rot"
+    }
+  },
+  "rift_dread_stalker": {
+    "id": "rift_dread_stalker",
+    "name": "Dread Stalker",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "elite": true,
+    "hpBase": 50,
+    "hpPerLevel": 20,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 16,
+    "moveSpeed": 8,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 140,
+        "chance": 1
+      },
+      {
+        "itemId": "voidscar_handwraps",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.05,
+    "color": 5975151,
+    "dread": {
+      "chance": 0.15,
+      "duration": 3,
+      "name": "Dread"
+    },
+    "lifeleech": {
+      "healFrac": 0.3,
+      "name": "Siphon"
+    }
+  },
+  "rift_storm_caller": {
+    "id": "rift_storm_caller",
+    "name": "Storm Caller",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "elite": true,
+    "hpBase": 50,
+    "hpPerLevel": 20,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 140,
+        "chance": 1
+      },
+      {
+        "itemId": "stormscale_treads",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.1,
+    "color": 4772300,
+    "concuss": {
+      "chance": 0.2,
+      "duration": 1.5,
+      "name": "Thunderclap"
+    }
+  },
+  "rift_stormscale": {
+    "id": "rift_stormscale",
+    "name": "Stormscale Drake",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "dragonkin",
+    "elite": true,
+    "hpBase": 60,
+    "hpPerLevel": 23,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.7,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 22,
+    "moveSpeed": 7.5,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 160,
+        "chance": 1
+      },
+      {
+        "itemId": "stormscale_treads",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.35,
+    "color": 3049153,
+    "knockback": {
+      "chance": 0.2,
+      "distance": 6,
+      "name": "Tail Sweep"
+    }
+  },
+  "rift_tide_thrall": {
+    "id": "rift_tide_thrall",
+    "name": "Tide Thrall",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "mudfin",
+    "elite": true,
+    "hpBase": 52,
+    "hpPerLevel": 20,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 16,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "canSwim": true,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "abyssal_loop",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.1,
+    "color": 1549705,
+    "lifeleech": {
+      "healFrac": 0.25,
+      "chance": 0.5,
+      "name": "Drown"
+    }
+  },
+  "rift_deep_lurker": {
+    "id": "rift_deep_lurker",
+    "name": "Deep Lurker",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "burrower",
+    "elite": true,
+    "hpBase": 48,
+    "hpPerLevel": 19,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2,
+    "armorPerLevel": 14,
+    "moveSpeed": 7.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 130,
+        "chance": 1
+      },
+      {
+        "itemId": "abyssal_loop",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1,
+    "color": 1347447,
+    "corrode": {
+      "chance": 0.25,
+      "armor": 60,
+      "maxStacks": 4,
+      "duration": 12,
+      "name": "Corrode"
+    }
+  },
+  "rift_stone_ogre": {
+    "id": "rift_stone_ogre",
+    "name": "Stone Ogre",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "ogre",
+    "elite": true,
+    "hpBase": 64,
+    "hpPerLevel": 24,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.7,
+    "attackSpeed": 2.8,
+    "armorPerLevel": 26,
+    "moveSpeed": 6.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 170,
+        "chance": 1
+      },
+      {
+        "itemId": "graskbreaker_girdle",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.3,
+    "color": 10194799,
+    "stunOnHit": {
+      "chance": 0.15,
+      "duration": 1.2,
+      "name": "Crush"
+    }
+  },
+  "rift_hellguard": {
+    "id": "rift_hellguard",
+    "name": "Hellguard",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "elite": true,
+    "hpBase": 60,
+    "hpPerLevel": 23,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.7,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 22,
+    "moveSpeed": 7,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "copper": 160,
+        "chance": 1
+      },
+      {
+        "itemId": "pactbound_vestments",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.25,
+    "color": 12728858,
+    "cleave": {
+      "radius": 7,
+      "mult": 0.5,
+      "name": "Hellsteel Sweep"
+    },
+    "smolder": {
+      "chance": 0.25,
+      "perTick": 8,
+      "interval": 2,
+      "duration": 8,
+      "name": "Searing Brand"
+    }
+  },
+  "rift_pact_acolyte": {
+    "id": "rift_pact_acolyte",
+    "name": "Pact Acolyte",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 44,
+    "hpPerLevel": 17,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 12,
+    "moveSpeed": 7,
+    "aggroRadius": 14,
+    "loot": [
+      {
+        "copper": 140,
+        "chance": 1
+      },
+      {
+        "itemId": "pactbound_vestments",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1,
+    "color": 7999520,
+    "soulrot": {
+      "chance": 0.25,
+      "perTick": 7,
+      "interval": 2,
+      "duration": 8,
+      "name": "Pact Rot"
+    }
+  },
+  "rift_boss_frost": {
+    "id": "rift_boss_frost",
+    "name": "Hoarfrost Warden",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 700,
+    "hpPerLevel": 60,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.5,
+    "armorPerLevel": 30,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "hoarfrost_edge",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.7,
+    "color": 14086399,
+    "aoePulse": {
+      "min": 18,
+      "max": 28,
+      "radius": 12,
+      "every": 9,
+      "name": "Glacial Burst",
+      "school": "frost",
+      "fx": "nova"
+    },
+    "aoeSlow": {
+      "radius": 32,
+      "mult": 0.4,
+      "duration": 4,
+      "every": 12,
+      "name": "Howling Gale"
+    },
+    "stoneskin": {
+      "amount": 700,
+      "every": 16,
+      "duration": 6,
+      "name": "Glacial Carapace",
+      "school": "frost"
+    },
+    "bigCast": {
+      "castId": "rift_whiteout",
+      "name": "Whiteout",
+      "castTime": 2.5,
+      "every": 16,
+      "radius": 14,
+      "min": 30,
+      "max": 44,
+      "school": "frost",
+      "yell": "The white wind rises."
+    },
+    "deathZoneCast": {
+      "castId": "rift_frost_execution",
+      "name": "Glacial Grave",
+      "castTime": 4,
+      "every": 22,
+      "radius": 9,
+      "school": "frost",
+      "yell": "The frost claims you.",
+      "detonateText": "Glacial Grave detonates!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_frost_strike",
+      "name": "Absolute Zero",
+      "castTime": 5,
+      "every": 26,
+      "radius": 11,
+      "school": "frost",
+      "yell": "Nothing survives the deep cold.",
+      "detonateText": "Absolute Zero erupts!"
+    },
+    "rankMechanics": [
+      "aoePulse",
+      "aoeSlow",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "The cold takes all things in the end.",
+      "enrage": "FREEZE!"
+    }
+  },
+  "rift_boss_ember": {
+    "id": "rift_boss_ember",
+    "name": "Emberforge Tyrant",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 720,
+    "hpPerLevel": 62,
+    "dmgBase": 17,
+    "dmgPerLevel": 3.3,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 28,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "emberforge_gauntlets",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.9,
+    "color": 16739116,
+    "bigCast": {
+      "castId": "rift_pyre",
+      "name": "Pyroclasm",
+      "castTime": 2.5,
+      "every": 14,
+      "radius": 14,
+      "min": 30,
+      "max": 44,
+      "school": "fire",
+      "yell": "BURN."
+    },
+    "cinder": {
+      "chance": 0.4,
+      "perTick": 12,
+      "interval": 2,
+      "duration": 8,
+      "name": "Cinders"
+    },
+    "aoePulse": {
+      "min": 16,
+      "max": 24,
+      "radius": 11,
+      "every": 10,
+      "name": "Cinder Wave",
+      "school": "fire",
+      "fx": "nova"
+    },
+    "stomp": {
+      "radius": 10,
+      "every": 13,
+      "duration": 1.2,
+      "min": 18,
+      "max": 28,
+      "name": "Magma Crash",
+      "school": "fire"
+    },
+    "summonAdds": {
+      "mobId": "rift_spawnling",
+      "count": 2,
+      "atHpPct": [
+        0.6,
+        0.3
+      ]
+    },
+    "deathZoneCast": {
+      "castId": "rift_ember_execution",
+      "name": "Magma Well",
+      "castTime": 2.5,
+      "every": 22,
+      "radius": 9,
+      "school": "fire",
+      "yell": "The magma rises.",
+      "detonateText": "Magma Well erupts!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_ember_strike",
+      "name": "Core Meltdown",
+      "castTime": 3,
+      "every": 26,
+      "radius": 11,
+      "school": "fire",
+      "yell": "THE FORGE CONSUMES ALL.",
+      "detonateText": "Core Meltdown detonates!"
+    },
+    "rankMechanics": [
+      "bigCast",
+      "aoePulse",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.5,
+      "hasteMult": 1.3
+    },
+    "yells": {
+      "engage": "The forge hungers.",
+      "summon": "Rise from the slag!",
+      "enrage": "ASH AND CINDER!"
+    }
+  },
+  "rift_boss_venom": {
+    "id": "rift_boss_venom",
+    "name": "Broodmother Vysska",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 680,
+    "hpPerLevel": 58,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 24,
+    "moveSpeed": 7.5,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "broodmother_carapace",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.8,
+    "color": 8172354,
+    "summonAdds": {
+      "mobId": "rift_spawnling",
+      "count": 3,
+      "atHpPct": [
+        0.75,
+        0.5,
+        0.25
+      ]
+    },
+    "stackPoison": {
+      "chance": 0.5,
+      "perTick": 7,
+      "interval": 2,
+      "duration": 10,
+      "maxStacks": 6,
+      "name": "Deadly Venom"
+    },
+    "ensnare": {
+      "chance": 0.25,
+      "duration": 1,
+      "name": "Web"
+    },
+    "aoeSlow": {
+      "radius": 30,
+      "mult": 0.5,
+      "duration": 4,
+      "every": 12,
+      "name": "Clinging Silk"
+    },
+    "aoePulse": {
+      "min": 16,
+      "max": 26,
+      "radius": 12,
+      "every": 9,
+      "name": "Venom Spray",
+      "school": "nature",
+      "fx": "nova"
+    },
+    "bigCast": {
+      "castId": "rift_venom_deluge",
+      "name": "Venom Deluge",
+      "castTime": 2.2,
+      "every": 15,
+      "radius": 13,
+      "min": 26,
+      "max": 38,
+      "school": "nature",
+      "yell": "Drown in venom!"
+    },
+    "deathZoneCast": {
+      "castId": "rift_venom_execution",
+      "name": "Venom Pool",
+      "castTime": 3.2,
+      "every": 22,
+      "radius": 9,
+      "school": "nature",
+      "yell": "Drown in poison.",
+      "detonateText": "Venom Pool erupts!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_venom_strike",
+      "name": "Broodmother's Mark",
+      "castTime": 4,
+      "every": 26,
+      "radius": 11,
+      "school": "nature",
+      "yell": "YOU CANNOT FLEE MY CHILDREN.",
+      "detonateText": "Broodmother's Mark detonates!"
+    },
+    "rankMechanics": [
+      "summonAdds",
+      "aoeSlow",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "My children are always hungry.",
+      "summon": "Feast, little ones!"
+    }
+  },
+  "rift_boss_necro": {
+    "id": "rift_boss_necro",
+    "name": "Bonelord Xarreth",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 700,
+    "hpPerLevel": 60,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 26,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "bonelord_mantle",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.7,
+    "color": 12174504,
+    "summonAdds": {
+      "mobId": "rift_bonewalker",
+      "count": 3,
+      "atHpPct": [
+        0.7,
+        0.45,
+        0.2
+      ]
+    },
+    "soulrot": {
+      "chance": 0.4,
+      "perTick": 12,
+      "interval": 2,
+      "duration": 10,
+      "name": "Soulrot"
+    },
+    "healAbsorb": {
+      "chance": 0.3,
+      "amount": 600,
+      "duration": 8,
+      "name": "Necrotic Blight"
+    },
+    "desperateHeal": {
+      "belowHpPct": 0.25,
+      "healPct": 0.2
+    },
+    "bigCast": {
+      "castId": "rift_marrow_harvest",
+      "name": "Marrow Harvest",
+      "castTime": 2.5,
+      "every": 15,
+      "radius": 13,
+      "min": 26,
+      "max": 40,
+      "school": "shadow",
+      "yell": "Your souls are forfeit."
+    },
+    "aoePulse": {
+      "min": 14,
+      "max": 22,
+      "radius": 11,
+      "every": 10,
+      "name": "Bone Storm",
+      "school": "shadow",
+      "fx": "nova"
+    },
+    "deathZoneCast": {
+      "castId": "rift_necro_execution",
+      "name": "Soul Grave",
+      "castTime": 2.5,
+      "every": 22,
+      "radius": 9,
+      "school": "shadow",
+      "yell": "Your soul is forfeit.",
+      "detonateText": "Soul Grave detonates!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_necro_strike",
+      "name": "Death Sentence",
+      "castTime": 3,
+      "every": 26,
+      "radius": 11,
+      "school": "shadow",
+      "yell": "DEATH CLAIMS ALL.",
+      "detonateText": "Death Sentence falls!"
+    },
+    "rankMechanics": [
+      "summonAdds",
+      "bigCast",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "Death is only the beginning.",
+      "summon": "Rise!"
+    }
+  },
+  "rift_boss_brute": {
+    "id": "rift_boss_brute",
+    "name": "Warlord Grask",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "ogre",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 820,
+    "hpPerLevel": 70,
+    "dmgBase": 18,
+    "dmgPerLevel": 3.6,
+    "attackSpeed": 2.8,
+    "armorPerLevel": 34,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "graskbreaker_girdle",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 3.3,
+    "color": 10517839,
+    "stomp": {
+      "radius": 12,
+      "every": 11,
+      "duration": 1.5,
+      "min": 24,
+      "max": 36,
+      "name": "Seismic Stomp"
+    },
+    "cleave": {
+      "radius": 9,
+      "mult": 0.6,
+      "name": "Sweeping Arc"
+    },
+    "rampage": {
+      "ap": 40,
+      "maxStacks": 8,
+      "duration": 8,
+      "name": "Rising Frenzy"
+    },
+    "terrify": {
+      "radius": 12,
+      "every": 15,
+      "duration": 2,
+      "name": "Warlord's Bellow",
+      "school": "physical"
+    },
+    "bigCast": {
+      "castId": "rift_earthbreaker",
+      "name": "Earthbreaker",
+      "castTime": 2.8,
+      "every": 16,
+      "radius": 14,
+      "min": 32,
+      "max": 48,
+      "school": "physical",
+      "yell": "I BREAK YOU!"
+    },
+    "desperateHeal": {
+      "belowHpPct": 0.3,
+      "healPct": 0.15
+    },
+    "deathZoneCast": {
+      "castId": "rift_brute_execution",
+      "name": "Earthshatter",
+      "castTime": 3.5,
+      "every": 22,
+      "radius": 9,
+      "school": "physical",
+      "yell": "THE EARTH SHATTERS.",
+      "detonateText": "Earthshatter detonates!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_brute_strike",
+      "name": "Final Judgment",
+      "castTime": 4,
+      "every": 26,
+      "radius": 11,
+      "school": "physical",
+      "yell": "YOU FALL HERE.",
+      "detonateText": "Final Judgment lands!"
+    },
+    "rankMechanics": [
+      "stomp",
+      "terrify",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.5,
+      "hasteMult": 1.3
+    },
+    "yells": {
+      "engage": "I will crush you!",
+      "enrage": "RAAAGH!"
+    }
+  },
+  "rift_boss_arcane": {
+    "id": "rift_boss_arcane",
+    "name": "Archon Nyxaris",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "humanoid",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 680,
+    "hpPerLevel": 58,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 24,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "voidscar_handwraps",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.6,
+    "color": 11500229,
+    "bigCast": {
+      "castId": "rift_arcane_burst",
+      "name": "Arcane Detonation",
+      "castTime": 2.2,
+      "every": 12,
+      "radius": 13,
+      "min": 28,
+      "max": 40,
+      "school": "arcane",
+      "yell": "Witness true power."
+    },
+    "spellVuln": {
+      "chance": 0.35,
+      "amp": 0.2,
+      "duration": 8,
+      "name": "Arcane Frailty"
+    },
+    "stoneskin": {
+      "amount": 800,
+      "every": 15,
+      "duration": 6,
+      "name": "Mana Shield"
+    },
+    "aoeSlow": {
+      "radius": 30,
+      "mult": 0.5,
+      "duration": 4,
+      "every": 13,
+      "name": "Temporal Drag"
+    },
+    "aoePulse": {
+      "min": 16,
+      "max": 26,
+      "radius": 12,
+      "every": 9,
+      "name": "Arcane Volley",
+      "school": "arcane",
+      "fx": "nova"
+    },
+    "deathZoneCast": {
+      "castId": "rift_arcane_execution",
+      "name": "Void Rift",
+      "castTime": 2.5,
+      "every": 22,
+      "radius": 9,
+      "school": "arcane",
+      "yell": "Reality tears.",
+      "detonateText": "Void Rift detonates!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_arcane_strike",
+      "name": "Arcane Annihilation",
+      "castTime": 3,
+      "every": 26,
+      "radius": 11,
+      "school": "arcane",
+      "yell": "ANNIHILATED.",
+      "detonateText": "Arcane Annihilation erupts!"
+    },
+    "rankMechanics": [
+      "bigCast",
+      "stoneskin",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "You should not have come.",
+      "enrage": "KNEEL!"
+    }
+  },
+  "rift_boss_storm": {
+    "id": "rift_boss_storm",
+    "name": "Tempest Vharok",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "dragonkin",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 740,
+    "hpPerLevel": 64,
+    "dmgBase": 17,
+    "dmgPerLevel": 3.3,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 32,
+    "moveSpeed": 7.5,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "stormscale_treads",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 3,
+    "color": 6139362,
+    "aoePulse": {
+      "min": 20,
+      "max": 30,
+      "radius": 13,
+      "every": 8,
+      "name": "Chain Lightning",
+      "school": "nature",
+      "fx": "nova"
+    },
+    "knockback": {
+      "chance": 0.3,
+      "distance": 9,
+      "name": "Thunder Slam"
+    },
+    "concuss": {
+      "chance": 0.2,
+      "duration": 1.5,
+      "name": "Thunderclap"
+    },
+    "bigCast": {
+      "castId": "rift_thunderhead",
+      "name": "Thunderhead",
+      "castTime": 2.4,
+      "every": 14,
+      "radius": 13,
+      "min": 28,
+      "max": 42,
+      "school": "nature",
+      "yell": "The sky answers!"
+    },
+    "stomp": {
+      "radius": 11,
+      "every": 12,
+      "duration": 1.2,
+      "min": 18,
+      "max": 28,
+      "name": "Galecrash",
+      "school": "nature"
+    },
+    "aoeSlow": {
+      "radius": 30,
+      "mult": 0.55,
+      "duration": 4,
+      "every": 12,
+      "name": "Static Field"
+    },
+    "deathZoneCast": {
+      "castId": "rift_storm_execution",
+      "name": "Lightning Rod",
+      "castTime": 2.5,
+      "every": 22,
+      "radius": 9,
+      "school": "nature",
+      "yell": "The sky answers your call.",
+      "detonateText": "Lightning Rod strikes!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_storm_strike",
+      "name": "Stormcaller's Wrath",
+      "castTime": 3,
+      "every": 26,
+      "radius": 11,
+      "school": "nature",
+      "yell": "THE STORM DEVOURS.",
+      "detonateText": "Stormcaller's Wrath erupts!"
+    },
+    "rankMechanics": [
+      "aoePulse",
+      "bigCast",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "The storm answers to me!",
+      "enrage": "THE SKY FALLS!"
+    }
+  },
+  "rift_boss_tide": {
+    "id": "rift_boss_tide",
+    "name": "Abyssal Maw",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "mudfin",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 700,
+    "hpPerLevel": 60,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 26,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "canSwim": true,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "abyssal_loop",
+        "chance": 0.35
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.9,
+    "color": 1482885,
+    "terrify": {
+      "radius": 13,
+      "every": 14,
+      "duration": 2.5,
+      "name": "Terrifying Screech"
+    },
+    "lifeleech": {
+      "healFrac": 0.4,
+      "name": "Devour"
+    },
+    "summonAdds": {
+      "mobId": "rift_spawnling",
+      "count": 2,
+      "atHpPct": [
+        0.66,
+        0.33
+      ]
+    },
+    "aoePulse": {
+      "min": 16,
+      "max": 26,
+      "radius": 12,
+      "every": 10,
+      "name": "Riptide",
+      "school": "frost",
+      "fx": "nova"
+    },
+    "aoeSlow": {
+      "radius": 30,
+      "mult": 0.5,
+      "duration": 4,
+      "every": 12,
+      "name": "Undertow"
+    },
+    "deathZoneCast": {
+      "castId": "rift_tide_execution",
+      "name": "Abyssal Maw",
+      "castTime": 5,
+      "every": 22,
+      "radius": 9,
+      "school": "frost",
+      "yell": "The deep takes you.",
+      "detonateText": "Abyssal Maw closes!"
+    },
+    "deathZoneStrike": {
+      "castId": "rift_tide_strike",
+      "name": "Crushing Depth",
+      "castTime": 5,
+      "every": 26,
+      "radius": 11,
+      "school": "frost",
+      "yell": "DRAWN INTO THE ABYSS.",
+      "detonateText": "Crushing Depth crushes!"
+    },
+    "rankMechanics": [
+      "terrify",
+      "summonAdds",
+      "deathZoneCast",
+      "deathZoneStrike"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.4,
+      "hasteMult": 1.25
+    },
+    "yells": {
+      "engage": "The deep claims you.",
+      "summon": "Rise from the depths!"
+    }
+  },
+  "rift_boss_ritualist": {
+    "id": "rift_boss_ritualist",
+    "name": "Magus Vel'Kor the Pactbound",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 380,
+    "hpPerLevel": 40,
+    "dmgBase": 14,
+    "dmgPerLevel": 2.9,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 20,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 2200,
+        "chance": 1
+      },
+      {
+        "itemId": "pactbound_vestments",
+        "chance": 0.45
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      }
+    ],
+    "scale": 1.8,
+    "color": 9050650,
+    "bigCast": {
+      "castId": "rift_pact_flame",
+      "name": "Pact Flame",
+      "castTime": 2.5,
+      "every": 16,
+      "radius": 10,
+      "min": 24,
+      "max": 36,
+      "school": "shadow",
+      "yell": "The pact is sealed in fire!"
+    },
+    "summonAdds": {
+      "mobId": "rift_spawnling",
+      "count": 2,
+      "atHpPct": [
+        0.75,
+        0.5,
+        0.25
+      ]
+    },
+    "soulrot": {
+      "chance": 0.35,
+      "perTick": 10,
+      "interval": 2,
+      "duration": 10,
+      "name": "Pact Rot"
+    },
+    "desperateHeal": {
+      "belowHpPct": 0.25,
+      "healPct": 0.18
+    },
+    "aoePulse": {
+      "min": 14,
+      "max": 22,
+      "radius": 10,
+      "every": 11,
+      "name": "Blood Sigil",
+      "school": "shadow",
+      "fx": "nova"
+    },
+    "rankMechanics": [
+      "bigCast",
+      "summonAdds",
+      "aoePulse",
+      "desperateHeal"
+    ],
+    "yells": {
+      "engage": "You trespass on bound ground.",
+      "summon": "Answer me, things below!"
+    }
+  },
+  "rift_boss_pitlord": {
+    "id": "rift_boss_pitlord",
+    "name": "Azgorath, Lord of the Pit",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "demon",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 780,
+    "hpPerLevel": 66,
+    "dmgBase": 18,
+    "dmgPerLevel": 3.5,
+    "attackSpeed": 2.7,
+    "armorPerLevel": 32,
+    "moveSpeed": 7,
+    "aggroRadius": 20,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "pitlords_cleaver",
+        "chance": 0.4
+      },
+      {
+        "itemId": "pactbound_vestments",
+        "chance": 0.15
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      }
+    ],
+    "scale": 3.2,
+    "color": 16726554,
+    "bigCast": {
+      "castId": "rift_brimstone",
+      "name": "Rain of Brimstone",
+      "castTime": 3,
+      "every": 15,
+      "radius": 12,
+      "min": 32,
+      "max": 46,
+      "school": "fire",
+      "yell": "THE PIT CLAIMS YOU."
+    },
+    "stomp": {
+      "radius": 11,
+      "every": 13,
+      "duration": 1.5,
+      "min": 22,
+      "max": 34,
+      "name": "Hoof of Ruin"
+    },
+    "knockback": {
+      "chance": 0.2,
+      "distance": 7,
+      "name": "Wing Buffet"
+    },
+    "summonAdds": {
+      "mobId": "rift_spawnling",
+      "count": 3,
+      "atHpPct": [
+        0.6,
+        0.3
+      ]
+    },
+    "aoePulse": {
+      "min": 16,
+      "max": 26,
+      "radius": 12,
+      "every": 10,
+      "name": "Hellfire Ring",
+      "school": "fire",
+      "fx": "nova"
+    },
+    "rankMechanics": [
+      "bigCast",
+      "stomp",
+      "summonAdds",
+      "aoePulse"
+    ],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.5,
+      "hasteMult": 1.3
+    },
+    "yells": {
+      "engage": "Kneel, or burn.",
+      "enrage": "THE CITADEL DEVOURS!"
+    }
+  },
   "yumi_cat": {
     "id": "yumi_cat",
     "name": "Yumi",
@@ -5214,6 +7058,1750 @@
     "slowImmune": true,
     "scale": 1,
     "color": 15917256
+  },
+  "glimmerwisp": {
+    "id": "glimmerwisp",
+    "name": "Glimmerwisp",
+    "minLevel": 15,
+    "maxLevel": 16,
+    "family": "elemental",
+    "hpBase": 44,
+    "hpPerLevel": 16,
+    "dmgBase": 8,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2,
+    "armorPerLevel": 10,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "wisp_mote",
+        "chance": 0.6,
+        "questId": "q_wisp_lights"
+      }
+    ],
+    "scale": 0.7,
+    "color": 16762092
+  },
+  "duskwisp": {
+    "id": "duskwisp",
+    "name": "Duskwisp",
+    "minLevel": 15,
+    "maxLevel": 16,
+    "family": "elemental",
+    "hpBase": 52,
+    "hpPerLevel": 19,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 12,
+    "moveSpeed": 8,
+    "aggroRadius": 9,
+    "venom": {
+      "chance": 0.25,
+      "perTick": 4,
+      "interval": 2,
+      "duration": 8,
+      "name": "Duskchill"
+    },
+    "loot": [
+      {
+        "copper": 70,
+        "chance": 1
+      },
+      {
+        "itemId": "duskwisp_essence",
+        "chance": 0.6,
+        "questId": "q_veil_thinned"
+      },
+      {
+        "itemId": "starfall_shard",
+        "chance": 0.5,
+        "questId": "q_shards_of_starfall"
+      }
+    ],
+    "scale": 0.8,
+    "color": 8019870
+  },
+  "veiled_stag": {
+    "id": "veiled_stag",
+    "name": "Veiled Stag",
+    "minLevel": 15,
+    "maxLevel": 16,
+    "family": "beast",
+    "hpBase": 60,
+    "hpPerLevel": 20,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 12,
+    "moveSpeed": 9,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "gleaming_antler",
+        "chance": 0.55,
+        "questId": "q_gleaming_antlers"
+      }
+    ],
+    "scale": 1,
+    "color": 12166095
+  },
+  "veiled_doe": {
+    "id": "veiled_doe",
+    "name": "Veiled Doe",
+    "minLevel": 14,
+    "maxLevel": 15,
+    "family": "beast",
+    "hpBase": 48,
+    "hpPerLevel": 16,
+    "dmgBase": 7,
+    "dmgPerLevel": 1.8,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 10,
+    "moveSpeed": 9.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "copper": 40,
+        "chance": 1
+      }
+    ],
+    "scale": 0.9,
+    "color": 13483996
+  },
+  "gleamstag": {
+    "id": "gleamstag",
+    "name": "The Gleamstag",
+    "minLevel": 17,
+    "maxLevel": 17,
+    "family": "beast",
+    "rare": true,
+    "elite": true,
+    "respawnMult": 7,
+    "hpBase": 300,
+    "hpPerLevel": 50,
+    "dmgBase": 15,
+    "dmgPerLevel": 3.6,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 22,
+    "moveSpeed": 9.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "copper": 260,
+        "chance": 1
+      },
+      {
+        "itemId": "gleamstag_charm",
+        "chance": 1
+      }
+    ],
+    "scale": 1.3,
+    "color": 15916287
+  },
+  "mushroom_pixie": {
+    "id": "mushroom_pixie",
+    "name": "Gleamfolk Pixie",
+    "minLevel": 15,
+    "maxLevel": 16,
+    "family": "kobold",
+    "hpBase": 50,
+    "hpPerLevel": 17,
+    "dmgBase": 8,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 10,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 14206192
+  },
+  "sporeling_gatherer": {
+    "id": "sporeling_gatherer",
+    "name": "Sporeling Gatherer",
+    "minLevel": 15,
+    "maxLevel": 15,
+    "family": "kobold",
+    "hpBase": 48,
+    "hpPerLevel": 17,
+    "dmgBase": 8,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 10,
+    "moveSpeed": 7,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 0.8,
+    "color": 14203274
+  },
+  "corrupted_sporeling": {
+    "id": "corrupted_sporeling",
+    "name": "Corrupted Sporeling",
+    "minLevel": 16,
+    "maxLevel": 17,
+    "family": "kobold",
+    "hpBase": 60,
+    "hpPerLevel": 21,
+    "dmgBase": 13,
+    "dmgPerLevel": 2.8,
+    "attackSpeed": 2,
+    "armorPerLevel": 15,
+    "moveSpeed": 7.5,
+    "aggroRadius": 10,
+    "packFrenzy": {
+      "radius": 12,
+      "hasteMult": 1.3,
+      "duration": 8
+    },
+    "loot": [
+      {
+        "copper": 85,
+        "chance": 1
+      },
+      {
+        "itemId": "spore_heart",
+        "chance": 0.65,
+        "questId": "q_spore_hearts"
+      }
+    ],
+    "scale": 0.85,
+    "color": 6179442
+  },
+  "treant_elder": {
+    "id": "treant_elder",
+    "name": "Treant Elder",
+    "minLevel": 18,
+    "maxLevel": 18,
+    "family": "ogre",
+    "elite": true,
+    "hpBase": 150,
+    "hpPerLevel": 27,
+    "dmgBase": 14,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 26,
+    "moveSpeed": 6,
+    "aggroRadius": 6,
+    "wardAllies": {
+      "radius": 14,
+      "every": 10,
+      "amount": 70,
+      "duration": 8,
+      "name": "Bark Ward"
+    },
+    "loot": [
+      {
+        "copper": 150,
+        "chance": 1
+      },
+      {
+        "itemId": "elder_bark",
+        "chance": 0.7,
+        "questId": "q_treant_accord"
+      }
+    ],
+    "scale": 1.45,
+    "color": 5208632
+  },
+  "ancient_guardian": {
+    "id": "ancient_guardian",
+    "name": "Ancient Guardian",
+    "minLevel": 18,
+    "maxLevel": 19,
+    "family": "elemental",
+    "elite": true,
+    "hpBase": 165,
+    "hpPerLevel": 28,
+    "dmgBase": 14,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 30,
+    "moveSpeed": 6.5,
+    "aggroRadius": 10,
+    "stoneskin": {
+      "amount": 90,
+      "every": 12,
+      "duration": 8,
+      "name": "Stone Bulwark"
+    },
+    "loot": [
+      {
+        "copper": 170,
+        "chance": 1
+      },
+      {
+        "itemId": "guardian_core",
+        "chance": 0.4
+      }
+    ],
+    "scale": 1.2,
+    "color": 10130600
+  },
+  "old_marrowshell": {
+    "id": "old_marrowshell",
+    "name": "Old Marrowshell",
+    "minLevel": 17,
+    "maxLevel": 17,
+    "family": "beast",
+    "rare": true,
+    "elite": true,
+    "ccImmune": true,
+    "canSwim": true,
+    "respawnMult": 6,
+    "hpBase": 340,
+    "hpPerLevel": 54,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.8,
+    "attackSpeed": 2,
+    "armorPerLevel": 34,
+    "moveSpeed": 6.5,
+    "aggroRadius": 9,
+    "stoneskin": {
+      "amount": 110,
+      "every": 12,
+      "duration": 8,
+      "name": "Ancient Carapace"
+    },
+    "venom": {
+      "chance": 0.3,
+      "perTick": 5,
+      "interval": 2,
+      "duration": 10,
+      "name": "Coldwater Rot"
+    },
+    "loot": [
+      {
+        "copper": 700,
+        "chance": 1
+      },
+      {
+        "itemId": "guardian_core",
+        "chance": 1
+      },
+      {
+        "itemId": "duskfang_dirk",
+        "chance": 0.35
+      }
+    ],
+    "scale": 1.5,
+    "color": 9418968
+  },
+  "aurelhorn": {
+    "id": "aurelhorn",
+    "name": "Aurelhorn, First of the Herd",
+    "minLevel": 18,
+    "maxLevel": 18,
+    "family": "beast",
+    "rare": true,
+    "elite": true,
+    "ccImmune": true,
+    "respawnMult": 6,
+    "hpBase": 360,
+    "hpPerLevel": 56,
+    "dmgBase": 17,
+    "dmgPerLevel": 3.8,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 26,
+    "moveSpeed": 9,
+    "aggroRadius": 0,
+    "aoePulse": {
+      "min": 22,
+      "max": 30,
+      "radius": 8,
+      "every": 9,
+      "name": "Trampling Charge",
+      "school": "physical"
+    },
+    "enrage": {
+      "belowHpPct": 0.35,
+      "dmgMult": 1.4,
+      "hasteMult": 1.3
+    },
+    "loot": [
+      {
+        "copper": 700,
+        "chance": 1
+      },
+      {
+        "itemId": "gleaming_antler",
+        "chance": 1
+      },
+      {
+        "itemId": "veilsteel_blade",
+        "chance": 0.35
+      }
+    ],
+    "scale": 1.45,
+    "color": 14206106
+  },
+  "waking_warden": {
+    "id": "waking_warden",
+    "name": "The Waking Warden",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "elemental",
+    "elite": true,
+    "ccImmune": true,
+    "respawnMult": 4,
+    "hpBase": 420,
+    "hpPerLevel": 60,
+    "dmgBase": 18,
+    "dmgPerLevel": 4,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 32,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "aoePulse": {
+      "min": 24,
+      "max": 32,
+      "radius": 9,
+      "every": 10,
+      "name": "Sundering Toll"
+    },
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.35,
+      "hasteMult": 1.25
+    },
+    "loot": [
+      {
+        "copper": 600,
+        "chance": 1
+      },
+      {
+        "itemId": "wardens_seal",
+        "chance": 1,
+        "questId": "q_waking_warden"
+      }
+    ],
+    "scale": 1.5,
+    "color": 11571160
+  },
+  "emberwing_drake": {
+    "id": "emberwing_drake",
+    "name": "Emberwing Drake",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 130,
+    "hpPerLevel": 32,
+    "dmgBase": 16,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 16,
+    "moveSpeed": 9,
+    "aggroRadius": 18,
+    "elite": true,
+    "loot": [
+      {
+        "itemId": "emberwing_scale",
+        "chance": 0.7,
+        "questId": "q_dk_scales_of_the_maw"
+      }
+    ],
+    "scale": 1.4,
+    "color": 14172200
+  },
+  "ashbone_raider": {
+    "id": "ashbone_raider",
+    "name": "Ashbone Raider",
+    "minLevel": 17,
+    "maxLevel": 18,
+    "family": "undead",
+    "hpBase": 50,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 12,
+    "moveSpeed": 8,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "itemId": "ashbone_war_brand",
+        "chance": 0.6,
+        "questId": "q_dk_marrow_and_ash"
+      }
+    ],
+    "scale": 1,
+    "color": 15260872
+  },
+  "ashbone_warcaller": {
+    "id": "ashbone_warcaller",
+    "name": "Ashbone Warcaller",
+    "minLevel": 18,
+    "maxLevel": 19,
+    "family": "undead",
+    "hpBase": 62,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 13,
+    "moveSpeed": 8,
+    "aggroRadius": 13,
+    "loot": [
+      {
+        "itemId": "ashbone_war_brand",
+        "chance": 0.6,
+        "questId": "q_dk_marrow_and_ash"
+      }
+    ],
+    "scale": 1.1,
+    "color": 14207144
+  },
+  "dune_troll": {
+    "id": "dune_troll",
+    "name": "Dune Troll",
+    "minLevel": 17,
+    "maxLevel": 19,
+    "family": "troll",
+    "hpBase": 66,
+    "hpPerLevel": 22,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 14,
+    "moveSpeed": 8.5,
+    "aggroRadius": 14,
+    "loot": [],
+    "scale": 1.15,
+    "color": 11563072
+  },
+  "cindraleth_maw_matriarch": {
+    "id": "cindraleth_maw_matriarch",
+    "name": "Cindraleth the Maw Matriarch",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 170,
+    "hpPerLevel": 36,
+    "dmgBase": 18,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 18,
+    "moveSpeed": 9,
+    "aggroRadius": 20,
+    "elite": true,
+    "loot": [],
+    "scale": 1.9,
+    "color": 15773760
+  },
+  "wildheart_stalker": {
+    "id": "wildheart_stalker",
+    "name": "Vineclaw Stalker",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "troll",
+    "elite": true,
+    "hpBase": 62,
+    "hpPerLevel": 22,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 18,
+    "moveSpeed": 7.4,
+    "aggroRadius": 16,
+    "petSpell": {
+      "name": "Razorvine Spear",
+      "school": "physical",
+      "min": 26,
+      "max": 36,
+      "range": 24,
+      "every": 2.8,
+      "windup": 0.55
+    },
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "loot": [
+      {
+        "copper": 360,
+        "chance": 1
+      }
+    ],
+    "scale": 1.85,
+    "color": 5207633
+  },
+  "wildheart_ravager": {
+    "id": "wildheart_ravager",
+    "name": "Bloodmane Ravager",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "troll",
+    "elite": true,
+    "hpBase": 88,
+    "hpPerLevel": 27,
+    "dmgBase": 15,
+    "dmgPerLevel": 2.9,
+    "attackSpeed": 2.25,
+    "armorPerLevel": 26,
+    "moveSpeed": 7.1,
+    "aggroRadius": 14,
+    "bleed": {
+      "chance": 0.3,
+      "perTick": 8,
+      "interval": 3,
+      "duration": 9,
+      "name": "Bloodmane Rend",
+      "school": "physical"
+    },
+    "cleave": {
+      "radius": 6.5,
+      "mult": 0.5,
+      "name": "Tusk Sweep"
+    },
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      }
+    ],
+    "scale": 2,
+    "color": 7885119
+  },
+  "wildheart_hexcaller": {
+    "id": "wildheart_hexcaller",
+    "name": "Sunbone Hexcaller",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "troll",
+    "elite": true,
+    "hpBase": 60,
+    "hpPerLevel": 21,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 18,
+    "moveSpeed": 6.6,
+    "aggroRadius": 16,
+    "petSpell": {
+      "name": "Sunvenom Hex",
+      "school": "nature",
+      "min": 29,
+      "max": 41,
+      "range": 25,
+      "every": 3,
+      "windup": 0.7
+    },
+    "mendAlly": {
+      "healMin": 36,
+      "healMax": 50,
+      "radius": 14,
+      "every": 8,
+      "name": "Ancestral Sap",
+      "school": "nature"
+    },
+    "componentTags": [
+      "hide",
+      "horn"
+    ],
+    "loot": [
+      {
+        "copper": 430,
+        "chance": 1
+      }
+    ],
+    "scale": 1.9,
+    "color": 6848599
+  },
+  "wildheart_beastmaster": {
+    "id": "wildheart_beastmaster",
+    "name": "Fanglord Beastmaster",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "troll",
+    "elite": true,
+    "rare": true,
+    "ccImmune": true,
+    "hpBase": 150,
+    "hpPerLevel": 36,
+    "dmgBase": 18,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 32,
+    "moveSpeed": 6.8,
+    "aggroRadius": 17,
+    "warcry": {
+      "radius": 15,
+      "every": 12,
+      "hasteMult": 1.2,
+      "duration": 7,
+      "name": "Call of the Hunt",
+      "school": "physical"
+    },
+    "wardAllies": {
+      "radius": 13,
+      "every": 14,
+      "amount": 70,
+      "duration": 7,
+      "name": "Thickhide Ward",
+      "school": "nature"
+    },
+    "stomp": {
+      "radius": 8,
+      "every": 13,
+      "duration": 1.1,
+      "min": 21,
+      "max": 31,
+      "name": "Beast Pit Quake",
+      "school": "physical"
+    },
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "loot": [
+      {
+        "copper": 1000,
+        "chance": 1
+      }
+    ],
+    "scale": 2.35,
+    "color": 4741949
+  },
+  "wildheart_high_priest": {
+    "id": "wildheart_high_priest",
+    "name": "Zulgar, Voice of the Basin",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "troll",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "hpBase": 470,
+    "hpPerLevel": 54,
+    "dmgBase": 17,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2.55,
+    "armorPerLevel": 35,
+    "moveSpeed": 7,
+    "aggroRadius": 19,
+    "aoePulse": {
+      "min": 30,
+      "max": 43,
+      "radius": 14,
+      "every": 9,
+      "name": "Wildheart Pulse"
+    },
+    "knockback": {
+      "chance": 0.22,
+      "distance": 7,
+      "name": "Jaguar Roar"
+    },
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.5,
+      "hasteMult": 1.28
+    },
+    "yells": {
+      "engage": "The basin has teeth. It will remember your blood!",
+      "enrage": "THE WILD HEART BEATS THROUGH ME!"
+    },
+    "loot": [
+      {
+        "copper": 55000,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 0.8
+      },
+      {
+        "itemId": "wildheart_tuskblade",
+        "chance": 0.06,
+        "rollGroup": "wildheart_bonus"
+      },
+      {
+        "itemId": "wildheart_hexwood_staff",
+        "chance": 0.06,
+        "rollGroup": "wildheart_bonus"
+      },
+      {
+        "itemId": "wildheart_fangknife",
+        "chance": 0.06,
+        "rollGroup": "wildheart_bonus"
+      }
+    ],
+    "scale": 2.8,
+    "color": 5664581
+  },
+  "snowdrift_wolf": {
+    "id": "snowdrift_wolf",
+    "name": "Snowdrift Wolf",
+    "minLevel": 17,
+    "maxLevel": 18,
+    "family": "beast",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 12,
+    "moveSpeed": 8.5,
+    "aggroRadius": 14,
+    "loot": [
+      {
+        "itemId": "thick_winter_pelt",
+        "chance": 0.6,
+        "questId": "q_fv_winter_pelts"
+      }
+    ],
+    "scale": 1.1,
+    "color": 15660280
+  },
+  "ice_wisp": {
+    "id": "ice_wisp",
+    "name": "Ice Wisp",
+    "minLevel": 17,
+    "maxLevel": 18,
+    "family": "elemental",
+    "hpBase": 44,
+    "hpPerLevel": 16,
+    "dmgBase": 8,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2,
+    "armorPerLevel": 10,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "aurora_mote",
+        "chance": 0.65,
+        "questId": "q_fv_aurora_motes"
+      }
+    ],
+    "scale": 0.7,
+    "color": 12575999
+  },
+  "rime_elemental": {
+    "id": "rime_elemental",
+    "name": "Rime Elemental",
+    "minLevel": 18,
+    "maxLevel": 19,
+    "family": "elemental",
+    "hpBase": 62,
+    "hpPerLevel": 20,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 1.15,
+    "color": 10473712
+  },
+  "fen_sprite": {
+    "id": "fen_sprite",
+    "name": "Fen Sprite",
+    "minLevel": 17,
+    "maxLevel": 18,
+    "family": "kobold",
+    "hpBase": 48,
+    "hpPerLevel": 17,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.1,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 11,
+    "moveSpeed": 8,
+    "aggroRadius": 10,
+    "loot": [],
+    "scale": 0.9,
+    "color": 13623530
+  },
+  "terrace_howler": {
+    "id": "terrace_howler",
+    "name": "Terrace Howler",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 68,
+    "hpPerLevel": 22,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 13,
+    "moveSpeed": 8.5,
+    "aggroRadius": 15,
+    "loot": [],
+    "scale": 1.3,
+    "color": 10335432
+  },
+  "apprentice_wren": {
+    "id": "apprentice_wren",
+    "name": "Apprentice Wren",
+    "minLevel": 18,
+    "maxLevel": 18,
+    "family": "humanoid",
+    "hpBase": 240,
+    "hpPerLevel": 20,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 0.95,
+    "color": 13148872
+  },
+  "frostmane_yeti": {
+    "id": "frostmane_yeti",
+    "name": "Frostmane Yeti",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "ogre",
+    "hpBase": 120,
+    "hpPerLevel": 30,
+    "dmgBase": 15,
+    "dmgPerLevel": 2.8,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 16,
+    "moveSpeed": 8,
+    "aggroRadius": 16,
+    "elite": true,
+    "loot": [],
+    "scale": 1.5,
+    "color": 15922938
+  },
+  "gilded_stag": {
+    "id": "gilded_stag",
+    "name": "Gilded Stag",
+    "minLevel": 18,
+    "maxLevel": 19,
+    "family": "beast",
+    "hpBase": 54,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 9,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "gilded_sap_clot",
+        "chance": 0.6,
+        "questId": "q_af_amber_from_the_herd"
+      }
+    ],
+    "scale": 1.15,
+    "color": 14198856
+  },
+  "gloam_fox": {
+    "id": "gloam_fox",
+    "name": "Gloam Fox",
+    "minLevel": 18,
+    "maxLevel": 18,
+    "family": "beast",
+    "hpBase": 44,
+    "hpPerLevel": 16,
+    "dmgBase": 9,
+    "dmgPerLevel": 2,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 10,
+    "moveSpeed": 9.5,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 14186552
+  },
+  "orchard_treant": {
+    "id": "orchard_treant",
+    "name": "Orchard Treant",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "ogre",
+    "hpBase": 110,
+    "hpPerLevel": 28,
+    "dmgBase": 14,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 16,
+    "moveSpeed": 6.5,
+    "aggroRadius": 0,
+    "elite": true,
+    "loot": [],
+    "scale": 1.4,
+    "color": 13146168
+  },
+  "harvest_sprite": {
+    "id": "harvest_sprite",
+    "name": "Harvest Sprite",
+    "minLevel": 18,
+    "maxLevel": 19,
+    "family": "kobold",
+    "hpBase": 48,
+    "hpPerLevel": 17,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.1,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 11,
+    "moveSpeed": 8.5,
+    "aggroRadius": 11,
+    "loot": [],
+    "scale": 0.85,
+    "color": 15255672
+  },
+  "mere_lurker": {
+    "id": "mere_lurker",
+    "name": "Mere Lurker",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "murloc",
+    "hpBase": 58,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2,
+    "armorPerLevel": 13,
+    "moveSpeed": 8,
+    "aggroRadius": 13,
+    "loot": [],
+    "scale": 1.1,
+    "color": 11055176
+  },
+  "the_meredark": {
+    "id": "the_meredark",
+    "name": "The Meredark",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "murloc",
+    "hpBase": 120,
+    "hpPerLevel": 30,
+    "dmgBase": 15,
+    "dmgPerLevel": 2.8,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 16,
+    "moveSpeed": 8,
+    "aggroRadius": 16,
+    "elite": true,
+    "loot": [],
+    "scale": 1.6,
+    "color": 5926968
+  },
+  "bogtoad": {
+    "id": "bogtoad",
+    "name": "Bogtoad",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "murloc",
+    "hpBase": 56,
+    "hpPerLevel": 20,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 8,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "itemId": "plump_fen_eel",
+        "chance": 0.6,
+        "questId": "q_wf_eels_for_the_smokehouse"
+      }
+    ],
+    "scale": 1,
+    "color": 8038472
+  },
+  "drowsy_croaker": {
+    "id": "drowsy_croaker",
+    "name": "The Drowsy Croaker",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "murloc",
+    "hpBase": 140,
+    "hpPerLevel": 34,
+    "dmgBase": 16,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 17,
+    "moveSpeed": 7.5,
+    "aggroRadius": 14,
+    "elite": true,
+    "loot": [],
+    "scale": 1.65,
+    "color": 5937240
+  },
+  "lily_wisp": {
+    "id": "lily_wisp",
+    "name": "Lily Wisp",
+    "minLevel": 19,
+    "maxLevel": 19,
+    "family": "elemental",
+    "hpBase": 44,
+    "hpPerLevel": 16,
+    "dmgBase": 8,
+    "dmgPerLevel": 2,
+    "attackSpeed": 2,
+    "armorPerLevel": 10,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "wisplight_globe",
+        "chance": 0.65,
+        "questId": "q_wf_wisplight_charms"
+      }
+    ],
+    "scale": 0.7,
+    "color": 13693640
+  },
+  "willow_sprite": {
+    "id": "willow_sprite",
+    "name": "Willow Sprite",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "kobold",
+    "hpBase": 50,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 11,
+    "moveSpeed": 8.5,
+    "aggroRadius": 10,
+    "loot": [],
+    "scale": 0.9,
+    "color": 13164728
+  },
+  "moonfleece_grazer": {
+    "id": "moonfleece_grazer",
+    "name": "Moonfleece Grazer",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 60,
+    "hpPerLevel": 20,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 12,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "moonfleece_tuft",
+        "chance": 0.6,
+        "questId": "q_nb_wool_by_moonlight"
+      }
+    ],
+    "scale": 1.1,
+    "color": 15133172
+  },
+  "gloam_strider": {
+    "id": "gloam_strider",
+    "name": "Gloam Strider",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 58,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 12,
+    "moveSpeed": 9.5,
+    "aggroRadius": 14,
+    "loot": [],
+    "scale": 1.1,
+    "color": 4999794
+  },
+  "nightkin_stargazer": {
+    "id": "nightkin_stargazer",
+    "name": "Nightkin Stargazer",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "elemental",
+    "hpBase": 54,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 11,
+    "moveSpeed": 7.5,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 9414880
+  },
+  "barrow_king": {
+    "id": "barrow_king",
+    "name": "The Barrow King",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "undead",
+    "hpBase": 150,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 17,
+    "moveSpeed": 7.5,
+    "aggroRadius": 14,
+    "elite": true,
+    "loot": [],
+    "scale": 1.5,
+    "color": 12111080
+  },
+  "barrow_wight": {
+    "id": "barrow_wight",
+    "name": "Barrow Wight",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "undead",
+    "hpBase": 70,
+    "hpPerLevel": 22,
+    "dmgBase": 13,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 1.15,
+    "color": 10465476
+  },
+  "widowsilk_spinner": {
+    "id": "widowsilk_spinner",
+    "name": "Widowsilk Spinner",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "spider",
+    "hpBase": 56,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 12,
+    "moveSpeed": 8.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "itemId": "widowsilk_skein",
+        "chance": 0.6,
+        "questId": "q_ww_widows_skeins"
+      }
+    ],
+    "scale": 1.3,
+    "color": 3814464
+  },
+  "wood_wraith": {
+    "id": "wood_wraith",
+    "name": "Wood Wraith",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "elemental",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 2,
+    "armorPerLevel": 10,
+    "moveSpeed": 8,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 1.3,
+    "color": 10138784
+  },
+  "gravenbark_shambler": {
+    "id": "gravenbark_shambler",
+    "name": "Gravenbark Shambler",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "ogre",
+    "hpBase": 90,
+    "hpPerLevel": 26,
+    "dmgBase": 14,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 15,
+    "moveSpeed": 6.5,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 1.35,
+    "color": 5130810
+  },
+  "pale_huntsman": {
+    "id": "pale_huntsman",
+    "name": "The Pale Huntsman",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "undead",
+    "hpBase": 155,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 17,
+    "moveSpeed": 8.5,
+    "aggroRadius": 16,
+    "elite": true,
+    "loot": [],
+    "scale": 1.4,
+    "color": 13162688
+  },
+  "gravedigger_mosley": {
+    "id": "gravedigger_mosley",
+    "name": "Gravedigger Mosley",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 240,
+    "hpPerLevel": 20,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 9075290
+  },
+  "tide_scuttler": {
+    "id": "tide_scuttler",
+    "name": "Tide Scuttler",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 54,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 1.15,
+    "color": 15231048
+  },
+  "thicket_boar": {
+    "id": "thicket_boar",
+    "name": "Thicket Boar",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 62,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 12,
+    "moveSpeed": 8.5,
+    "aggroRadius": 11,
+    "loot": [],
+    "scale": 1.2,
+    "color": 6966840
+  },
+  "canopy_weaver": {
+    "id": "canopy_weaver",
+    "name": "Canopy Weaver",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "spider",
+    "hpBase": 56,
+    "hpPerLevel": 19,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 11,
+    "moveSpeed": 8.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "itemId": "canopy_silk_hank",
+        "chance": 0.6,
+        "questId": "q_pr_canopy_silk"
+      }
+    ],
+    "scale": 1.25,
+    "color": 5147196
+  },
+  "idol_guardian": {
+    "id": "idol_guardian",
+    "name": "The Idol Guardian",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "elemental",
+    "hpBase": 150,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 18,
+    "moveSpeed": 7,
+    "aggroRadius": 14,
+    "elite": true,
+    "loot": [],
+    "scale": 1.5,
+    "color": 10135678
+  },
+  "castaway_navigator": {
+    "id": "castaway_navigator",
+    "name": "Navigator Suli",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 240,
+    "hpPerLevel": 20,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 0.95,
+    "color": 4881052
+  },
+  "topiary_stag": {
+    "id": "topiary_stag",
+    "name": "Topiary Stag",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 56,
+    "hpPerLevel": 18,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 12,
+    "moveSpeed": 9,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "evergarden_bloom_clipping",
+        "chance": 0.65,
+        "questId": "q_eg_bloom_clippings"
+      }
+    ],
+    "scale": 1.15,
+    "color": 4161084
+  },
+  "topiary_wolf": {
+    "id": "topiary_wolf",
+    "name": "Topiary Wolf",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 58,
+    "hpPerLevel": 19,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 11,
+    "moveSpeed": 8.5,
+    "aggroRadius": 11,
+    "loot": [],
+    "scale": 1.15,
+    "color": 4885070
+  },
+  "hedge_knight": {
+    "id": "hedge_knight",
+    "name": "Dawnhold Knight",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 62,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 13,
+    "moveSpeed": 8.5,
+    "aggroRadius": 11,
+    "loot": [],
+    "scale": 1,
+    "color": 12109008
+  },
+  "hedge_gnome": {
+    "id": "hedge_gnome",
+    "name": "Hedge Gnome",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "kobold",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 10,
+    "moveSpeed": 8.5,
+    "aggroRadius": 10,
+    "loot": [
+      {
+        "itemId": "hedgewick_shears",
+        "chance": 0.6,
+        "questId": "q_eg_stolen_shears"
+      }
+    ],
+    "scale": 0.95,
+    "color": 5933638
+  },
+  "the_topiary_bull": {
+    "id": "the_topiary_bull",
+    "name": "The Topiary Bull",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 155,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 17,
+    "moveSpeed": 8.5,
+    "aggroRadius": 12,
+    "elite": true,
+    "loot": [],
+    "scale": 1.45,
+    "color": 3041844
+  },
+  "moor_ram": {
+    "id": "moor_ram",
+    "name": "Moor Ram",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 58,
+    "hpPerLevel": 19,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 13,
+    "moveSpeed": 8.5,
+    "aggroRadius": 0,
+    "loot": [
+      {
+        "itemId": "galecrest_ram_wool",
+        "chance": 0.65,
+        "questId": "q_gc_wool_off_the_downs"
+      }
+    ],
+    "scale": 1.1,
+    "color": 14209216
+  },
+  "gale_wisp": {
+    "id": "gale_wisp",
+    "name": "Gale Wisp",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "elemental",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 9,
+    "moveSpeed": 9,
+    "aggroRadius": 11,
+    "loot": [],
+    "scale": 1.25,
+    "color": 12574952
+  },
+  "shoal_scuttler": {
+    "id": "shoal_scuttler",
+    "name": "Shoal Scuttler",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "beast",
+    "hpBase": 56,
+    "hpPerLevel": 19,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 2,
+    "armorPerLevel": 14,
+    "moveSpeed": 7,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 1.2,
+    "color": 8951976
+  },
+  "downs_bandit": {
+    "id": "downs_bandit",
+    "name": "Downs Bandit",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "kobold",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 10,
+    "moveSpeed": 8.5,
+    "aggroRadius": 10,
+    "loot": [],
+    "scale": 0.95,
+    "color": 5933638
+  },
+  "wreck_thief": {
+    "id": "wreck_thief",
+    "name": "Wreckfield Thief",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "kobold",
+    "hpBase": 52,
+    "hpPerLevel": 18,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.2,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 10,
+    "moveSpeed": 8.5,
+    "aggroRadius": 10,
+    "loot": [],
+    "scale": 0.95,
+    "color": 5933638
+  },
+  "the_wreck_warden": {
+    "id": "the_wreck_warden",
+    "name": "The Wreck Warden",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "undead",
+    "hpBase": 155,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 17,
+    "moveSpeed": 8,
+    "aggroRadius": 14,
+    "elite": true,
+    "loot": [],
+    "scale": 1.45,
+    "color": 8030854
+  },
+  "drowned_deckhand": {
+    "id": "drowned_deckhand",
+    "name": "Drowned Deckhand",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "undead",
+    "hpBase": 58,
+    "hpPerLevel": 19,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.4,
+    "attackSpeed": 2,
+    "armorPerLevel": 13,
+    "moveSpeed": 7.5,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 1.05,
+    "color": 8820878
+  },
+  "riftspawn": {
+    "id": "riftspawn",
+    "name": "Riftspawn",
+    "minLevel": 3,
+    "maxLevel": 4,
+    "family": "demon",
+    "hpBase": 34,
+    "hpPerLevel": 12,
+    "dmgBase": 7,
+    "dmgPerLevel": 1.6,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 8,
+    "moveSpeed": 8.5,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "itemId": "farshore_salt_moss",
+        "chance": 0.6,
+        "questId": "q_fs_moss_and_mending"
+      }
+    ],
+    "scale": 0.85,
+    "color": 8011696
+  },
+  "breach_wretch": {
+    "id": "breach_wretch",
+    "name": "Breach Wretch",
+    "minLevel": 3,
+    "maxLevel": 5,
+    "family": "kobold",
+    "hpBase": 30,
+    "hpPerLevel": 11,
+    "dmgBase": 6,
+    "dmgPerLevel": 1.5,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 7,
+    "moveSpeed": 9,
+    "aggroRadius": 11,
+    "loot": [
+      {
+        "itemId": "breakscarred_steel",
+        "chance": 0.6,
+        "questId": "q_fs_steel_for_the_redoubt"
+      }
+    ],
+    "scale": 0.9,
+    "color": 5917304
+  },
+  "void_stalker": {
+    "id": "void_stalker",
+    "name": "Void Stalker",
+    "minLevel": 5,
+    "maxLevel": 6,
+    "family": "beast",
+    "hpBase": 52,
+    "hpPerLevel": 16,
+    "dmgBase": 10,
+    "dmgPerLevel": 2.1,
+    "attackSpeed": 1.7,
+    "armorPerLevel": 11,
+    "moveSpeed": 9.5,
+    "aggroRadius": 14,
+    "loot": [],
+    "scale": 1.15,
+    "color": 3091012
+  },
+  "sundered_horror": {
+    "id": "sundered_horror",
+    "name": "The Sundered Horror",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "family": "ogre",
+    "hpBase": 128,
+    "hpPerLevel": 24,
+    "dmgBase": 14,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 15,
+    "moveSpeed": 7,
+    "aggroRadius": 15,
+    "elite": true,
+    "loot": [],
+    "scale": 1.45,
+    "color": 9056106
+  },
+  "fisher_bram": {
+    "id": "fisher_bram",
+    "name": "Fisher Bram",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "family": "humanoid",
+    "hpBase": 120,
+    "hpPerLevel": 15,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 8,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 4876938
   },
   "vale_cup_ball": {
     "id": "vale_cup_ball",

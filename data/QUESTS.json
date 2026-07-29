@@ -2070,6 +2070,27 @@
     "shareable": false,
     "repeatCadenceTicks": 36000
   },
+  "q_riding_lessons": {
+    "id": "q_riding_lessons",
+    "name": "Riding Lessons",
+    "giverNpcId": "stablemaster_marla",
+    "turnInNpcId": "stablemaster_marla",
+    "text": "You have learned your Riding, $N, now show me you deserve it. When I give the word, call the training Valorsteed and climb aboard. Ride the course: follow the marker to the start arch, take every jump clean, and cross the line again before the glass runs dry. Do that and the course is yours. Wander out of the paddock and we start over.",
+    "completionText": "Up in one clean motion and a steady seat at the top. Well ridden, $N. You have earned the rank of rider. Speak to me again to buy your own Valorsteed reins.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "train_valorsteed",
+        "count": 1,
+        "label": "Tame the Valorsteed"
+      }
+    ],
+    "xpReward": 3000,
+    "copperReward": 5000,
+    "itemRewards": {},
+    "minLevel": 20,
+    "requiresRidingTrained": true
+  },
   "q_glimmermere_light": {
     "id": "q_glimmermere_light",
     "name": "Light on the Water",
@@ -2216,5 +2237,2327 @@
     "requiresQuest": "q_silence_the_choir",
     "minLevel": 16,
     "suggestedPlayers": 5
+  },
+  "q_veil_thinned": {
+    "id": "q_veil_thinned",
+    "name": "The Thinned Veil",
+    "giverNpcId": "keeper_saelwyn",
+    "turnInNpcId": "keeper_saelwyn",
+    "text": "So the cave opened for you. Then the seal is weaker than I feared, $N. Where the veil tears, the wisps turn dark and cold. Bring me eight essences from the duskwisps and I will read how deep the wound runs.",
+    "completionText": "Cold, every one of them. The Hollow has perhaps a season before the tear becomes a rift. We have work to do, you and I.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "duskwisp_essence",
+        "count": 8,
+        "label": "Duskwisp Essence"
+      }
+    ],
+    "xpReward": 3600,
+    "copperReward": 1600,
+    "itemRewards": {},
+    "minLevel": 14
+  },
+  "q_calming_the_deep": {
+    "id": "q_calming_the_deep",
+    "name": "Calming the Deep",
+    "giverNpcId": "keeper_saelwyn",
+    "turnInNpcId": "keeper_saelwyn",
+    "text": "The sporelings of the Gleaming Deep were gentle folk before the tear touched their rings. What the corruption takes, it does not give back. Grant the corrupted ones rest, $N: ten of them, in the north of the Deep.",
+    "completionText": "You did what I could not bear to. The gatherers still sing in the south rings; because of you, they will keep singing.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "corrupted_sporeling",
+        "count": 10,
+        "label": "Corrupted Sporeling laid to rest"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {
+      "warrior": "veilsteel_blade",
+      "rogue": "duskfang_dirk",
+      "mage": "gleamwood_stave"
+    },
+    "requiresQuest": "q_veil_thinned",
+    "minLevel": 15
+  },
+  "q_spore_hearts": {
+    "id": "q_spore_hearts",
+    "name": "Hearts of the Ring",
+    "giverNpcId": "loremother_bryn",
+    "turnInNpcId": "loremother_bryn",
+    "text": "When a sporeling falls to the dark, its heart keeps beating with borrowed shadow. Four of those hearts, cleansed at the shrine, may teach us how the corruption spreads. It is grim work, $N, but it is mending work.",
+    "completionText": "There. Cleansed, and quiet. Each one shows the same mark: the shadow flows FROM the Sunken Court. Tell Saelwyn.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "spore_heart",
+        "count": 4,
+        "label": "Spore Heart"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_calming_the_deep",
+    "minLevel": 16
+  },
+  "q_sunken_court": {
+    "id": "q_sunken_court",
+    "name": "The Sunken Court",
+    "giverNpcId": "keeper_saelwyn",
+    "turnInNpcId": "keeper_saelwyn",
+    "text": "Bryn read the hearts true: the tear runs through the old court in the east, and its guardians have woken wrong. They were built to protect the seal; now they will crush anyone who nears it. Clear eight of them from the ruins.",
+    "completionText": "Eight guardians, stilled. I remember when they were raised, $N. Do not look so surprised; the Hollow keeps its keepers a long time.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "ancient_guardian",
+        "count": 8,
+        "label": "Ancient Guardian stilled"
+      }
+    ],
+    "xpReward": 5200,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_spore_hearts",
+    "minLevel": 17
+  },
+  "q_waking_warden": {
+    "id": "q_waking_warden",
+    "name": "The Waking Warden",
+    "giverNpcId": "keeper_saelwyn",
+    "turnInNpcId": "keeper_saelwyn",
+    "text": "The court is quiet, but its master is not. The Warden that holds the seal has woken twisted, and while it stands, the seal cannot be mended. It will not fall easily; bring a friend if you can find one, $N. Bring two if you can find two.",
+    "completionText": "The bell of its voice is silent. I felt it from here, like a weight lifted off the whole valley.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "waking_warden",
+        "count": 1,
+        "label": "The Waking Warden defeated"
+      }
+    ],
+    "xpReward": 6000,
+    "copperReward": 3800,
+    "itemRewards": {},
+    "requiresQuest": "q_sunken_court",
+    "minLevel": 18,
+    "suggestedPlayers": 2
+  },
+  "q_seal_restored": {
+    "id": "q_seal_restored",
+    "name": "The Seal Restored",
+    "giverNpcId": "keeper_saelwyn",
+    "turnInNpcId": "keeper_saelwyn",
+    "text": "Take the Warden's seal to the sealstone at the heart of the court and set it back where it was struck loose. Then the Hollow can begin to heal, and you, $N, will have done what no one of your kind has done before.",
+    "completionText": "I felt it close from here, gentle as dusk. The Hollow remembers its friends, $N. However far you travel, there will always be a light for you beneath the great tree.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "hollow_sealstone",
+        "count": 1,
+        "label": "The seal set back in the sealstone"
+      }
+    ],
+    "xpReward": 7400,
+    "copperReward": 5500,
+    "itemRewards": {
+      "warrior": "wardens_oathband",
+      "rogue": "wardens_oathband",
+      "mage": "wardens_oathband"
+    },
+    "requiresQuest": "q_waking_warden",
+    "minLevel": 18
+  },
+  "q_gleaming_antlers": {
+    "id": "q_gleaming_antlers",
+    "name": "Gleaming Antlers",
+    "giverNpcId": "provisioner_fenna",
+    "turnInNpcId": "provisioner_fenna",
+    "text": "The veiled stags shed light where they graze, and their cast antlers hold it for years. Five of them, from the herds in the open glade at the heart of the valley, and my lanterns burn through the winter without oil. The stags need not be harmed, but they do not part with them easily.",
+    "completionText": "Look how they hold the light! No flame, no smoke, just the glow. The Hollow provides.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "gleaming_antler",
+        "count": 5,
+        "label": "Gleaming Antler"
+      }
+    ],
+    "xpReward": 3400,
+    "copperReward": 1500,
+    "itemRewards": {},
+    "minLevel": 14
+  },
+  "q_wisp_lights": {
+    "id": "q_wisp_lights",
+    "name": "Lights of the Shallows",
+    "giverNpcId": "loremother_bryn",
+    "turnInNpcId": "loremother_bryn",
+    "text": "The glimmerwisps carry motes of the old starlight that fell here when the Hollow was sealed. Six motes, and the shrine lamps will burn for a year. Take only from those that fade; the Hollow gives enough without greed.",
+    "completionText": "Soft as the first stars. Set them here by the altar; the shrine will do the rest.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "wisp_mote",
+        "count": 6,
+        "label": "Wisp Mote"
+      }
+    ],
+    "xpReward": 3400,
+    "copperReward": 1500,
+    "itemRewards": {},
+    "minLevel": 14
+  },
+  "q_treant_accord": {
+    "id": "q_treant_accord",
+    "name": "The Treant Accord",
+    "giverNpcId": "loremother_bryn",
+    "turnInNpcId": "loremother_bryn",
+    "text": "The elders of the Grove shed their outer bark as the corruption gnaws at their roots. Four lengths of it, and I can brew a salve for the whole Grove. They will not thank you while you pry it loose, $N, but they will stand a century longer for it.",
+    "completionText": "Thick and sound, all four. The salve will take a week to brew and a hundred years to finish its work. Trees measure kindness differently.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "elder_bark",
+        "count": 4,
+        "label": "Elder Bark"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "minLevel": 17
+  },
+  "q_monument_tour": {
+    "id": "q_monument_tour",
+    "name": "What the Stones Remember",
+    "giverNpcId": "archivist_tullo",
+    "turnInNpcId": "archivist_tullo",
+    "text": "Three monuments still stand from before the sealing: one at the Duskfall Overlook, one in the Sunken Court, and one lost in the far northeast where nobody walks. Read them for me, $N. My knees gave out two centuries of stairs ago.",
+    "completionText": "An overlook, a court, and a forgotten corner... and all three verses of the sealing song, together for the first time since it was sung. You have made an old reader very happy.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "monument_overlook",
+        "count": 1,
+        "label": "The Overlook monument read"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "monument_court",
+        "count": 1,
+        "label": "The Court monument read"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "monument_north",
+        "count": 1,
+        "label": "The forgotten monument read"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {},
+    "minLevel": 15
+  },
+  "q_grove_menace": {
+    "id": "q_grove_menace",
+    "name": "Menace in the Glade",
+    "giverNpcId": "provisioner_fenna",
+    "turnInNpcId": "provisioner_fenna",
+    "text": "Duskwisps have started drifting in among my stalls after dark, $N, and their chill spoils everything it touches. Thin them out for me: ten of them, wherever the veil has torn.",
+    "completionText": "The night market can open again. You have a customer for life, or at least a discount.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "duskwisp",
+        "count": 10,
+        "label": "Duskwisp dispersed"
+      }
+    ],
+    "xpReward": 4000,
+    "copperReward": 1900,
+    "itemRewards": {},
+    "requiresQuest": "q_veil_thinned",
+    "minLevel": 15
+  },
+  "q_shards_of_starfall": {
+    "id": "q_shards_of_starfall",
+    "name": "Shards of Starfall",
+    "giverNpcId": "archivist_tullo",
+    "turnInNpcId": "archivist_tullo",
+    "text": "When the duskwisps pass over the crystal fields, slivers of old starlight cling to them like burrs. Six shards, $N, and I can date the sealing to the very season it was sung.",
+    "completionText": "Look at the striations! Autumn. The Hollow was sealed in autumn. Two hundred years of argument, settled by six little stones.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "starfall_shard",
+        "count": 6,
+        "label": "Starfall Shard"
+      }
+    ],
+    "xpReward": 4000,
+    "copperReward": 1900,
+    "itemRewards": {},
+    "requiresQuest": "q_monument_tour",
+    "minLevel": 16
+  },
+  "q_spore_tide": {
+    "id": "q_spore_tide",
+    "name": "Against the Spore Tide",
+    "giverNpcId": "loremother_bryn",
+    "turnInNpcId": "loremother_bryn",
+    "text": "The salve holds the Grove, but the corruption presses harder at the Deep with every dusk. Twelve more of the corrupted must be laid to rest before the gatherers can reclaim their north rings, $N.",
+    "completionText": "The rings in the north are singing again tonight. Quietly, but singing.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "corrupted_sporeling",
+        "count": 12,
+        "label": "Corrupted Sporeling laid to rest"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_spore_hearts",
+    "minLevel": 17
+  },
+  "q_wardens_echoes": {
+    "id": "q_wardens_echoes",
+    "name": "Echoes of the Warden",
+    "giverNpcId": "archivist_tullo",
+    "turnInNpcId": "archivist_tullo",
+    "text": "Even with their master silenced, the court guardians repeat its last command like an echo that will not fade. Until the seal is set back, they will keep waking, $N. Still ten more of them so the masons can reach the sealstone.",
+    "completionText": "The echo grows fainter each time. Soon the court will hold nothing but wind and ivy, the way a ruin should.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "ancient_guardian",
+        "count": 10,
+        "label": "Ancient Guardian stilled"
+      }
+    ],
+    "xpReward": 5200,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_sunken_court",
+    "minLevel": 18
+  },
+  "q_hollow_the_huntsman": {
+    "id": "q_hollow_the_huntsman",
+    "name": "The Warden of the Herds",
+    "giverNpcId": "provisioner_fenna",
+    "turnInNpcId": "huntsman_deral",
+    "text": "You look like someone who can handle more than wisps, $N. Huntsman Deral keeps his lookout among the stag meadows east of here, and he has been asking after capable hands for weeks. Whatever he is tracking out there, he will not say it aloud in the village.",
+    "completionText": "Fenna sent you? Good. Then she trusts you, and I have two names that need crossing out.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "huntsman_deral",
+        "count": 1,
+        "label": "Find Huntsman Deral"
+      }
+    ],
+    "xpReward": 2400,
+    "copperReward": 900,
+    "itemRewards": {},
+    "minLevel": 16
+  },
+  "q_hollow_old_marrowshell": {
+    "id": "q_hollow_old_marrowshell",
+    "name": "The Old Shell of the Shallows",
+    "giverNpcId": "huntsman_deral",
+    "turnInNpcId": "huntsman_deral",
+    "text": "The first name is Old Marrowshell, a crab the size of a cart that has hunted the eastern shallows since before Eldergleam had a gate. It wanders, $N, so you will have to walk the shoreline until you cross its track. Do not go alone, and do not trust its stillness.",
+    "completionText": "The shallows are just water again. I have watched that shell break better hunters than me, $N. Not you.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "old_marrowshell",
+        "count": 1,
+        "label": "Old Marrowshell slain"
+      }
+    ],
+    "xpReward": 5600,
+    "copperReward": 3000,
+    "itemRewards": {},
+    "requiresQuest": "q_hollow_the_huntsman",
+    "minLevel": 17,
+    "suggestedPlayers": 2
+  },
+  "q_hollow_first_of_the_herd": {
+    "id": "q_hollow_first_of_the_herd",
+    "name": "First of the Herd",
+    "giverNpcId": "huntsman_deral",
+    "turnInNpcId": "huntsman_deral",
+    "text": "The second name is harder to say. Aurelhorn led these herds when my grandmother kept this lookout, and whatever woke in the Hollow woke him wrong. He tramples what he once warded, and the herd will not survive his madness. He roams the meadows near the old court roads. End him with mercy, $N, and bring a friend to share the weight of it.",
+    "completionText": "So the First falls to the last. The herd is already calmer, do you feel it? You did the Hollow a kindness today, even if it does not look like one.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "aurelhorn",
+        "count": 1,
+        "label": "Aurelhorn given peace"
+      }
+    ],
+    "xpReward": 6000,
+    "copperReward": 3400,
+    "itemRewards": {},
+    "requiresQuest": "q_hollow_old_marrowshell",
+    "minLevel": 18,
+    "suggestedPlayers": 2
+  },
+  "q_dk_ash_on_the_wind": {
+    "id": "q_dk_ash_on_the_wind",
+    "name": "Ash on the Wind",
+    "giverNpcId": "gatecaptain_brannoc",
+    "turnInNpcId": "gatecaptain_brannoc",
+    "text": "Look south off the palisade, $N. Those fires in the dunes are not troll cookfires, they are ashbone musters, and every night there are more. The dead come up out of the bonefields with sand still in their teeth. Cut down ten raiders before they cut a road to my gate.",
+    "completionText": "Ten fewer blades in the dunes, and the muster fires burned lower last night. My sentries slept, which they have not done in a week. Well cut, $N.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "ashbone_raider",
+        "count": 10,
+        "label": "Ashbone Raider slain"
+      }
+    ],
+    "xpReward": 3800,
+    "copperReward": 1800,
+    "itemRewards": {},
+    "minLevel": 16
+  },
+  "q_dk_trolls_on_the_road": {
+    "id": "q_dk_trolls_on_the_road",
+    "name": "Trolls on the Road",
+    "giverNpcId": "quartermaster_sela",
+    "turnInNpcId": "quartermaster_sela",
+    "text": "The dune trolls have learned the sound of a supply wagon, $N. They hit the Cinder Dunes road three times this month, and the last driver walked in carrying nothing but the reins. Eight trolls off that road and my wagons roll again.",
+    "completionText": "Eight, and my drivers have stopped writing farewell letters before every run. The garrison eats because of you, $N.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "dune_troll",
+        "count": 8,
+        "label": "Dune Troll slain"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {},
+    "minLevel": 16
+  },
+  "q_dk_scorched_stores": {
+    "id": "q_dk_scorched_stores",
+    "name": "Scorched Stores",
+    "giverNpcId": "quartermaster_sela",
+    "turnInNpcId": "quartermaster_sela",
+    "text": "The last wagon burned, $N, but iron-strapped crates do not burn through. Four of them are still lying scorched along the dunes road with a season of salt, nails, and bowstrings inside. Bring my stores home before the trolls work out how to open them.",
+    "completionText": "Scorched black and every latch still holding. The smith gets his nails, the fletcher her strings, and you get the boots I was saving for whoever brought my crates back, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "scorched_supply_crate",
+        "count": 4,
+        "label": "Scorched supply crate recovered"
+      }
+    ],
+    "xpReward": 4000,
+    "copperReward": 1900,
+    "itemRewards": {
+      "warrior": "cinderwalk_treads",
+      "mage": "cinderwalk_treads",
+      "rogue": "cinderwalk_treads"
+    },
+    "requiresQuest": "q_dk_trolls_on_the_road",
+    "minLevel": 17
+  },
+  "q_dk_banners_over_the_dunes": {
+    "id": "q_dk_banners_over_the_dunes",
+    "name": "Banners over the Dunes",
+    "giverNpcId": "gatecaptain_brannoc",
+    "turnInNpcId": "gatecaptain_brannoc",
+    "text": "The ashbone muster at the old bonefield graves, $N, and my patrols cannot read the dunes the way they read a wall. Kill five of their warcallers, the ones that scream the dead upright, and plant a warning banner on each muster ground so my sentries can mark it from the ridge.",
+    "completionText": "Three banners snapping in the hot wind, right where my glass can find them. With five warcallers silenced, whatever answers their call will come slower. You bought us time, $N.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "ashbone_warcaller",
+        "count": 5,
+        "label": "Ashbone Warcaller slain"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "wyrmwatch_warning_banner",
+        "count": 3,
+        "label": "Warning banner planted"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_dk_ash_on_the_wind",
+    "minLevel": 17
+  },
+  "q_dk_watcher_at_the_wargate": {
+    "id": "q_dk_watcher_at_the_wargate",
+    "name": "The Watcher at the Wargate",
+    "giverNpcId": "gatecaptain_brannoc",
+    "turnInNpcId": "scout_yerrin",
+    "text": "Something is pulling the ashbone east, $N, and I sent my best to learn what. Scout Yerrin has camped a month in the far dunes past Trollmoot, in sight of a gate nobody built in my lifetime. Her reports stopped ten days ago. Find her camp and get me her eyes.",
+    "completionText": "Brannoc sent you? Then my last runner never made it. Keep your voice down and sit, $N. You see that gate below? Count the war-banners in front of it, and you will understand why I stopped writing things down.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "scout_yerrin",
+        "count": 1,
+        "label": "Find Scout Yerrin"
+      }
+    ],
+    "xpReward": 2400,
+    "copperReward": 950,
+    "itemRewards": {},
+    "requiresQuest": "q_dk_banners_over_the_dunes",
+    "minLevel": 18
+  },
+  "q_dk_marrow_and_ash": {
+    "id": "q_dk_marrow_and_ash",
+    "name": "Marrow and Ash",
+    "giverNpcId": "scout_yerrin",
+    "turnInNpcId": "scout_yerrin",
+    "text": "Every ashbone raider carries a war-brand, $N: a scorched tally of the host it marches under. I have counted four hosts from this ridge, but guesses are not intelligence. Bring me six brands off the raiders and their warcallers, and I will give Brannoc the shape of the war that is coming.",
+    "completionText": "Six brands, and one mark burned into every one of them. This is no raid muster, $N. Every host in the dunes answers to the wargate below us, the trolls call it Orkadia, and no five soldiers I ever served with could break what drums behind that door. Perhaps five like you.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "ashbone_war_brand",
+        "count": 6,
+        "label": "Ashbone War-Brand"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_dk_watcher_at_the_wargate"
+  },
+  "q_dk_scales_of_the_maw": {
+    "id": "q_dk_scales_of_the_maw",
+    "name": "Scales of the Maw",
+    "giverNpcId": "scout_yerrin",
+    "turnInNpcId": "scout_yerrin",
+    "text": "When the wind turns off the Drakemaw, the emberwing drakes ride it over my camp low enough to count their teeth, $N. They range farther every day, and something in that crater drives them. Bring me three of their scales. Scales remember heat, and I can read where a drake has been roosting by the burn.",
+    "completionText": "Look at the underside of this one, $N: scorched in a spiral, and only one thing nests in circles. These drakes are brood-guards. Something in the Drakemaw is a mother.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "emberwing_scale",
+        "count": 3,
+        "label": "Emberwing Scale"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_dk_watcher_at_the_wargate",
+    "minLevel": 19,
+    "suggestedPlayers": 2
+  },
+  "q_dk_matriarch_of_the_maw": {
+    "id": "q_dk_matriarch_of_the_maw",
+    "name": "Matriarch of the Maw",
+    "giverNpcId": "scout_yerrin",
+    "turnInNpcId": "gatecaptain_brannoc",
+    "text": "The scales told it true, $N. I climbed the rim at dawn and saw her on the crater floor: Cindraleth, the matriarch every emberwing in this sky was hatched under, gold as a coal about to catch. While she broods, the drakes grow bolder, and Wyrmwatch cannot fight dragons and the ashbone both. End her in her crater, then carry the word to Gatecaptain Brannoc. Do not go alone.",
+    "completionText": "The sky over the Drakemaw has been empty for two days, and now you walk through my gate with a matriarch's blood on your boots. Wyrmwatch has stood forty years on watch for exactly this, $N. Take these pauldrons, mawscale, worked by our own smith. Wear them where the drakes can see.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "cindraleth_maw_matriarch",
+        "count": 1,
+        "label": "Cindraleth the Maw Matriarch slain"
+      }
+    ],
+    "xpReward": 6000,
+    "copperReward": 3600,
+    "itemRewards": {
+      "warrior": "mawscale_pauldrons",
+      "mage": "mawscale_pauldrons",
+      "rogue": "mawscale_pauldrons"
+    },
+    "requiresQuest": "q_dk_scales_of_the_maw",
+    "minLevel": 19,
+    "suggestedPlayers": 2
+  },
+  "q_fv_snowline_report": {
+    "id": "q_fv_snowline_report",
+    "name": "Word from the Snowline",
+    "giverNpcId": "scout_einna",
+    "turnInNpcId": "warden_kaldra",
+    "text": "Every soul who climbs out of the Drakelands passes my fire, $N, and fewer climb every week. Warden Kaldra holds Icemantle up the north road. Tell her the pass is still open, and tell her a stranger walked it alone.",
+    "completionText": "The pass holds, then. Einna sits that waycamp through storms that bury the road markers, and she has never once sent me idle news. Welcome to Icemantle, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "warden_kaldra",
+        "count": 1,
+        "label": "Report to Warden Kaldra"
+      }
+    ],
+    "xpReward": 2400,
+    "copperReward": 900,
+    "itemRewards": {},
+    "minLevel": 16
+  },
+  "q_fv_wolves_at_the_door": {
+    "id": "q_fv_wolves_at_the_door",
+    "name": "Wolves at the Door",
+    "giverNpcId": "warden_kaldra",
+    "turnInNpcId": "warden_kaldra",
+    "text": "The snowdrift packs used to keep to the high benches. Now they cross the tarn road in daylight and my woodcutters will not leave the walls. Thin the packs, $N, ten of them, and the road is a road again.",
+    "completionText": "Ten fewer shadows between here and the tarn. The woodcutters are already arguing over who goes out first.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "snowdrift_wolf",
+        "count": 10,
+        "label": "Snowdrift Wolf slain"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_snowline_report"
+  },
+  "q_fv_winter_pelts": {
+    "id": "q_fv_winter_pelts",
+    "name": "Pelts for the Lodge",
+    "giverNpcId": "hearthkeeper_maeve",
+    "turnInNpcId": "hearthkeeper_maeve",
+    "text": "Firewood keeps a body alive, $N, but wool will not turn this cold, only wolf-fur will. Six thick winter pelts off the snowdrift packs and I can line bedrolls for everyone the lodge shelters.",
+    "completionText": "Fur like this is the only argument winter listens to. Take these treads, they are lined with the last batch.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "thick_winter_pelt",
+        "count": 6,
+        "label": "Thick Winter Pelt"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {
+      "warrior": "hearthlined_treads",
+      "mage": "hearthlined_treads",
+      "rogue": "hearthlined_treads"
+    },
+    "requiresQuest": "q_fv_snowline_report"
+  },
+  "q_fv_ember_caches": {
+    "id": "q_fv_ember_caches",
+    "name": "Embers on the Tarn Road",
+    "giverNpcId": "hearthkeeper_maeve",
+    "turnInNpcId": "hearthkeeper_maeve",
+    "text": "A sledge of ember caches overturned on the tarn road in last night: iron kettles that hold a banked fire alive for a month. Three of them are still lying in the snow, $N, and the lodge cannot spare what they hold. Bring the fire home.",
+    "completionText": "Still warm, every one. You have bought the lodge a whole winter of mercy, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "hearth_ember_cache",
+        "count": 3,
+        "label": "Ember Cache recovered"
+      }
+    ],
+    "xpReward": 4000,
+    "copperReward": 1900,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_snowline_report"
+  },
+  "q_fv_lights_over_steps": {
+    "id": "q_fv_lights_over_steps",
+    "name": "Lights over the Steps",
+    "giverNpcId": "warden_kaldra",
+    "turnInNpcId": "aurorist_veyla",
+    "text": "The aurora has burned green every night this month, and the old folk will not walk under it. One woman might know why: Veyla, the Aurorist. She camps alone on the Aurora Steps, southeast past the tarn. Find her camp, $N, and hear what the lights have told her.",
+    "completionText": "Kaldra sent you? Then she is finally worried, and she is right to be. Sit, $N. Watch the sky with me a while.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "aurorist_veyla",
+        "count": 1,
+        "label": "Find Aurorist Veyla"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_wolves_at_the_door",
+    "minLevel": 17
+  },
+  "q_fv_aurora_motes": {
+    "id": "q_fv_aurora_motes",
+    "name": "Motes of the Aurora",
+    "giverNpcId": "aurorist_veyla",
+    "turnInNpcId": "aurorist_veyla",
+    "text": "The wisps that drift these steps are shed by the lights themselves, and each carries a mote of the aurora in its heart. I need six to read what the sky is writing, $N. The wisps do not fight back. Whether that makes the work easier or harder is between you and your conscience.",
+    "completionText": "Six motes, still glowing. Look at them, $N: they pulse in time with each other. The lights are not weather. They are a signal.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "aurora_mote",
+        "count": 6,
+        "label": "Aurora Mote"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_lights_over_steps"
+  },
+  "q_fv_rime_unbound": {
+    "id": "q_fv_rime_unbound",
+    "name": "Rime Unbound",
+    "giverNpcId": "aurorist_veyla",
+    "turnInNpcId": "aurorist_veyla",
+    "text": "When the aurora burns this bright, the cold stands up and walks: rime elementals, frost given a will. They gather where the lights touch the benches, and they are wandering closer to my camp each night. Break eight of them apart, $N, before one of them breaks me.",
+    "completionText": "The night feels thinner already. Whatever wakes them is not done, but you have bought the Steps some quiet.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "rime_elemental",
+        "count": 8,
+        "label": "Rime Elemental slain"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_lights_over_steps"
+  },
+  "q_fv_silent_trapline": {
+    "id": "q_fv_silent_trapline",
+    "name": "The Silent Trapline",
+    "giverNpcId": "hearthkeeper_maeve",
+    "turnInNpcId": "trapper_brosk",
+    "text": "Old Brosk works the Shiverfen trapline west of here, and every week for eleven years he has sent a bundle of furs up with the wood sledge. Two weeks now, nothing. He is too stubborn to freeze and too careful to drown, $N, so something else is wrong. Find his camp at the fen and see him breathing.",
+    "completionText": "Maeve sent you? Ha. Eleven years and the woman still thinks the fen will eat me. Well... this year she might be right. Look at what it's done to my lines.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "trapper_brosk",
+        "count": 1,
+        "label": "Find Trapper Brosk"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "minLevel": 17
+  },
+  "q_fv_sprung_traps": {
+    "id": "q_fv_sprung_traps",
+    "name": "Sprites in the Traps",
+    "giverNpcId": "trapper_brosk",
+    "turnInNpcId": "trapper_brosk",
+    "text": "Fen sprites, $N. The little devils spring my traps for sport and scatter the iron in the reeds. Drive them off, eight should teach the rest, and gather up what is left of my traplines while you are out there.",
+    "completionText": "Four good traps back and the reeds gone quiet. You trap with a heavier hand than I do, $N, but I cannot argue with the results.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "fen_sprite",
+        "count": 8,
+        "label": "Fen Sprite driven off"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "sprung_trap",
+        "count": 4,
+        "label": "Trap recovered"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_silent_trapline"
+  },
+  "q_fv_seeing_wren_home": {
+    "id": "q_fv_seeing_wren_home",
+    "name": "Seeing Wren Home",
+    "giverNpcId": "trapper_brosk",
+    "turnInNpcId": "aurorist_veyla",
+    "text": "My apprentice Wren went out to walk the Goldmelt line two days ago and never came back. I found her tracks, she is holed up under the road markers southwest of the Aurora Steps, too scared of the wolves to move. I cannot leave the fen, $N. Walk her to Veyla's camp on the Steps. She will be safe under the lights.",
+    "completionText": "The girl is inside, wrapped in half my blankets and talking the stars out of the sky. You did a kind thing today, $N. The Reach doesn't see many of those.",
+    "objectives": [
+      {
+        "type": "escort",
+        "escortId": "esc_fv_wren",
+        "count": 1,
+        "label": "Apprentice Wren seen safely to the Aurora Steps"
+      }
+    ],
+    "xpReward": 5400,
+    "copperReward": 3000,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_sprung_traps",
+    "minLevel": 18
+  },
+  "q_fv_howl_above": {
+    "id": "q_fv_howl_above",
+    "name": "The Howl on the Terraces",
+    "giverNpcId": "warden_kaldra",
+    "turnInNpcId": "warden_kaldra",
+    "text": "You hear it at dusk, $N: a howl off the Howling Terraces that is not the snowdrift packs. Bigger throats. The terrace howlers have come down from the peaks for the first time since my grandmother held this post, and they are what pushed the wolves onto my road. Cull eight and push them back.",
+    "completionText": "Eight, and the dusk chorus is thinner for it. But howlers do not leave the peaks for nothing. Something up there moved them, and I fear it has a name.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "terrace_howler",
+        "count": 8,
+        "label": "Terrace Howler slain"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_fv_lights_over_steps",
+    "minLevel": 18
+  },
+  "q_fv_frostmane_tyrant": {
+    "id": "q_fv_frostmane_tyrant",
+    "name": "The Frostmane Tyrant",
+    "giverNpcId": "warden_kaldra",
+    "turnInNpcId": "warden_kaldra",
+    "text": "The howlers were not hunting when they came down the terraces. They were fleeing. A yeti has claimed the high ground, the mountain folk call it the Frostmane, and even the packs will not share a slope with it. It has to end, $N, before winter drives it down to my walls. Bring a friend. Bring two.",
+    "completionText": "When the wind dropped last night the whole village heard the silence where the Frostmane used to be. The Reach owes you a debt it will be years in paying, $N. Wear this, and every door in Icemantle is open to you.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "frostmane_yeti",
+        "count": 1,
+        "label": "The Frostmane slain"
+      }
+    ],
+    "xpReward": 6000,
+    "copperReward": 3600,
+    "itemRewards": {
+      "warrior": "frostmane_mantle",
+      "mage": "frostmane_mantle",
+      "rogue": "frostmane_mantle"
+    },
+    "requiresQuest": "q_fv_howl_above",
+    "minLevel": 19,
+    "suggestedPlayers": 2
+  },
+  "q_af_goldmelt_road": {
+    "id": "q_af_goldmelt_road",
+    "name": "The Gold Road Down",
+    "giverNpcId": "waywatcher_sorrel",
+    "turnInNpcId": "reeve_ottoline",
+    "text": "You came over the Goldmelt, $N, snow still on your boots. I keep this shrine so Lanternmere knows who walks in from the cold, and lately I have had little to report. Take the gold road down to the town, find Reeve Ottoline by the well, and tell her the pass is quiet.",
+    "completionText": "Quiet on the Goldmelt, and a traveler with snow in their hair to prove it. Sorrel keeps her watch too well to send idle word. Be welcome in Lanternmere, $N. The lanterns burn for you.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "reeve_ottoline",
+        "count": 1,
+        "label": "Report to Reeve Ottoline"
+      }
+    ],
+    "xpReward": 2400,
+    "copperReward": 900,
+    "itemRewards": {},
+    "minLevel": 17
+  },
+  "q_af_foxes_in_the_lamplight": {
+    "id": "q_af_foxes_in_the_lamplight",
+    "name": "Foxes in the Lamplight",
+    "giverNpcId": "reeve_ottoline",
+    "turnInNpcId": "reeve_ottoline",
+    "text": "The gloam foxes have learned what the lantern stores are worth, $N. Every dusk they slip the fences and carry off the tallow we press for the ferry lamps. Soft paws, softer conscience. Cull ten of them and the rest will remember to fear the town.",
+    "completionText": "Ten, and the stores went untouched last night for the first time this season. The lamplighters send their thanks, $N.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "gloam_fox",
+        "count": 10,
+        "label": "Gloam Fox slain"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {},
+    "requiresQuest": "q_af_goldmelt_road"
+  },
+  "q_af_orchard_call": {
+    "id": "q_af_orchard_call",
+    "name": "A Cart for the Orchard",
+    "giverNpcId": "reeve_ottoline",
+    "turnInNpcId": "orchardist_pomeline",
+    "text": "Orchardist Pomeline keeps the Gilded Orchard on the west road, and her sap carts are three days overdue. The whole town runs on that amber sap, $N: lamp resin, sweetening, the harvest ale. Walk the west road and find out what keeps her.",
+    "completionText": "The Reeve counts her carts, does she? Well, she can count them missing a while longer. Look at my rows, $N. I have greater troubles than a late delivery.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "orchardist_pomeline",
+        "count": 1,
+        "label": "Find Orchardist Pomeline"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_af_goldmelt_road",
+    "minLevel": 18
+  },
+  "q_af_sprites_and_spigots": {
+    "id": "q_af_sprites_and_spigots",
+    "name": "Sprites and Spigots",
+    "giverNpcId": "orchardist_pomeline",
+    "turnInNpcId": "orchardist_pomeline",
+    "text": "Harvest sprites, $N. They pry my sap-taps from the trunks for the sweetness inside and fling the buckets into the grass. Drive off eight of the little thieves and bring back four of my buckets, and the carts roll again.",
+    "completionText": "Four buckets back on their hooks and the rows gone quiet. You have a heavier hand with sprites than I do, $N, and today I am glad of it.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "harvest_sprite",
+        "count": 8,
+        "label": "Harvest Sprite driven off"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "amberfall_sap_bucket",
+        "count": 4,
+        "label": "Sap-Tap Bucket recovered"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_af_orchard_call"
+  },
+  "q_af_amber_from_the_herd": {
+    "id": "q_af_amber_from_the_herd",
+    "name": "Amber off the Herd",
+    "giverNpcId": "orchardist_pomeline",
+    "turnInNpcId": "orchardist_pomeline",
+    "text": "The gilded stags bed down beneath my oldest trees, and the sap drips gold into their coats all night. Combed clots of it are the purest amber in the weald. Bring me six, $N. The stags will not thank you, but they will not miss it either.",
+    "completionText": "Six clots, clean as poured honey. These gloves are stitched with the last batch, $N: sap-stiffened, and warmer than they look.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "gilded_sap_clot",
+        "count": 6,
+        "label": "Gilded Sap Clot"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {
+      "warrior": "orchard_sapbinder_grips",
+      "mage": "orchard_sapbinder_grips",
+      "rogue": "orchard_sapbinder_grips"
+    },
+    "requiresQuest": "q_af_orchard_call"
+  },
+  "q_af_lanterns_on_the_water": {
+    "id": "q_af_lanterns_on_the_water",
+    "name": "Lanterns on the Water",
+    "giverNpcId": "ferrymaster_caddow",
+    "turnInNpcId": "ferrymaster_caddow",
+    "text": "Every ferry on the Mere carries a stern lantern, $N, and three of my boats came back at dawn without theirs. The fog took them, or something in the fog did. They wash up along the east shore when the wind turns. Walk the shore road and bring my lanterns home.",
+    "completionText": "All three, and still burning. Ferry lanterns do not go out in water, $N. That is the point of them. What worries me is what pulled them loose.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "mere_ferry_lantern",
+        "count": 3,
+        "label": "Ferry Lantern recovered"
+      }
+    ],
+    "xpReward": 4200,
+    "copperReward": 2000,
+    "itemRewards": {},
+    "requiresQuest": "q_af_goldmelt_road"
+  },
+  "q_af_what_took_the_moorings": {
+    "id": "q_af_what_took_the_moorings",
+    "name": "What Took the Moorings",
+    "giverNpcId": "ferrymaster_caddow",
+    "turnInNpcId": "ferrymaster_caddow",
+    "text": "Now I will tell you what I did not say in front of the town. The moorings were not slipped, they were bitten through. Mere lurkers, bolder every night, dragging at the ropes and the rudders. Put eight of them back under the water for good, $N, before a ferryman goes with them.",
+    "completionText": "Eight fewer shapes in the shallows, and the crossing ran on time today for the first time in a fortnight. But bold lurkers are driven lurkers, $N. Something beneath the Mere is moving them.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "mere_lurker",
+        "count": 8,
+        "label": "Mere Lurker slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_af_lanterns_on_the_water",
+    "minLevel": 18
+  },
+  "q_af_the_meredark": {
+    "id": "q_af_the_meredark",
+    "name": "The Meredark",
+    "giverNpcId": "ferrymaster_caddow",
+    "turnInNpcId": "ferrymaster_caddow",
+    "text": "The old ferrymen have a name they only say ashore: the Meredark, the first lurker, old as the lake and twice as patient. It rose once before, the year the drowned jetty went under, and it is rising now. At dusk it suns itself on the jetty ruin off the south shore, $N. Take a friend, take two, and end it while it can still be ended.",
+    "completionText": "The fog lifted off the Mere this morning, $N, and the whole town saw it. The ferries will run the night crossing again, and every lantern on the water will burn in your name. Take this: it was dredged from the drowned jetty, and no one has better right to wear it.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "the_meredark",
+        "count": 1,
+        "label": "The Meredark slain"
+      }
+    ],
+    "xpReward": 6000,
+    "copperReward": 3600,
+    "itemRewards": {
+      "warrior": "mantle_of_the_meredark",
+      "mage": "mantle_of_the_meredark",
+      "rogue": "mantle_of_the_meredark"
+    },
+    "requiresQuest": "q_af_what_took_the_moorings",
+    "minLevel": 19,
+    "suggestedPlayers": 2
+  },
+  "q_wf_across_the_fenway": {
+    "id": "q_wf_across_the_fenway",
+    "name": "Across the Fenway",
+    "giverNpcId": "waykeeper_pell",
+    "turnInNpcId": "bridgewright_alden",
+    "text": "A gentle country, the Willowfen, but gentle is not the same as safe, $N. Follow the road north to the Fenway causeway and cross into Bridgemere. Tell Bridgewright Alden the Steps are open and the waycamp fire is lit.",
+    "completionText": "Pell keeps that fire burning through every fog the fen can breathe at her. If she says the Steps are open, they are open. Welcome to Bridgemere, $N. Watch your step on my planks and we will get along fine.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "bridgewright_alden",
+        "count": 1,
+        "label": "Report to Bridgewright Alden"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 950,
+    "itemRewards": {},
+    "minLevel": 18
+  },
+  "q_wf_rope_chewers": {
+    "id": "q_wf_rope_chewers",
+    "name": "The Rope-Chewers",
+    "giverNpcId": "bridgewright_alden",
+    "turnInNpcId": "bridgewright_alden",
+    "text": "Bogtoads, $N. They haul up out of the moat at night and chew through my mooring ropes like they were reed stems. Three skiffs went drifting last week, and one of them had my good winch aboard. Thin them out, ten of the fat things, and the boats stay where we tie them.",
+    "completionText": "Ten fewer sets of teeth in my moat. The skiffs sat their moorings all night for the first time in a month, $N. You have the thanks of every netter in town.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "bogtoad",
+        "count": 10,
+        "label": "Bogtoad slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_wf_across_the_fenway"
+  },
+  "q_wf_mind_the_moorings": {
+    "id": "q_wf_mind_the_moorings",
+    "name": "Mind the Moorings",
+    "giverNpcId": "bridgewright_alden",
+    "turnInNpcId": "bridgewright_alden",
+    "text": "Good rope is dear out here, $N: every line the toads bite through is a week of eel-money gone. The cut ends are still lying along the moat shore where the boats slipped them. Walk the boardwalks and bring me back four lines, and I can splice them good as new.",
+    "completionText": "Look at that: clean bites, every one, but there is rope enough left to splice. You have saved me a month of coin and the netters a month of grumbling, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "fenway_mooring_line",
+        "count": 4,
+        "label": "Cut Mooring Line recovered"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2100,
+    "itemRewards": {},
+    "requiresQuest": "q_wf_across_the_fenway"
+  },
+  "q_wf_eels_for_the_smokehouse": {
+    "id": "q_wf_eels_for_the_smokehouse",
+    "name": "Eels for the Smokehouse",
+    "giverNpcId": "netter_maris",
+    "turnInNpcId": "netter_maris",
+    "text": "The bogtoads are not just eating my ropes, $N, they are eating my catch: they gulp the eels down whole, straight out of the traps. Cut six plump ones free of the greedy things before the meat spoils, and the smokehouse fires stay lit.",
+    "completionText": "Six good eels, barely bruised. The smokehouse will smell like money by morning. Here, these waders were mine when I was quicker: eelskin turns the wet like nothing else.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "plump_fen_eel",
+        "count": 6,
+        "label": "Plump Fen Eel"
+      }
+    ],
+    "xpReward": 4400,
+    "copperReward": 2200,
+    "itemRewards": {
+      "warrior": "eelskin_mudwaders",
+      "mage": "eelskin_mudwaders",
+      "rogue": "eelskin_mudwaders"
+    },
+    "requiresQuest": "q_wf_across_the_fenway"
+  },
+  "q_wf_toll_and_tangle": {
+    "id": "q_wf_toll_and_tangle",
+    "name": "Toll and Tangle",
+    "giverNpcId": "netter_maris",
+    "turnInNpcId": "netter_maris",
+    "text": "The willow sprites think it is a fine game to cut a ferry loose, $N, and last week the toll skiff went over on the east track with a season of bridge-toll aboard. The chests went down in the shallows and the sprites dance on the boardwalks like they own them. Drive off eight and haul up three toll-chests, and Bridgemere eats this winter.",
+    "completionText": "Three chests, and the coin still dry inside. The sprites will sulk in the withies for a week, $N, and the town owes you its winter bread.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "willow_sprite",
+        "count": 8,
+        "label": "Willow Sprite driven off"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "bridgemere_toll_chest",
+        "count": 3,
+        "label": "Toll-Chest recovered"
+      }
+    ],
+    "xpReward": 5400,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_wf_eels_for_the_smokehouse",
+    "minLevel": 19
+  },
+  "q_wf_witch_of_willowweep": {
+    "id": "q_wf_witch_of_willowweep",
+    "name": "The Witch of Willowweep",
+    "giverNpcId": "bridgewright_alden",
+    "turnInNpcId": "mother_sedge",
+    "text": "You have heard it by now, $N: the snore. Slow and heavy, out past the Drowsy Flats, like the fen itself turning over in its sleep. The toads, the sprites, the wisps burning at noon: it all started when that sound did. One soul might know what it is. Mother Sedge keeps a camp at Willowweep, west around the moat and down the far shore. Find her, and ask her what sleeps at the middle of my fen.",
+    "completionText": "Alden sent you all this way to ask about the snoring? Then the bridge-folk are finally listening. Sit down out of the damp, $N. That sound has a name, and a throat, and I have been waiting for someone fool enough to help me quiet it.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "mother_sedge",
+        "count": 1,
+        "label": "Find Mother Sedge"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_wf_rope_chewers",
+    "minLevel": 19
+  },
+  "q_wf_wisplight_charms": {
+    "id": "q_wf_wisplight_charms",
+    "name": "Wisplight Charms",
+    "giverNpcId": "mother_sedge",
+    "turnInNpcId": "mother_sedge",
+    "text": "The wisps over the pools are the fen dreaming out loud, $N, and their light is the only thing that holds against the Croaker's lull. I weave it into willow charms: one round your neck and the snore cannot drag your eyelids down. Bring me six wisplight globes. The wisps will not fight you for them, which makes it a kindness or a theft, depending on how you carry it.",
+    "completionText": "Six globes, still warm with dreaming. Give me till moonrise and I will have charms woven for you and whoever is brave enough to stand beside you.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "wisplight_globe",
+        "count": 6,
+        "label": "Wisplight Globe"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_wf_witch_of_willowweep"
+  },
+  "q_wf_croakers_hush": {
+    "id": "q_wf_croakers_hush",
+    "name": "The Croaker's Hush",
+    "giverNpcId": "mother_sedge",
+    "turnInNpcId": "mother_sedge",
+    "text": "Now you know the snorer's name, $N: the Drowsy Croaker, the old toad-king out on the Drowsy Flats. Every year his croak grows heavier, and every year more of the fen forgets to wake. The charms will keep your eyes open, but his bulk is another matter: bring a friend, and do not fight him in the water. Put the old king to a quieter sleep.",
+    "completionText": "Listen, $N. Nothing. The first true silence over this fen in thirty years, and half the town will not sleep tonight for the strangeness of it. The willows say thank you, in their way. Wear this, woven from his own lily-bed, and the fen will know you for a friend wherever the water reaches.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "drowsy_croaker",
+        "count": 1,
+        "label": "The Drowsy Croaker slain"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "lilybed_mantle",
+      "mage": "lilybed_mantle",
+      "rogue": "lilybed_mantle"
+    },
+    "requiresQuest": "q_wf_wisplight_charms",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_nb_road_of_lanterns": {
+    "id": "q_nb_road_of_lanterns",
+    "name": "The Road of Lanterns",
+    "giverNpcId": "lamplighter_sorrel",
+    "turnInNpcId": "lira_dewsong",
+    "text": "Up here the sun never follows, $N, only the lamps I keep lit along the climb. Moonrest lies north where the flower-light gathers. Find Lira Dewsong among her gardens and tell her the Nightgate lamps still burn.",
+    "completionText": "The lamps still burn, and the road still carries strangers to us. Sorrel has kept that gate longer than anyone in Moonrest remembers. Welcome, $N, to the realm that never dawns.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "lira_dewsong",
+        "count": 1,
+        "label": "Find Lira Dewsong in Moonrest"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 950,
+    "itemRewards": {},
+    "minLevel": 19
+  },
+  "q_nb_striders_in_the_dark": {
+    "id": "q_nb_striders_in_the_dark",
+    "name": "Striders in the Dark",
+    "giverNpcId": "lira_dewsong",
+    "turnInNpcId": "lira_dewsong",
+    "text": "The gloam striders were always patient hunters, $N, but of late they slip right into the flower beds and take moonfleece lambs beneath our lanterns. Cull ten of them and give the downs back their quiet.",
+    "completionText": "Ten striders fewer, and the herds already graze easier. The gardens keep their own hours, but tonight they keep them in peace.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "gloam_strider",
+        "count": 10,
+        "label": "Gloam Strider slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_nb_road_of_lanterns"
+  },
+  "q_nb_wool_by_moonlight": {
+    "id": "q_nb_wool_by_moonlight",
+    "name": "Wool by Moonlight",
+    "giverNpcId": "weaver_amelle",
+    "turnInNpcId": "weaver_amelle",
+    "text": "Nothing warms like moonfleece, $N, and nothing spins so fine. The grazers carry their silver wool loose in tufts as they drift the downs. Bring me six good tufts off the herds and I will weave you something worth the walking.",
+    "completionText": "Silver as starlight and twice as soft. Here, $N: mitts from the last batch, lined the way only moonfleece lines.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "moonfleece_tuft",
+        "count": 6,
+        "label": "Moonfleece Tuft"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {
+      "warrior": "moonfleece_mitts",
+      "mage": "moonfleece_mitts",
+      "rogue": "moonfleece_mitts"
+    },
+    "requiresQuest": "q_nb_road_of_lanterns"
+  },
+  "q_nb_night_gardens": {
+    "id": "q_nb_night_gardens",
+    "name": "The Night Gardens",
+    "giverNpcId": "lira_dewsong",
+    "turnInNpcId": "lira_dewsong",
+    "text": "The nightbloom opens only under this sky, and Gloamfield holds the oldest beds in the realm. I need four fresh blossoms for the shrine garlands, $N. Cut them gently: a bed remembers a rough hand for a season.",
+    "completionText": "Still glowing, every petal. The shrine will smell of night for a week, and Moonrest sleeps easier for it.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "gloamfield_nightbloom",
+        "count": 4,
+        "label": "Nightbloom Blossom gathered"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_nb_road_of_lanterns"
+  },
+  "q_nb_eyes_on_the_vigil": {
+    "id": "q_nb_eyes_on_the_vigil",
+    "name": "Eyes on the Vigil",
+    "giverNpcId": "lira_dewsong",
+    "turnInNpcId": "astronomer_cassian",
+    "text": "Something has the striders bold and the herds uneasy, $N, and I cannot read it in the flowers. Cassian can read it in the sky. He keeps his observatory camp by the Standing Vigil east of here, where the nightkin drift among the stones. Find him, and ask what the stars are saying.",
+    "completionText": "Lira sent you? Then the gardens feel it too. Sit by the glass a moment, $N. The stars have been restless for a month, and every chart I draw leans north toward the barrow.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "astronomer_cassian",
+        "count": 1,
+        "label": "Find Astronomer Cassian at the Standing Vigil"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1050,
+    "itemRewards": {},
+    "requiresQuest": "q_nb_striders_in_the_dark",
+    "minLevel": 20
+  },
+  "q_nb_charts_of_the_stones": {
+    "id": "q_nb_charts_of_the_stones",
+    "name": "The Charts in the Stones",
+    "giverNpcId": "astronomer_cassian",
+    "turnInNpcId": "astronomer_cassian",
+    "text": "The Vigil stones are older than Moonrest, older than the nightkin who tend them, and their faces are cut with star charts I have spent my life learning to read. The sky has shifted, $N, and I must know how far. Read the charts on three of the stones and bring me their bearings.",
+    "completionText": "No doubt is left. Every bearing has crept toward the Sleepless Barrow, as if the sky itself leans over that mound to watch. The old kings were buried under aligned stars for a reason, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "vigil_star_chart",
+        "count": 3,
+        "label": "Star chart read"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_nb_eyes_on_the_vigil"
+  },
+  "q_nb_restless_mounds": {
+    "id": "q_nb_restless_mounds",
+    "name": "The Restless Mounds",
+    "giverNpcId": "astronomer_cassian",
+    "turnInNpcId": "astronomer_cassian",
+    "text": "The charts were a warning, and the barrow field proves it: the mounds are opening from beneath. Wights walk the grave rows wearing the old honors, and the offerings that kept them sleeping lie scattered in the grass. Put eight of them down, $N, and gather four of the offerings back to me.",
+    "completionText": "Grave gold, still cold from the soil. The wights are not rising on their own, $N: something beneath the great mound is calling them out, and I fear the charts have already told us its name.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "barrow_wight",
+        "count": 8,
+        "label": "Barrow Wight slain"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "barrow_grave_offering",
+        "count": 4,
+        "label": "Grave offering recovered"
+      }
+    ],
+    "xpReward": 5400,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_nb_charts_of_the_stones",
+    "minLevel": 20
+  },
+  "q_nb_the_barrow_king": {
+    "id": "q_nb_the_barrow_king",
+    "name": "The Barrow King Wakes",
+    "giverNpcId": "astronomer_cassian",
+    "turnInNpcId": "astronomer_cassian",
+    "text": "Every bearing, every restless star, every opened mound points to one thing: the Barrow King is waking beneath the great mound, and this realm has no dawn to hold him back. He must be put to rest before he remembers his crown, $N. Do not go alone: bring a friend, and keep the flower-light at your back.",
+    "completionText": "The stars have settled for the first time in a season, $N. The mounds are closed, the nightkin have gone still at their stones, and the king sleeps below once more. Wear this mantle: Moonrest cut it for whoever the night finally trusted.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "barrow_king",
+        "count": 1,
+        "label": "The Barrow King put to rest"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "barrowshade_mantle",
+      "mage": "barrowshade_mantle",
+      "rogue": "barrowshade_mantle"
+    },
+    "requiresQuest": "q_nb_restless_mounds",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_ww_bells_of_gallowmere": {
+    "id": "q_ww_bells_of_gallowmere",
+    "name": "The Bells of Gallowmere",
+    "giverNpcId": "lampman_cobb",
+    "turnInNpcId": "sexton_marrow",
+    "text": "Hear that tolling, $N? That is Gallowmere, up the north road, ringing its dead to sleep. Sexton Marrow keeps the count of every soul under the canopy, living and buried. Go and be counted, before the wood counts you itself.",
+    "completionText": "Cobb sent you up the road whole, did he? Good man. He has kept those gate lanterns lit for thirty years, and the wood has never once got past him. Welcome to Gallowmere, $N. Mind the bells.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "sexton_marrow",
+        "count": 1,
+        "label": "Report to Sexton Marrow"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "minLevel": 19
+  },
+  "q_ww_silk_in_the_eaves": {
+    "id": "q_ww_silk_in_the_eaves",
+    "name": "Silk in the Eaves",
+    "giverNpcId": "sexton_marrow",
+    "turnInNpcId": "sexton_marrow",
+    "text": "Look up when you walk the west road, $N, and you will see them: wrapped shapes in the canopy, swaying where no wind reaches. The widowsilk spinners have crept out of the Thicket and strung their larders over my lanterns. Kill ten, and the road is a road again.",
+    "completionText": "Ten fewer weavers in the eaves. The lamplighters will walk their rounds tonight without looking up, and that is worth more here than you know.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "widowsilk_spinner",
+        "count": 10,
+        "label": "Widowsilk Spinner slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_bells_of_gallowmere"
+  },
+  "q_ww_widows_skeins": {
+    "id": "q_ww_widows_skeins",
+    "name": "The Widow's Skeins",
+    "giverNpcId": "widow_tansy",
+    "turnInNpcId": "widow_tansy",
+    "text": "The spinners take our dead for their larders, $N, so I take their silk for our shrouds. It burns clean and it holds a blessing better than linen ever did. Bring me six skeins of widowsilk, and the next soul we bury goes down wrapped and warded.",
+    "completionText": "Six skeins, soft as a held breath. The dead will lie easier in this. Take these wraps, I sewed them from the last batch, and the wood has never once bitten through them.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "widowsilk_skein",
+        "count": 6,
+        "label": "Widowsilk Skein"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2400,
+    "itemRewards": {
+      "warrior": "gravebound_silk_wraps",
+      "mage": "gravebound_silk_wraps",
+      "rogue": "gravebound_silk_wraps"
+    },
+    "requiresQuest": "q_ww_bells_of_gallowmere"
+  },
+  "q_ww_candles_at_the_bounds": {
+    "id": "q_ww_candles_at_the_bounds",
+    "name": "Candles at the Bounds",
+    "giverNpcId": "widow_tansy",
+    "turnInNpcId": "widow_tansy",
+    "text": "Four boundary stones ring Gallowmere, $N, one on each road out, and a grave-candle burns on every stone. While they burn, the buried stay buried. The drizzle has drowned them, all four, and I am too old to walk the bounds alone. Take my taper and relight them, quickly.",
+    "completionText": "All four burning? Then breathe, $N. You did not hear it, but the whole village did: the bells rang easier the moment the last wick caught.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "gallowmere_grave_candle",
+        "count": 4,
+        "label": "Grave-candle relit"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_bells_of_gallowmere"
+  },
+  "q_ww_the_last_vicar": {
+    "id": "q_ww_the_last_vicar",
+    "name": "The Last Vicar",
+    "giverNpcId": "sexton_marrow",
+    "turnInNpcId": "vicar_creel",
+    "text": "South of here the Mournstone Chapel moulders by its black tarn, and one man still tends it: Vicar Creel, who would not leave when the roof came down. He knows the old rites better than my bells do, $N, and he has not sent word in a month. Walk the chapel road and see him breathing.",
+    "completionText": "Marrow worries after me? That is new. Tell him the Mournstone stands, after a fashion, and so do I. Stay a while, $N. The tarn has been whispering, and I would rather not listen alone.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "vicar_creel",
+        "count": 1,
+        "label": "Find Vicar Creel"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1100,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_silk_in_the_eaves",
+    "minLevel": 20
+  },
+  "q_ww_wraiths_of_the_tarn": {
+    "id": "q_ww_wraiths_of_the_tarn",
+    "name": "Wraiths of the Tarn",
+    "giverNpcId": "vicar_creel",
+    "turnInNpcId": "vicar_creel",
+    "text": "The wood wraiths were the chapel wardens once, $N, grown from trees planted over the honored dead. Since the tarn turned black they have forgotten their office, and now they drift through my graveyard pulling at the soil. Break eight of them apart before they finish what they have started.",
+    "completionText": "Eight wardens laid down at last. I will not call it a mercy in daylight, but between us, $N, it was one.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "wood_wraith",
+        "count": 8,
+        "label": "Wood Wraith slain"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_the_last_vicar"
+  },
+  "q_ww_what_the_bark_holds": {
+    "id": "q_ww_what_the_bark_holds",
+    "name": "What the Bark Holds",
+    "giverNpcId": "vicar_creel",
+    "turnInNpcId": "vicar_creel",
+    "text": "In the Hanging Glade east of Gallowmere the spinners hang their silk-wrapped dead from the boughs, and the gravenbark shamblers stand guard beneath like patient pallbearers. Those are our people up there, $N. Break five shamblers, cut down three of the wrapped dead, and bring them home to soil.",
+    "completionText": "Three souls back under honest ground before nightfall. The shamblers will grow back, bark always does, but tonight the glade hangs empty, and that is enough.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "gravenbark_shambler",
+        "count": 5,
+        "label": "Gravenbark Shambler felled"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "silkbound_remains",
+        "count": 3,
+        "label": "Silkbound remains cut down"
+      }
+    ],
+    "xpReward": 5200,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_the_last_vicar"
+  },
+  "q_ww_walking_mosley_home": {
+    "id": "q_ww_walking_mosley_home",
+    "name": "Walking Mosley Home",
+    "giverNpcId": "sexton_marrow",
+    "turnInNpcId": "sexton_marrow",
+    "text": "My gravedigger Mosley took the chapel road three days ago to open a plot in the old yard, and the dig came down on top of him. He clawed his way out, the fool is alive, but he is huddled by the chapel graves and will not move for spinners on the road. Walk him home, $N. I cannot ring the bells for a living man.",
+    "completionText": "He came through the gate on his own two feet, swearing he will dig nothing deeper than a turnip bed from now on. He will be back at the yard by Sunday, they always are. Thank you, $N. Gallowmere keeps its people, that is the whole of our law.",
+    "objectives": [
+      {
+        "type": "escort",
+        "escortId": "esc_ww_mosley",
+        "count": 1,
+        "label": "Gravedigger Mosley walked safely back to Gallowmere"
+      }
+    ],
+    "xpReward": 5600,
+    "copperReward": 3200,
+    "itemRewards": {},
+    "requiresQuest": "q_ww_the_last_vicar",
+    "minLevel": 20
+  },
+  "q_ww_horn_of_the_huntsman": {
+    "id": "q_ww_horn_of_the_huntsman",
+    "name": "The Horn of the Huntsman",
+    "giverNpcId": "vicar_creel",
+    "turnInNpcId": "vicar_creel",
+    "text": "You have heard the horn by now, $N, thin and far off, the sound the whole wood holds its breath for. The Pale Huntsman rides his clearing north of here, and every grave he passes grows shallower. He was a man once, and he was buried wrong, and I am done pretending prayer will do it. Take a friend, take two, and unhorse him.",
+    "completionText": "The horn stopped mid-note. Every bell in Gallowmere rang once, on its own, and then the wood went quieter than I have heard it in thirty years. You have done the rite I could not, $N. Wear this, and walk under the canopy unafraid.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "pale_huntsman",
+        "count": 1,
+        "label": "The Pale Huntsman unhorsed"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "mantle_of_the_unhorsed",
+      "mage": "mantle_of_the_unhorsed",
+      "rogue": "mantle_of_the_unhorsed"
+    },
+    "requiresQuest": "q_ww_what_the_bark_holds",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_pr_down_to_drifthaven": {
+    "id": "q_pr_down_to_drifthaven",
+    "name": "Down to Drifthaven",
+    "giverNpcId": "strandwatcher_pell",
+    "turnInNpcId": "salvage_boss_ryna",
+    "text": "Out of the black trees and into the sun, $N. Follow the shore road north and you will strike Drifthaven before the tide turns. Ask for Salvage-Boss Ryna, she has work for any pair of hands since the storm, and tell her the Tanglemouth road is still open.",
+    "completionText": "Pell sent you? Then you walked the whole Tanglemouth road alone, and that is reference enough for me. Welcome to Drifthaven, $N. Grab a rope, we are short-handed.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "salvage_boss_ryna",
+        "count": 1,
+        "label": "Report to Salvage-Boss Ryna"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "minLevel": 19
+  },
+  "q_pr_wreck_line_cargo": {
+    "id": "q_pr_wreck_line_cargo",
+    "name": "The Wreck Line",
+    "giverNpcId": "salvage_boss_ryna",
+    "turnInNpcId": "salvage_boss_ryna",
+    "text": "The storm three nights back drove the Pearlwake onto the reef, and her cargo is strewn the whole length of the wreck line between here and the Palmstrand. Three crates of trade goods are still lying in the surf, $N. Bring them in before the tide, or the crabs, claim what is left.",
+    "completionText": "Salt-stained but sound, all three. The divers eat this month because of you, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "pearlwake_cargo_crate",
+        "count": 3,
+        "label": "Pearlwake Cargo recovered"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_down_to_drifthaven"
+  },
+  "q_pr_scuttler_cull": {
+    "id": "q_pr_scuttler_cull",
+    "name": "Shellbacked Thieves",
+    "giverNpcId": "salvage_boss_ryna",
+    "turnInNpcId": "salvage_boss_ryna",
+    "text": "Every wreck on this coast draws the tide scuttlers, and the Pearlwake has drawn half the reef. My salvage crews will not work a line with those claws in the shallows. Crack ten of them, $N, and the wreck line is ours again.",
+    "completionText": "Ten fewer claws in the surf. My crews are already wading back out, and not one of them said thank you, so I will: thank you, $N.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "tide_scuttler",
+        "count": 10,
+        "label": "Tide Scuttler cracked"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_down_to_drifthaven"
+  },
+  "q_pr_the_lost_navigator": {
+    "id": "q_pr_the_lost_navigator",
+    "name": "The Lost Navigator",
+    "giverNpcId": "salvage_boss_ryna",
+    "turnInNpcId": "salvage_boss_ryna",
+    "text": "We pulled every hand off the Pearlwake but one: Navigator Suli, who swam for the far strand and never walked in. A diver spotted her holed up in the bow wreckage past the Palmstrand, alive, and too spent to run the gauntlet alone. Walk her home along the shore road, $N. The crabs will not like it, and the jungle likes it less.",
+    "completionText": "Suli is by the fire, still swearing she could have swum it. You brought back the only chart-reader on this coast, $N. These are from her sea chest, with her blessing.",
+    "objectives": [
+      {
+        "type": "escort",
+        "escortId": "esc_pr_navigator",
+        "count": 1,
+        "label": "Navigator Suli seen safely to Drifthaven"
+      }
+    ],
+    "xpReward": 5600,
+    "copperReward": 3200,
+    "itemRewards": {
+      "warrior": "saltwalker_sandals",
+      "mage": "saltwalker_sandals",
+      "rogue": "saltwalker_sandals"
+    },
+    "requiresQuest": "q_pr_wreck_line_cargo",
+    "minLevel": 20
+  },
+  "q_pr_boars_in_the_gardens": {
+    "id": "q_pr_boars_in_the_gardens",
+    "name": "Boars in the Gardens",
+    "giverNpcId": "pearlmother_isha",
+    "turnInNpcId": "pearlmother_isha",
+    "text": "Whatever stirs in the deep green, it pushes the thicket boars out onto our strand. They have rooted up the garden terraces twice this week, and they will have the drying racks next. Ten boars, $N, and push the rest back under the trees.",
+    "completionText": "The racks stand and the gardens can be replanted. The boars did not choose to come onto the sand, $N. Remember that: something moved them.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "thicket_boar",
+        "count": 10,
+        "label": "Thicket Boar driven off"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_down_to_drifthaven"
+  },
+  "q_pr_the_man_who_went_in": {
+    "id": "q_pr_the_man_who_went_in",
+    "name": "The Man Who Went In",
+    "giverNpcId": "pearlmother_isha",
+    "turnInNpcId": "hermit_okku",
+    "text": "The divers will not step past the treeline, $N, and I will not ask them to. You have heard the drums by now: everyone does, by the second night. One man on this island ever walked toward that sound and came back. Okku. He camps under the great banyans at the Vinefall, deep up the Tangle road. Find him, and ask him what the green is hiding.",
+    "completionText": "Isha sent you? The Pearl-Mother has not spoken my name in years. Sit out of the vines' reach, $N, and I will tell you what I know: the drums are not the danger. They are the warning.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "hermit_okku",
+        "count": 1,
+        "label": "Find Okku at the Vinefall"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1100,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_down_to_drifthaven",
+    "minLevel": 20
+  },
+  "q_pr_canopy_silk": {
+    "id": "q_pr_canopy_silk",
+    "name": "Silk from the Canopy",
+    "giverNpcId": "hermit_okku",
+    "turnInNpcId": "hermit_okku",
+    "text": "Look up, $N. Every canopy from here to the idol is webbed like a fishing net, and the weavers grow bolder each season. I string their own silk across the paths, tripline bells, so the jungle cannot creep up on me. Six good hanks off the canopy weavers will restring my lines.",
+    "completionText": "Good, strong silk. My bells will sing a while longer, and nothing walks these paths at night without me knowing, $N. Lately, something has been walking often.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "canopy_silk_hank",
+        "count": 6,
+        "label": "Canopy Silk Hank"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_the_man_who_went_in"
+  },
+  "q_pr_what_the_drums_guard": {
+    "id": "q_pr_what_the_drums_guard",
+    "name": "What the Drums Guard",
+    "giverNpcId": "hermit_okku",
+    "turnInNpcId": "hermit_okku",
+    "text": "I have walked as near the Sunken Idol as a living man dares, and I saw two things: the weavers have curtained the idol road in web, and the old offering bowls along it have been filled again. Freshly, $N. Cut eight weavers off the road and bring me three of those offerings. I would know what hand still feeds a dead god.",
+    "completionText": "Moss, pearl-shell, and boar blood, packed by fingers. Something in that ruin still keeps its rites, $N, and the Guardian keeps everything else out. It is time we spoke of it plainly.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "canopy_weaver",
+        "count": 8,
+        "label": "Canopy Weaver cut down"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "sunken_offering_bowl",
+        "count": 3,
+        "label": "Refilled Offering Bowl gathered"
+      }
+    ],
+    "xpReward": 5200,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_pr_canopy_silk",
+    "minLevel": 20
+  },
+  "q_pr_idol_guardian": {
+    "id": "q_pr_idol_guardian",
+    "name": "The Idol Guardian",
+    "giverNpcId": "hermit_okku",
+    "turnInNpcId": "hermit_okku",
+    "text": "The idol is older than the island, $N. Older than the drums, older than the name Palmreach. Its Guardian has stood in that drowned ring since before the palms grew, and now it wakes and walks the columns at night. Whatever the offerings feed, the Guardian is its door-ward. Bring a friend, and break it.",
+    "completionText": "You felled a thing the jungle itself would not touch. Look there, behind the idol: the Guardian was never guarding the columns, $N, it was guarding the steps beneath them. The drums have gone quiet tonight. Whatever sleeps below the Wildheart Basin now knows your name.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "idol_guardian",
+        "count": 1,
+        "label": "The Idol Guardian broken"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "sunken_idol_mantle",
+      "mage": "sunken_idol_mantle",
+      "rogue": "sunken_idol_mantle"
+    },
+    "requiresQuest": "q_pr_what_the_drums_guard",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_eg_gate_report": {
+    "id": "q_eg_gate_report",
+    "name": "Word Through the Gate",
+    "giverNpcId": "gatewarden_pell",
+    "turnInNpcId": "head_gardener_amaranth",
+    "text": "The lawns past this gate have trimmed themselves for a hundred years, $N, and lately they have started trimming visitors. Head Gardener Amaranth keeps the books in Hedgewick, up the road past the gate lawns. Tell her another traveler has come through, and tell her the hedges by the gate moved last night.",
+    "completionText": "Moved, did they. Pell reports that every week, and every week he is right. Forgive my eyes, $N, I have not slept a whole night in years: someone has to watch the garden watch us. Welcome to Hedgewick.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "head_gardener_amaranth",
+        "count": 1,
+        "label": "Report to Head Gardener Amaranth"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 950,
+    "itemRewards": {},
+    "minLevel": 19
+  },
+  "q_eg_hungry_shapes": {
+    "id": "q_eg_hungry_shapes",
+    "name": "Pruned into Hunger",
+    "giverNpcId": "head_gardener_amaranth",
+    "turnInNpcId": "head_gardener_amaranth",
+    "text": "Whoever shapes this garden has grown careless, or cruel. The wolf shapes out in the Rose Wilds were clipped for show, yet lately they hunt: green jaws, no bellies, and no reason ever to stop. Cut down ten topiary wolves, $N, and let the lawns be lawns again for a while.",
+    "completionText": "Ten heaps of clippings where ten wolves stood. It should feel like gardening, $N. Why does it feel like war?",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "topiary_wolf",
+        "count": 10,
+        "label": "Topiary Wolf slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_eg_gate_report"
+  },
+  "q_eg_stolen_shears": {
+    "id": "q_eg_stolen_shears",
+    "name": "The Stolen Shears",
+    "giverNpcId": "wickmother_sorrel",
+    "turnInNpcId": "wickmother_sorrel",
+    "text": "Every pair of shears in Hedgewick has walked off in a fortnight, $N: off the pegs, out of locked sheds, one pair out of my own apron while I dozed. It is the hedge gnomes, the little groundskeepers who hate us walking their lawns. Get six pairs back before the whole hamlet is down to kitchen knives.",
+    "completionText": "Six pairs, and my own among them, I would know the nick in the blade anywhere. Here, these gloves were knitted for pruning work. Warm hands make steady shears.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "hedgewick_shears",
+        "count": 6,
+        "label": "Stolen Hedgewick Shears"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2400,
+    "itemRewards": {
+      "warrior": "shearkeeper_gloves",
+      "mage": "shearkeeper_gloves",
+      "rogue": "shearkeeper_gloves"
+    },
+    "requiresQuest": "q_eg_gate_report"
+  },
+  "q_eg_gnomes_in_the_green": {
+    "id": "q_eg_gnomes_in_the_green",
+    "name": "The Groundskeepers Grudge",
+    "giverNpcId": "wickmother_sorrel",
+    "turnInNpcId": "wickmother_sorrel",
+    "text": "The shears were only the start, $N. Last night the gnomes tipped our tool carts into the green, one out by their warren west of the maze, one clean across the garden on the pond walk, and scattered a hundred years of good iron in the grass. Drive off eight of the little devils and haul the spilled carts home.",
+    "completionText": "Three carts back and the pegs full again. Let the little devils sulk in their hedges: Hedgewick works these lawns too.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "hedge_gnome",
+        "count": 8,
+        "label": "Hedge Gnome driven off"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "hedgewick_tool_cart",
+        "count": 3,
+        "label": "Tool cart recovered"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_eg_stolen_shears",
+    "minLevel": 20
+  },
+  "q_eg_who_trims_the_hedges": {
+    "id": "q_eg_who_trims_the_hedges",
+    "name": "Who Trims the Hedges",
+    "giverNpcId": "head_gardener_amaranth",
+    "turnInNpcId": "gardener_yew",
+    "text": "I have kept the ledgers thirty years, $N, and not slept properly for ten of them, because the sums will not close. Grass wants cutting and hedges want shaping, and nobody here does either, yet every dawn the garden stands trimmed. Lately the woodfolk swear they see an old man with a barrow on the far south lawns, past the maze by the Lily Basin. Find him. If he is real, I can finally sleep. If he is not, I suppose I never will.",
+    "completionText": "So the house finally sent someone. A hundred years I have walked these lawns, $N, and the garden and I have an understanding: I trim what asks to be trimmed. Sit. The hedges can spare you an hour.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "gardener_yew",
+        "count": 1,
+        "label": "Find the gardener by the Lily Basin"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_eg_hungry_shapes",
+    "minLevel": 20
+  },
+  "q_eg_bloom_clippings": {
+    "id": "q_eg_bloom_clippings",
+    "name": "Clippings from the Living Green",
+    "giverNpcId": "gardener_yew",
+    "turnInNpcId": "gardener_yew",
+    "text": "You want to understand this garden? Then read it the way I do. The stags that graze the lawns grow the truest green: every leaf on them is a page. Bring me six fresh clippings from the topiary stags, $N. They will not thank you for the pruning, but they will regrow. Everything here regrows.",
+    "completionText": "Look here: the leaves are curling in on themselves, every clipping the same. The garden is afraid, $N. In a hundred years I have never once known it afraid.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "evergarden_bloom_clipping",
+        "count": 6,
+        "label": "Pruned Bloom Clipping"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_eg_who_trims_the_hedges"
+  },
+  "q_eg_four_statues": {
+    "id": "q_eg_four_statues",
+    "name": "The Four Quiet Sisters",
+    "giverNpcId": "gardener_yew",
+    "turnInNpcId": "gardener_yew",
+    "text": "When the garden was young, the first gardeners raised four marble sisters to watch its quarters: one above the Rose Wilds, one on the pond walk east of the maze, one on the west lawn where the gnomes keep their warren, and one on the south lawn past the hedges. The maze grew up between them, and most folk never see all four. Walk the quarters, $N, and press your palm to each sister. When the garden has looked you over from all four sides, it will open places it keeps from strangers.",
+    "completionText": "Four rubbings, four sisters, and not one of them wept marble. The garden has taken your measure, $N, and it did not find you wanting. Now I can send you where the trouble truly lives.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "evergarden_statue_rubbing",
+        "count": 4,
+        "label": "Garden statue visited"
+      }
+    ],
+    "xpReward": 5200,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_eg_who_trims_the_hedges",
+    "minLevel": 20
+  },
+  "q_eg_bull_of_the_court": {
+    "id": "q_eg_bull_of_the_court",
+    "name": "The Bull of the Fountain Court",
+    "giverNpcId": "gardener_yew",
+    "turnInNpcId": "gardener_yew",
+    "text": "Now the truth, $N. The bull at the heart of the maze was my masterwork: I shaped him to guard the Fountain Court, and for a hundred years he did. But the fear in the green has reached him, and he guards nothing now, he hunts. The maze feeds him whoever wanders in. I am too old to unmake him, and it must be unmaking, root and branch. Bring a friend, walk the maze to the court, and cut my bull down.",
+    "completionText": "I felt it, here, when he came apart. A hundred years of work, and you were right to end it. Take this mantle: I cut it for whoever proved stronger than my best. The court is only a fountain tonight, $N, and the garden is only a garden. Perhaps now the Head Gardener and I can both sleep.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "the_topiary_bull",
+        "count": 1,
+        "label": "The Topiary Bull unmade"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "fountain_court_mantle",
+      "mage": "fountain_court_mantle",
+      "rogue": "fountain_court_mantle"
+    },
+    "requiresQuest": "q_eg_four_statues",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_gc_down_the_windway": {
+    "id": "q_gc_down_the_windway",
+    "name": "Down the Windway",
+    "giverNpcId": "watcher_maren",
+    "turnInNpcId": "harbormaster_odile",
+    "text": "You made the climb, $N, so the wind has decided to keep you. Wickharbor sits east along the downs road, tucked in the lee of its cove. Harbormaster Odile counts every soul who comes over the pass, and she will want to count you. Tell her the Windway is still open.",
+    "completionText": "Over the pass on foot, in this weather? Maren sends me few enough names, and fewer still walk in to answer for themselves. Welcome to Wickharbor, $N. Close the inn door behind you.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "harbormaster_odile",
+        "count": 1,
+        "label": "Report to Harbormaster Odile"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "minLevel": 19
+  },
+  "q_gc_wool_off_the_downs": {
+    "id": "q_gc_wool_off_the_downs",
+    "name": "Wool off the Downs",
+    "giverNpcId": "harbormaster_odile",
+    "turnInNpcId": "harbormaster_odile",
+    "text": "My boat crews row into a gale that cuts through oilskin like paper, $N. Only one thing turns this wind: the greasy wool off the moor rams, spun thick the Wickharbor way. The herds graze the Howling Downs west of town. Six good fleeces and every crew rows warm this season.",
+    "completionText": "Fleece like this is why the rams stand out there fat and smug in weather that kills men. The spinners will be at it by lamplight. Take these treads, $N, they are lined from the last shearing.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "galecrest_ram_wool",
+        "count": 6,
+        "label": "Greasy Ram Wool"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2200,
+    "itemRewards": {
+      "warrior": "wickspun_treads",
+      "mage": "wickspun_treads",
+      "rogue": "wickspun_treads"
+    },
+    "requiresQuest": "q_gc_down_the_windway"
+  },
+  "q_gc_scuttlers_in_the_pots": {
+    "id": "q_gc_scuttlers_in_the_pots",
+    "name": "Scuttlers in the Pots",
+    "giverNpcId": "harbormaster_odile",
+    "turnInNpcId": "harbormaster_odile",
+    "text": "The shoal scuttlers have learned to climb the cliff road and crack our crab pots open on the stones, $N. Half the catch gone this week, and one potman with a hand he will not be using for a month. Break ten of them and the rest will remember why they kept to the shoals.",
+    "completionText": "Ten fewer shells on my road, and the pots came up full this morning. The potmen are calling you a good omen, $N. In Wickharbor that is as warm as praise gets.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "shoal_scuttler",
+        "count": 10,
+        "label": "Shoal Scuttler slain"
+      }
+    ],
+    "xpReward": 4600,
+    "copperReward": 2400,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_down_the_windway"
+  },
+  "q_gc_keeper_of_the_flame": {
+    "id": "q_gc_keeper_of_the_flame",
+    "name": "The Keeper of the Flame",
+    "giverNpcId": "harbormaster_odile",
+    "turnInNpcId": "keeper_bram",
+    "text": "Old Bram keeps the Beacon on the high head northeast of town, and he has not come down for his stores in two weeks. The lamp still burns, so he lives, but a man his age alone on that head in this wind, $N. Climb the beacon road and see him standing.",
+    "completionText": "Odile sent you all this way to see if the wind had taken me? Ha. Tell her the lamp burns and so do I. But since you have made the climb, $N, stay a moment. The Beacon has work only a stranger seems fit to do.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "keeper_bram",
+        "count": 1,
+        "label": "Find Keeper Bram"
+      }
+    ],
+    "xpReward": 2600,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_scuttlers_in_the_pots",
+    "minLevel": 20
+  },
+  "q_gc_lanterns_on_the_shear": {
+    "id": "q_gc_lanterns_on_the_shear",
+    "name": "Lanterns on the Shear",
+    "giverNpcId": "keeper_bram",
+    "turnInNpcId": "keeper_bram",
+    "text": "The Beacon is the great light, $N, but it is the storm-lanterns that walk a night traveler down the cliff road above the Shear. Last night the gale doused every one of them, and that road in the dark is a long fall with a short ending. Take my striker and relight the four along the cliff.",
+    "completionText": "Four points of light on the cliff road, right where they belong. From up here it looks like the coast has opened its eyes again. You have the makings of a keeper, $N.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "shear_storm_lantern",
+        "count": 4,
+        "label": "Storm-lantern relit"
+      }
+    ],
+    "xpReward": 4800,
+    "copperReward": 2200,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_keeper_of_the_flame"
+  },
+  "q_gc_wind_against_the_wick": {
+    "id": "q_gc_wind_against_the_wick",
+    "name": "Wind Against the Wick",
+    "giverNpcId": "keeper_bram",
+    "turnInNpcId": "keeper_bram",
+    "text": "The gale wisps are the wind gone spiteful, $N. They gather on the high downs by the Mirror Tarn, and every flame they find, they snuff, a lantern, a hearth, one day this lamp. Thirty-nine years I have kept the Beacon lit, and I will not lose it to weather with a grudge. Scatter eight of them.",
+    "completionText": "The lamp did not so much as gutter last night, first time in a month. The wind still hates us, $N, but it has gone back to hating us fairly.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "gale_wisp",
+        "count": 8,
+        "label": "Gale Wisp scattered"
+      }
+    ],
+    "xpReward": 5000,
+    "copperReward": 2600,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_keeper_of_the_flame"
+  },
+  "q_gc_the_far_shore": {
+    "id": "q_gc_the_far_shore",
+    "name": "The Far Shore",
+    "giverNpcId": "keeper_bram",
+    "turnInNpcId": "salvager_edda",
+    "text": "From this lamp room I can see the whole coast, $N, and what I see in the north I do not like. Green lights walking the Wreckfields at low tide, hull by hull. One woman works that shore alone: Edda, the salvager. Follow the cliff road north past the Shear until the wrecks begin, and see that she still draws breath.",
+    "completionText": "Bram watches my shore from his tower now, does he? The old man is right to worry, $N. The dead have been walking their own wrecks at night, and lately they have stopped caring whether the sun is up.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "salvager_edda",
+        "count": 1,
+        "label": "Find Salvager Edda"
+      }
+    ],
+    "xpReward": 2800,
+    "copperReward": 1100,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_lanterns_on_the_shear",
+    "minLevel": 20
+  },
+  "q_gc_dead_mens_cargo": {
+    "id": "q_gc_dead_mens_cargo",
+    "name": "Dead Men's Cargo",
+    "giverNpcId": "salvager_edda",
+    "turnInNpcId": "salvager_edda",
+    "text": "Salvage law is simple, $N: what the sea gives the beach is mine. The drowned deckhands disagree. They rise from their hulls and drag every crate I stack back below the tideline. Put six of them down for good, and while the beach is quiet, haul in three flotsam crates before the tide files its counterclaim.",
+    "completionText": "Six crews quieter and three crates high and dry. You salvage with a heavier hand than I do, $N, but the ledger does not care. Half of this is yours by law, and by law I mean I say so.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "drowned_deckhand",
+        "count": 6,
+        "label": "Drowned Deckhand laid to rest"
+      },
+      {
+        "type": "interact",
+        "targetObjectItemId": "wreckfield_flotsam_crate",
+        "count": 3,
+        "label": "Flotsam Crate salvaged"
+      }
+    ],
+    "xpReward": 5400,
+    "copperReward": 2800,
+    "itemRewards": {},
+    "requiresQuest": "q_gc_the_far_shore"
+  },
+  "q_gc_the_wreck_warden": {
+    "id": "q_gc_the_wreck_warden",
+    "name": "The Wreck Warden",
+    "giverNpcId": "salvager_edda",
+    "turnInNpcId": "salvager_edda",
+    "text": "Now you know why the deckhands rise, $N. Something wears the barnacled plate of the first wreck ever to break on this shore, and it wardens every hull on the beach like a graveyard it was hired to keep. It holds a hoard I have coveted for ten years and a crew I would rather see resting. End the Wreck Warden. Bring a friend, the dead keep good watch.",
+    "completionText": "The beach went silent the moment it fell, $N. First silence I have heard on this shore in ten years of working it. The crews are just bones now, resting bones. Take the mantle off the top of the hoard, it was always going to fit a living back better.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "the_wreck_warden",
+        "count": 1,
+        "label": "The Wreck Warden felled"
+      }
+    ],
+    "xpReward": 6200,
+    "copperReward": 3800,
+    "itemRewards": {
+      "warrior": "wreck_wardens_mantle",
+      "mage": "wreck_wardens_mantle",
+      "rogue": "wreck_wardens_mantle"
+    },
+    "requiresQuest": "q_gc_dead_mens_cargo",
+    "minLevel": 20,
+    "suggestedPlayers": 2
+  },
+  "q_fs_bell_at_the_landing": {
+    "id": "q_fs_bell_at_the_landing",
+    "name": "The Bell at the Landing",
+    "giverNpcId": "bellkeeper_tam",
+    "turnInNpcId": "warden_coalfast",
+    "text": "You came over the Ferrywalk, $N? Then you are the first in a week, and the Warden will want to look you over. Gullhaven sits up the shore road, past the drying racks nobody tends anymore. Tell Warden Coalfast the causeway still stands, and that Tam has not rung a three-toll today. Yet.",
+    "completionText": "The causeway holds, and Tam still has breath enough to joke about the three-toll. Good. We are an island under siege, $N, and every pair of hands that crosses that sandbar is a pair the breaks must get through before they reach my people. Welcome to Gullhaven.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "warden_coalfast",
+        "count": 1,
+        "label": "Report to Warden Coalfast"
+      }
+    ],
+    "xpReward": 150,
+    "copperReward": 60,
+    "itemRewards": {},
+    "minLevel": 2
+  },
+  "q_fs_hold_the_riftfields": {
+    "id": "q_fs_hold_the_riftfields",
+    "name": "Hold the Riftfields",
+    "giverNpcId": "warden_coalfast",
+    "turnInNpcId": "warden_coalfast",
+    "text": "East of town the grain rows have gone to wrack, and the wretches that came through the Riftfields break now pick them clean. My people cannot tend a field they cannot stand in, $N. Cull ten of the wretches and give the farmers back their ground.",
+    "completionText": "Ten fewer, and the field hands are already arguing over who walks out first. It will not last, the breaks never rest long, but a town that eats is a town that holds.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "breach_wretch",
+        "count": 10,
+        "label": "Breach Wretch slain"
+      }
+    ],
+    "xpReward": 400,
+    "copperReward": 180,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_bell_at_the_landing"
+  },
+  "q_fs_steel_for_the_redoubt": {
+    "id": "q_fs_steel_for_the_redoubt",
+    "name": "Steel for the Redoubt",
+    "giverNpcId": "quartermaster_edda",
+    "turnInNpcId": "quartermaster_edda",
+    "text": "Every blade I hand out is one the sea gave back or one I pried off the dead, $N. The wretches carry scrap through the breaks, hinges, hooks, broken sword-steel, magpie stuff, but it hammers out true. Bring me six pieces of their scavenged steel and the barricade line gets its teeth back.",
+    "completionText": "Salt-pitted and break-scarred, and it will hold an edge all the same. Here, I lined these grips myself. Steel for steel, $N: it is the only trade the Farshore runs these days.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "breakscarred_steel",
+        "count": 6,
+        "label": "Break-Scarred Steel"
+      }
+    ],
+    "xpReward": 450,
+    "copperReward": 200,
+    "itemRewards": {
+      "warrior": "saltforged_grips",
+      "mage": "saltforged_grips",
+      "rogue": "saltforged_grips"
+    },
+    "requiresQuest": "q_fs_bell_at_the_landing"
+  },
+  "q_fs_the_three_bells": {
+    "id": "q_fs_the_three_bells",
+    "name": "The Three Bells",
+    "giverNpcId": "bellkeeper_tam",
+    "turnInNpcId": "bellkeeper_tam",
+    "text": "Three watchbells stand the coast beyond my own: one on the Landing point, one on the south strand, one out by the Riftfields shore. If a rope has rotted or a clapper has been carried off, the town learns of a break when it is already in the streets. Walk the coast, $N, and ring each bell once, so I know it still has a voice.",
+    "completionText": "Three voices, three answers, carried clean over the water. Sleep in Gullhaven tonight, $N, and know that if a bell wakes you, it will be by my hand and in good time.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "gullhaven_watchbell",
+        "count": 3,
+        "label": "Watchbell rung"
+      }
+    ],
+    "xpReward": 400,
+    "copperReward": 180,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_bell_at_the_landing"
+  },
+  "q_fs_song_before_the_break": {
+    "id": "q_fs_song_before_the_break",
+    "name": "The Song Before the Break",
+    "giverNpcId": "warden_coalfast",
+    "turnInNpcId": "riftwatch_ollun",
+    "text": "There is a man who hears the breaks before they open. Riftwatch Ollun: a scholar, or a madman, and lately I cannot afford the difference. He keeps his vigil at the Watch Meadow, up the road southeast of town. Find him, $N, and ask him what the island is about to do to us next.",
+    "completionText": "The Warden sent you? Good. That means the town has finally started listening. Now be still a moment, $N. There, under the wind, do you hear it? The cliffs are singing, and I do not like the tune.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "riftwatch_ollun",
+        "count": 1,
+        "label": "Find Riftwatch Ollun"
+      }
+    ],
+    "xpReward": 250,
+    "copperReward": 100,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_hold_the_riftfields",
+    "minLevel": 4
+  },
+  "q_fs_moss_and_mending": {
+    "id": "q_fs_moss_and_mending",
+    "name": "Moss and Mending",
+    "giverNpcId": "mender_saul",
+    "turnInNpcId": "mender_saul",
+    "text": "The salt moss that grows along the tideline is the best wound-packing I know, and the riftspawn have claimed every stretch of shore it grows on. They carry tufts of it snagged on their hides, of all things. Clear six of them off the east reaches, $N, and pull me four good handfuls of moss from what they have trampled through.",
+    "completionText": "Moss in one hand and a quieter shoreline in the other. You have restocked my whole surgery, $N. Do me the kindness of not becoming my next patient.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "riftspawn",
+        "count": 6,
+        "label": "Riftspawn slain"
+      },
+      {
+        "type": "collect",
+        "itemId": "farshore_salt_moss",
+        "count": 4,
+        "label": "Farshore Salt Moss"
+      }
+    ],
+    "xpReward": 700,
+    "copperReward": 350,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_bell_at_the_landing",
+    "minLevel": 4
+  },
+  "q_fs_bram_come_home": {
+    "id": "q_fs_bram_come_home",
+    "name": "Bram Come Home",
+    "giverNpcId": "fisher_nell",
+    "turnInNpcId": "fisher_nell",
+    "text": "My Bram took the boat out the morning the nets-break opened, and the sea threw him back somewhere past the Landing point. I heard him three nights ago, $N, calling over the water, and I was too afraid to go. I am still too afraid. Please. His boat lies wrecked on the north shore. Walk him home to me.",
+    "completionText": "Bram! You brought him back to me whole, $N. We both wept and neither of us is ashamed. Whatever the breaks take from this island next, they do not get my family. Not anymore.",
+    "objectives": [
+      {
+        "type": "escort",
+        "escortId": "esc_fs_bram",
+        "count": 1,
+        "label": "Fisher Bram seen safely home to Gullhaven"
+      }
+    ],
+    "xpReward": 800,
+    "copperReward": 400,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_bell_at_the_landing",
+    "minLevel": 5
+  },
+  "q_fs_stalkers_off_the_light": {
+    "id": "q_fs_stalkers_off_the_light",
+    "name": "Stalkers off the Light",
+    "giverNpcId": "riftwatch_ollun",
+    "turnInNpcId": "riftwatch_ollun",
+    "text": "The stalkers hunt the dark between the watchfires, and every night they circle my meadow a little closer. They are not mindless, $N, they are patient, and patience is the one thing I cannot outlast. Kill eight and push the dark back to the cliffs it came through.",
+    "completionText": "Eight nights of circling, ended in one. The fires burn steadier already, or perhaps that is only my hands. Either way the meadow is mine again, and I can hear the island think.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "void_stalker",
+        "count": 8,
+        "label": "Void Stalker slain"
+      }
+    ],
+    "xpReward": 600,
+    "copperReward": 300,
+    "itemRewards": {},
+    "requiresQuest": "q_fs_song_before_the_break",
+    "minLevel": 5
+  },
+  "q_fs_the_great_break": {
+    "id": "q_fs_the_great_break",
+    "name": "The Great Break",
+    "giverNpcId": "riftwatch_ollun",
+    "turnInNpcId": "warden_coalfast",
+    "text": "Every song this island sings ends on the same low note, and it comes from the Sundered Cliffs. Something came through the great break there, $N, something the cliffs themselves cracked open to admit, and it is still growing. If it walks north, no bell will matter. Take a friend, take two, and end it. Then tell Coalfast the tune has changed.",
+    "completionText": "Ollun sent word ahead: the singing stopped. My whole town heard the quiet, $N, and half of them wept at the sound of nothing at all. Wear this mantle. The Farshore does not forget who held its shore.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "sundered_horror",
+        "count": 1,
+        "label": "The Sundered Horror slain"
+      }
+    ],
+    "xpReward": 1100,
+    "copperReward": 600,
+    "itemRewards": {
+      "warrior": "mantle_of_the_unbroken_shore",
+      "mage": "mantle_of_the_unbroken_shore",
+      "rogue": "mantle_of_the_unbroken_shore"
+    },
+    "requiresQuest": "q_fs_stalkers_off_the_light",
+    "minLevel": 6,
+    "suggestedPlayers": 2
   }
 }

@@ -34,6 +34,10 @@
       "itemId": "bonechill_cord",
       "chance": 0.33,
       "rollGroup": "morthen_heroic2"
+    },
+    {
+      "itemId": "reins_stormfeather_griffin",
+      "chance": 0.005
     }
   ],
   "vael_the_mistcaller": [
@@ -71,6 +75,10 @@
       "itemId": "dreamroot_boots",
       "chance": 0.25,
       "rollGroup": "vael_heroic2"
+    },
+    {
+      "itemId": "reins_shadowjump_toad",
+      "chance": 0.005
     }
   ],
   "ysolei": [
@@ -108,6 +116,10 @@
       "itemId": "tideworn_warboots",
       "chance": 0.33,
       "rollGroup": "ysolei_heroic2"
+    },
+    {
+      "itemId": "reins_grag_bear",
+      "chance": 0.001
     }
   ],
   "korzul_the_gravewyrm": [
@@ -145,6 +157,10 @@
       "itemId": "wildsoul_maul",
       "chance": 0.25,
       "rollGroup": "korzul_heroic2"
+    },
+    {
+      "itemId": "reins_stalkglider_snail",
+      "chance": 0.001
     }
   ],
   "nythraxis_scourge_of_thornpeak": [
@@ -162,6 +178,22 @@
       "itemId": "stormcallers_focus",
       "chance": 0.33,
       "rollGroup": "nythraxis_heroic_weapon"
+    },
+    {
+      "itemId": "reins_grag_bear",
+      "chance": 0.001
+    },
+    {
+      "itemId": "reins_stalkglider_snail",
+      "chance": 0.001
+    },
+    {
+      "itemId": "reins_stormfeather_griffin",
+      "chance": 0.005
+    },
+    {
+      "itemId": "reins_shadowjump_toad",
+      "chance": 0.005
     }
   ]
 }
