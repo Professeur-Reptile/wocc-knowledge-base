@@ -663,6 +663,7 @@
       }
     ],
     "interior": "wildheart",
+    "bossChainPull": true,
     "suggestedPlayers": 5,
     "enterText": "Warm rain hisses on old stone. The Wildheart Basin opens before you.",
     "leaveText": "You pass back beneath the stone fangs into the Palmreach sun."

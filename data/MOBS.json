@@ -7075,6 +7075,10 @@
     "aggroRadius": 0,
     "loot": [
       {
+        "copper": 70,
+        "chance": 1
+      },
+      {
         "itemId": "wisp_mote",
         "chance": 0.6,
         "questId": "q_wisp_lights"
@@ -7138,6 +7142,10 @@
     "moveSpeed": 9,
     "aggroRadius": 0,
     "loot": [
+      {
+        "copper": 45,
+        "chance": 1
+      },
       {
         "itemId": "gleaming_antler",
         "chance": 0.55,
@@ -7214,7 +7222,12 @@
     "armorPerLevel": 10,
     "moveSpeed": 7.5,
     "aggroRadius": 0,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 70,
+        "chance": 1
+      }
+    ],
     "scale": 1,
     "color": 14206192
   },
@@ -7232,7 +7245,12 @@
     "armorPerLevel": 10,
     "moveSpeed": 7,
     "aggroRadius": 0,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 65,
+        "chance": 1
+      }
+    ],
     "scale": 0.8,
     "color": 14203274
   },
@@ -7496,6 +7514,10 @@
     "elite": true,
     "loot": [
       {
+        "copper": 200,
+        "chance": 1
+      },
+      {
         "itemId": "emberwing_scale",
         "chance": 0.7,
         "questId": "q_dk_scales_of_the_maw"
@@ -7519,6 +7541,14 @@
     "moveSpeed": 8,
     "aggroRadius": 13,
     "loot": [
+      {
+        "copper": 80,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 0.4
+      },
       {
         "itemId": "ashbone_war_brand",
         "chance": 0.6,
@@ -7544,6 +7574,14 @@
     "aggroRadius": 13,
     "loot": [
       {
+        "copper": 95,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 0.4
+      },
+      {
         "itemId": "ashbone_war_brand",
         "chance": 0.6,
         "questId": "q_dk_marrow_and_ash"
@@ -7566,7 +7604,16 @@
     "armorPerLevel": 14,
     "moveSpeed": 8.5,
     "aggroRadius": 14,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 90,
+        "chance": 1
+      },
+      {
+        "itemId": "chipped_tusk",
+        "chance": 0.4
+      }
+    ],
     "scale": 1.15,
     "color": 11563072
   },
@@ -7585,7 +7632,12 @@
     "moveSpeed": 9,
     "aggroRadius": 20,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      }
+    ],
     "scale": 1.9,
     "color": 15773760
   },
@@ -7849,6 +7901,10 @@
     "aggroRadius": 14,
     "loot": [
       {
+        "copper": 80,
+        "chance": 1
+      },
+      {
         "itemId": "thick_winter_pelt",
         "chance": 0.6,
         "questId": "q_fv_winter_pelts"
@@ -7873,6 +7929,10 @@
     "aggroRadius": 0,
     "loot": [
       {
+        "copper": 80,
+        "chance": 1
+      },
+      {
         "itemId": "aurora_mote",
         "chance": 0.65,
         "questId": "q_fv_aurora_motes"
@@ -7895,7 +7955,12 @@
     "armorPerLevel": 14,
     "moveSpeed": 7,
     "aggroRadius": 12,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 95,
+        "chance": 1
+      }
+    ],
     "scale": 1.15,
     "color": 10473712
   },
@@ -7913,7 +7978,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 8,
     "aggroRadius": 10,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 80,
+        "chance": 1
+      }
+    ],
     "scale": 0.9,
     "color": 13623530
   },
@@ -7931,7 +8001,12 @@
     "armorPerLevel": 13,
     "moveSpeed": 8.5,
     "aggroRadius": 15,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.3,
     "color": 10335432
   },
@@ -7968,7 +8043,12 @@
     "moveSpeed": 8,
     "aggroRadius": 16,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 420,
+        "chance": 1
+      }
+    ],
     "scale": 1.5,
     "color": 15922938
   },
@@ -7987,6 +8067,10 @@
     "moveSpeed": 9,
     "aggroRadius": 0,
     "loot": [
+      {
+        "copper": 95,
+        "chance": 1
+      },
       {
         "itemId": "gilded_sap_clot",
         "chance": 0.6,
@@ -8010,7 +8094,12 @@
     "armorPerLevel": 10,
     "moveSpeed": 9.5,
     "aggroRadius": 0,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 90,
+        "chance": 1
+      }
+    ],
     "scale": 1,
     "color": 14186552
   },
@@ -8029,7 +8118,16 @@
     "moveSpeed": 6.5,
     "aggroRadius": 0,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 200,
+        "chance": 1
+      },
+      {
+        "itemId": "tangled_weed",
+        "chance": 0.4
+      }
+    ],
     "scale": 1.4,
     "color": 13146168
   },
@@ -8047,7 +8145,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 8.5,
     "aggroRadius": 11,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 95,
+        "chance": 1
+      }
+    ],
     "scale": 0.85,
     "color": 15255672
   },
@@ -8065,7 +8168,16 @@
     "armorPerLevel": 13,
     "moveSpeed": 8,
     "aggroRadius": 13,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
+      {
+        "itemId": "mudfin_scale",
+        "chance": 0.4
+      }
+    ],
     "scale": 1.1,
     "color": 11055176
   },
@@ -8084,7 +8196,16 @@
     "moveSpeed": 8,
     "aggroRadius": 16,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      },
+      {
+        "itemId": "mudfin_scale",
+        "chance": 1
+      }
+    ],
     "scale": 1.6,
     "color": 5926968
   },
@@ -8103,6 +8224,10 @@
     "moveSpeed": 8,
     "aggroRadius": 12,
     "loot": [
+      {
+        "copper": 100,
+        "chance": 1
+      },
       {
         "itemId": "plump_fen_eel",
         "chance": 0.6,
@@ -8127,7 +8252,12 @@
     "moveSpeed": 7.5,
     "aggroRadius": 14,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      }
+    ],
     "scale": 1.65,
     "color": 5937240
   },
@@ -8146,6 +8276,10 @@
     "moveSpeed": 7.5,
     "aggroRadius": 0,
     "loot": [
+      {
+        "copper": 95,
+        "chance": 1
+      },
       {
         "itemId": "wisplight_globe",
         "chance": 0.65,
@@ -8169,7 +8303,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 8.5,
     "aggroRadius": 10,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 100,
+        "chance": 1
+      }
+    ],
     "scale": 0.9,
     "color": 13164728
   },
@@ -8188,6 +8327,10 @@
     "moveSpeed": 7.5,
     "aggroRadius": 0,
     "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
       {
         "itemId": "moonfleece_tuft",
         "chance": 0.6,
@@ -8211,7 +8354,12 @@
     "armorPerLevel": 12,
     "moveSpeed": 9.5,
     "aggroRadius": 14,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.1,
     "color": 4999794
   },
@@ -8229,7 +8377,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 7.5,
     "aggroRadius": 0,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      }
+    ],
     "scale": 1,
     "color": 9414880
   },
@@ -8248,7 +8401,16 @@
     "moveSpeed": 7.5,
     "aggroRadius": 14,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 1
+      }
+    ],
     "scale": 1.5,
     "color": 12111080
   },
@@ -8266,7 +8428,16 @@
     "armorPerLevel": 14,
     "moveSpeed": 7,
     "aggroRadius": 12,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 0.5
+      }
+    ],
     "scale": 1.15,
     "color": 10465476
   },
@@ -8285,6 +8456,14 @@
     "moveSpeed": 8.5,
     "aggroRadius": 12,
     "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
+      {
+        "itemId": "spider_leg",
+        "chance": 0.4
+      },
       {
         "itemId": "widowsilk_skein",
         "chance": 0.6,
@@ -8308,7 +8487,12 @@
     "armorPerLevel": 10,
     "moveSpeed": 8,
     "aggroRadius": 12,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      }
+    ],
     "scale": 1.3,
     "color": 10138784
   },
@@ -8326,7 +8510,16 @@
     "armorPerLevel": 15,
     "moveSpeed": 6.5,
     "aggroRadius": 8,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 115,
+        "chance": 1
+      },
+      {
+        "itemId": "tangled_weed",
+        "chance": 0.4
+      }
+    ],
     "scale": 1.35,
     "color": 5130810
   },
@@ -8345,7 +8538,16 @@
     "moveSpeed": 8.5,
     "aggroRadius": 16,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 1
+      }
+    ],
     "scale": 1.4,
     "color": 13162688
   },
@@ -8381,7 +8583,12 @@
     "armorPerLevel": 14,
     "moveSpeed": 7,
     "aggroRadius": 8,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.15,
     "color": 15231048
   },
@@ -8399,7 +8606,12 @@
     "armorPerLevel": 12,
     "moveSpeed": 8.5,
     "aggroRadius": 11,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.2,
     "color": 6966840
   },
@@ -8418,6 +8630,14 @@
     "moveSpeed": 8.5,
     "aggroRadius": 12,
     "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
+      {
+        "itemId": "spider_leg",
+        "chance": 0.4
+      },
       {
         "itemId": "canopy_silk_hank",
         "chance": 0.6,
@@ -8442,7 +8662,12 @@
     "moveSpeed": 7,
     "aggroRadius": 14,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      }
+    ],
     "scale": 1.5,
     "color": 10135678
   },
@@ -8480,6 +8705,10 @@
     "aggroRadius": 0,
     "loot": [
       {
+        "copper": 105,
+        "chance": 1
+      },
+      {
         "itemId": "evergarden_bloom_clipping",
         "chance": 0.65,
         "questId": "q_eg_bloom_clippings"
@@ -8502,7 +8731,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 8.5,
     "aggroRadius": 11,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.15,
     "color": 4885070
   },
@@ -8520,7 +8754,16 @@
     "armorPerLevel": 13,
     "moveSpeed": 8.5,
     "aggroRadius": 11,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 115,
+        "chance": 1
+      },
+      {
+        "itemId": "linen_scrap",
+        "chance": 0.3
+      }
+    ],
     "scale": 1,
     "color": 12109008
   },
@@ -8539,6 +8782,10 @@
     "moveSpeed": 8.5,
     "aggroRadius": 10,
     "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
       {
         "itemId": "hedgewick_shears",
         "chance": 0.6,
@@ -8563,7 +8810,16 @@
     "moveSpeed": 8.5,
     "aggroRadius": 12,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      },
+      {
+        "itemId": "tangled_weed",
+        "chance": 1
+      }
+    ],
     "scale": 1.45,
     "color": 3041844
   },
@@ -8582,6 +8838,10 @@
     "moveSpeed": 8.5,
     "aggroRadius": 0,
     "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      },
       {
         "itemId": "galecrest_ram_wool",
         "chance": 0.65,
@@ -8605,7 +8865,12 @@
     "armorPerLevel": 9,
     "moveSpeed": 9,
     "aggroRadius": 11,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.25,
     "color": 12574952
   },
@@ -8623,7 +8888,12 @@
     "armorPerLevel": 14,
     "moveSpeed": 7,
     "aggroRadius": 8,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 105,
+        "chance": 1
+      }
+    ],
     "scale": 1.2,
     "color": 8951976
   },
@@ -8641,7 +8911,20 @@
     "armorPerLevel": 10,
     "moveSpeed": 8.5,
     "aggroRadius": 10,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      },
+      {
+        "itemId": "bandit_bandana",
+        "chance": 0.5
+      },
+      {
+        "itemId": "linen_scrap",
+        "chance": 0.3
+      }
+    ],
     "scale": 0.95,
     "color": 5933638
   },
@@ -8659,7 +8942,20 @@
     "armorPerLevel": 10,
     "moveSpeed": 8.5,
     "aggroRadius": 10,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      },
+      {
+        "itemId": "bandit_bandana",
+        "chance": 0.5
+      },
+      {
+        "itemId": "linen_scrap",
+        "chance": 0.3
+      }
+    ],
     "scale": 0.95,
     "color": 5933638
   },
@@ -8678,7 +8974,16 @@
     "moveSpeed": 8,
     "aggroRadius": 14,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 450,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 1
+      }
+    ],
     "scale": 1.45,
     "color": 8030854
   },
@@ -8696,7 +9001,16 @@
     "armorPerLevel": 13,
     "moveSpeed": 7.5,
     "aggroRadius": 12,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 110,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 0.5
+      }
+    ],
     "scale": 1.05,
     "color": 8820878
   },
@@ -8715,6 +9029,10 @@
     "moveSpeed": 8.5,
     "aggroRadius": 12,
     "loot": [
+      {
+        "copper": 15,
+        "chance": 1
+      },
       {
         "itemId": "farshore_salt_moss",
         "chance": 0.6,
@@ -8740,6 +9058,10 @@
     "aggroRadius": 11,
     "loot": [
       {
+        "copper": 18,
+        "chance": 1
+      },
+      {
         "itemId": "breakscarred_steel",
         "chance": 0.6,
         "questId": "q_fs_steel_for_the_redoubt"
@@ -8762,7 +9084,12 @@
     "armorPerLevel": 11,
     "moveSpeed": 9.5,
     "aggroRadius": 14,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 26,
+        "chance": 1
+      }
+    ],
     "scale": 1.15,
     "color": 3091012
   },
@@ -8781,7 +9108,12 @@
     "moveSpeed": 7,
     "aggroRadius": 15,
     "elite": true,
-    "loot": [],
+    "loot": [
+      {
+        "copper": 150,
+        "chance": 1
+      }
+    ],
     "scale": 1.45,
     "color": 9056106
   },
