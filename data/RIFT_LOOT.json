@@ -1,0 +1,65 @@
+{
+  "epicIds": [
+    "emberforged_bulwark",
+    "stormsunder_hood",
+    "voidweave_mantle",
+    "abysswrought_band"
+  ],
+  "legendaryIds": [
+    "heart_of_the_rift",
+    "voidsong_dirk"
+  ],
+  "legendaryChanceS": 0.003,
+  "rareIds": [
+    "hoarfrost_edge",
+    "emberforge_gauntlets",
+    "broodmother_carapace",
+    "bonelord_mantle",
+    "graskbreaker_girdle",
+    "voidscar_handwraps",
+    "stormscale_treads",
+    "abyssal_loop",
+    "pactbound_vestments",
+    "pitlords_cleaver"
+  ],
+  "gearIds": [
+    "riftbound_band_of_might",
+    "riftbound_band_of_insight",
+    "riftbound_band_of_guile"
+  ],
+  "gemIds": [
+    "rift_gem_crimson",
+    "rift_gem_azure",
+    "rift_gem_verdant"
+  ],
+  "essenceItemId": "rift_essence",
+  "mounts": {
+    "B": {
+      "reins": [
+        "reins_stormfeather_griffin",
+        "reins_shadowjump_toad"
+      ],
+      "chance": 0.005
+    },
+    "A": {
+      "reins": [
+        "reins_grag_bear",
+        "reins_stalkglider_snail"
+      ],
+      "chance": 0.001
+    },
+    "S": {
+      "reins": [
+        "reins_aether_hover_cycle",
+        "reins_thunderstrut_gobbler"
+      ],
+      "chance": 0.003
+    }
+  },
+  "coinBonus": {
+    "C": 10000,
+    "B": 10000,
+    "A": 35000,
+    "S": 50000
+  }
+}
