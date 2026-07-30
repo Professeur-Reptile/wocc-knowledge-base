@@ -281,6 +281,51 @@ async function main() {
       console.warn(`  ⚠ Enchantements non extraits (tag antérieur à v0.27.0 ?) : ${err.message}`);
     }
 
+    // Butin des Failles (v0.32.0) : les récompenses de victoire (épiques
+    // garantis, légendaires S, rênes de monture, essence/gemmes) sont
+    // attribuées PAR LE CODE (rift/progression.ts, addRiftClearGearLoot) au
+    // moment de la victoire — jamais par une table de butin statique. Sans ce
+    // bloc, le Codex et le BiS du site voyaient ces objets « sans source ».
+    // On assemble un RIFT_LOOT.json : quelles pièces viennent de quel rang,
+    // avec les taux réels du jeu. Toléré absent (tags antérieurs à v0.32.0).
+    try {
+      const riftItemsPath = path.join(workDir, 'rift_items.bundle.cjs');
+      await bundleModule(repoPath, 'src/sim/content/rift/items.ts', riftItemsPath);
+      const riftItems = require(riftItemsPath);
+      const riftProgPath = path.join(workDir, 'rift_progression.bundle.cjs');
+      await bundleModule(repoPath, 'src/sim/rift/progression.ts', riftProgPath);
+      const riftProg = require(riftProgPath);
+      const RIFT_LOOT = {
+        // Le pool de l'épique de victoire garanti (rang B et au-dessus).
+        epicIds: riftItems.RIFT_EPIC_ITEM_IDS ?? [],
+        // Les deux légendaires exclusifs du rang S, tirés indépendamment.
+        legendaryIds: riftItems.RIFT_LEGENDARY_ITEM_IDS ?? [],
+        legendaryChanceS: riftProg.RIFT_LEGENDARY_CHANCE_S ?? null,
+        // Les rares « world-drop » des ambiances (trash + boss d'ambiance).
+        rareIds: riftItems.RIFT_RARE_ITEM_IDS ?? [],
+        // L'équipement personnel du first-clear (anneaux riftbound) + la forge.
+        gearIds: riftItems.RIFT_GEAR_ITEM_IDS ?? [],
+        gemIds: riftItems.RIFT_GEM_IDS ?? [],
+        essenceItemId: riftItems.RIFT_ESSENCE_ITEM_ID ?? null,
+        // Rênes de monture par rang (chaque rang ne tire que son palier).
+        mounts: {
+          B: { reins: riftProg.RIFT_GREEN_MOUNT_REINS ?? [], chance: riftProg.RIFT_GREEN_MOUNT_CHANCE ?? null },
+          A: { reins: riftProg.RIFT_BLUE_MOUNT_REINS ?? [], chance: riftProg.RIFT_BLUE_MOUNT_CHANCE ?? null },
+          S: { reins: riftProg.RIFT_EPIC_MOUNT_REINS ?? [], chance: riftProg.RIFT_EPIC_MOUNT_CHANCE ?? null },
+        },
+        coinBonus: {
+          C: riftProg.RIFT_COIN_BONUS_C ?? null,
+          B: riftProg.RIFT_COIN_BONUS_B ?? null,
+          A: riftProg.RIFT_COIN_BONUS_A ?? null,
+          S: riftProg.RIFT_COIN_BONUS_S ?? null,
+        },
+      };
+      fs.writeFileSync(path.join(outDir, 'RIFT_LOOT.json'), JSON.stringify(RIFT_LOOT, null, 2));
+      console.log(`  ✓ RIFT_LOOT → RIFT_LOOT.json (${RIFT_LOOT.epicIds.length} épiques, ${RIFT_LOOT.legendaryIds.length} légendaires, ${RIFT_LOOT.rareIds.length} rares)`);
+    } catch (err) {
+      console.warn(`  ⚠ Butin des Failles non extrait (tag antérieur à v0.32.0 ?) : ${err.message}`);
+    }
+
     // Un petit fichier de métadonnées pour tracer d'où vient l'extraction.
     fs.writeFileSync(
       path.join(outDir, '_meta.json'),
