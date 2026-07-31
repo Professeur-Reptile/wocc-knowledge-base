@@ -446,6 +446,7 @@
     "armorPerLevel": 24,
     "moveSpeed": 7,
     "aggroRadius": 13,
+    "hardLeashRadius": 50,
     "aoePulse": {
       "min": 12,
       "max": 18,

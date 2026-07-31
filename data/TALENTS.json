@@ -1119,6 +1119,14 @@
                       "type": "breakRoots"
                     }
                   ]
+                },
+                {
+                  "ability": "temporal_barrier",
+                  "addEffects": [
+                    {
+                      "type": "breakRoots"
+                    }
+                  ]
                 }
               ]
             }
