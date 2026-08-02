@@ -1940,7 +1940,7 @@
     },
     "loot": [
       {
-        "copper": 200,
+        "copper": 85,
         "chance": 1
       },
       {
@@ -4184,7 +4184,8 @@
     "aggroRadius": 8,
     "loot": [],
     "scale": 1.15,
-    "color": 3816046
+    "color": 3816046,
+    "petRole": "melee_tank"
   },
   "duskborn": {
     "id": "duskborn",
@@ -7080,7 +7081,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 70,
+        "copper": 75,
         "chance": 1
       },
       {
@@ -7226,7 +7227,7 @@
     "name": "Gleamfolk Pixie",
     "minLevel": 15,
     "maxLevel": 16,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 50,
     "hpPerLevel": 17,
     "dmgBase": 8,
@@ -7237,7 +7238,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 70,
+        "copper": 80,
         "chance": 1
       }
     ],
@@ -7249,7 +7250,7 @@
     "name": "Sporeling Gatherer",
     "minLevel": 15,
     "maxLevel": 15,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 48,
     "hpPerLevel": 17,
     "dmgBase": 8,
@@ -7260,7 +7261,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 65,
+        "copper": 75,
         "chance": 1
       }
     ],
@@ -7272,7 +7273,7 @@
     "name": "Corrupted Sporeling",
     "minLevel": 16,
     "maxLevel": 17,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 60,
     "hpPerLevel": 21,
     "dmgBase": 13,
@@ -7324,7 +7325,7 @@
     },
     "loot": [
       {
-        "copper": 150,
+        "copper": 90,
         "chance": 1
       },
       {
@@ -7359,7 +7360,7 @@
     },
     "loot": [
       {
-        "copper": 170,
+        "copper": 95,
         "chance": 1
       },
       {
@@ -7527,7 +7528,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 200,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -7555,7 +7556,7 @@
     "aggroRadius": 13,
     "loot": [
       {
-        "copper": 80,
+        "copper": 90,
         "chance": 1
       },
       {
@@ -7647,7 +7648,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -7671,7 +7672,7 @@
     "aggroRadius": 16,
     "petSpell": {
       "name": "Razorvine Spear",
-      "school": "physical",
+      "school": "nature",
       "min": 26,
       "max": 36,
       "range": 24,
@@ -7686,6 +7687,10 @@
       {
         "copper": 360,
         "chance": 1
+      },
+      {
+        "itemId": "chipped_tusk",
+        "chance": 0.35
       }
     ],
     "scale": 1.85,
@@ -7704,7 +7709,7 @@
     "dmgPerLevel": 2.9,
     "attackSpeed": 2.25,
     "armorPerLevel": 26,
-    "moveSpeed": 7.1,
+    "moveSpeed": 7.5,
     "aggroRadius": 14,
     "bleed": {
       "chance": 0.3,
@@ -7727,6 +7732,10 @@
       {
         "copper": 450,
         "chance": 1
+      },
+      {
+        "itemId": "chipped_tusk",
+        "chance": 0.4
       }
     ],
     "scale": 2,
@@ -7772,6 +7781,10 @@
       {
         "copper": 430,
         "chance": 1
+      },
+      {
+        "itemId": "chipped_tusk",
+        "chance": 0.45
       }
     ],
     "scale": 1.9,
@@ -7825,8 +7838,16 @@
     ],
     "loot": [
       {
-        "copper": 1000,
+        "copper": 2500,
         "chance": 1
+      },
+      {
+        "itemId": "chipped_tusk",
+        "chance": 1
+      },
+      {
+        "itemId": "fanglords_beastspear",
+        "chance": 0.12
       }
     ],
     "scale": 2.35,
@@ -7878,6 +7899,21 @@
       {
         "itemId": "bone_fragments",
         "chance": 0.8
+      },
+      {
+        "itemId": "bloodmane_warleggings",
+        "chance": 0.34,
+        "rollGroup": "zulgar_guaranteed_uncommon"
+      },
+      {
+        "itemId": "vineclaw_stalking_breeches",
+        "chance": 0.33,
+        "rollGroup": "zulgar_guaranteed_uncommon"
+      },
+      {
+        "itemId": "sunbone_ritual_sarong",
+        "chance": 0.33,
+        "rollGroup": "zulgar_guaranteed_uncommon"
       },
       {
         "itemId": "wildheart_tuskblade",
@@ -7947,7 +7983,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 80,
+        "copper": 90,
         "chance": 1
       },
       {
@@ -7987,7 +8023,7 @@
     "name": "Fen Sprite",
     "minLevel": 17,
     "maxLevel": 18,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 48,
     "hpPerLevel": 17,
     "dmgBase": 9,
@@ -7998,7 +8034,7 @@
     "aggroRadius": 10,
     "loot": [
       {
-        "copper": 80,
+        "copper": 90,
         "chance": 1
       }
     ],
@@ -8068,7 +8104,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 420,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8090,10 +8126,6 @@
     "moveSpeed": 9,
     "aggroRadius": 0,
     "loot": [
-      {
-        "copper": 95,
-        "chance": 1
-      },
       {
         "itemId": "gilded_sap_clot",
         "chance": 0.6,
@@ -8151,7 +8183,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 200,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8167,7 +8199,7 @@
     "name": "Harvest Sprite",
     "minLevel": 18,
     "maxLevel": 19,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 48,
     "hpPerLevel": 17,
     "dmgBase": 10,
@@ -8190,7 +8222,7 @@
     "name": "Mere Lurker",
     "minLevel": 19,
     "maxLevel": 20,
-    "family": "murloc",
+    "family": "mudfin",
     "hpBase": 58,
     "hpPerLevel": 20,
     "dmgBase": 12,
@@ -8201,7 +8233,7 @@
     "aggroRadius": 13,
     "loot": [
       {
-        "copper": 105,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8217,7 +8249,7 @@
     "name": "The Meredark",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "murloc",
+    "family": "mudfin",
     "hpBase": 120,
     "hpPerLevel": 30,
     "dmgBase": 15,
@@ -8229,7 +8261,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8245,7 +8277,7 @@
     "name": "Bogtoad",
     "minLevel": 19,
     "maxLevel": 20,
-    "family": "murloc",
+    "family": "mudfin",
     "hpBase": 56,
     "hpPerLevel": 20,
     "dmgBase": 11,
@@ -8273,7 +8305,7 @@
     "name": "The Drowsy Croaker",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "murloc",
+    "family": "mudfin",
     "hpBase": 140,
     "hpPerLevel": 34,
     "dmgBase": 16,
@@ -8285,7 +8317,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8325,7 +8357,7 @@
     "name": "Willow Sprite",
     "minLevel": 19,
     "maxLevel": 20,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 50,
     "hpPerLevel": 18,
     "dmgBase": 10,
@@ -8380,7 +8412,7 @@
     "name": "Gloam Strider",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "beast",
+    "family": "reptile",
     "hpBase": 58,
     "hpPerLevel": 20,
     "dmgBase": 12,
@@ -8418,7 +8450,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8442,7 +8474,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8469,7 +8501,7 @@
     "aggroRadius": 12,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8532,7 +8564,7 @@
     "aggroRadius": 12,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8555,7 +8587,7 @@
     "aggroRadius": 8,
     "loot": [
       {
-        "copper": 115,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8583,7 +8615,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8716,9 +8748,10 @@
     "moveSpeed": 7,
     "aggroRadius": 14,
     "elite": true,
+    "phasesThroughObstacles": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8759,7 +8792,7 @@
     "aggroRadius": 0,
     "loot": [
       {
-        "copper": 105,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8787,7 +8820,7 @@
     "aggroRadius": 11,
     "loot": [
       {
-        "copper": 105,
+        "copper": 100,
         "chance": 1
       }
     ],
@@ -8810,7 +8843,7 @@
     "aggroRadius": 11,
     "loot": [
       {
-        "copper": 115,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8826,7 +8859,7 @@
     "name": "Hedge Gnome",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 52,
     "hpPerLevel": 18,
     "dmgBase": 11,
@@ -8837,7 +8870,7 @@
     "aggroRadius": 10,
     "loot": [
       {
-        "copper": 105,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8866,7 +8899,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8960,7 +8993,7 @@
     "name": "Downs Bandit",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 52,
     "hpPerLevel": 18,
     "dmgBase": 11,
@@ -8971,7 +9004,7 @@
     "aggroRadius": 10,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -8991,7 +9024,7 @@
     "name": "Wreckfield Thief",
     "minLevel": 20,
     "maxLevel": 20,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 52,
     "hpPerLevel": 18,
     "dmgBase": 11,
@@ -9002,7 +9035,7 @@
     "aggroRadius": 10,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -9034,7 +9067,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 450,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -9061,7 +9094,7 @@
     "aggroRadius": 12,
     "loot": [
       {
-        "copper": 110,
+        "copper": 100,
         "chance": 1
       },
       {
@@ -9088,7 +9121,7 @@
     "aggroRadius": 12,
     "loot": [
       {
-        "copper": 15,
+        "copper": 20,
         "chance": 1
       },
       {
@@ -9105,7 +9138,7 @@
     "name": "Breach Wretch",
     "minLevel": 3,
     "maxLevel": 5,
-    "family": "kobold",
+    "family": "burrower",
     "hpBase": 30,
     "hpPerLevel": 11,
     "dmgBase": 6,
@@ -9116,7 +9149,7 @@
     "aggroRadius": 11,
     "loot": [
       {
-        "copper": 18,
+        "copper": 20,
         "chance": 1
       },
       {
@@ -9172,7 +9205,7 @@
     "elite": true,
     "loot": [
       {
-        "copper": 150,
+        "copper": 35,
         "chance": 1
       }
     ],

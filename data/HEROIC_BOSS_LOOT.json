@@ -163,6 +163,46 @@
       "chance": 0.001
     }
   ],
+  "wildheart_high_priest": [
+    {
+      "itemId": "basin_stalkers_tunic",
+      "chance": 0.34,
+      "rollGroup": "wildheart_heroic"
+    },
+    {
+      "itemId": "verdant_heart_vestment",
+      "chance": 0.33,
+      "rollGroup": "wildheart_heroic"
+    },
+    {
+      "itemId": "sunbone_ritual_hauberk",
+      "chance": 0.33,
+      "rollGroup": "wildheart_heroic"
+    },
+    {
+      "itemId": "greatfang_of_the_basin",
+      "chance": 0.34,
+      "rollGroup": "wildheart_heroic2"
+    },
+    {
+      "itemId": "sunbone_oracles_crown",
+      "chance": 0.33,
+      "rollGroup": "wildheart_heroic2"
+    },
+    {
+      "itemId": "bloodmane_war_legguards",
+      "chance": 0.33,
+      "rollGroup": "wildheart_heroic2"
+    },
+    {
+      "itemId": "reins_grag_bear",
+      "chance": 0.001
+    },
+    {
+      "itemId": "reins_stalkglider_snail",
+      "chance": 0.001
+    }
+  ],
   "nythraxis_scourge_of_thornpeak": [
     {
       "itemId": "deathless_greatblade",

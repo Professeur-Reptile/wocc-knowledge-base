@@ -524,6 +524,16 @@
     "noDiscard": true,
     "sellValue": 0
   },
+  "reins_terrorspark_groundshaker": {
+    "id": "reins_terrorspark_groundshaker",
+    "name": "Ignition Key: Terrorspark Groundshaker",
+    "kind": "mount",
+    "mount": "terrorspark_groundshaker",
+    "quality": "epic",
+    "soulbound": true,
+    "noDiscard": true,
+    "sellValue": 0
+  },
   "mistveil_cord": {
     "id": "mistveil_cord",
     "name": "Mistveil Cord",
@@ -8408,6 +8418,134 @@
       "druid"
     ]
   },
+  "basin_stalkers_tunic": {
+    "id": "basin_stalkers_tunic",
+    "name": "Basin Stalker's Tunic",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "chest",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 172,
+      "agi": 13,
+      "sta": 9
+    },
+    "hitRating": 40,
+    "sellValue": 14000,
+    "requiredClass": [
+      "rogue",
+      "hunter",
+      "druid"
+    ]
+  },
+  "verdant_heart_vestment": {
+    "id": "verdant_heart_vestment",
+    "name": "Verdant-Heart Vestment",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "chest",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 172,
+      "int": 13,
+      "spi": 9
+    },
+    "hasteRating": 40,
+    "sellValue": 14000,
+    "requiredClass": [
+      "druid"
+    ]
+  },
+  "sunbone_ritual_hauberk": {
+    "id": "sunbone_ritual_hauberk",
+    "name": "Sunbone Ritual Hauberk",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "chest",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 335,
+      "int": 12,
+      "spi": 10
+    },
+    "hasteRating": 40,
+    "sellValue": 14000,
+    "requiredClass": [
+      "paladin",
+      "shaman"
+    ]
+  },
+  "greatfang_of_the_basin": {
+    "id": "greatfang_of_the_basin",
+    "name": "Greatfang of the Basin",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "weapon": {
+      "min": 50,
+      "max": 75,
+      "speed": 3.4
+    },
+    "stats": {
+      "str": 17,
+      "sta": 12
+    },
+    "hitRating": 50,
+    "sellValue": 15000,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "sunbone_oracles_crown": {
+    "id": "sunbone_oracles_crown",
+    "name": "Sunbone Oracle's Crown",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "helmet",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 76,
+      "int": 11,
+      "spi": 7
+    },
+    "critRating": 40,
+    "sellValue": 12000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
+  "bloodmane_war_legguards": {
+    "id": "bloodmane_war_legguards",
+    "name": "Bloodmane War-Legguards",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "legs",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "stats": {
+      "armor": 315,
+      "str": 11,
+      "sta": 9
+    },
+    "hitRating": 40,
+    "sellValue": 12000,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
   "scepter_of_the_deathless_court": {
     "id": "scepter_of_the_deathless_court",
     "name": "Scepter of the Deathless Court",
@@ -10656,6 +10794,88 @@
       "hunter"
     ]
   },
+  "fanglords_beastspear": {
+    "id": "fanglords_beastspear",
+    "name": "Fanglord's Beastspear",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "rare",
+    "weapon": {
+      "min": 40,
+      "max": 60,
+      "speed": 3.2
+    },
+    "stats": {
+      "str": 7,
+      "agi": 5,
+      "sta": 5
+    },
+    "sellValue": 3200,
+    "requiredClass": [
+      "warrior",
+      "hunter",
+      "shaman",
+      "paladin"
+    ]
+  },
+  "bloodmane_warleggings": {
+    "id": "bloodmane_warleggings",
+    "name": "Bloodmane Warleggings",
+    "kind": "armor",
+    "armorType": "mail",
+    "slot": "legs",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 153,
+      "str": 3,
+      "sta": 4
+    },
+    "sellValue": 800,
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman"
+    ]
+  },
+  "vineclaw_stalking_breeches": {
+    "id": "vineclaw_stalking_breeches",
+    "name": "Vineclaw Stalking Breeches",
+    "kind": "armor",
+    "armorType": "leather",
+    "slot": "legs",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 95,
+      "agi": 5,
+      "sta": 2
+    },
+    "sellValue": 800,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ]
+  },
+  "sunbone_ritual_sarong": {
+    "id": "sunbone_ritual_sarong",
+    "name": "Sunbone Ritual Sarong",
+    "kind": "armor",
+    "armorType": "cloth",
+    "slot": "legs",
+    "quality": "uncommon",
+    "stats": {
+      "armor": 55,
+      "int": 4,
+      "spi": 3
+    },
+    "sellValue": 800,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "druid"
+    ]
+  },
   "heroic_tideguard_greaves": {
     "id": "heroic_tideguard_greaves",
     "name": "Tideguard Greaves",
@@ -11896,5 +12116,106 @@
       "hunter"
     ],
     "heroicOf": "moonshroud_tunic"
+  },
+  "heroic_fanglords_beastspear": {
+    "id": "heroic_fanglords_beastspear",
+    "name": "Fanglord's Beastspear",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "rare",
+    "weapon": {
+      "min": 42,
+      "max": 63,
+      "speed": 3.2
+    },
+    "stats": {
+      "str": 8,
+      "agi": 5,
+      "sta": 5
+    },
+    "sellValue": 3200,
+    "requiredClass": [
+      "warrior",
+      "hunter",
+      "shaman",
+      "paladin"
+    ],
+    "heroicOf": "fanglords_beastspear"
+  },
+  "heroic_wildheart_tuskblade": {
+    "id": "heroic_wildheart_tuskblade",
+    "name": "Wildheart Tuskblade",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "weapon": {
+      "min": 35,
+      "max": 56,
+      "speed": 2.6
+    },
+    "stats": {
+      "str": 16,
+      "sta": 10
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "warrior",
+      "hunter",
+      "shaman",
+      "paladin"
+    ],
+    "heroicOf": "wildheart_tuskblade"
+  },
+  "heroic_wildheart_hexwood_staff": {
+    "id": "heroic_wildheart_hexwood_staff",
+    "name": "Hexwood Staff of the Basin",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "weapon": {
+      "min": 42,
+      "max": 63,
+      "speed": 3
+    },
+    "stats": {
+      "int": 17,
+      "spi": 9
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "mage",
+      "priest",
+      "warlock",
+      "shaman",
+      "paladin",
+      "druid"
+    ],
+    "heroicOf": "wildheart_hexwood_staff"
+  },
+  "heroic_wildheart_fangknife": {
+    "id": "heroic_wildheart_fangknife",
+    "name": "Fangknife of Zulgar",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 20,
+      "max": 31,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 13,
+      "sta": 7
+    },
+    "sellValue": 8000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "heroicOf": "wildheart_fangknife"
   }
 }

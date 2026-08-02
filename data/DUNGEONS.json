@@ -560,6 +560,10 @@
       "x": 0,
       "z": -10
     },
+    "bossExitPortal": {
+      "x": 0,
+      "z": 222
+    },
     "spawns": [
       {
         "mobId": "wildheart_stalker",
