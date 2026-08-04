@@ -385,21 +385,37 @@ async function main() {
       } catch { /* sorts non bundlés (tag ancien) : clés par id seulement */ }
 
       const I18N_FR = {};
-      let n = 0;
+      let n = 0, ambiguous = 0;
       for (const [cat, type] of Object.entries(CAT_TO_TYPE)) {
         const src = ent[cat] || {};
         const out = {};
+        // Le jeu réutilise des noms d'affichage anglais pour des entités
+        // DIFFÉRENTES (deux sorts mage « Aether Surge », des dizaines d'objets
+        // normal/héroïque homonymes…). Une clé par nom replié ne peut donc
+        // être émise que si toutes les entités qui la partagent portent le
+        // MÊME nom français — sinon on affichait le nom d'une autre entité
+        // (incident du 4 août 2026 : « Aether Surge (Pouvoir des Arcanes) »
+        // alors que le site parlait d'arcane_surge, « Déferlante d'Aether »).
+        // Les clés par id, elles, restent toujours exactes.
+        const byFolded = new Map();
         for (const [id, e] of Object.entries(src)) {
           const name = e && (e.name || e.title);
           if (typeof name !== 'string' || !name) continue;
           out[id] = name; n++;
           const en = enNames[type] && enNames[type][id];
-          if (en) out[foldName(en)] ??= name;
+          if (!en) continue;
+          const k = foldName(en);
+          if (!byFolded.has(k)) byFolded.set(k, new Set());
+          byFolded.get(k).add(name);
+        }
+        for (const [k, names] of byFolded) {
+          if (names.size === 1) out[k] ??= [...names][0];
+          else ambiguous++;
         }
         if (Object.keys(out).length) I18N_FR[type] = out;
       }
       fs.writeFileSync(path.join(outDir, 'I18N_FR.json'), JSON.stringify(I18N_FR, null, 2));
-      console.log(`  ✓ I18N_FR → I18N_FR.json (${n} noms français)`);
+      console.log(`  ✓ I18N_FR → I18N_FR.json (${n} noms français, ${ambiguous} nom(s) anglais ambigu(s) écarté(s))`);
     } catch (err) {
       console.warn(`  ⚠ Noms français non extraits (tag antérieur à v0.34.0 ?) : ${err.message}`);
     }
