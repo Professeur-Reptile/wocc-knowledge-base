@@ -110,6 +110,13 @@ async function bundleModule(repoPath, entryRelPath, outFile) {
     target: 'node18',
     outfile: outFile,
     logLevel: 'warning',
+    // Les modules d'interface (talent_i18n → i18n) lisent les variables de
+    // build de Vite, absentes hors navigateur : on les fige côté extraction.
+    define: {
+      'import.meta.env.PROD': 'false',
+      'import.meta.env.DEV': 'true',
+      'import.meta.env.MODE': '"production"',
+    },
   });
 }
 
@@ -414,6 +421,45 @@ async function main() {
         }
         if (Object.keys(out).length) I18N_FR[type] = out;
       }
+      // Noms de TALENTS : ils ne vivent pas dans le catalogue d'entités mais
+      // dans une cascade propre au client (src/ui/talent_i18n.ts) — nom du
+      // sort accordé, puis titres délibérément gardés en anglais, puis
+      // traductions dédiées. On appelle SA fonction, `localizeTalentTitle`,
+      // plutôt que de réimplémenter la règle : « Second Wind » → « Second
+      // souffle », « Typhoon » → « Typhon », et les noms que le jeu laisse
+      // volontairement en anglais restent en anglais (ils ne sont alors pas
+      // écrits ici, donc le site n'affiche rien à côté — comme en jeu).
+      try {
+        const talentI18nPath = path.join(workDir, 'talent_i18n.bundle.cjs');
+        await bundleModule(repoPath, 'src/ui/talent_i18n.ts', talentI18nPath);
+        const { localizeTalentTitle } = require(talentI18nPath);
+        const talentsMod = require(path.join(workDir, 'talents_classic.bundle.cjs'));
+        const rowsMod = require(path.join(workDir, 'talent_rows.bundle.cjs'));
+        const titles = new Set();
+        for (const rows of Object.values(rowsMod.ROW_TREES || {}))
+          for (const row of rows || [])
+            for (const opt of row.options || []) if (opt?.name) titles.add(opt.name);
+        for (const key of Object.keys(talentsMod)) {
+          const tree = talentsMod[key];
+          for (const node of (tree && tree.nodes) || []) {
+            if (node?.name) titles.add(node.name);
+            for (const ch of node.choices || []) if (ch?.name) titles.add(ch.name);
+          }
+        }
+        const out = {};
+        let translated = 0;
+        for (const title of titles) {
+          const fr = localizeTalentTitle(title, 'fr_FR');
+          // Un titre que le jeu laisse en anglais n'est pas écrit : le site
+          // n'affichera donc rien, exactement comme le client français.
+          if (fr && fr !== title) { out[foldName(title)] = fr; translated++; }
+        }
+        if (translated) I18N_FR.talent = out;
+        console.log(`  ✓ Talents : ${translated} titres français sur ${titles.size} (le reste reste en anglais en jeu)`);
+      } catch (err) {
+        console.warn(`  ⚠ Titres de talents non localisés : ${err.message}`);
+      }
+
       fs.writeFileSync(path.join(outDir, 'I18N_FR.json'), JSON.stringify(I18N_FR, null, 2));
       console.log(`  ✓ I18N_FR → I18N_FR.json (${n} noms français, ${ambiguous} nom(s) anglais ambigu(s) écarté(s))`);
     } catch (err) {
