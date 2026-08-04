@@ -201,7 +201,7 @@
     "resultCount": 1,
     "reagents": [
       {
-        "itemId": "thorium_ore",
+        "itemId": "fine_iron_ore",
         "count": 4
       },
       {
@@ -225,6 +225,10 @@
         "count": 2
       },
       {
+        "itemId": "fine_thorium_ore",
+        "count": 2
+      },
+      {
         "itemId": "thorium_mining_pick",
         "count": 1
       }
@@ -241,7 +245,7 @@
     "resultCount": 1,
     "reagents": [
       {
-        "itemId": "ashwood_log",
+        "itemId": "fine_ashwood_log",
         "count": 4
       },
       {
@@ -261,7 +265,7 @@
     "resultCount": 1,
     "reagents": [
       {
-        "itemId": "elderwood_log",
+        "itemId": "fine_elderwood_log",
         "count": 2
       },
       {
@@ -281,7 +285,7 @@
     "resultCount": 1,
     "reagents": [
       {
-        "itemId": "goldleaf_herb",
+        "itemId": "fine_goldleaf_herb",
         "count": 4
       },
       {
@@ -301,7 +305,7 @@
     "resultCount": 1,
     "reagents": [
       {
-        "itemId": "sunpetal_herb",
+        "itemId": "fine_sunpetal_herb",
         "count": 2
       },
       {
@@ -313,6 +317,110 @@
     "itemLevelBudget": 30,
     "level": 20,
     "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_stormreel_fishing_rod",
+    "professionId": "engineering",
+    "resultItemId": "stormreel_fishing_rod",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "glimmerfin_koi",
+        "count": 4
+      },
+      {
+        "itemId": "silverstream_fishing_rod",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_tidewrought_fishing_rod",
+    "professionId": "engineering",
+    "resultItemId": "tidewrought_fishing_rod",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "glimmerfin_koi",
+        "count": 2
+      },
+      {
+        "itemId": "raw_stonescale_carp",
+        "count": 8
+      },
+      {
+        "itemId": "stormreel_fishing_rod",
+        "count": 1
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 30,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_gatherers_cache",
+    "professionId": "enchanting",
+    "resultItemId": "gatherers_cache",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "arcane_shard",
+        "count": 5
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 6
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 15,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_artisans_eye",
+    "professionId": "enchanting",
+    "resultItemId": "artisans_eye",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "arcane_shard",
+        "count": 5
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 6
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 15,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
   },
   {
     "id": "recipe_wardweave_cowl",

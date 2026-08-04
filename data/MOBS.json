@@ -571,6 +571,11 @@
         "itemId": "ghostly_essence",
         "chance": 0.55,
         "questId": "q_rite"
+      },
+      {
+        "itemId": "restless_skull",
+        "chance": 1,
+        "questId": "q_bones"
       }
     ],
     "scale": 1,
@@ -1065,6 +1070,50 @@
       "hide"
     ]
   },
+  "spider_egg": {
+    "id": "spider_egg",
+    "name": "Broodmother Egg",
+    "minLevel": 10,
+    "maxLevel": 10,
+    "family": "spider",
+    "requiresQuestId": "q_broodmother",
+    "hpBase": 100,
+    "hpPerLevel": 0,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "xpMult": 0,
+    "loot": [],
+    "scale": 0.9,
+    "color": 12036041
+  },
+  "widow_hatchling": {
+    "id": "widow_hatchling",
+    "name": "Widow Hatchling",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "family": "spider",
+    "hpBase": 14,
+    "hpPerLevel": 4,
+    "dmgBase": 5,
+    "dmgPerLevel": 1.6,
+    "attackSpeed": 1.6,
+    "armorPerLevel": 8,
+    "moveSpeed": 8.5,
+    "aggroRadius": 0,
+    "xpMult": 0.5,
+    "loot": [
+      {
+        "copper": 8,
+        "chance": 0.5
+      }
+    ],
+    "scale": 0.55,
+    "color": 3811136
+  },
   "mirefen_broodmother": {
     "id": "mirefen_broodmother",
     "name": "The Broodmother",
@@ -1156,6 +1205,50 @@
     "scale": 1,
     "color": 8369109
   },
+  "drowned_warlord": {
+    "id": "drowned_warlord",
+    "respawnMult": 7.2,
+    "name": "The Drowned Warlord",
+    "minLevel": 12,
+    "maxLevel": 12,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 60,
+    "hpPerLevel": 22,
+    "dmgBase": 9,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 16,
+    "moveSpeed": 6.5,
+    "aggroRadius": 12,
+    "lifeleech": {
+      "healFrac": 0.5,
+      "chance": 0.4,
+      "name": "Drowning Grasp"
+    },
+    "plague": {
+      "chance": 0.35,
+      "sta": 14,
+      "duration": 12,
+      "name": "Bog Rot"
+    },
+    "loot": [
+      {
+        "copper": 120,
+        "chance": 1
+      },
+      {
+        "itemId": "bone_fragments",
+        "chance": 1
+      },
+      {
+        "itemId": "cracked_fetish",
+        "chance": 0.6
+      }
+    ],
+    "scale": 1.3,
+    "color": 3829413
+  },
   "fen_troll": {
     "id": "fen_troll",
     "name": "Mirefen Troll",
@@ -1245,7 +1338,7 @@
       "chance": 0.3,
       "name": "Spellgnaw"
     },
-    "scale": 1.3,
+    "scale": 2.275,
     "color": 1333810
   },
   "gravecaller_cultist": {
@@ -1917,6 +2010,40 @@
     "scale": 1.3,
     "color": 10386259
   },
+  "brakka_wallbreaker": {
+    "id": "brakka_wallbreaker",
+    "respawnMult": 7.2,
+    "name": "Brakka the Wallbreaker",
+    "minLevel": 17,
+    "maxLevel": 17,
+    "family": "ogre",
+    "elite": true,
+    "hpBase": 80,
+    "hpPerLevel": 26,
+    "dmgBase": 13,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.5,
+    "armorPerLevel": 24,
+    "moveSpeed": 6.5,
+    "aggroRadius": 13,
+    "concuss": {
+      "chance": 0.3,
+      "duration": 2,
+      "name": "Wallbreaker Smash"
+    },
+    "loot": [
+      {
+        "copper": 300,
+        "chance": 1
+      },
+      {
+        "itemId": "ogre_toe_ring",
+        "chance": 1
+      }
+    ],
+    "scale": 1.7,
+    "color": 8016432
+  },
   "ogre_crusher": {
     "id": "ogre_crusher",
     "name": "Thornpeak Crusher",
@@ -1963,6 +2090,7 @@
     "family": "ogre",
     "elite": true,
     "boss": true,
+    "respawnMult": 7.2,
     "hpBase": 200,
     "hpPerLevel": 30,
     "dmgBase": 12,
@@ -1987,7 +2115,7 @@
     },
     "loot": [
       {
-        "copper": 2000,
+        "copper": 650,
         "chance": 1
       },
       {
@@ -2190,7 +2318,7 @@
       },
       {
         "itemId": "wyrmcult_orders",
-        "chance": 0.5,
+        "chance": 0.1,
         "questId": "q_cult_orders"
       },
       {
@@ -2271,6 +2399,55 @@
       "cloth"
     ]
   },
+  "threnos_first_voice": {
+    "id": "threnos_first_voice",
+    "respawnMult": 7.2,
+    "name": "Threnos the First Voice",
+    "minLevel": 19,
+    "maxLevel": 19,
+    "family": "humanoid",
+    "elite": true,
+    "hpBase": 88,
+    "hpPerLevel": 24,
+    "dmgBase": 14,
+    "dmgPerLevel": 2.8,
+    "attackSpeed": 2,
+    "armorPerLevel": 18,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "enfeeble": {
+      "chance": 0.35,
+      "int": 18,
+      "duration": 12,
+      "name": "The Waking Voice",
+      "school": "shadow"
+    },
+    "lockout": {
+      "chance": 0.3,
+      "duration": 6,
+      "name": "Wyrmward Sigil",
+      "school": "fire"
+    },
+    "loot": [
+      {
+        "copper": 300,
+        "chance": 1
+      },
+      {
+        "itemId": "frayed_prayer_beads",
+        "chance": 1
+      },
+      {
+        "itemId": "shardsong_mantle",
+        "chance": 0.06
+      }
+    ],
+    "scale": 1.3,
+    "color": 10181046,
+    "componentTags": [
+      "cloth"
+    ]
+  },
   "boneclad_revenant": {
     "id": "boneclad_revenant",
     "name": "Boneclad Revenant",
@@ -2305,6 +2482,11 @@
         "itemId": "runed_bone_shard",
         "chance": 0.7,
         "questId": "q_nythraxis_restless_dead"
+      },
+      {
+        "itemId": "vanguard_bone",
+        "chance": 0.7,
+        "questId": "q_revenant_vanguard"
       },
       {
         "itemId": "necromancers_legwraps",
@@ -7540,6 +7722,191 @@
     "scale": 1.4,
     "color": 14172200
   },
+  "dragonkin_egg": {
+    "id": "dragonkin_egg",
+    "name": "Dragonkin Egg",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 1,
+    "hpPerLevel": 0,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 999,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1.1,
+    "color": 6922346,
+    "xpMult": 0,
+    "offStreamIdle": true,
+    "broodEgg": {
+      "chainRadius": 5.5,
+      "chainDelay": 0.3,
+      "proximityRadius": 3,
+      "hatchMobId": "dragonkin_whelp"
+    }
+  },
+  "dragonkin_whelp": {
+    "id": "dragonkin_whelp",
+    "name": "Dragonkin Whelp",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 26,
+    "hpPerLevel": 1,
+    "dmgBase": 13,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 1.5,
+    "armorPerLevel": 4,
+    "moveSpeed": 10,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 15,
+        "chance": 1
+      }
+    ],
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "scale": 0.85,
+    "color": 5147231,
+    "xpMult": 0.3,
+    "wanderHaste": 3,
+    "offStreamIdle": true,
+    "broodWhelp": {
+      "leapRange": 24,
+      "leapSpeedMult": 2.6,
+      "leapSeconds": 1.5,
+      "burn": {
+        "perTick": 5,
+        "interval": 1,
+        "duration": 6,
+        "name": "Hatchling Burn"
+      }
+    }
+  },
+  "dragonkin_broodguard": {
+    "id": "dragonkin_broodguard",
+    "name": "Dragonkin Broodguard",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 60,
+    "hpPerLevel": 20,
+    "dmgBase": 12,
+    "dmgPerLevel": 2.5,
+    "attackSpeed": 2,
+    "armorPerLevel": 14,
+    "moveSpeed": 8.5,
+    "aggroRadius": 14,
+    "loot": [
+      {
+        "copper": 90,
+        "chance": 1
+      },
+      {
+        "itemId": "emberwing_scale",
+        "chance": 0.5,
+        "questId": "q_dk_scales_of_the_maw"
+      }
+    ],
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "offStreamIdle": true,
+    "scale": 1.5,
+    "color": 4090703,
+    "engageShout": {
+      "rootSeconds": 1.3
+    }
+  },
+  "drakemaw_broodlord": {
+    "id": "drakemaw_broodlord",
+    "name": "Drakemaw Broodlord",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "family": "dragonkin",
+    "hpBase": 150,
+    "hpPerLevel": 34,
+    "dmgBase": 17,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 17,
+    "moveSpeed": 9.5,
+    "aggroRadius": 20,
+    "hardLeashRadius": 50,
+    "elite": true,
+    "offStreamIdle": true,
+    "rare": true,
+    "loot": [
+      {
+        "copper": 100,
+        "chance": 1
+      },
+      {
+        "itemId": "emberwing_scale",
+        "chance": 0.9,
+        "questId": "q_dk_scales_of_the_maw"
+      }
+    ],
+    "componentTags": [
+      "hide",
+      "fang"
+    ],
+    "scale": 2.25,
+    "color": 5257518,
+    "yells": {
+      "engage": "The brood wakes! Rise, hatchlings, and strip their bones!"
+    },
+    "engageShout": {
+      "rootSeconds": 1.6,
+      "breakEggsRadius": 26,
+      "wardWhelps": {
+        "duration": 20,
+        "name": "Broodlord's Ward"
+      }
+    },
+    "arcCleave": {
+      "every": 5,
+      "arcDeg": 150,
+      "range": 8,
+      "mult": 1,
+      "name": "Brood Cleave",
+      "burn": {
+        "perTick": 4,
+        "interval": 1,
+        "duration": 8,
+        "name": "Seared Scales"
+      }
+    },
+    "breathCone": {
+      "castId": "broodlord_fire_breath",
+      "name": "Fire Breath",
+      "castTime": 1.6,
+      "every": 14,
+      "range": 13,
+      "arcDeg": 60,
+      "min": 26,
+      "max": 34,
+      "school": "fire",
+      "burn": {
+        "perTick": 4,
+        "interval": 1,
+        "duration": 8,
+        "name": "Seared Scales"
+      }
+    },
+    "counterStun": {
+      "seconds": 2,
+      "cooldown": 25,
+      "name": "Tail Hammer"
+    }
+  },
   "ashbone_raider": {
     "id": "ashbone_raider",
     "name": "Ashbone Raider",
@@ -7646,14 +8013,61 @@
     "moveSpeed": 9,
     "aggroRadius": 20,
     "elite": true,
+    "offStreamIdle": true,
     "loot": [
       {
         "copper": 100,
         "chance": 1
       }
     ],
-    "scale": 1.9,
-    "color": 15773760
+    "scale": 2.85,
+    "color": 15773760,
+    "yells": {
+      "engage": "You crunch across MY nursery, little thief. The Maw remembers its own."
+    },
+    "engageShout": {
+      "rootSeconds": 1.6,
+      "breakEggsRadius": 30,
+      "wardWhelps": {
+        "duration": 20,
+        "name": "Matriarch's Ward"
+      }
+    },
+    "arcCleave": {
+      "every": 5,
+      "arcDeg": 150,
+      "range": 9,
+      "mult": 1,
+      "name": "Maw Cleave",
+      "burn": {
+        "perTick": 5,
+        "interval": 1,
+        "duration": 8,
+        "name": "Seared Scales"
+      }
+    },
+    "breathCone": {
+      "castId": "matriarch_fire_breath",
+      "name": "Fire Breath",
+      "castTime": 1.6,
+      "every": 12,
+      "range": 14,
+      "arcDeg": 60,
+      "min": 30,
+      "max": 38,
+      "school": "fire",
+      "burn": {
+        "perTick": 5,
+        "interval": 1,
+        "duration": 8,
+        "name": "Seared Scales"
+      }
+    },
+    "counterStun": {
+      "seconds": 2,
+      "cooldown": 25,
+      "name": "Tail Hammer"
+    }
   },
   "wildheart_stalker": {
     "id": "wildheart_stalker",

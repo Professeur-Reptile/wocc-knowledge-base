@@ -4,7 +4,7 @@
     "name": "A Trade for Every Hand",
     "giverNpcId": "foreman_odell",
     "turnInNpcId": "foreman_odell",
-    "text": "Every soul in Eastbrook works a trade besides the sword, $N. There are ore veins in the rocks around the Copper Dig, southwest of town. Go swing a pick and work 5 of them yourself, mind; I'll know the difference.",
+    "text": "Every soul in Eastbrook works a trade besides the sword, $N. There are ore veins in the rocks around the Copper Dig, southeast of town. Go swing a pick and work 5 of them yourself, mind; I'll know the difference.",
     "completionText": "See? Ore gathered and callus on your hands. Keep at the mining, logging, and herb-picking as you travel the roads, and when you're back in town, mind the Town Focus board by the market and the crafting bench nearby. There's a fair trade waiting in all of it, if you want it.",
     "objectives": [
       {
@@ -16,7 +16,10 @@
     ],
     "xpReward": 150,
     "copperReward": 50,
-    "itemRewards": {}
+    "itemRewards": {},
+    "requiredItems": [
+      "copper_mining_pick"
+    ]
   },
   "q_wolves": {
     "id": "q_wolves",
@@ -148,17 +151,18 @@
   },
   "q_bones": {
     "id": "q_bones",
+    "rev": 1,
     "name": "The Restless Dead",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "The old ruin on the northwest hill was a chapel once, and its yard a resting place. Something has stirred the dead from their sleep. Grant them peace, $N — return 8 Restless Bones to the earth.",
+    "text": "The old ruin on the northwest hill was a chapel once, and its yard a resting place. Something has stirred the dead from their sleep. Put them down and bring me a skull from each you lay to rest, $N, eight in all, so I may speak the rites over them and grant the peace they were denied.",
     "completionText": "May they rest now, and may the Light forgive whatever woke them.",
     "objectives": [
       {
-        "type": "kill",
-        "targetMobId": "restless_bones",
+        "type": "collect",
+        "itemId": "restless_skull",
         "count": 8,
-        "label": "Restless Bones laid to rest"
+        "label": "Restless Skulls recovered"
       }
     ],
     "xpReward": 700,
@@ -171,7 +175,7 @@
     "name": "Stolen Supplies",
     "giverNpcId": "trader_wilkes",
     "turnInNpcId": "trader_wilkes",
-    "text": "Those bandits hit my last wagon and made off with four crates of goods — tools, salt, good Eastbrook linen. The crates are stacked around their camp in the southeast hills. Steal them back for me, would you?",
+    "text": "Those bandits hit my last wagon and made off with four crates of goods: tools, salt, good Eastbrook linen. The crates are stacked around their camp in the southwest hills. Steal them back for me, would you?",
     "completionText": "My crates! Barely a scratch on them. You are a wonder.",
     "objectives": [
       {
@@ -395,7 +399,7 @@
     "name": "Mogger Must Fall",
     "giverNpcId": "marshal_redbrook",
     "turnInNpcId": "marshal_redbrook",
-    "text": "Mogger has split carts, flattened fences, and killed enough livestock to empty half the Vale. Do not face him alone. Take two strong companions into the eastern meadow and put the brute down for good.",
+    "text": "Mogger has split carts, flattened fences, and killed enough livestock to empty half the Vale. Do not face him alone. Take two strong companions into the western meadow and put the brute down for good.",
     "completionText": "Mogger dead at last. Eastbrook's fields are safer, and you leave the Vale with one more tale worth retelling.",
     "objectives": [
       {
@@ -435,6 +439,9 @@
     "copperReward": 0,
     "itemRewards": {},
     "shareable": false,
+    "requiredItems": [
+      "copper_mining_pick"
+    ],
     "completionEffect": {
       "type": "attunePair",
       "mode": "new",
@@ -510,6 +517,9 @@
     "copperReward": 0,
     "itemRewards": {},
     "shareable": false,
+    "requiredItems": [
+      "gathering_sickle"
+    ],
     "completionEffect": {
       "type": "attunePair",
       "mode": "new",
@@ -548,7 +558,7 @@
     "name": "Threads Rejoined",
     "giverNpcId": "weaver_ottilie",
     "turnInNpcId": "weaver_ottilie",
-    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the webwood spiders crowding the western woods, and the labor will settle your hands before they touch good silk again.",
+    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the webwood spiders crowding the eastern woods, and the labor will settle your hands before they touch good silk again.",
     "completionText": "Steady again. Leatherworking and Tailoring return to your hands as majors. Measure twice this time before you wander.",
     "objectives": [
       {
@@ -575,7 +585,7 @@
     "name": "Back on the Stove",
     "giverNpcId": "cook_marlow",
     "turnInNpcId": "cook_marlow",
-    "text": "Well, look who is back at my pot. No hard feelings, $N, a kitchen always has room, but you know the tab runs longer every time you walk out on it. Go thin the wild boars in the east meadow, because honest sweat is the first ingredient, and it will remind your hands of the work.",
+    "text": "Well, look who is back at my pot. No hard feelings, $N, a kitchen always has room, but you know the tab runs longer every time you walk out on it. Go thin the wild boars in the west meadow, because honest sweat is the first ingredient, and it will remind your hands of the work.",
     "completionText": "There is the old flavor. Alchemy and Cooking are back on your stove as majors. Stay a while this time.",
     "objectives": [
       {
@@ -733,6 +743,10 @@
     "requiresQuest": "q_prof_intro",
     "repeatable": true,
     "shareable": false,
+    "repeatCadenceTicks": 36000,
+    "requiredItems": [
+      "gathering_sickle"
+    ],
     "completionEffect": {
       "type": "switchHobby"
     }
@@ -820,7 +834,7 @@
     "name": "The Codfather",
     "giverNpcId": "provisioner_hale",
     "turnInNpcId": "provisioner_hale",
-    "text": "The Codfather isn't just a fish, $N, he's a cold-blooded killer. Old-timers swear he eats Mire Prowlers for breakfast, and even the Mirefen Widows won't spin their webs near the Deepfen Shallows out of sheer terror. He rules those waters. Grab a fishing pole, drag that old devil out of his waters, and I will admit you have joined the family.",
+    "text": "The Codfather isn't just a fish, $N, he's a cold-blooded killer. Old-timers swear he eats Mire Prowlers for breakfast, and even the Mirefen Widows won't spin their webs near the Deepfen Shallows out of sheer terror. He rules those waters, and marsh water takes an Ironreel Fishing Rod, no less; my counter sells them. Get one in hand, drag that old devil out of his waters, and I will admit you have joined the family.",
     "completionText": "By the damp saints... The Codfather himself. Look at those whiskers. Fenbridge will eat stories off this catch for a year, $N.",
     "objectives": [
       {
@@ -902,22 +916,26 @@
   },
   "q_deepfen_purge": {
     "id": "q_deepfen_purge",
+    "rev": 1,
     "name": "Back to the Shallows",
     "giverNpcId": "warden_fenwick",
     "turnInNpcId": "warden_fenwick",
-    "text": "Aldric says those idols are cult-make — which means the mudfins are hauling the marsh's old evil up one armful at a time. I will not have it washing onto my causeway. Go back to the shallows and break the dredging for good: 14 more snappers.",
+    "text": "Aldric says those idols are cult-make, which means the mudfins are hauling the marsh's old evil up one armful at a time, and it all funnels through their reed-huts on the shallows. I will not have it washing onto my causeway. Take this firebottle, get right up against each hut, and burn the lot. Five should break their dredging for good.",
     "completionText": "Ruthless and thorough. If this marsh ever dries out, there's warden's work waiting for you.",
     "objectives": [
       {
-        "type": "kill",
-        "targetMobId": "deepfen_murloc",
-        "count": 14,
-        "label": "Deepfen Snapper slain"
+        "type": "interact",
+        "targetObjectItemId": "murloc_hut",
+        "count": 5,
+        "label": "Mudfin huts burned"
       }
     ],
     "xpReward": 1100,
     "copperReward": 450,
     "itemRewards": {},
+    "requiredItems": [
+      "firebottle"
+    ],
     "requiresQuest": "q_idols"
   },
   "q_widows": {
@@ -948,17 +966,18 @@
   },
   "q_broodmother": {
     "id": "q_broodmother",
+    "rev": 1,
     "name": "The Broodmother",
     "giverNpcId": "herbalist_yara",
     "turnInNpcId": "herbalist_yara",
-    "text": "You have seen the webs — now ask yourself what spins cables thick as a man's wrist. The wardens call her the Broodmother, and her clutch hangs over Widow Thicket like a second canopy. Burn through 8 more widows and put the old mother down before that clutch opens.",
+    "text": "You have seen the webs, now ask yourself what spins cables thick as a man's wrist. The wardens call her the Broodmother, and her clutch hangs over Widow Thicket like a second canopy. Smash 8 of her eggs and put the old mother down before the rest can hatch. Mind the clutch, some eggs will not go quietly.",
     "completionText": "Dead? Truly dead? Then the thicket is just trees again. The Light bless your blade, $N.",
     "objectives": [
       {
         "type": "kill",
-        "targetMobId": "mire_widow",
+        "targetMobId": "spider_egg",
         "count": 8,
-        "label": "Mirefen Widow slain"
+        "label": "Broodmother eggs destroyed"
       },
       {
         "type": "kill",
@@ -1014,17 +1033,18 @@
   },
   "q_no_rest": {
     "id": "q_no_rest",
+    "rev": 1,
     "name": "No Rest in the Reeds",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "The rite on those censers binds the drowned to rise wherever the marsh touches them — and the marsh touches everything. There will be no rest in these reeds until the dead outnumber the living. We cannot unmake the rite yet, but we can empty it of soldiers. Lay 14 more of the Drowned Dead to rest.",
-    "completionText": "You give the dead more mercy than their masters ever did. Take this — you have more than earned it.",
+    "text": "The rite on those censers binds the drowned to rise, and now it has raised one strong enough to lead them. The wardens call him the Drowned Warlord, and while he holds the Drowned Chapel the dead keep their ranks. Break him, $N, and the rest will scatter back into the mire.",
+    "completionText": "You give the dead more mercy than their masters ever did. Take this, you have more than earned it.",
     "objectives": [
       {
         "type": "kill",
-        "targetMobId": "drowned_dead",
-        "count": 14,
-        "label": "Drowned Dead laid to rest"
+        "targetMobId": "drowned_warlord",
+        "count": 1,
+        "label": "The Drowned Warlord slain"
       }
     ],
     "xpReward": 1500,
@@ -1379,7 +1399,7 @@
     "name": "Old Cragmaw",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "The mountain folk put a name to the prints my scout found: Old Cragmaw, a scar-pelted tyrant of a cat that has outlived three generations of its own pack. It is the reason the stalkers flood my road, $N. Its den sits on the western ridge above the road south. Bring a friend, and put the old devil down.",
+    "text": "The mountain folk put a name to the prints my scout found: Old Cragmaw, a scar-pelted tyrant of a cat that has outlived three generations of its own pack. It is the reason the stalkers flood my road, $N. Its den sits on the eastern ridge above the road south. Bring a friend, and put the old devil down.",
     "completionText": "Down at last. The mountain folk swore that cat would outlive the wall itself. The stalkers will keep to their high snows now, $N, and my patrols will walk the road without bleeding for it. The whole ridge is quieter for your work.",
     "objectives": [
       {
@@ -1477,17 +1497,18 @@
   },
   "q_ogre_bounty": {
     "id": "q_ogre_bounty",
+    "rev": 1,
     "name": "The Captain's Bounty",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "Maren's totems tell me all I need to know: the clans are bought, and my wall is their first errand. I will not wait for them to muster. Fourteen more Thornpeak Ogres, $N — and I will pay bounty on every one.",
+    "text": "Maren's totems name the hand that bought the clans: an ogre they call Brakka the Wallbreaker, and he is mustering the rest against my gate. Cut off the head and the clans scatter. Bring me Brakka, $N, and Highwatch will pay a captain's bounty.",
     "completionText": "Bounty paid in full. The foothills are quieter — now we deal with the ones doing the buying.",
     "objectives": [
       {
         "type": "kill",
-        "targetMobId": "thornpeak_ogre",
-        "count": 14,
-        "label": "Thornpeak Ogre slain"
+        "targetMobId": "brakka_wallbreaker",
+        "count": 1,
+        "label": "Brakka the Wallbreaker slain"
       }
     ],
     "xpReward": 3000,
@@ -1627,23 +1648,18 @@
   },
   "q_cult_orders": {
     "id": "q_cult_orders",
+    "rev": 1,
     "name": "Orders from Below",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "The zealots move with purpose now — watches set, supplies counted, like soldiers before a siege. Cultists who organize are cultists taking orders, $N. Kill eight more and bring me four sets of their written orders. I would know the hand that commands them.",
+    "text": "The zealots move with purpose now, watches set and supplies counted, like soldiers before a siege. Cultists who organize are cultists taking orders, $N. One of them is carrying written orders from below. Find the zealot who has them and bring the orders to me: I would know the hand that commands them.",
     "completionText": "This script... I last saw its like in Morthen's grimoire, in Eastbrook. The same hand has guided every grave we have fought over, $N.",
     "objectives": [
       {
-        "type": "kill",
-        "targetMobId": "wyrmcult_zealot",
-        "count": 8,
-        "label": "Wyrmcult Zealot slain"
-      },
-      {
         "type": "collect",
         "itemId": "wyrmcult_orders",
-        "count": 4,
-        "label": "Wyrmcult Orders"
+        "count": 1,
+        "label": "Orders from Below"
       }
     ],
     "xpReward": 3800,
@@ -1653,22 +1669,17 @@
   },
   "q_necromancers": {
     "id": "q_necromancers",
+    "rev": 1,
     "name": "The Phylactery Ring",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "The orders speak of a \"ring of phylacteries\" — soul-vessels, $N, set about the Sanctum to feed it. The cult's necromancers carry them like holy relics. Kill eight necromancers and bring me three phylacteries unbroken. I must know what souls they hold.",
+    "text": "The orders speak of a \"ring of phylacteries\", soul-vessels, $N, set about the Sanctum to feed it. The cult's necromancers carry them like holy relics. Take five phylacteries from them, unbroken, and bring them to me. I must know what souls they hold.",
     "completionText": "Light forgive us. These hold the dead of the Vale and the fen — every corpse the Gravecallers ever raised, harvested. They were never building an army, $N. They were gathering a tithe.",
     "objectives": [
       {
-        "type": "kill",
-        "targetMobId": "wyrmcult_necromancer",
-        "count": 8,
-        "label": "Wyrmcult Necromancer slain"
-      },
-      {
         "type": "collect",
         "itemId": "ritual_phylactery",
-        "count": 3,
+        "count": 5,
         "label": "Ritual Phylactery"
       }
     ],
@@ -1700,17 +1711,18 @@
   },
   "q_revenant_vanguard": {
     "id": "q_revenant_vanguard",
+    "rev": 1,
     "name": "Bones of the Vanguard",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "The revenants are forming ranks, $N — true ranks, shield-lines and columns, drilling with no drummer. They are being mustered for the Sanctum gate. Break fourteen more before that march begins, and Highwatch will owe you its best steel.",
+    "text": "The revenants are forming ranks, $N, true ranks, shield-lines and columns, drilling with no drummer. Break their vanguard and bring me ten of their bones, so the smiths can read how they were bound. Do it before the march begins, and Highwatch will owe you its best steel.",
     "completionText": "The fields lie still again. Take this — it was made for the defenders of the wall, and no one has earned it more.",
     "objectives": [
       {
-        "type": "kill",
-        "targetMobId": "boneclad_revenant",
-        "count": 14,
-        "label": "Boneclad Revenant slain"
+        "type": "collect",
+        "itemId": "vanguard_bone",
+        "count": 10,
+        "label": "Vanguard Bone recovered"
       }
     ],
     "xpReward": 4500,
@@ -1765,17 +1777,18 @@
   },
   "q_voice_below": {
     "id": "q_voice_below",
+    "rev": 1,
     "name": "The Voice Below",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "Last night the whole cult camp knelt at once, $N — every zealot, every necromancer, all facing the Sanctum. Korzul speaks to them in their sleep now; Vael heard the same voice in the fen, and Morthen before him. Cut the congregation down — ten zealots, six necromancers — before that voice has hands enough to pull the gate open itself.",
-    "completionText": "The kneeling has stopped. We have not silenced the voice, $N — only thinned its choir. It must be enough.",
+    "text": "Last night the whole cult camp knelt at once, $N, every zealot and necromancer facing the Sanctum, and one throat led the chant. They call him Threnos, the First Voice, and Korzul speaks through his mouth. Vael heard the same voice in the fen, and Morthen before him. Silence Threnos and cut down the six necromancers who keep his choir, before that voice has hands enough to pull the gate open itself.",
+    "completionText": "Threnos is silent, and the kneeling has stopped, $N. We have not ended the voice below, only taken from it the mouth that carried it. It must be enough.",
     "objectives": [
       {
         "type": "kill",
-        "targetMobId": "wyrmcult_zealot",
-        "count": 10,
-        "label": "Wyrmcult Zealot slain"
+        "targetMobId": "threnos_first_voice",
+        "count": 1,
+        "label": "Threnos the First Voice silenced"
       },
       {
         "type": "kill",
@@ -1916,7 +1929,7 @@
     "name": "Graves of the Forgotten",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "I have seen these marks before, on three old graves around the northern battlefield. Captain Aldren lies on the eastern rise, High Priest Malric near the central broken road, and Royal Assassin Voss by the western cliff. Touch each grave and listen, $N. The dead may remember what the living forgot.",
+    "text": "I have seen these marks before, on three old graves around the northern battlefield. Captain Aldren lies on the western rise, High Priest Malric further south along the western edge, and Royal Assassin Voss by the eastern cliff. Touch each grave and listen, $N. The dead may remember what the living forgot.",
     "completionText": "Aldren remained loyal, Malric refused to accept death, and Voss saw the danger before anyone else. All three served the same forgotten king.",
     "objectives": [
       {
@@ -1949,7 +1962,7 @@
     "name": "The Abandoned Crypt",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "The visions point to the abandoned crypt in the western cliff. There is an old legend that the crypt housed a king. Perhaps Thornpeak sealed him below after Malric's ritual twisted him into something deathless. Enter the crypt and see what remains inside.",
+    "text": "The visions point to the abandoned crypt in the eastern cliff. There is an old legend that the crypt housed a king. Perhaps Thornpeak sealed him below after Malric's ritual twisted him into something deathless. Enter the crypt and see what remains inside.",
     "completionText": "The keystone halves fit together, and Voss's diary names what they sealed: the signet of King Nythraxis. If the diary is true, that signet is the key to his tomb.",
     "objectives": [
       {

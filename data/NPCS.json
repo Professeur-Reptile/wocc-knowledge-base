@@ -56,14 +56,8 @@
       "linen_pouch",
       "travelers_knapsack",
       "copper_mining_pick",
-      "iron_mining_pick",
-      "mithril_mining_pick",
       "handaxe",
-      "felling_axe",
-      "ironbark_axe",
       "gathering_sickle",
-      "bronze_sickle",
-      "silverleaf_sickle",
       "ironreel_fishing_rod",
       "silverstream_fishing_rod"
     ],
@@ -241,10 +235,7 @@
     ],
     "vendorItems": [
       "copper_mining_pick",
-      "iron_mining_pick",
-      "mithril_mining_pick",
-      "smithing_flux",
-      "thorium_ore"
+      "smithing_flux"
     ],
     "greeting": "The forge answers to me, $C. Bring good ore and it will answer to you too."
   },
@@ -292,8 +283,7 @@
       "linen_pouch",
       "travelers_knapsack",
       "gathering_sickle",
-      "spool_of_thread",
-      "thorium_ore"
+      "spool_of_thread"
     ],
     "greeting": "Mind the threads, $C. A steady hand at the loom beats a strong one."
   },
@@ -314,17 +304,8 @@
     ],
     "vendorItems": [
       "handaxe",
-      "felling_axe",
-      "ironbark_axe",
-      "bronze_sickle",
-      "silverleaf_sickle",
       "simple_fishing_pole",
-      "thorium_ore",
-      "arcanite_bar",
-      "ashwood_log",
-      "elderwood_log",
-      "goldleaf_herb",
-      "sunpetal_herb"
+      "arcanite_bar"
     ],
     "greeting": "Springs, sprockets, and sharp edges, $C: the toolworks has whatever your hands lack."
   },
@@ -333,10 +314,10 @@
     "name": "Warden Fenwick",
     "title": "Warden of Fenbridge",
     "pos": {
-      "x": 3,
-      "z": 304
+      "x": 4.824455435060822,
+      "z": 285.6503188335003
     },
-    "facing": 3.141592653589793,
+    "facing": -0.4048917862850834,
     "color": 8278281,
     "questIds": [
       "q_fenbridge_muster",
@@ -353,10 +334,10 @@
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": -8,
-      "z": 296
+      "x": -14.960203077497741,
+      "z": 296.09529088730875
     },
-    "facing": 0.8,
+    "facing": 1.1383885512243588,
     "color": 16251385,
     "questIds": [
       "q_aldrics_fallen_star",
@@ -376,10 +357,10 @@
     "name": "Provisioner Hale",
     "title": "Provisioner",
     "pos": {
-      "x": -4,
-      "z": 308
+      "x": -12.424844495021249,
+      "z": 314.94714794895896
     },
-    "facing": 1.5707963267948966,
+    "facing": 2.191045812777718,
     "color": 1999945,
     "questIds": [
       "q_prowler_pelts",
@@ -408,7 +389,8 @@
       "felling_axe",
       "gathering_sickle",
       "bronze_sickle",
-      "simple_fishing_pole"
+      "simple_fishing_pole",
+      "ironreel_fishing_rod"
     ],
     "greeting": "Dry boots, dry bread, dry powder — at Fenbridge you get two of the three on a good day."
   },
@@ -417,10 +399,10 @@
     "name": "Herbalist Yara",
     "title": "Herbalist",
     "pos": {
-      "x": 10,
-      "z": 295
+      "x": 14.020226082985031,
+      "z": 293.9419887666108
     },
-    "facing": -1.5707963267948966,
+    "facing": -0.9971906342364164,
     "color": 8207512,
     "questIds": [
       "q_widows",
@@ -433,10 +415,10 @@
     "name": "Scout Maren",
     "title": "Marshal's Scout",
     "pos": {
-      "x": 6,
-      "z": 312
+      "x": -12.942629598286846,
+      "z": 320.2950179409249
     },
-    "facing": -0.6,
+    "facing": 2.601173153319209,
     "color": 8218120,
     "questIds": [
       "q_troll_fetishes",
@@ -450,10 +432,10 @@
     "name": "Bursar Petra Vell",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": 9,
-      "z": 303
+      "x": 15.101663970557492,
+      "z": 306.79285357068125
     },
-    "facing": -1.5707963267948966,
+    "facing": -1.8972270342276318,
     "color": 13214247,
     "questIds": [],
     "banker": true,
@@ -464,10 +446,10 @@
     "name": "Chronicler Osric Fenn",
     "title": "The Marsh Chronicle",
     "pos": {
-      "x": -14,
-      "z": 303
+      "x": -15.965942703405933,
+      "z": 298.27439341010984
     },
-    "facing": -1.4,
+    "facing": 1.1383885512243588,
     "color": 4171371,
     "questIds": [],
     "greeting": "Mind the damp on the pages, $N. The fen eats more books than readers ever will."
@@ -477,10 +459,10 @@
     "name": "Tanner Hesk",
     "title": "Master of the Tannery",
     "pos": {
-      "x": -11,
-      "z": 315.5
+      "x": 3.053383957289929,
+      "z": 315.5600325924389
     },
-    "facing": 2.3,
+    "facing": 3.024483909022929,
     "color": 9067050,
     "questIds": [
       "q_prof_workorder_tannery"
@@ -489,8 +471,7 @@
       "travelers_knapsack",
       "tough_jerky",
       "smoked_eel",
-      "tanning_agent",
-      "thorium_ore"
+      "tanning_agent"
     ],
     "greeting": "A hide is only as good as its tanning, $C. The vats are ready when you are."
   },
@@ -615,12 +596,8 @@
       "bronze_sickle",
       "silverleaf_sickle",
       "simple_fishing_pole",
-      "thorium_ore",
-      "arcanite_bar",
-      "ashwood_log",
-      "elderwood_log",
-      "goldleaf_herb",
-      "sunpetal_herb"
+      "silverstream_fishing_rod",
+      "arcanite_bar"
     ],
     "greeting": "Wool, hardtack, and steel-shod boots — Highwatch runs on all three, and I am short of everything."
   },

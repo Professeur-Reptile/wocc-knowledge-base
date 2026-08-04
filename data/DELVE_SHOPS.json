@@ -91,6 +91,46 @@
       "itemId": "drowned_choir_fang",
       "marks": 56,
       "gate": "heroicClear"
+    },
+    {
+      "itemId": "thorium_mining_pick",
+      "marks": 24,
+      "gate": "clears:3"
+    },
+    {
+      "itemId": "ashwood_axe",
+      "marks": 24,
+      "gate": "clears:3"
+    },
+    {
+      "itemId": "goldleaf_sickle",
+      "marks": 24,
+      "gate": "clears:3"
+    },
+    {
+      "itemId": "stormreel_fishing_rod",
+      "marks": 24,
+      "gate": "clears:3"
+    },
+    {
+      "itemId": "arcanite_mining_pick",
+      "marks": 56,
+      "gate": "heroicClear"
+    },
+    {
+      "itemId": "elderwood_axe",
+      "marks": 56,
+      "gate": "heroicClear"
+    },
+    {
+      "itemId": "sunpetal_sickle",
+      "marks": 56,
+      "gate": "heroicClear"
+    },
+    {
+      "itemId": "tidewrought_fishing_rod",
+      "marks": 56,
+      "gate": "heroicClear"
     }
   ]
 }

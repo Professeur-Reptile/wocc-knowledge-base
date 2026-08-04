@@ -509,7 +509,7 @@
     "kind": "mount",
     "mount": "valorsteed",
     "quality": "common",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0,
     "buyValue": 100000
@@ -520,7 +520,7 @@
     "kind": "mount",
     "mount": "grag_bear",
     "quality": "rare",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -729,7 +729,9 @@
       "tier": 1
     },
     "sellValue": 4,
-    "buyValue": 20
+    "buyValue": 20,
+    "noVendorSell": true,
+    "noMarketList": true
   },
   "iron_mining_pick": {
     "id": "iron_mining_pick",
@@ -742,7 +744,7 @@
       "tier": 2
     },
     "sellValue": 10,
-    "buyValue": 60
+    "buyValue": 120
   },
   "mithril_mining_pick": {
     "id": "mithril_mining_pick",
@@ -755,7 +757,7 @@
       "tier": 3
     },
     "sellValue": 25,
-    "buyValue": 150
+    "buyValue": 400
   },
   "handaxe": {
     "id": "handaxe",
@@ -768,7 +770,9 @@
       "tier": 1
     },
     "sellValue": 4,
-    "buyValue": 20
+    "buyValue": 20,
+    "noVendorSell": true,
+    "noMarketList": true
   },
   "felling_axe": {
     "id": "felling_axe",
@@ -781,7 +785,7 @@
       "tier": 2
     },
     "sellValue": 10,
-    "buyValue": 60
+    "buyValue": 120
   },
   "ironbark_axe": {
     "id": "ironbark_axe",
@@ -794,7 +798,7 @@
       "tier": 3
     },
     "sellValue": 25,
-    "buyValue": 150
+    "buyValue": 400
   },
   "gathering_sickle": {
     "id": "gathering_sickle",
@@ -807,7 +811,9 @@
       "tier": 1
     },
     "sellValue": 4,
-    "buyValue": 20
+    "buyValue": 20,
+    "noVendorSell": true,
+    "noMarketList": true
   },
   "bronze_sickle": {
     "id": "bronze_sickle",
@@ -820,7 +826,7 @@
       "tier": 2
     },
     "sellValue": 10,
-    "buyValue": 60
+    "buyValue": 120
   },
   "silverleaf_sickle": {
     "id": "silverleaf_sickle",
@@ -833,7 +839,7 @@
       "tier": 3
     },
     "sellValue": 25,
-    "buyValue": 150
+    "buyValue": 400
   },
   "thorium_mining_pick": {
     "id": "thorium_mining_pick",
@@ -903,6 +909,30 @@
     "use": {
       "type": "gatherTool",
       "professionId": "herbalism",
+      "tier": 5
+    },
+    "sellValue": 150
+  },
+  "stormreel_fishing_rod": {
+    "id": "stormreel_fishing_rod",
+    "name": "Stormreel Fishing Rod",
+    "kind": "tool",
+    "quality": "rare",
+    "use": {
+      "type": "gatherTool",
+      "professionId": "fishing",
+      "tier": 4
+    },
+    "sellValue": 60
+  },
+  "tidewrought_fishing_rod": {
+    "id": "tidewrought_fishing_rod",
+    "name": "Tidewrought Fishing Rod",
+    "kind": "tool",
+    "quality": "epic",
+    "use": {
+      "type": "gatherTool",
+      "professionId": "fishing",
       "tier": 5
     },
     "sellValue": 150
@@ -983,6 +1013,78 @@
     "quality": "common",
     "sellValue": 4
   },
+  "fine_copper_ore": {
+    "id": "fine_copper_ore",
+    "name": "Fine Copper Ore",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 8,
+    "buyValue": 32
+  },
+  "fine_iron_ore": {
+    "id": "fine_iron_ore",
+    "name": "Fine Iron Ore",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 16,
+    "buyValue": 64
+  },
+  "fine_thorium_ore": {
+    "id": "fine_thorium_ore",
+    "name": "Fine Osmium Ore",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 30,
+    "buyValue": 120
+  },
+  "fine_ironbark_log": {
+    "id": "fine_ironbark_log",
+    "name": "Fine Ironbark Log",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 8,
+    "buyValue": 32
+  },
+  "fine_ashwood_log": {
+    "id": "fine_ashwood_log",
+    "name": "Fine Ashwood Log",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 30,
+    "buyValue": 120
+  },
+  "fine_elderwood_log": {
+    "id": "fine_elderwood_log",
+    "name": "Fine Highpine Log",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 80,
+    "buyValue": 320
+  },
+  "fine_silverleaf_herb": {
+    "id": "fine_silverleaf_herb",
+    "name": "Fine Sheenleaf Herb",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 8,
+    "buyValue": 32
+  },
+  "fine_goldleaf_herb": {
+    "id": "fine_goldleaf_herb",
+    "name": "Fine Goldleaf Herb",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 30,
+    "buyValue": 120
+  },
+  "fine_sunpetal_herb": {
+    "id": "fine_sunpetal_herb",
+    "name": "Fine Sunpetal Herb",
+    "kind": "junk",
+    "quality": "common",
+    "sellValue": 80,
+    "buyValue": 320
+  },
   "event_skin_token": {
     "id": "event_skin_token",
     "name": "Mysterious Cosmetic Cache",
@@ -1007,9 +1109,8 @@
   "raw_mirror_trout": {
     "id": "raw_mirror_trout",
     "name": "Raw Mirror Trout",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 61,
     "sellValue": 3
   },
   "tangled_weed": {
@@ -1022,41 +1123,36 @@
   "raw_river_perch": {
     "id": "raw_river_perch",
     "name": "Raw River Perch",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 45,
     "sellValue": 2
   },
   "raw_marsh_pike": {
     "id": "raw_marsh_pike",
     "name": "Raw Marsh Pike",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 90,
     "sellValue": 6
   },
   "raw_bog_eel": {
     "id": "raw_bog_eel",
     "name": "Raw Bog Eel",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 90,
     "sellValue": 6
   },
   "raw_frostgill_trout": {
     "id": "raw_frostgill_trout",
     "name": "Raw Frostgill Trout",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 117,
     "sellValue": 10
   },
   "raw_stonescale_carp": {
     "id": "raw_stonescale_carp",
     "name": "Raw Slatefin Carp",
-    "kind": "food",
+    "kind": "junk",
     "quality": "common",
-    "foodHp": 117,
     "sellValue": 10
   },
   "soggy_boot": {
@@ -1069,9 +1165,8 @@
   "glimmerfin_koi": {
     "id": "glimmerfin_koi",
     "name": "Sunglint Koi",
-    "kind": "food",
+    "kind": "junk",
     "quality": "uncommon",
-    "foodHp": 117,
     "sellValue": 75
   },
   "roasted_boar": {
@@ -1857,6 +1952,25 @@
     "sellValue": 0,
     "questId": "q_boars"
   },
+  "firebottle": {
+    "id": "firebottle",
+    "name": "Firebottle",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_deepfen_purge",
+    "use": {
+      "type": "throw"
+    }
+  },
+  "murloc_hut": {
+    "id": "murloc_hut",
+    "name": "Mudfin Hut",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_deepfen_purge",
+    "pickupDeny": "You have no reason to torch that.",
+    "pickupEnough": "These huts are already smouldering."
+  },
   "gravecaller_sigil": {
     "id": "gravecaller_sigil",
     "name": "Gravecaller's Sigil",
@@ -1879,6 +1993,13 @@
     "kind": "quest",
     "sellValue": 0,
     "questId": "q_rite"
+  },
+  "restless_skull": {
+    "id": "restless_skull",
+    "name": "Restless Skull",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_bones"
   },
   "webwood_silk": {
     "id": "webwood_silk",
@@ -2065,6 +2186,28 @@
     "kind": "junk",
     "quality": "rare",
     "sellValue": 55
+  },
+  "gatherers_cache": {
+    "id": "gatherers_cache",
+    "name": "Gatherer's Cache",
+    "kind": "tool",
+    "quality": "rare",
+    "use": {
+      "type": "toolEffect",
+      "effectId": "gatherers_cache"
+    },
+    "sellValue": 60
+  },
+  "artisans_eye": {
+    "id": "artisans_eye",
+    "name": "Artisan's Eye",
+    "kind": "tool",
+    "quality": "rare",
+    "use": {
+      "type": "toolEffect",
+      "effectId": "artisans_eye"
+    },
+    "sellValue": 60
   },
   "resonant_thread": {
     "id": "resonant_thread",
@@ -3674,7 +3817,7 @@
     "kind": "mount",
     "mount": "stalkglider_snail",
     "quality": "rare",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -4526,6 +4669,13 @@
     "kind": "quest",
     "sellValue": 0,
     "questId": "q_necromancers"
+  },
+  "vanguard_bone": {
+    "id": "vanguard_bone",
+    "name": "Vanguard Bone",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_revenant_vanguard"
   },
   "gravewyrm_sigil": {
     "id": "gravewyrm_sigil",
@@ -5889,7 +6039,7 @@
     "kind": "mount",
     "mount": "shadowjump_toad",
     "quality": "uncommon",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -5899,7 +6049,7 @@
     "kind": "mount",
     "mount": "stormfeather_griffin",
     "quality": "uncommon",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -5909,7 +6059,7 @@
     "kind": "mount",
     "mount": "thunderstrut_gobbler",
     "quality": "epic",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -6995,7 +7145,7 @@
     "kind": "mount",
     "mount": "aether_hover_cycle",
     "quality": "epic",
-    "soulbound": true,
+    "noVendorSell": true,
     "noDiscard": true,
     "sellValue": 0
   },
@@ -10198,6 +10348,16 @@
       "int": 4
     },
     "sellValue": 2200
+  },
+  "reins_drakemaw_raptor": {
+    "id": "reins_drakemaw_raptor",
+    "name": "Reins of the Drakemaw Raptor",
+    "kind": "mount",
+    "mount": "drakemaw_raptor",
+    "quality": "epic",
+    "noVendorSell": true,
+    "noDiscard": true,
+    "sellValue": 0
   },
   "thick_winter_pelt": {
     "id": "thick_winter_pelt",

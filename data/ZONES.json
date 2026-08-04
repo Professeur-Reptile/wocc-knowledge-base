@@ -116,7 +116,7 @@
     "hub": {
       "x": 0,
       "z": 300,
-      "radius": 20,
+      "radius": 34,
       "name": "Fenbridge"
     },
     "graveyard": {
@@ -1366,6 +1366,11 @@
         "x": 388,
         "z": 26,
         "radius": 8
+      },
+      {
+        "x": 350,
+        "z": 118,
+        "radius": 10
       }
     ],
     "pois": [
