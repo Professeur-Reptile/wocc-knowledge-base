@@ -2,11 +2,11 @@
   "eastbrook_vale": [
     {
       "itemId": "raw_mirror_trout",
-      "weight": 45
+      "weight": 46
     },
     {
       "itemId": "raw_river_perch",
-      "weight": 30
+      "weight": 31
     },
     {
       "itemId": "tangled_weed",
@@ -14,7 +14,7 @@
     },
     {
       "itemId": "glimmerfin_koi",
-      "weight": 3
+      "weight": 1
     },
     {
       "itemId": null,
@@ -24,49 +24,49 @@
   "mirefen_marsh": [
     {
       "itemId": "raw_marsh_pike",
-      "weight": 40
+      "weight": 22
     },
     {
       "itemId": "raw_bog_eel",
-      "weight": 30
+      "weight": 17
     },
     {
       "itemId": "soggy_boot",
-      "weight": 8
+      "weight": 12
     },
     {
       "itemId": "tangled_weed",
-      "weight": 9
+      "weight": 13
     },
     {
       "itemId": "glimmerfin_koi",
-      "weight": 3
+      "weight": 1
     },
     {
       "itemId": null,
-      "weight": 10
+      "weight": 35
     }
   ],
   "thornpeak_heights": [
     {
       "itemId": "raw_frostgill_trout",
-      "weight": 40
+      "weight": 9
     },
     {
       "itemId": "raw_stonescale_carp",
-      "weight": 30
+      "weight": 7
     },
     {
       "itemId": "tangled_weed",
-      "weight": 14
+      "weight": 28
     },
     {
       "itemId": "glimmerfin_koi",
-      "weight": 4
+      "weight": 1
     },
     {
       "itemId": null,
-      "weight": 12
+      "weight": 55
     }
   ]
 }

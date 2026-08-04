@@ -166,6 +166,20 @@ async function main() {
     ], outDir);
     dumpRegistries(worldBossBundlePath, ['WORLD_BOSSES'], outDir);
 
+    // v0.34.0 : FISHING_TABLES n'est plus ré-exporté par data.ts (la pêche a
+    // été refondue autour de fishing_zones.ts) mais vit toujours dans
+    // content/items.ts — sans ce repli, data/FISHING_TABLES.json restait
+    // silencieusement figé sur le tag précédent.
+    if (!('FISHING_TABLES' in require(dataBundlePath))) {
+      try {
+        const itemsBundlePath = path.join(workDir, 'content_items.bundle.cjs');
+        await bundleModule(repoPath, 'src/sim/content/items.ts', itemsBundlePath);
+        dumpRegistries(itemsBundlePath, ['FISHING_TABLES'], outDir);
+      } catch (err) {
+        console.warn(`  ⚠ FISHING_TABLES non extrait via content/items.ts : ${err.message}`);
+      }
+    }
+
     // Butins des boss finaux en difficulté Héroïque : ils vivent dans un module
     // dédié (non ré-exporté par data.ts), introduit avec la v0.23.0 — toléré
     // absent pour les tags plus anciens.
@@ -324,6 +338,43 @@ async function main() {
       console.log(`  ✓ RIFT_LOOT → RIFT_LOOT.json (${RIFT_LOOT.epicIds.length} épiques, ${RIFT_LOOT.legendaryIds.length} légendaires, ${RIFT_LOOT.rareIds.length} rares)`);
     } catch (err) {
       console.warn(`  ⚠ Butin des Failles non extrait (tag antérieur à v0.32.0 ?) : ${err.message}`);
+    }
+
+    // Noms officiels FRANÇAIS des entités (v0.34.0 : les 21 locales du jeu
+    // sont complètes). Source : le catalogue résolu fr_FR du client
+    // (src/ui/i18n.resolved.generated/fr_FR.ts), la vérité de ce que le
+    // joueur voit dans un client en français. On n'extrait QUE les noms —
+    // les descriptions du site sont traduites éditorialement côté
+    // La-Clauderie (assets/codex-fr.json), la traduction du jeu ayant été
+    // jugée trop inégale pour être affichée telle quelle. Clés par TYPE DU
+    // CODEX (ability/item/mob/…) pour être consommé tel quel par
+    // codex-popup.js. Les talents n'y sont pas : le client FR garde
+    // volontairement leurs noms anglais (talent_i18n.row_title_overrides.ts,
+    // « fantasy names as proper names »). Toléré absent (tags < v0.34.0).
+    try {
+      const frPath = path.join(workDir, 'i18n_fr.bundle.cjs');
+      await bundleModule(repoPath, 'src/ui/i18n.resolved.generated/fr_FR.ts', frPath);
+      const ent = (require(frPath).fr_FR || {}).entities || {};
+      const CAT_TO_TYPE = {
+        abilities: 'ability', items: 'item', mobs: 'mob', npcs: 'npc',
+        quests: 'quest', zones: 'zone', dungeons: 'dungeon', delves: 'delve',
+        itemSets: 'set',
+      };
+      const I18N_FR = {};
+      let n = 0;
+      for (const [cat, type] of Object.entries(CAT_TO_TYPE)) {
+        const src = ent[cat] || {};
+        const out = {};
+        for (const [id, e] of Object.entries(src)) {
+          const name = e && (e.name || e.title);
+          if (typeof name === 'string' && name) { out[id] = name; n++; }
+        }
+        if (Object.keys(out).length) I18N_FR[type] = out;
+      }
+      fs.writeFileSync(path.join(outDir, 'I18N_FR.json'), JSON.stringify(I18N_FR, null, 2));
+      console.log(`  ✓ I18N_FR → I18N_FR.json (${n} noms français)`);
+    } catch (err) {
+      console.warn(`  ⚠ Noms français non extraits (tag antérieur à v0.34.0 ?) : ${err.message}`);
     }
 
     // Un petit fichier de métadonnées pour tracer d'où vient l'extraction.
