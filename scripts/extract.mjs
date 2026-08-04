@@ -419,6 +419,16 @@ async function main() {
           if (names.size === 1) out[k] ??= [...names][0];
           else ambiguous++;
         }
+        // Les entités dupliquées par le contenu (variantes « heroic_… » d'un
+        // objet, qui portent le MÊME nom affiché) n'ont pas leur propre entrée
+        // dans le catalogue du client : on leur recopie le nom français de
+        // l'entité homonyme, sinon le site laissait ces objets sans nom FR
+        // alors que le jeu, lui, les nomme comme leur version normale.
+        for (const [id, en] of Object.entries(enNames[type] || {})) {
+          if (out[id] || !en) continue;
+          const shared = out[foldName(en)];
+          if (shared) out[id] = shared;
+        }
         if (Object.keys(out).length) I18N_FR[type] = out;
       }
       // Noms de TALENTS : ils ne vivent pas dans le catalogue d'entités mais
