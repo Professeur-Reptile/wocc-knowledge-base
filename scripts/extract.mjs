@@ -360,6 +360,30 @@ async function main() {
         quests: 'quest', zones: 'zone', dungeons: 'dungeon', delves: 'delve',
         itemSets: 'set',
       };
+      // Les pages du site référencent les entités tantôt par id, tantôt par
+      // nom anglais (data-codex="item|Reins of the Valorsteed") : chaque map
+      // porte donc DEUX clés par entité — l'id, et le nom anglais « replié »
+      // (même normalisation que fold() de codex-popup.js : accents ôtés,
+      // apostrophes droites, minuscules). Les deux pointent le même nom FR.
+      const foldName = (s) => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[’‘]/g, "'").toLowerCase().trim();
+      const asList = (reg) => Array.isArray(reg) ? reg : Object.values(reg || {});
+      const enNames = {};   // type -> { id -> nom anglais }
+      const EN_SOURCES = {
+        item: 'ITEMS', mob: 'MOBS', npc: 'NPCS', quest: 'QUESTS', zone: 'ZONES',
+        dungeon: 'DUNGEONS', delve: 'DELVES', set: 'ITEM_SETS',
+      };
+      const dataMod = require(dataBundlePath);
+      for (const [type, reg] of Object.entries(EN_SOURCES)) {
+        enNames[type] = {};
+        for (const e of asList(dataMod[reg])) if (e && e.id) enNames[type][e.id] = e.name || e.title;
+      }
+      try {
+        const classesMod = require(path.join(workDir, 'classes.bundle.cjs'));
+        enNames.ability = {};
+        for (const e of asList(classesMod.ABILITIES)) if (e && e.id) enNames.ability[e.id] = e.name;
+      } catch { /* sorts non bundlés (tag ancien) : clés par id seulement */ }
+
       const I18N_FR = {};
       let n = 0;
       for (const [cat, type] of Object.entries(CAT_TO_TYPE)) {
@@ -367,7 +391,10 @@ async function main() {
         const out = {};
         for (const [id, e] of Object.entries(src)) {
           const name = e && (e.name || e.title);
-          if (typeof name === 'string' && name) { out[id] = name; n++; }
+          if (typeof name !== 'string' || !name) continue;
+          out[id] = name; n++;
+          const en = enNames[type] && enNames[type][id];
+          if (en) out[foldName(en)] ??= name;
         }
         if (Object.keys(out).length) I18N_FR[type] = out;
       }
