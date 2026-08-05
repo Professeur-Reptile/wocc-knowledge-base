@@ -476,6 +476,31 @@ async function main() {
       console.warn(`  ⚠ Noms français non extraits (tag antérieur à v0.34.0 ?) : ${err.message}`);
     }
 
+    // Correspondances d'ICÔNES. Deux cas que le nommage « <id>.webp » ne couvre
+    // pas, et qui laissaient des cases vides sur le site :
+    //   - les ARMES n'ont pas d'art par id : le jeu leur rend une vignette
+    //     partagée par modèle 3D (public/ui/weapons/<modèle>.jpg), via la table
+    //     ITEM_WEAPON_VARIANTS ;
+    //   - les SORTS ont des icônes peintes pour une partie d'entre eux
+    //     (public/ui/skills/<classe>/<id>.webp), listés par ABILITY_IMAGE_IDS ;
+    //     les autres sont dessinés proceduralement par le client, donc sans
+    //     fichier — le site ne doit alors rien afficher plutôt qu'une image au
+    //     hasard.
+    try {
+      const variantsPath = path.join(workDir, 'weapon_variants.bundle.cjs');
+      await bundleModule(repoPath, 'src/ui/weapon_variants.ts', variantsPath);
+      const weapons = require(variantsPath).ITEM_WEAPON_VARIANTS || {};
+      const iconsPath = path.join(workDir, 'icons.bundle.cjs');
+      await bundleModule(repoPath, 'src/ui/icons.ts', iconsPath);
+      const iconsMod = require(iconsPath);
+      const abilityIcons = [...(iconsMod.ABILITY_IMAGE_IDS || [])];
+      const ICONS = { weapons, abilityIcons };
+      fs.writeFileSync(path.join(outDir, 'ICONS.json'), JSON.stringify(ICONS, null, 2));
+      console.log(`  ✓ ICONS → ICONS.json (${Object.keys(weapons).length} armes, ${abilityIcons.length} icônes de sorts)`);
+    } catch (err) {
+      console.warn(`  ⚠ Correspondances d'icônes non extraites : ${err.message}`);
+    }
+
     // Un petit fichier de métadonnées pour tracer d'où vient l'extraction.
     fs.writeFileSync(
       path.join(outDir, '_meta.json'),
