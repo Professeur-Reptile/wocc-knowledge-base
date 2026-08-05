@@ -10,6 +10,12 @@
 name: Nettoyer les workflows jetables
 
 on:
+  # Se déclenche sur sa propre modification : le dispatch manuel n'est pas
+  # accessible au jeton de la session qui l'a écrit.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cleanup-workflows.yml'
   workflow_dispatch: {}
 
 permissions:
