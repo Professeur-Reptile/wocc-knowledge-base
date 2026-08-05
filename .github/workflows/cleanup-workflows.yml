@@ -1,0 +1,45 @@
+# Job JETABLE — à supprimer une fois joué.
+#
+# Huit workflows de sondage écrits en juillet 2026 pour explorer les données du
+# jeu (probe-*, explore-game-*, update-extract) n'existent plus dans aucune
+# branche, mais restaient listés dans l'onglet Actions tant que leurs anciennes
+# exécutions subsistaient. Ce job les efface. Il ne touche QUE les huit noms
+# listés ci-dessous ; les deux workflows utiles du repo (update-knowledge-base
+# et deploy-pages) ne sont pas dans la liste et sont donc intouchables.
+
+name: Nettoyer les workflows jetables
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  actions: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Effacer les exécutions des sondes de juillet
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          JETABLES="probe-guild.yml probe-loot.yml probe-talents.yml update-extract.yml explore-game-harvest.yml explore-game-icons.yml explore-game-professions.yml explore-game-stats.yml"
+          total=0
+          for f in $JETABLES; do
+            id=$(gh api "repos/$REPO/actions/workflows" --paginate \
+                 --jq ".workflows[] | select(.path == \".github/workflows/$f\") | .id" | head -1)
+            if [ -z "$id" ]; then
+              echo "$f : déjà absent."
+              continue
+            fi
+            n=0
+            for run in $(gh api "repos/$REPO/actions/workflows/$id/runs?per_page=100" --jq '.workflow_runs[].id'); do
+              gh api -X DELETE "repos/$REPO/actions/runs/$run"
+              n=$((n + 1))
+            done
+            total=$((total + n))
+            echo "$f : $n exécution(s) effacée(s)."
+          done
+          echo "Total : $total exécution(s) effacée(s)."
