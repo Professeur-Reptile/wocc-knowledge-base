@@ -1,11 +1,13 @@
-# Job JETABLE — à supprimer une fois joué.
+# Job JETABLE — supprimé juste après ce passage.
 #
 # Huit workflows de sondage écrits en juillet 2026 pour explorer les données du
-# jeu (probe-*, explore-game-*, update-extract) n'existent plus dans aucune
+# jeu (probe-*, explore-game-*, update-extract) n'existaient plus dans aucune
 # branche, mais restaient listés dans l'onglet Actions tant que leurs anciennes
-# exécutions subsistaient. Ce job les efface. Il ne touche QUE les huit noms
-# listés ci-dessous ; les deux workflows utiles du repo (update-knowledge-base
-# et deploy-pages) ne sont pas dans la liste et sont donc intouchables.
+# exécutions subsistaient. Ce job les a effacées, puis efface les siennes pour
+# ne pas prendre leur place dans la liste.
+#
+# Il ne touche QUE les noms listés ci-dessous ; les deux workflows utiles du
+# repo (update-knowledge-base et deploy-pages) n'y sont pas.
 
 name: Nettoyer les workflows jetables
 
@@ -49,3 +51,20 @@ jobs:
             echo "$f : $n exécution(s) effacée(s)."
           done
           echo "Total : $total exécution(s) effacée(s)."
+
+      # Dernière étape : ce job ne doit pas remplacer dans la liste ceux qu'il
+      # vient d'en retirer. On efface d'abord les passages précédents, puis
+      # celui-ci — après quoi le runner peut s'interrompre, le travail est fait.
+      - name: Effacer ses propres traces
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail
+          for run in $(gh api "repos/$REPO/actions/workflows/cleanup-workflows.yml/runs?per_page=100" \
+                       --jq '.workflow_runs[].id'); do
+            [ "$run" = "$GITHUB_RUN_ID" ] && continue
+            gh api -X DELETE "repos/$REPO/actions/runs/$run" && echo "passage précédent $run effacé."
+          done
+          echo "Effacement du passage courant ($GITHUB_RUN_ID)."
+          gh api -X DELETE "repos/$REPO/actions/runs/$GITHUB_RUN_ID" || true
