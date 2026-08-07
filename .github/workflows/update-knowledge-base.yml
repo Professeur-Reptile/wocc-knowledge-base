@@ -38,6 +38,7 @@ jobs:
     outputs:
       changed: ${{ steps.check.outputs.changed }}
       latest_tag: ${{ steps.check.outputs.latest_tag }}
+      latest_sha: ${{ steps.check.outputs.latest_sha }}
     steps:
       - name: Checkout ce repo (pour lire le dernier tag connu)
         uses: actions/checkout@v4
@@ -61,12 +62,22 @@ jobs:
           # (nouveaux registres extraits), les données doivent être refaites
           # même sans nouveau tag du jeu.
           WANT_SCHEMA=$(node -p "require('./package.json').kbSchema || 0")
-          LATEST_TAG=$(curl -s "https://api.github.com/repos/levy-street/world-of-claudecraft/tags?per_page=1" \
+          # Le commit du tag, pas seulement son nom : le jeu re-tague parfois la
+          # même version quelques minutes après (vécu le 7 août 2026 : v0.35.0
+          # re-taguée avec les prix WARFARE ajustés, dix minutes après notre
+          # extraction — la KB serait restée figée sur les anciens prix).
+          KNOWN_SHA=""
+          if [ -f data/_meta.json ]; then
+            KNOWN_SHA=$(node -p "require('./data/_meta.json').sha || ''")
+          fi
+          LATEST_JSON=$(curl -s "https://api.github.com/repos/levy-street/world-of-claudecraft/tags?per_page=1" \
             -H "User-Agent: wocc-knowledge-pipeline" \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            | node -p "JSON.parse(require('fs').readFileSync(0))[0].name")
+            -H "Authorization: Bearer $GH_TOKEN")
+          LATEST_TAG=$(printf '%s' "$LATEST_JSON" | node -p "JSON.parse(require('fs').readFileSync(0))[0].name")
+          LATEST_SHA=$(printf '%s' "$LATEST_JSON" | node -p "JSON.parse(require('fs').readFileSync(0))[0].commit.sha")
           echo "latest_tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
-          if [ "$LATEST_TAG" == "$KNOWN_TAG" ] && [ "$WANT_SCHEMA" == "$KNOWN_SCHEMA" ]; then
+          echo "latest_sha=$LATEST_SHA" >> "$GITHUB_OUTPUT"
+          if [ "$LATEST_TAG" == "$KNOWN_TAG" ] && [ "$LATEST_SHA" == "$KNOWN_SHA" ] && [ "$WANT_SCHEMA" == "$KNOWN_SCHEMA" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -97,6 +108,7 @@ jobs:
       - name: Extraire les données du nouveau tag (${{ needs.check.outputs.latest_tag }})
         env:
           LATEST_TAG: ${{ needs.check.outputs.latest_tag }}
+          GAME_TAG_SHA: ${{ needs.check.outputs.latest_sha }}
         run: node scripts/extract.mjs "$LATEST_TAG" ./data
 
       - name: Commiter les nouvelles données

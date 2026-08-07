@@ -505,7 +505,16 @@ async function main() {
     fs.writeFileSync(
       path.join(outDir, '_meta.json'),
       JSON.stringify(
-        { tag, schema: SCHEMA_VERSION, extractedAt: new Date().toISOString(), repo: REPO },
+        // sha : le commit du tag, fourni par le workflow (GAME_TAG_SHA) pour
+        // détecter les re-tags — un tag re-poussé garde son nom mais change
+        // de commit, et l'archive codeload suit toujours le commit courant.
+        {
+          tag,
+          sha: process.env.GAME_TAG_SHA || null,
+          schema: SCHEMA_VERSION,
+          extractedAt: new Date().toISOString(),
+          repo: REPO,
+        },
         null,
         2,
       ),
