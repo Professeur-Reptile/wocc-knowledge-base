@@ -453,14 +453,14 @@
     "name": "The Outfitter's Measure",
     "giverNpcId": "weaver_ottilie",
     "turnInNpcId": "weaver_ottilie",
-    "text": "Measure the cost before you cut, that is the first rule at my loom. Choose me and Leatherworking and Tailoring become your two majors, the pair you may carry beyond rare work; the craft opposite them settles in as your hobby, taken to rare and left there. The trades you set aside are not unravelled, $N, only folded away, dormant until you take them up again. Be certain, though: should you leave this pair and later want it back, the way home is paid in labor that lengthens each time, five culled at first, then eight, then eleven, always a little more. If your mind is made, cull four webwood spiders and bring their silk to the loom, for good thread starts every good garment.",
+    "text": "Measure the cost before you cut, that is the first rule at my loom. Choose me and Leatherworking and Tailoring become your two majors, the pair you may carry beyond rare work; the craft opposite them settles in as your hobby, taken to rare and left there. The trades you set aside are not unravelled, $N, only folded away, dormant until you take them up again. Be certain, though: should you leave this pair and later want it back, the way home is paid in labor that lengthens each time, five culled at first, then eight, then eleven, always a little more. If your mind is made, cull four Sableweb Lurkers and bring their silk to the loom, for good thread starts every good garment.",
     "completionText": "Even thread, even hand. Leatherworking and Tailoring are yours to carry as far as your skill will reach. Measure twice, and they will not fail you.",
     "objectives": [
       {
         "type": "kill",
         "targetMobId": "webwood_spider",
         "count": 4,
-        "label": "Webwood Spider culled"
+        "label": "Sableweb Lurker culled"
       }
     ],
     "xpReward": 150,
@@ -558,14 +558,14 @@
     "name": "Threads Rejoined",
     "giverNpcId": "weaver_ottilie",
     "turnInNpcId": "weaver_ottilie",
-    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the webwood spiders crowding the eastern woods, and the labor will settle your hands before they touch good silk again.",
+    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the Sableweb Lurkers crowding the eastern woods, and the labor will settle your hands before they touch good silk again.",
     "completionText": "Steady again. Leatherworking and Tailoring return to your hands as majors. Measure twice this time before you wander.",
     "objectives": [
       {
         "type": "kill",
         "targetMobId": "webwood_spider",
         "count": 5,
-        "label": "Webwood Spider culled"
+        "label": "Sableweb Lurker culled"
       }
     ],
     "xpReward": 100,
@@ -612,14 +612,14 @@
     "name": "The Ledger Grows",
     "giverNpcId": "tinker_gizzel",
     "turnInNpcId": "tinker_gizzel",
-    "text": "You came BACK, ha, they always come back, the loud stuff has a pull, yes? No sulking from me, $N, but the ledger, oh the ledger, it grows every time you skip out, more each return, that is only fair. Go clear the tunnel rats out of the dig for me, sweat first, sparks later, that is the rule I just made up.",
+    "text": "You came BACK, ha, they always come back, the loud stuff has a pull, yes? No sulking from me, $N, but the ledger, oh the ledger, it grows every time you skip out, more each return, that is only fair. Go clear the Deeprock Diggers out of the dig for me, sweat first, sparks later, that is the rule I just made up.",
     "completionText": "THERE it is, the itch is back in your hands. Engineering and Alchemy, majors again, go on, go make a bang. Try to stay put this time, eh?",
     "objectives": [
       {
         "type": "kill",
         "targetMobId": "tunnel_rat",
         "count": 5,
-        "label": "Tunnel Rat exterminated"
+        "label": "Deeprock Digger exterminated"
       }
     ],
     "xpReward": 100,

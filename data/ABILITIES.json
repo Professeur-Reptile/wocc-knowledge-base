@@ -2095,12 +2095,12 @@
     "effects": [
       {
         "type": "directDamage",
-        "min": 170,
-        "max": 225
+        "min": 179,
+        "max": 236
       },
       {
         "type": "dot",
-        "total": 48,
+        "total": 50,
         "duration": 12,
         "interval": 2
       }
@@ -2500,7 +2500,7 @@
     "specs": [
       "arcane"
     ],
-    "cost": 16,
+    "cost": 14,
     "castTime": 2,
     "cooldown": 0,
     "range": 30,

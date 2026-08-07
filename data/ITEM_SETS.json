@@ -310,5 +310,203 @@
         "text": "Increases attack and casting speed by 7.5%."
       }
     ]
+  },
+  "warfare_furyforged": {
+    "id": "warfare_furyforged",
+    "name": "Furyforged Battlegear",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "pvpDefenseRating": 40
+        },
+        "text": "Increases WARFARE Defense Rating by 40."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "pvpOffenseRating": 40,
+          "ccDurationReduction": 0.15
+        },
+        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+      },
+      {
+        "pieces": 7,
+        "effect": {
+          "pvpOffenseRating": 80,
+          "pvpDefenseRating": 80,
+          "proc": {
+            "id": "set_warfare_unbroken_oath",
+            "name": "Unbroken Oath",
+            "trigger": "kill",
+            "chance": 1,
+            "aura": "absorb",
+            "value": 200,
+            "duration": 10,
+            "pvpOnly": true
+          }
+        },
+        "text": "Increases WARFARE Offense and Defense Rating by 80. Killing a hostile player grants Unbroken Oath, absorbing 200 damage for 10 sec."
+      }
+    ]
+  },
+  "warfare_stormbound": {
+    "id": "warfare_stormbound",
+    "name": "Stormbound Vestments",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "pvpDefenseRating": 40
+        },
+        "text": "Increases WARFARE Defense Rating by 40."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "pvpOffenseRating": 40,
+          "ccDurationReduction": 0.15
+        },
+        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+      },
+      {
+        "pieces": 7,
+        "effect": {
+          "pvpOffenseRating": 80,
+          "pvpDefenseRating": 80,
+          "proc": {
+            "id": "set_warfare_emberward",
+            "name": "Emberward",
+            "trigger": "spellCast",
+            "chance": 0.15,
+            "aura": "absorb",
+            "value": 120,
+            "duration": 8,
+            "icd": 20,
+            "pvpOnly": true
+          }
+        },
+        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
+      }
+    ]
+  },
+  "warfare_ashstalker": {
+    "id": "warfare_ashstalker",
+    "name": "Ashstalker Kit",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "pvpDefenseRating": 40
+        },
+        "text": "Increases WARFARE Defense Rating by 40."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "pvpOffenseRating": 40,
+          "ccDurationReduction": 0.15
+        },
+        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+      },
+      {
+        "pieces": 7,
+        "effect": {
+          "pvpOffenseRating": 80,
+          "pvpDefenseRating": 80,
+          "proc": {
+            "id": "set_warfare_ashen_step",
+            "name": "Ashen Step",
+            "trigger": "kill",
+            "chance": 1,
+            "aura": "buff_speed",
+            "value": 1.4,
+            "duration": 6,
+            "pvpOnly": true
+          }
+        },
+        "text": "Increases WARFARE Offense and Defense Rating by 80. Killing a hostile player grants Ashen Step, increasing movement speed by 40% for 6 sec."
+      }
+    ]
+  },
+  "warfare_cinderweave": {
+    "id": "warfare_cinderweave",
+    "name": "Cinderweave Regalia",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "pvpDefenseRating": 40
+        },
+        "text": "Increases WARFARE Defense Rating by 40."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "pvpOffenseRating": 40,
+          "ccDurationReduction": 0.15
+        },
+        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+      },
+      {
+        "pieces": 7,
+        "effect": {
+          "pvpOffenseRating": 80,
+          "pvpDefenseRating": 80,
+          "proc": {
+            "id": "set_warfare_emberward",
+            "name": "Emberward",
+            "trigger": "spellCast",
+            "chance": 0.15,
+            "aura": "absorb",
+            "value": 120,
+            "duration": 8,
+            "icd": 20,
+            "pvpOnly": true
+          }
+        },
+        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
+      }
+    ]
+  },
+  "warfare_thornhide": {
+    "id": "warfare_thornhide",
+    "name": "Thornhide Garb",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "pvpDefenseRating": 40
+        },
+        "text": "Increases WARFARE Defense Rating by 40."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "pvpOffenseRating": 40,
+          "ccDurationReduction": 0.15
+        },
+        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+      },
+      {
+        "pieces": 7,
+        "effect": {
+          "pvpOffenseRating": 80,
+          "pvpDefenseRating": 80,
+          "proc": {
+            "id": "set_warfare_thornguard",
+            "name": "Thornguard",
+            "trigger": "spellCast",
+            "chance": 0.15,
+            "aura": "buff_dodge",
+            "value": 0.15,
+            "duration": 6,
+            "icd": 20,
+            "pvpOnly": true
+          }
+        },
+        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Thornguard, increasing dodge by 15% for 6 sec."
+      }
+    ]
   }
 }

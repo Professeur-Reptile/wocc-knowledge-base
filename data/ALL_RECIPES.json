@@ -664,6 +664,10 @@
     "resultCount": 1,
     "reagents": [
       {
+        "itemId": "curved_tusk",
+        "count": 2
+      },
+      {
         "itemId": "ironbark_log",
         "count": 3
       },
@@ -1578,6 +1582,14 @@
     "resultItemId": "mirewarden_treads",
     "resultCount": 1,
     "reagents": [
+      {
+        "itemId": "pristine_claw",
+        "count": 1
+      },
+      {
+        "itemId": "sharp_claw",
+        "count": 2
+      },
       {
         "itemId": "rough_hide",
         "count": 4

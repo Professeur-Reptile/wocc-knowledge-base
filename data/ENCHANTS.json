@@ -27,6 +27,20 @@
       "int": 2
     }
   },
+  "enchant_offhand_stamina": {
+    "id": "enchant_offhand_stamina",
+    "name": "Enchant Offhand - Stamina",
+    "itemSlot": "offhand",
+    "reagents": [
+      {
+        "itemId": "arcane_dust",
+        "count": 5
+      }
+    ],
+    "statBonus": {
+      "sta": 3
+    }
+  },
   "enchant_helmet_fortitude": {
     "id": "enchant_helmet_fortitude",
     "name": "Enchant Helmet - Fortitude",
