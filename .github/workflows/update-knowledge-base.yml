@@ -62,10 +62,12 @@ jobs:
           # (nouveaux registres extraits), les données doivent être refaites
           # même sans nouveau tag du jeu.
           WANT_SCHEMA=$(node -p "require('./package.json').kbSchema || 0")
-          # Le commit du tag, pas seulement son nom : le jeu re-tague parfois la
-          # même version quelques minutes après (vécu le 7 août 2026 : v0.35.0
-          # re-taguée avec les prix WARFARE ajustés, dix minutes après notre
-          # extraction — la KB serait restée figée sur les anciens prix).
+          # Le commit du tag, pas seulement son nom. Précaution, pas correctif :
+          # un tag re-poussé garde son nom et l'archive codeload suit le
+          # nouveau commit, donc une comparaison par nom seul laisserait la KB
+          # figée sur les anciennes données. Aucun re-tag observé à ce jour —
+          # ajouté le 7 août 2026 après une FAUSSE alerte (j'avais lu une copie
+          # locale périmée et cru la KB en retard ; elle était juste).
           KNOWN_SHA=""
           if [ -f data/_meta.json ]; then
             KNOWN_SHA=$(node -p "require('./data/_meta.json').sha || ''")

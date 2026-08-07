@@ -505,9 +505,9 @@ async function main() {
     fs.writeFileSync(
       path.join(outDir, '_meta.json'),
       JSON.stringify(
-        // sha : le commit du tag, fourni par le workflow (GAME_TAG_SHA) pour
-        // détecter les re-tags — un tag re-poussé garde son nom mais change
-        // de commit, et l'archive codeload suit toujours le commit courant.
+        // sha : le commit du tag, fourni par le workflow (GAME_TAG_SHA). Sert
+        // au garde-fou de update-knowledge-base.yml à distinguer un tag
+        // re-poussé (même nom, autre commit) d'un tag inchangé.
         {
           tag,
           sha: process.env.GAME_TAG_SHA || null,
