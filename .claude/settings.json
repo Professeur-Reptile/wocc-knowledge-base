@@ -10,5 +10,11 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Code_Remote",
+      "mcp__claude-code-remote"
+    ]
   }
 }
