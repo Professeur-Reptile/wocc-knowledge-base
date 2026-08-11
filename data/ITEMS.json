@@ -1310,6 +1310,18 @@
     "foodHp": 980,
     "sellValue": 0
   },
+  "soul_stone": {
+    "id": "soul_stone",
+    "name": "Soul Stone",
+    "kind": "potion",
+    "quality": "uncommon",
+    "potionHpPctMax": 0.25,
+    "stackSize": 3,
+    "sellValue": 0,
+    "soulbound": true,
+    "noVendorSell": true,
+    "noMarketList": true
+  },
   "eastbrook_arming_sword": {
     "id": "eastbrook_arming_sword",
     "name": "Eastbrook Arming Sword",
@@ -1951,9 +1963,9 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "uncommon",
+    "occupiesHand": false,
     "stats": {
-      "agi": 1,
-      "sta": 1
+      "agi": 1
     },
     "sellValue": 160,
     "requiredClass": [
@@ -2868,13 +2880,13 @@
     "slot": "mainhand",
     "quality": "uncommon",
     "weapon": {
-      "min": 5,
-      "max": 9,
+      "min": 16,
+      "max": 24,
       "speed": 1.8,
       "dagger": true
     },
     "stats": {
-      "agi": 4,
+      "agi": 5,
       "sta": 2
     },
     "sellValue": 45
@@ -4646,6 +4658,46 @@
       "druid"
     ]
   },
+  "boneglass_shiv": {
+    "id": "boneglass_shiv",
+    "name": "Boneglass Shiv",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "rare",
+    "weapon": {
+      "min": 17,
+      "max": 27,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 7,
+      "sta": 3
+    },
+    "sellValue": 3000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "weaponProcs": [
+      {
+        "id": "boneglass_cut",
+        "name": "Boneglass Cut",
+        "trigger": "weaponHit",
+        "chance": 0.06,
+        "effects": [
+          {
+            "kind": "dot",
+            "name": "Boneglass Cut",
+            "school": "physical",
+            "perTick": 4,
+            "interval": 2,
+            "duration": 6
+          }
+        ]
+      }
+    ]
+  },
   "highwatch_summons": {
     "id": "highwatch_summons",
     "name": "Highwatch Summons",
@@ -4880,9 +4932,10 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "rare",
+    "occupiesHand": false,
     "stats": {
-      "agi": 4,
-      "sta": 3
+      "agi": 3,
+      "sta": 1
     },
     "sellValue": 240,
     "requiredClass": [
@@ -6375,9 +6428,10 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "rare",
+    "occupiesHand": false,
     "stats": {
-      "agi": 6,
-      "sta": 4
+      "agi": 4,
+      "sta": 2
     },
     "sellValue": 360,
     "requiredClass": [
@@ -6390,9 +6444,10 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "epic",
+    "occupiesHand": false,
     "stats": {
-      "agi": 9,
-      "sta": 6
+      "agi": 5,
+      "sta": 4
     },
     "hitRating": 20,
     "sellValue": 12000,
@@ -9897,6 +9952,48 @@
       "druid"
     ]
   },
+  "rimefang": {
+    "id": "rimefang",
+    "name": "Rimefang",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 19,
+      "max": 31,
+      "speed": 1.6,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 14,
+      "sta": 8
+    },
+    "critRating": 40,
+    "sellValue": 9000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "requiredLevel": 20,
+    "weaponProcs": [
+      {
+        "id": "rimefang_frostbite",
+        "name": "Frostbite",
+        "trigger": "weaponHit",
+        "chance": 0.08,
+        "effects": [
+          {
+            "kind": "chainArc",
+            "school": "frost",
+            "damage": 20,
+            "jumps": 0,
+            "falloff": 0.6,
+            "radius": 8
+          }
+        ]
+      }
+    ]
+  },
   "rift_essence": {
     "id": "rift_essence",
     "name": "Rift Essence",
@@ -10538,6 +10635,47 @@
     "sellValue": 1100,
     "buyValue": 5200
   },
+  "marrowpoint": {
+    "id": "marrowpoint",
+    "name": "Marrowpoint",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 21,
+      "max": 34,
+      "speed": 1.8,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 13,
+      "sta": 5
+    },
+    "sellValue": 9000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "requiredLevel": 20,
+    "weaponProcs": [
+      {
+        "id": "marrowpoint_rend",
+        "name": "Marrow Rend",
+        "trigger": "weaponHit",
+        "chance": 0.08,
+        "effects": [
+          {
+            "kind": "dot",
+            "name": "Marrow Rend",
+            "school": "physical",
+            "perTick": 8,
+            "interval": 2,
+            "duration": 6
+          }
+        ]
+      }
+    ]
+  },
   "last_keep_signet": {
     "id": "last_keep_signet",
     "name": "Signet of the Last Keep",
@@ -11138,6 +11276,47 @@
       "str": 2
     },
     "sellValue": 600
+  },
+  "duskwhisper": {
+    "id": "duskwhisper",
+    "name": "Duskwhisper",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 20,
+      "max": 31,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 12,
+      "sta": 6
+    },
+    "sellValue": 9000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "requiredLevel": 20,
+    "weaponProcs": [
+      {
+        "id": "duskwhisper_bolt",
+        "name": "Duskbolt",
+        "trigger": "weaponHit",
+        "chance": 0.08,
+        "effects": [
+          {
+            "kind": "chainArc",
+            "school": "shadow",
+            "damage": 20,
+            "jumps": 0,
+            "falloff": 0.6,
+            "radius": 8
+          }
+        ]
+      }
+    ]
   },
   "wildheart_tuskblade": {
     "id": "wildheart_tuskblade",
@@ -12032,9 +12211,10 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "rare",
+    "occupiesHand": false,
     "stats": {
-      "agi": 7,
-      "sta": 4
+      "agi": 4,
+      "sta": 2
     },
     "sellValue": 360,
     "requiredClass": [
@@ -12417,9 +12597,10 @@
     "kind": "held_offhand",
     "slot": "offhand",
     "quality": "epic",
+    "occupiesHand": false,
     "stats": {
-      "agi": 10,
-      "sta": 7
+      "agi": 6,
+      "sta": 4
     },
     "hitRating": 55,
     "sellValue": 12000,
@@ -12593,6 +12774,49 @@
       "paladin"
     ],
     "heroicOf": "fanglords_beastspear"
+  },
+  "heroic_duskwhisper": {
+    "id": "heroic_duskwhisper",
+    "name": "Duskwhisper",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "quality": "epic",
+    "weapon": {
+      "min": 21,
+      "max": 33,
+      "speed": 1.7,
+      "dagger": true
+    },
+    "stats": {
+      "agi": 15,
+      "sta": 7
+    },
+    "sellValue": 9000,
+    "requiredClass": [
+      "rogue",
+      "hunter"
+    ],
+    "requiredLevel": 20,
+    "weaponProcs": [
+      {
+        "id": "duskwhisper_bolt",
+        "name": "Duskbolt",
+        "trigger": "weaponHit",
+        "chance": 0.08,
+        "effects": [
+          {
+            "kind": "chainArc",
+            "school": "shadow",
+            "damage": 20,
+            "jumps": 0,
+            "falloff": 0.6,
+            "radius": 8
+          }
+        ]
+      }
+    ],
+    "heroicOf": "duskwhisper",
+    "critRating": 50
   },
   "heroic_wildheart_tuskblade": {
     "id": "heroic_wildheart_tuskblade",

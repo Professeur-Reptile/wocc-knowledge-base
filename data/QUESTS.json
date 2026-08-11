@@ -346,6 +346,30 @@
     "itemRewards": {},
     "requiresQuest": "q_hollow"
   },
+  "q_divine_tome": {
+    "id": "q_divine_tome",
+    "name": "The Dawnbound Tome",
+    "giverNpcId": "brother_aldric",
+    "turnInNpcId": "brother_aldric",
+    "text": "The Light does not rest in you quietly, $N. I have watched you lay the dead to peace, and I believe you are ready for what few paladins are ever taught: the Rite of Recall, by which a fallen soul is called back to the living. Its words are kept in the Dawnbound Tome, here in my keeping, but a book is no blessing while the restless dead still walk this ground. Return 6 more Restless Bones to the earth, and I will begin to teach you.",
+    "completionText": "The chapel yard grows quiet. You are ready for the words, $N, but the Rite of Recall cannot be spoken in a warm chapel. It must be sung where the veil between life and death wears thin. I mean to carry the Tome north into the Mirefen Marsh. Follow me there, and we will finish this.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "restless_bones",
+        "count": 6,
+        "label": "Restless Bones laid to rest"
+      }
+    ],
+    "xpReward": 650,
+    "copperReward": 200,
+    "itemRewards": {},
+    "requiredClass": [
+      "paladin"
+    ],
+    "requiresQuest": "q_bones",
+    "minLevel": 6
+  },
   "q_bandits": {
     "id": "q_bandits",
     "name": "Bandits of the Vale",
@@ -1055,6 +1079,30 @@
       "rogue": "eelskin_tunic"
     },
     "requiresQuest": "q_drowned_censers"
+  },
+  "q_rite_of_redemption": {
+    "id": "q_rite_of_redemption",
+    "name": "The Rite of Recall",
+    "giverNpcId": "brother_aldric_fen",
+    "turnInNpcId": "brother_aldric_fen",
+    "text": "So you followed me into the mire, $N. Good. I have the Dawnbound Tome here, and this drowned ground is where its words belong: nowhere is the veil between life and death thinner than a place where the dead will not stay buried. But the drowned would drag your voice down mid-verse. Clear a space fit for the rite: put 8 of the Drowned Dead to rest, and we will consecrate it together.",
+    "completionText": "Kneel, $N, and read the words aloud. There. Do you feel it? The Light no longer only mends the living in your hands, it can summon back those who have crossed over. Use it wisely. A soul called back to a hopeless fight is a cruelty, not a mercy. Rise, Redeemer.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "drowned_dead",
+        "count": 8,
+        "label": "Drowned Dead laid to rest"
+      }
+    ],
+    "xpReward": 1800,
+    "copperReward": 600,
+    "itemRewards": {},
+    "requiredClass": [
+      "paladin"
+    ],
+    "requiresQuest": "q_divine_tome",
+    "minLevel": 6
   },
   "q_trolls": {
     "id": "q_trolls",

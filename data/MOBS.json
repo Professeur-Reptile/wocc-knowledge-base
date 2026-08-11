@@ -1802,6 +1802,10 @@
         "chance": 0.2
       },
       {
+        "itemId": "boneglass_shiv",
+        "chance": 0.2
+      },
+      {
         "itemId": "cragmaw_huntquiver",
         "chance": 0.25
       }
@@ -4362,11 +4366,34 @@
     "aggroRadius": 8,
     "loot": [],
     "scale": 0.55,
+    "petScaleRanks": [
+      {
+        "rank": 2,
+        "level": 8,
+        "scale": 0.65
+      },
+      {
+        "rank": 3,
+        "level": 14,
+        "scale": 0.75
+      },
+      {
+        "rank": 4,
+        "level": 20,
+        "scale": 0.85
+      }
+    ],
     "color": 16742954,
     "petRanged": {
       "range": 25,
-      "school": "fire"
-    }
+      "school": "fire",
+      "ability": "emberkin_felbolt",
+      "name": "Felbolt",
+      "active": {
+        "cooldown": 8
+      }
+    },
+    "petCanTaunt": false
   },
   "gloomshade": {
     "id": "gloomshade",
@@ -4385,65 +4412,15 @@
     "loot": [],
     "scale": 1.15,
     "color": 3816046,
-    "petRole": "melee_tank"
-  },
-  "duskborn": {
-    "id": "duskborn",
-    "name": "Duskborn",
-    "minLevel": 1,
-    "maxLevel": 60,
-    "family": "demon",
-    "hpBase": 34,
-    "hpPerLevel": 14,
-    "dmgBase": 7,
-    "dmgPerLevel": 2.1,
-    "attackSpeed": 1.7,
-    "armorPerLevel": 12,
-    "moveSpeed": 5.4,
-    "aggroRadius": 8,
-    "loot": [],
-    "scale": 0.95,
-    "color": 12994203
-  },
-  "spellhound": {
-    "id": "spellhound",
-    "name": "Spellhound",
-    "minLevel": 1,
-    "maxLevel": 60,
-    "family": "demon",
-    "hpBase": 46,
-    "hpPerLevel": 18,
-    "dmgBase": 6,
-    "dmgPerLevel": 1.7,
-    "attackSpeed": 2,
-    "armorPerLevel": 20,
-    "moveSpeed": 5.6,
-    "aggroRadius": 8,
-    "loot": [],
-    "scale": 1,
-    "color": 4881738,
-    "petRanged": {
-      "range": 25,
-      "school": "shadow"
+    "petRole": "melee_tank",
+    "petChainPull": {
+      "ability": "gloomshade_abyssal_chain",
+      "name": "Abyssal Chain",
+      "triggerRange": 8,
+      "maxRange": 20,
+      "pullRange": 2.8,
+      "cooldown": 15
     }
-  },
-  "warfiend": {
-    "id": "warfiend",
-    "name": "Warfiend",
-    "minLevel": 1,
-    "maxLevel": 60,
-    "family": "demon",
-    "hpBase": 80,
-    "hpPerLevel": 30,
-    "dmgBase": 7,
-    "dmgPerLevel": 2,
-    "attackSpeed": 2.2,
-    "armorPerLevel": 38,
-    "moveSpeed": 5.2,
-    "aggroRadius": 8,
-    "loot": [],
-    "scale": 1.25,
-    "color": 7232042
   },
   "pyre_colossus": {
     "id": "pyre_colossus",
@@ -4454,7 +4431,7 @@
     "hpBase": 130,
     "hpPerLevel": 42,
     "dmgBase": 10,
-    "dmgPerLevel": 2.6,
+    "dmgPerLevel": 2.2,
     "attackSpeed": 2.8,
     "armorPerLevel": 55,
     "moveSpeed": 4.8,
@@ -4463,26 +4440,99 @@
     "scale": 1.7,
     "color": 13781546
   },
-  "wraithborn": {
-    "id": "wraithborn",
-    "name": "Wraithborn",
+  "graveguard": {
+    "id": "graveguard",
+    "name": "Graveguard",
     "minLevel": 1,
     "maxLevel": 60,
-    "family": "demon",
-    "hpBase": 95,
-    "hpPerLevel": 34,
-    "dmgBase": 11,
-    "dmgPerLevel": 2.4,
-    "attackSpeed": 2.4,
-    "armorPerLevel": 30,
+    "family": "undead",
+    "hpBase": 85,
+    "hpPerLevel": 30,
+    "dmgBase": 5,
+    "dmgPerLevel": 1.2,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 42,
     "moveSpeed": 5,
     "aggroRadius": 8,
     "loot": [],
-    "scale": 1.5,
-    "color": 8010382,
+    "scale": 1.05,
+    "color": 9087130,
+    "petRole": "melee_tank",
+    "petCanTaunt": true
+  },
+  "necromancy_skeletal_warrior": {
+    "id": "necromancy_skeletal_warrior",
+    "name": "Skeletal Warrior",
+    "minLevel": 1,
+    "maxLevel": 60,
+    "family": "undead",
+    "hpBase": 28,
+    "hpPerLevel": 11,
+    "dmgBase": 2.5,
+    "dmgPerLevel": 0.65,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 16,
+    "moveSpeed": 5.4,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 0.85,
+    "color": 13095101,
+    "petCleave": {
+      "radius": 4,
+      "mult": 0.45,
+      "cooldown": 6
+    }
+  },
+  "necromancy_bone_mage": {
+    "id": "necromancy_bone_mage",
+    "name": "Bone Mage",
+    "minLevel": 1,
+    "maxLevel": 60,
+    "family": "undead",
+    "hpBase": 22,
+    "hpPerLevel": 9,
+    "dmgBase": 3.5,
+    "dmgPerLevel": 0.75,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 10,
+    "moveSpeed": 5.1,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 0.8,
+    "color": 10208692,
     "petRanged": {
-      "range": 28,
-      "school": "shadow"
+      "range": 25,
+      "school": "shadow",
+      "ability": "bone_mage_shadow_bolt",
+      "spellVuln": {
+        "amp": 0.05,
+        "duration": 6
+      }
+    }
+  },
+  "necromancy_gravewing": {
+    "id": "necromancy_gravewing",
+    "name": "Gravewing",
+    "minLevel": 1,
+    "maxLevel": 60,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 38,
+    "hpPerLevel": 14,
+    "dmgBase": 2,
+    "dmgPerLevel": 1.25,
+    "attackSpeed": 1.8,
+    "armorPerLevel": 28,
+    "moveSpeed": 5.6,
+    "aggroRadius": 8,
+    "loot": [],
+    "scale": 1.1,
+    "color": 5324907,
+    "petCanTaunt": false,
+    "petCleave": {
+      "radius": 5,
+      "mult": 0.65,
+      "cooldown": 5
     }
   },
   "water_elemental": {
@@ -6323,7 +6373,7 @@
     "deathZoneCast": {
       "castId": "rift_ember_execution",
       "name": "Magma Well",
-      "castTime": 2.5,
+      "castTime": 3.5,
       "every": 22,
       "radius": 9,
       "school": "fire",
@@ -6333,7 +6383,7 @@
     "deathZoneStrike": {
       "castId": "rift_ember_strike",
       "name": "Core Meltdown",
-      "castTime": 3,
+      "castTime": 4,
       "every": 26,
       "radius": 11,
       "school": "fire",
@@ -6447,7 +6497,7 @@
     "deathZoneCast": {
       "castId": "rift_venom_execution",
       "name": "Venom Pool",
-      "castTime": 3.2,
+      "castTime": 4.5,
       "every": 22,
       "radius": 9,
       "school": "nature",
@@ -6457,7 +6507,7 @@
     "deathZoneStrike": {
       "castId": "rift_venom_strike",
       "name": "Broodmother's Mark",
-      "castTime": 4,
+      "castTime": 5,
       "every": 26,
       "radius": 11,
       "school": "nature",
@@ -6795,7 +6845,7 @@
     "deathZoneCast": {
       "castId": "rift_arcane_execution",
       "name": "Void Rift",
-      "castTime": 2.5,
+      "castTime": 3.5,
       "every": 22,
       "radius": 9,
       "school": "arcane",
@@ -6805,7 +6855,7 @@
     "deathZoneStrike": {
       "castId": "rift_arcane_strike",
       "name": "Arcane Annihilation",
-      "castTime": 3,
+      "castTime": 4,
       "every": 26,
       "radius": 11,
       "school": "arcane",
@@ -6915,7 +6965,7 @@
     "deathZoneCast": {
       "castId": "rift_storm_execution",
       "name": "Lightning Rod",
-      "castTime": 2.5,
+      "castTime": 4.5,
       "every": 22,
       "radius": 9,
       "school": "nature",
@@ -6925,7 +6975,7 @@
     "deathZoneStrike": {
       "castId": "rift_storm_strike",
       "name": "Stormcaller's Wrath",
-      "castTime": 3,
+      "castTime": 5,
       "every": 26,
       "radius": 11,
       "school": "nature",
@@ -8040,6 +8090,10 @@
       {
         "copper": 100,
         "chance": 1
+      },
+      {
+        "itemId": "marrowpoint",
+        "chance": 0.15
       }
     ],
     "scale": 2.85,
@@ -8283,6 +8337,10 @@
       },
       {
         "itemId": "fanglords_beastspear",
+        "chance": 0.12
+      },
+      {
+        "itemId": "duskwhisper",
         "chance": 0.12
       }
     ],

@@ -320,7 +320,7 @@
         "effect": {
           "pvpDefenseRating": 40
         },
-        "text": "Increases WARFARE Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40."
       },
       {
         "pieces": 4,
@@ -328,7 +328,7 @@
           "pvpOffenseRating": 40,
           "ccDurationReduction": 0.15
         },
-        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+        "text": "Increases Warfare Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
       },
       {
         "pieces": 7,
@@ -346,7 +346,7 @@
             "pvpOnly": true
           }
         },
-        "text": "Increases WARFARE Offense and Defense Rating by 80. Killing a hostile player grants Unbroken Oath, absorbing 200 damage for 10 sec."
+        "text": "Increases Warfare Offense and Defense Rating by 80. Killing a hostile player grants Unbroken Oath, absorbing 200 damage for 10 sec."
       }
     ]
   },
@@ -359,7 +359,7 @@
         "effect": {
           "pvpDefenseRating": 40
         },
-        "text": "Increases WARFARE Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40."
       },
       {
         "pieces": 4,
@@ -367,7 +367,7 @@
           "pvpOffenseRating": 40,
           "ccDurationReduction": 0.15
         },
-        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+        "text": "Increases Warfare Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
       },
       {
         "pieces": 7,
@@ -386,7 +386,7 @@
             "pvpOnly": true
           }
         },
-        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
+        "text": "Increases Warfare Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
       }
     ]
   },
@@ -399,7 +399,7 @@
         "effect": {
           "pvpDefenseRating": 40
         },
-        "text": "Increases WARFARE Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40."
       },
       {
         "pieces": 4,
@@ -407,7 +407,7 @@
           "pvpOffenseRating": 40,
           "ccDurationReduction": 0.15
         },
-        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+        "text": "Increases Warfare Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
       },
       {
         "pieces": 7,
@@ -425,7 +425,7 @@
             "pvpOnly": true
           }
         },
-        "text": "Increases WARFARE Offense and Defense Rating by 80. Killing a hostile player grants Ashen Step, increasing movement speed by 40% for 6 sec."
+        "text": "Increases Warfare Offense and Defense Rating by 80. Killing a hostile player grants Ashen Step, increasing movement speed by 40% for 6 sec."
       }
     ]
   },
@@ -438,7 +438,7 @@
         "effect": {
           "pvpDefenseRating": 40
         },
-        "text": "Increases WARFARE Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40."
       },
       {
         "pieces": 4,
@@ -446,7 +446,7 @@
           "pvpOffenseRating": 40,
           "ccDurationReduction": 0.15
         },
-        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+        "text": "Increases Warfare Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
       },
       {
         "pieces": 7,
@@ -465,7 +465,7 @@
             "pvpOnly": true
           }
         },
-        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
+        "text": "Increases Warfare Offense and Defense Rating by 80. Your spells have a 15% chance to grant Emberward, absorbing 120 damage for 8 sec."
       }
     ]
   },
@@ -478,7 +478,7 @@
         "effect": {
           "pvpDefenseRating": 40
         },
-        "text": "Increases WARFARE Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40."
       },
       {
         "pieces": 4,
@@ -486,7 +486,7 @@
           "pvpOffenseRating": 40,
           "ccDurationReduction": 0.15
         },
-        "text": "Increases WARFARE Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
+        "text": "Increases Warfare Offense Rating by 40, and crowd control cast on you by hostile players lasts 15% less."
       },
       {
         "pieces": 7,
@@ -505,7 +505,7 @@
             "pvpOnly": true
           }
         },
-        "text": "Increases WARFARE Offense and Defense Rating by 80. Your spells have a 15% chance to grant Thornguard, increasing dodge by 15% for 6 sec."
+        "text": "Increases Warfare Offense and Defense Rating by 80. Your spells have a 15% chance to grant Thornguard, increasing dodge by 15% for 6 sec."
       }
     ]
   }

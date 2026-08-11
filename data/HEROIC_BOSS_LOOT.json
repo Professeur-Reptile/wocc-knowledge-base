@@ -163,6 +163,12 @@
       "chance": 0.001
     }
   ],
+  "wildheart_beastmaster": [
+    {
+      "itemId": "heroic_duskwhisper",
+      "chance": 0.18
+    }
+  ],
   "wildheart_high_priest": [
     {
       "itemId": "basin_stalkers_tunic",

@@ -97,6 +97,7 @@
       "q_sexton",
       "q_hollow",
       "q_gravecallers_trail",
+      "q_divine_tome",
       "q_fenbridge_muster"
     ],
     "greeting": "The Light keep you. Even the dead find no rest here of late."
@@ -345,6 +346,7 @@
       "q_drowned",
       "q_drowned_censers",
       "q_no_rest",
+      "q_rite_of_redemption",
       "q_summoners",
       "q_bastion_door",
       "q_mistcaller",
