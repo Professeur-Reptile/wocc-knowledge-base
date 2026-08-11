@@ -123,16 +123,16 @@ jobs:
           git commit -m "chore: update knowledge base to $LATEST_TAG"
           git push
 
-      # Un push fait avec le GITHUB_TOKEN ne déclenche PAS les workflows
-      # "on: push" (protection anti-récursion de GitHub) — le déploiement
-      # Pages ne suivait donc jamais les mises à jour automatiques et le
-      # site restait figé sur les anciennes données. On le déclenche
-      # explicitement : workflow_dispatch fait partie des exceptions
-      # autorisées avec le GITHUB_TOKEN.
-      - name: Publier le site avec les nouvelles données
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run deploy-pages.yml --ref main
+      # Rien à publier ici : le miroir GitHub Pages a été retiré le 6 août 2026
+      # (il échouait 2 fois sur 3), et deploy-pages.yml avec lui. Le Codex est
+      # servi sous /codex/ par le déploiement OVH de La-Clauderie, qui recopie
+      # ce repo à chaque push sur son main et via son cron de 6 h.
+      #
+      # L'étape qui subsistait ici — « gh workflow run deploy-pages.yml » —
+      # faisait échouer le job à CHAQUE nouvelle version du jeu, en HTTP 422
+      # (« Workflow does not have workflow_dispatch trigger »), APRÈS que les
+      # données aient été extraites et poussées : le mail d'échec annonçait
+      # donc un problème qui n'existait pas. Retirée le 11 août 2026.
 
 # -----------------------------------------------------------------------------
 # Note sur l'option 1 (déclenchement immédiat à la release, au lieu d'attendre
