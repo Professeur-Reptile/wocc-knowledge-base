@@ -504,7 +504,7 @@
         "chance": 0.3
       }
     ],
-    "scale": 1.15,
+    "scale": 1.275,
     "color": 12154638
   },
   "vale_bandit": {
@@ -6617,7 +6617,7 @@
     "deathZoneCast": {
       "castId": "rift_necro_execution",
       "name": "Soul Grave",
-      "castTime": 2.5,
+      "castTime": 3.5,
       "every": 22,
       "radius": 9,
       "school": "shadow",
@@ -6627,7 +6627,7 @@
     "deathZoneStrike": {
       "castId": "rift_necro_strike",
       "name": "Death Sentence",
-      "castTime": 3,
+      "castTime": 4,
       "every": 26,
       "radius": 11,
       "school": "shadow",
