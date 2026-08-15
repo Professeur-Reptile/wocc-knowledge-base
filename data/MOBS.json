@@ -441,7 +441,10 @@
     "elite": true,
     "canSwim": true,
     "ccImmune": true,
-    "respawnMult": 432,
+    "respawnWindow": {
+      "minMult": 36,
+      "maxMult": 72
+    },
     "hpBase": 280,
     "hpPerLevel": 52,
     "dmgBase": 11,

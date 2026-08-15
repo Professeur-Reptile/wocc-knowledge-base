@@ -1,7 +1,7 @@
 {
-  "tag": "v0.37.1",
-  "sha": "492d321eec2541ee6a235470ee53a0b2ad0cb4fc",
+  "tag": "v0.38.0",
+  "sha": "ac6c878fdc9d663e544c2d206fb943bce2551b12",
   "schema": 5,
-  "extractedAt": "2026-08-13T10:03:11.649Z",
+  "extractedAt": "2026-08-15T07:28:56.501Z",
   "repo": "levy-street/world-of-claudecraft"
 }
