@@ -415,19 +415,22 @@
         "itemId": "bastion_ward_stone",
         "name": "Left Wardstone",
         "x": -40,
-        "z": 79
+        "z": 79,
+        "interactOnly": true
       },
       {
         "itemId": "bastion_ward_stone",
         "name": "Right Wardstone",
         "x": 40,
-        "z": 79
+        "z": 79,
+        "interactOnly": true
       },
       {
         "itemId": "bastion_ward_stone",
         "name": "Threshold Wardstone",
         "x": 0,
-        "z": 63
+        "z": 63,
+        "interactOnly": true
       }
     ],
     "interior": "nythraxis",
