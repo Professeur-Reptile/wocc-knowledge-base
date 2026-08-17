@@ -3297,6 +3297,7 @@
     "loot": [
       {
         "copper": 2500,
+        "heroicCopper": 100000,
         "chance": 1
       },
       {
@@ -3553,6 +3554,7 @@
     "loot": [
       {
         "copper": 5000,
+        "heroicCopper": 100000,
         "chance": 1
       },
       {
@@ -3963,7 +3965,8 @@
     },
     "loot": [
       {
-        "copper": 50000,
+        "copper": 15000,
+        "heroicCopper": 100000,
         "chance": 1
       },
       {
@@ -4187,6 +4190,7 @@
     "loot": [
       {
         "copper": 150000,
+        "heroicCopper": 200000,
         "chance": 1
       },
       {
@@ -4922,6 +4926,7 @@
     "loot": [
       {
         "copper": 6000,
+        "heroicCopper": 100000,
         "chance": 1
       },
       {
@@ -8390,7 +8395,8 @@
     },
     "loot": [
       {
-        "copper": 55000,
+        "copper": 15000,
+        "heroicCopper": 100000,
         "chance": 1
       },
       {
