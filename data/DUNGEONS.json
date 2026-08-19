@@ -361,9 +361,14 @@
     "name": "The Last Keep",
     "index": 8,
     "doorPos": {
-      "x": 413.5,
-      "z": 2016.5
+      "x": 421,
+      "z": 2013.4
     },
+    "leaveOffset": {
+      "x": 0,
+      "z": 3.5
+    },
+    "staticDoor": true,
     "entry": {
       "x": 0,
       "z": -5
@@ -385,6 +390,41 @@
     "suggestedPlayers": 1,
     "enterText": "You step into the cold, silent halls of the Last Keep.",
     "leaveText": "You pull the keep door shut and step back into the Drakelands wind."
+  },
+  "dawnhold_castle": {
+    "id": "dawnhold_castle",
+    "name": "Dawnhold Castle",
+    "index": 9,
+    "doorPos": {
+      "x": 258,
+      "z": 886.6
+    },
+    "leaveOffset": {
+      "x": 0,
+      "z": 3.2
+    },
+    "staticDoor": true,
+    "entry": {
+      "x": 0,
+      "z": -5
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -9
+    },
+    "spawns": [],
+    "objects": [
+      {
+        "itemId": "dawnhold_posy",
+        "name": "Dawnhold Garden Posy",
+        "x": 4,
+        "z": -3
+      }
+    ],
+    "interior": "dawnhold",
+    "suggestedPlayers": 1,
+    "enterText": "You step into the warm, flower-scented halls of Dawnhold Castle.",
+    "leaveText": "You slip back out onto the sunlit garden lawn."
   },
   "nythraxis_boss_arena": {
     "id": "nythraxis_boss_arena",

@@ -6750,7 +6750,7 @@
         ]
       }
     ],
-    "description": "Pierces the enemy for $d Shadow damage and generates 7 Condemnation if it bears your Evil Eye. Each hit on your primary Evil Eye adds a Fate Thread for 12 sec, up to 3. If no Evil Eye exists, the Needle first marks its target."
+    "description": "Pierces the enemy for $d Shadow damage and generates 7 Condemnation on impact if it still bears your Evil Eye. Completing a cast moves your primary Evil Eye to the target and adds a Fate Thread for 12 sec, up to 3. Fate Threads stay with you when the Eye moves or its target dies. Targeting a secondary Coven Eye swaps it with the primary Eye."
   },
   "sentence": {
     "id": "sentence",
@@ -7059,7 +7059,7 @@
         ]
       }
     ],
-    "description": "Demonic skin increases your armor by $b for 30 min."
+    "description": "Demonic skin increases your armor by $b for 30 min. Pact Deepened can double this armor and reduce magic damage taken while Fiendhide is active."
   },
   "immolate": {
     "id": "immolate",
@@ -7502,10 +7502,10 @@
     "effects": [
       {
         "type": "incapacitate",
-        "duration": 8
+        "duration": 5
       }
     ],
-    "description": "Strikes terror into the enemy, leaving it cowering for up to 8 sec. Any damage breaks the effect."
+    "description": "Strikes terror into the enemy, leaving it cowering for up to 5 sec. Damage totaling 8% of the target's maximum health breaks the effect."
   },
   "searing_pain": {
     "id": "searing_pain",
@@ -7900,7 +7900,7 @@
         "canCrit": true
       }
     ],
-    "description": "Sacrifices a Bone Mage first, then a Skeletal Warrior, and a Gravewing only as a last resort. Among duplicates it chooses the one with the least remaining duration, then the weakest, to deal $d Shadow damage at the chosen location."
+    "description": "Sacrifices a Skeletal Warrior first, then a Bone Mage, and a Gravewing only as a last resort. Among duplicates it chooses the one with the least remaining duration, then the weakest, to deal $d Shadow damage at the chosen location."
   },
   "funeral_harvest": {
     "id": "funeral_harvest",
@@ -7938,13 +7938,13 @@
     "effects": [
       {
         "type": "necromancyOssuaryMark",
-        "duration": 12,
+        "duration": 15,
         "storedDamagePct": 0.2,
         "soulLanceBonusPct": 0.5,
         "deathRadius": 6
       }
     ],
-    "description": "Marks an enemy for 12 sec, storing 20% of damage dealt by you and your undead. Recast to detonate it. If the marked enemy dies, it explodes within 6 yards and creates 1 Soul Fragment."
+    "description": "Marks an enemy for 15 sec, storing 20% of damage dealt by you and your undead. Recast to detonate it. If the marked enemy dies, it explodes within 6 yards and creates 1 Soul Fragment."
   },
   "unholy_command": {
     "id": "unholy_command",
@@ -7992,7 +7992,7 @@
         "type": "reapingCommand"
       }
     ],
-    "description": "Spends 2 Soul Fragments to command every undead servant to strike in unison. Graveguards taunt and brace, Warriors pin, Bone Mages expose magic defenses, and Gravewing rends all enemies hit."
+    "description": "Spends 2 Soul Fragments to command every undead servant to strike in unison. Graveguards taunt and brace, Warriors pin, Bone Mages expose magic defenses, and Gravewing rends all enemies hit. Reaping Command ignores and does not reset each servant's own ability cooldown."
   },
   "sacrifice_undead": {
     "id": "sacrifice_undead",
@@ -8680,11 +8680,11 @@
       {
         "type": "selfBuff",
         "kind": "stealth",
-        "value": 0.5,
+        "value": 0.95,
         "duration": 3600
       }
     ],
-    "description": "Enter stealth while in Wolf Form, moving 50% slower. Cannot be used in combat."
+    "description": "Enter stealth while in Wolf Form, moving 5% slower. Cannot be used in combat."
   },
   "rake": {
     "id": "rake",
@@ -8776,7 +8776,7 @@
     "id": "ferocious_bite",
     "name": "Gorebite",
     "class": "druid",
-    "learnLevel": 14,
+    "learnLevel": 8,
     "cost": 35,
     "castTime": 0,
     "cooldown": 0,
@@ -8800,7 +8800,7 @@
     },
     "description": "Finishing move that causes $d. Wolf Form only.",
     "specNotes": {
-      "feral": "Each hit that lands adds 1 Old Blood; at 3 Old Blood this button becomes Redharvest: a bite for 70 plus 43 per combo point that also instantly deals all the damage your Flense and Bloodrift would still have dealt, and restores 30 energy."
+      "feral": "Each hit that lands adds 1 Old Blood; at 3 Old Blood this button becomes Redharvest, which spends the Old Blood for a stronger strike that also instantly deals all the damage your Flense and Bloodrift would still have dealt, and restores energy."
     }
   },
   "swipe": {
@@ -9087,7 +9087,7 @@
     "id": "pounce",
     "name": "Slinkstrike",
     "class": "druid",
-    "learnLevel": 18,
+    "learnLevel": 8,
     "cost": 50,
     "castTime": 0,
     "cooldown": 0,
@@ -9132,7 +9132,7 @@
     "name": "Wolfsblood",
     "class": "druid",
     "learnLevel": 20,
-    "cost": 30,
+    "cost": 0,
     "castTime": 0,
     "cooldown": 30,
     "range": 0,
@@ -9145,9 +9145,13 @@
         "kind": "buff_ap",
         "value": 40,
         "duration": 6
+      },
+      {
+        "type": "gainResource",
+        "amount": 30
       }
     ],
-    "description": "Increases attack power by $b for $t sec. Wolf Form only."
+    "description": "Surges 30 energy and increases attack power by $b for $t sec. Wolf Form only."
   },
   "rip": {
     "id": "rip",
@@ -10379,7 +10383,7 @@
     "specs": [
       "feral"
     ],
-    "learnLevel": 10,
+    "learnLevel": 5,
     "cost": 35,
     "castTime": 0,
     "cooldown": 0,
@@ -10394,9 +10398,9 @@
     "effects": [
       {
         "type": "finisherDamage",
-        "base": 70,
-        "perCombo": 43,
-        "variance": 10
+        "base": 35,
+        "perCombo": 20,
+        "variance": 6
       },
       {
         "type": "consumeDot",
@@ -10408,10 +10412,62 @@
       },
       {
         "type": "gainResource",
-        "amount": 30
+        "amount": 15
       }
     ],
-    "description": "Spends your 3 Old Blood: strike for $d, instantly deal all the damage your Flense and Bloodrift would still have dealt, remove both bleeds, and restore 30 energy. Works with zero combo points."
+    "ranks": [
+      {
+        "rank": 2,
+        "level": 10,
+        "cost": 35,
+        "effects": [
+          {
+            "type": "finisherDamage",
+            "base": 52,
+            "perCombo": 32,
+            "variance": 8
+          },
+          {
+            "type": "consumeDot",
+            "dot": "rake"
+          },
+          {
+            "type": "consumeDot",
+            "dot": "rip"
+          },
+          {
+            "type": "gainResource",
+            "amount": 22
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "level": 16,
+        "cost": 35,
+        "effects": [
+          {
+            "type": "finisherDamage",
+            "base": 70,
+            "perCombo": 43,
+            "variance": 10
+          },
+          {
+            "type": "consumeDot",
+            "dot": "rake"
+          },
+          {
+            "type": "consumeDot",
+            "dot": "rip"
+          },
+          {
+            "type": "gainResource",
+            "amount": 30
+          }
+        ]
+      }
+    ],
+    "description": "Spends your 3 Old Blood: strike for $d, instantly deal all the damage your Flense and Bloodrift would still have dealt, remove both bleeds, and restore energy. Works with zero combo points."
   },
   "marrowbreak": {
     "id": "marrowbreak",
@@ -11836,7 +11892,7 @@
     "learnLevel": 20,
     "cost": 100,
     "castTime": 0,
-    "cooldown": 90,
+    "cooldown": 45,
     "range": 30,
     "school": "shadow",
     "requiresTarget": false,
@@ -11867,11 +11923,11 @@
     "effects": [
       {
         "type": "aoeFear",
-        "duration": 3,
+        "duration": 5,
         "radius": 8
       }
     ],
-    "description": "Frightens nearby enemies for up to 3 sec. Damage may break the effect. (Warlock talent)"
+    "description": "Frightens nearby enemies for up to 5 sec. Damage totaling 8% of a target's maximum health breaks its fear. (Warlock talent)"
   },
   "curse_of_exhaustion": {
     "id": "curse_of_exhaustion",
@@ -12009,10 +12065,11 @@
         "type": "hot",
         "total": 180,
         "duration": 10,
-        "interval": 2
+        "interval": 2,
+        "pctOfMax": 0.4
       }
     ],
-    "description": "Restores 180 health over 10 sec. Bruin Form only."
+    "description": "Restores 40% of your maximum health over 10 sec. Bruin Form only."
   },
   "berserk": {
     "id": "berserk",

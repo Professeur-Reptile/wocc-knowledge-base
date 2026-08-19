@@ -11472,6 +11472,12 @@
       "druid"
     ]
   },
+  "dawnhold_posy": {
+    "id": "dawnhold_posy",
+    "name": "Dawnhold Garden Posy",
+    "kind": "junk",
+    "sellValue": 25
+  },
   "heroic_tideguard_greaves": {
     "id": "heroic_tideguard_greaves",
     "name": "Tideguard Greaves",
