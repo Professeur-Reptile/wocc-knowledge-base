@@ -70,11 +70,11 @@
       },
       {
         "itemId": "milepost_boots",
-        "chance": 0.1
+        "chance": 0.017
       },
       {
         "itemId": "wolfhide_satchel",
-        "chance": 0.02
+        "chance": 0.003
       }
     ],
     "scale": 0.9,
@@ -175,7 +175,7 @@
       },
       {
         "itemId": "trail_leggings",
-        "chance": 0.1
+        "chance": 0.02
       }
     ],
     "scale": 0.85,
@@ -230,7 +230,7 @@
       },
       {
         "itemId": "mosshide_vest",
-        "chance": 0.12
+        "chance": 0.02
       }
     ],
     "scale": 0.9,
@@ -421,11 +421,11 @@
       },
       {
         "itemId": "mossy_handwraps",
-        "chance": 0.15
+        "chance": 0.01
       },
       {
         "itemId": "thornling_grips",
-        "chance": 0.15
+        "chance": 0.01
       }
     ],
     "scale": 0.85,
@@ -1067,7 +1067,7 @@
       },
       {
         "itemId": "fenbark_leggings",
-        "chance": 0.12
+        "chance": 0.02
       }
     ],
     "scale": 1,
@@ -1297,11 +1297,11 @@
       },
       {
         "itemId": "elixir_of_the_bear",
-        "chance": 0.07
+        "chance": 0.008
       },
       {
         "itemId": "marshlight_hauberk",
-        "chance": 0.1
+        "chance": 0.012
       }
     ],
     "scale": 1.15,
@@ -1485,7 +1485,7 @@
       },
       {
         "itemId": "duskthorn_mantle",
-        "chance": 0.12
+        "chance": 0.02
       }
     ],
     "scale": 1,
@@ -1736,7 +1736,7 @@
       },
       {
         "itemId": "wildgrove_cinch",
-        "chance": 0.1
+        "chance": 0.02
       }
     ],
     "scale": 0.95,
@@ -1859,11 +1859,11 @@
       },
       {
         "itemId": "peaksong_helm",
-        "chance": 0.04
+        "chance": 0.002
       },
       {
         "itemId": "moonbark_vestments",
-        "chance": 0.04
+        "chance": 0.002
       }
     ],
     "scale": 0.85,
@@ -2019,7 +2019,7 @@
       },
       {
         "itemId": "cragprowl_belt",
-        "chance": 0.1
+        "chance": 0.02
       }
     ],
     "scale": 1.3,
@@ -2342,7 +2342,7 @@
       },
       {
         "itemId": "shardsong_mantle",
-        "chance": 0.04
+        "chance": 0.002
       }
     ],
     "enfeeble": {
@@ -2394,7 +2394,7 @@
       },
       {
         "itemId": "wyrmcult_spellgrips",
-        "chance": 0.04
+        "chance": 0.002
       }
     ],
     "manaBurn": {
@@ -2509,7 +2509,7 @@
       },
       {
         "itemId": "thornpeak_wildwraps",
-        "chance": 0.04
+        "chance": 0.002
       }
     ],
     "scale": 1.05,
@@ -4706,7 +4706,7 @@
       },
       {
         "itemId": "tidehymn_slippers",
-        "chance": 0.1
+        "chance": 0.02
       }
     ],
     "scale": 1,
@@ -9817,24 +9817,90 @@
     "scale": 1,
     "color": 4876938
   },
-  "vale_cup_ball": {
-    "id": "vale_cup_ball",
-    "name": "Boarball",
+  "training_effigy": {
+    "id": "training_effigy",
+    "name": "Training Effigy",
     "minLevel": 1,
     "maxLevel": 1,
-    "family": "beast",
-    "hpBase": 1,
+    "family": "humanoid",
+    "hpBase": 26,
     "hpPerLevel": 0,
     "dmgBase": 0,
     "dmgPerLevel": 0,
-    "attackSpeed": 999,
+    "attackSpeed": 2.5,
     "armorPerLevel": 0,
     "moveSpeed": 0,
     "aggroRadius": 0,
-    "loot": [],
-    "scale": 1.54,
-    "color": 16053492,
-    "ccImmune": true,
-    "xpMult": 0
+    "dummy": true,
+    "loot": [
+      {
+        "copper": 1,
+        "chance": 1
+      }
+    ],
+    "scale": 1,
+    "color": 10124111,
+    "respawnSeconds": 5
+  },
+  "shore_scuttler": {
+    "id": "shore_scuttler",
+    "name": "Shore Scuttler",
+    "minLevel": 1,
+    "maxLevel": 2,
+    "family": "beast",
+    "hpBase": 18,
+    "hpPerLevel": 6,
+    "dmgBase": 3,
+    "dmgPerLevel": 1,
+    "attackSpeed": 2,
+    "armorPerLevel": 4,
+    "moveSpeed": 7,
+    "aggroRadius": 2,
+    "loot": [
+      {
+        "copper": 4,
+        "chance": 1
+      }
+    ],
+    "scale": 0.8,
+    "color": 8018490,
+    "respawnSeconds": 7,
+    "componentTags": [
+      "meat"
+    ]
+  },
+  "mister_crabs": {
+    "id": "mister_crabs",
+    "name": "Mister Crabs",
+    "minLevel": 2,
+    "maxLevel": 2,
+    "family": "beast",
+    "hpBase": 70,
+    "hpPerLevel": 0,
+    "dmgBase": 6,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2.4,
+    "armorPerLevel": 6,
+    "moveSpeed": 6.2,
+    "aggroRadius": 10,
+    "canSwim": true,
+    "requiresQuestId": "q_ps_mother_of_pearl",
+    "loot": [
+      {
+        "copper": 30,
+        "chance": 1,
+        "questId": "q_ps_mother_of_pearl"
+      },
+      {
+        "itemId": "ps_lustrous_pearl",
+        "chance": 1,
+        "questId": "q_ps_mother_of_pearl"
+      }
+    ],
+    "scale": 1.7,
+    "color": 11550762,
+    "componentTags": [
+      "meat"
+    ]
   }
 }

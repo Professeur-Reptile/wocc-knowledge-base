@@ -4,7 +4,7 @@
     "name": "A Trade for Every Hand",
     "giverNpcId": "foreman_odell",
     "turnInNpcId": "foreman_odell",
-    "text": "Every soul in Eastbrook works a trade besides the sword, $N. There are ore veins in the rocks around the Copper Dig, southeast of town. Go swing a pick and work 5 of them yourself, mind; I'll know the difference.",
+    "text": "Every soul in Eastbrook works a trade besides the sword, $N. There are ore veins in the rocks around the Copper Dig, northeast of town past the wolf runs. Go swing a pick and work 5 of them yourself, mind; I'll know the difference.",
     "completionText": "See? Ore gathered and callus on your hands. Keep at the mining, logging, and herb-picking as you travel the roads, and when you're back in town, mind the Town Focus board by the market and the crafting bench nearby. There's a fair trade waiting in all of it, if you want it.",
     "objectives": [
       {
@@ -69,7 +69,7 @@
     "name": "Bristly Boar Hides",
     "giverNpcId": "trader_wilkes",
     "turnInNpcId": "trader_wilkes",
-    "text": "Boar hide makes the finest travel packs, and the meadows west of town are crawling with the beasts. Bring me 5 Bristly Boar Hides and I will make it worth your time.",
+    "text": "Boar hide makes the finest travel packs, and the meadows northwest of town are crawling with the beasts. Bring me 5 Bristly Boar Hides and I will make it worth your time.",
     "completionText": "Ah, fine bristly hides! These will fetch a good price.",
     "objectives": [
       {
@@ -88,7 +88,7 @@
     "name": "Sableweb Menace",
     "giverNpcId": "apothecary_lin",
     "turnInNpcId": "apothecary_lin",
-    "text": "The lurkers in the eastern woods spin a silk I need for my poultices — and they have grown far too numerous besides. Cull 6 Sableweb Lurkers and cut 4 silk glands from their bellies.",
+    "text": "The lurkers in the northeastern woods spin a silk I need for my poultices — and they have grown far too numerous besides. Cull 6 Sableweb Lurkers and cut 4 silk glands from their bellies.",
     "completionText": "Ugh, still twitching. Perfect. Here, you've earned this.",
     "objectives": [
       {
@@ -175,7 +175,7 @@
     "name": "Stolen Supplies",
     "giverNpcId": "trader_wilkes",
     "turnInNpcId": "trader_wilkes",
-    "text": "Those bandits hit my last wagon and made off with four crates of goods: tools, salt, good Eastbrook linen. The crates are stacked around their camp in the southwest hills. Steal them back for me, would you?",
+    "text": "Those bandits hit my last wagon and made off with four crates of goods: tools, salt, good Eastbrook linen. The crates are stacked around their camp in the northwest hills. Steal them back for me, would you?",
     "completionText": "My crates! Barely a scratch on them. You are a wonder.",
     "objectives": [
       {
@@ -375,7 +375,7 @@
     "name": "Bandits of the Vale",
     "giverNpcId": "marshal_redbrook",
     "turnInNpcId": "marshal_redbrook",
-    "text": "A pack of cutthroats has made camp in the southwest hills. They have robbed three wagons this week. Drive them out — slay 10 Vale Bandits.",
+    "text": "A pack of cutthroats has made camp in the northwest hills. They have robbed three wagons this week. Drive them out — slay 10 Vale Bandits.",
     "completionText": "Ten fewer knives in the dark. Take this — you have earned it.",
     "objectives": [
       {
@@ -582,7 +582,7 @@
     "name": "Threads Rejoined",
     "giverNpcId": "weaver_ottilie",
     "turnInNpcId": "weaver_ottilie",
-    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the Sableweb Lurkers crowding the eastern woods, and the labor will settle your hands before they touch good silk again.",
+    "text": "Back at my loom after all. I hold no grudge, $N, but the thread remembers a hand that let it go, and the cost of taking it up again is measured out longer each time. Cull the Sableweb Lurkers crowding the northeastern woods, and the labor will settle your hands before they touch good silk again.",
     "completionText": "Steady again. Leatherworking and Tailoring return to your hands as majors. Measure twice this time before you wander.",
     "objectives": [
       {
@@ -609,7 +609,7 @@
     "name": "Back on the Stove",
     "giverNpcId": "cook_marlow",
     "turnInNpcId": "cook_marlow",
-    "text": "Well, look who is back at my pot. No hard feelings, $N, a kitchen always has room, but you know the tab runs longer every time you walk out on it. Go thin the wild boars in the west meadow, because honest sweat is the first ingredient, and it will remind your hands of the work.",
+    "text": "Well, look who is back at my pot. No hard feelings, $N, a kitchen always has room, but you know the tab runs longer every time you walk out on it. Go thin the wild boars in the northwest meadow, because honest sweat is the first ingredient, and it will remind your hands of the work.",
     "completionText": "There is the old flavor. Alchemy and Cooking are back on your stove as majors. Stay a while this time.",
     "objectives": [
       {
@@ -4620,5 +4620,227 @@
     "requiresQuest": "q_fs_stalkers_off_the_light",
     "minLevel": 6,
     "suggestedPlayers": 2
+  },
+  "q_ps_the_gauntlet": {
+    "id": "q_ps_the_gauntlet",
+    "name": "Run the Gauntlet",
+    "giverNpcId": "warden_tam",
+    "turnInNpcId": "overseer_pell",
+    "text": "Every pair of legs the vale respects has run these lanes first, $N. Walk the first lane west to its flag, swing yourself around, walk the south lane to the second, then sidestep the last lane to the red flag. Pass the flags in order, and the card at the top of your screen will show you every button as you go. Overseer Pell clocks every run from the far end: when the red flag is behind you, he is standing right there to take it in.",
+    "completionText": "I clocked that run, $N, and I have failed faster feet. The Gauntlet is yours. The path behind me climbs to the practice yard, where Drillmaster Rook turns footwork into swordwork: he has your next task.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "ps_gauntlet_flag",
+        "count": 3,
+        "label": "Gauntlet flag passed"
+      }
+    ],
+    "xpReward": 100,
+    "copperReward": 40,
+    "itemRewards": {}
+  },
+  "q_ps_strike_true": {
+    "id": "q_ps_strike_true",
+    "name": "Strike True",
+    "giverNpcId": "overseer_pell",
+    "turnInNpcId": "drillmaster_rook",
+    "text": "Footwork first, now the arm, $N. The practice yard sits up the path behind me, and its straw effigies were built to be hit. If you lose the way, press M to open the map: every task you carry is marked on it. Walk up to an effigy and left-click it: that makes it your target, and its name will appear at the top of your screen. Only then press 1, or click the first icon on the action bar along the bottom, to swing. Keep striking until one gives out; it will not swing back, effigies never do. Drillmaster Rook watches the yard from its west shoulder, where the strand path sets out: press F on him to hand the fell in.",
+    "completionText": "One clean fell, and your grip already surer. Remember the feel of it, $N: target, strike, and keep striking. Straw never minds. The next thing you swing at will.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "training_effigy",
+        "count": 1,
+        "label": "Training Effigy felled"
+      }
+    ],
+    "xpReward": 60,
+    "copperReward": 60,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_the_gauntlet"
+  },
+  "q_ps_hone_the_edge": {
+    "id": "q_ps_hone_the_edge",
+    "name": "Hone the Edge",
+    "giverNpcId": "drillmaster_rook",
+    "turnInNpcId": "drillmaster_rook",
+    "text": "A swing is a swing, $N, and straw will take it all day. That is not what wins you anything. Look at the row of buttons along the bottom of your screen: that row is your craft, and every one of them does something your arm alone cannot. You have one already. Turn back to the effigies and use it: pick your target, then press the button the yard marks for you, three times over. Do not simply hack at the straw; make the thing you know how to do actually happen. Then come back to me.",
+    "completionText": "Now you are fighting instead of flailing. That row grows every level you take, $N, and the ones who live longest are the ones who read it. Straw does not care which button you used. The vale will.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "ps_ability_drill",
+        "count": 3,
+        "label": "Ability landed on an effigy"
+      }
+    ],
+    "xpReward": 60,
+    "copperReward": 60,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_strike_true"
+  },
+  "q_ps_shell_and_claw": {
+    "id": "q_ps_shell_and_claw",
+    "name": "Shell and Claw",
+    "giverNpcId": "drillmaster_rook",
+    "turnInNpcId": "tidewarden_nel",
+    "text": "Straw never minds, $N, so here is something that does. Shore scuttlers pick over the wreck line on the far strand: follow the path west from my yard and it walks you straight to them. They pinch back, so watch your health bar and keep swinging: left-click one to make it your target, then use the ability the yard taught you (the coach names your button), and do not stop until its shell cracks. Three will do. Then climb the path up the north rise: Tidewarden Nel keeps the strand tally, and she counts your shells.",
+    "completionText": "Three shells cracked and all your fingers kept: a fair first fight, $N. The scuttlers pinch off the wrecks faster than the tide brings salvage in, so every one you cull is coin someone keeps.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "shore_scuttler",
+        "count": 3,
+        "label": "Shore Scuttler culled"
+      }
+    ],
+    "xpReward": 170,
+    "copperReward": 80,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_hone_the_edge"
+  },
+  "q_ps_mother_of_pearl": {
+    "id": "q_ps_mother_of_pearl",
+    "name": "Mother of Pearl",
+    "giverNpcId": "tidewarden_nel",
+    "turnInNpcId": "tidewarden_nel",
+    "text": "Three shells cracked, $N, but the wreck line keeps a king, and he sits on a prize worth more than every crate on this strand. Take this Briny Lure to the tide pool at the strand's far west end, past the wrecks. Stand at the water's edge, press B to open your bags, and left-click the lure to wake him. Mister Crabs pinches far harder than his little cousins, so watch your health bar, keep striking, and back away up the sand if you need your breath. When he falls, walk right up to his shell and press F to loot the Lustrous Pearl off him. Bring that pearl back to me.",
+    "completionText": "The Lustrous Pearl, pried off the old king of the shallows himself. My father tipped his hat to that crab every morning of his working life; some respect is owed. Hold still... there. Strung, set, and yours, $N: the Mother of Pearl. Press B to open your bags and left-click the ring to slide it on, then press C to open your character sheet and see it sitting on your hand. A slight thing, but every part of you the better for wearing it.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "mister_crabs",
+        "count": 1,
+        "label": "Mister Crabs slain"
+      },
+      {
+        "type": "collect",
+        "itemId": "ps_lustrous_pearl",
+        "count": 1,
+        "label": "Lustrous Pearl claimed"
+      }
+    ],
+    "requiredItems": [
+      "ps_briny_lure"
+    ],
+    "xpReward": 150,
+    "copperReward": 60,
+    "itemRewards": {
+      "warrior": "mother_of_pearl",
+      "paladin": "mother_of_pearl",
+      "rogue": "mother_of_pearl",
+      "hunter": "mother_of_pearl",
+      "mage": "mother_of_pearl",
+      "warlock": "mother_of_pearl",
+      "priest": "mother_of_pearl",
+      "shaman": "mother_of_pearl",
+      "druid": "mother_of_pearl"
+    },
+    "requiresQuest": "q_ps_shell_and_claw"
+  },
+  "q_ps_the_wreck_line": {
+    "id": "q_ps_the_wreck_line",
+    "name": "The Wreck Line",
+    "giverNpcId": "tidewarden_nel",
+    "turnInNpcId": "quartermaster_finch",
+    "text": "My porters haul salvage off the old wrecks and carry it up the rise toward Dawnrest Camp, $N, and half the crates never finish the climb: they get set down along the path and forgotten. Follow my path toward the camp and you will walk right past the strays. Opening one is simple: walk up to a crate until its name shows, then press F, or left-click the crate itself, and it will give up what it holds. Six of them will clear the line, and remember F is the same key for every chest, node and doorway you will ever meet. Quartermaster Finch keeps the camp stall and buys every stick of salvage: hand the haul to her.",
+    "completionText": "Rope, tar, and half a wheel of cheese the sea somehow spared: I will take the lot, $N. A back that carries what it finds is worth more to this camp than any blade, and yours just cleared the whole line in one climb.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "ps_castaway_crate",
+        "count": 6,
+        "label": "Castaway Crate opened"
+      }
+    ],
+    "xpReward": 160,
+    "copperReward": 80,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_mother_of_pearl"
+  },
+  "q_ps_pouch_and_purse": {
+    "id": "q_ps_pouch_and_purse",
+    "name": "Pouch and Purse",
+    "giverNpcId": "quartermaster_finch",
+    "turnInNpcId": "instructor_maren",
+    "text": "One more lesson before the vale, $N, and it is the one that keeps adventurers alive: what you carry. Your backpack holds sixteen slots, and beside it wait four empty bag loops; every bag you buckle on adds its own space to the pool. So: press F on me again to open my stall, left-click the Linen Pouch in my wares to buy it, then press B to open your bags and left-click the pouch there to buckle it into a free loop. Instructor Maren drills by the muster fire a few steps east: show her the pouch on your belt.",
+    "completionText": "A fine pouch. Buckle it on if you have not already: press B to open your bags, then left-click the pouch to seat it in a free bag loop, and six more slots are yours to fill with trouble. Now the half of the lesson no bag can hold, $N: what you cannot carry, the Gilded Strongbox keeps. Bursar Wick keeps his strongbox desk up the west path, and he opens the same vault every bursar in every town shares; more vault space can be bought once your purse grows into it. Keep your valuables banked and your bags roomy. A full pack has ended more adventures than any wolf ever did.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "linen_pouch",
+        "count": 1,
+        "label": "Linen Pouch bought"
+      }
+    ],
+    "keepsCollectedItems": true,
+    "xpReward": 170,
+    "copperReward": 120,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_the_wreck_line"
+  },
+  "q_ps_the_signpost": {
+    "id": "q_ps_the_signpost",
+    "name": "Word on the Wind",
+    "giverNpcId": "instructor_maren",
+    "turnInNpcId": "instructor_maren",
+    "text": "One habit left to learn, $N, and it needs no blade: read the boards. The guild signpost stands at the camp gate a few steps south-west of my fire, and guilds and travelling crews post their calls on it. Walk up to its face and press F, or left-click it, to read what is posted, then come back and tell me what the wind carried in. A board like it stands in every town you will ever walk into.",
+    "completionText": "So now you know how word moves in the vale, $N: not by couriers, by boards. Check them in every town you pass; half an adventure starts as three lines of ink on one.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "ps_guild_signpost",
+        "count": 1,
+        "label": "Guild signpost read"
+      }
+    ],
+    "xpReward": 70,
+    "copperReward": 30,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_pouch_and_purse"
+  },
+  "q_ps_the_long_walk": {
+    "id": "q_ps_the_long_walk",
+    "name": "The Long Walk",
+    "giverNpcId": "instructor_maren",
+    "turnInNpcId": "instructor_maren",
+    "text": "One lesson left, $N, and it is the one I cannot tell you: you have to have done it once. You are going to die out there. Everyone does, and it is not the end of anything. Take this Passing Stone. Press B to open your bags and left-click it, and it will lay you down right where you stand. Then follow the instructions on your screen: release your spirit, walk back to your own body, and step into it. Your body waits, the walk is free, and you lose nothing by making it.",
+    "completionText": "And back you come, no worse for it. Remember what that felt like, $N, because the next time it happens there will be teeth involved and no one standing by to explain. Your body waits, the walk is free, and the only thing death really costs you is the time it takes to come back.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "ps_passing_stone",
+        "count": 1,
+        "label": "Walked back from the dead"
+      }
+    ],
+    "requiredItems": [
+      "ps_passing_stone"
+    ],
+    "xpReward": 60,
+    "copperReward": 30,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_the_signpost"
+  },
+  "q_ps_set_sail": {
+    "id": "q_ps_set_sail",
+    "name": "Set Sail",
+    "giverNpcId": "instructor_maren",
+    "turnInNpcId": "ferryman_odo",
+    "text": "There is nothing left on this shore you have not already run, beaten, opened, or bought, $N. You are ready, and Eastbrook has real work waiting. Walk back down the shore road to the pier, press F on Ferryman Odo, and tell him I said you have earned your crossing. Press L any time you lose track of what you owe whom: that is your quest log.",
+    "completionText": "Maren said that, did she? High praise from a woman who once made me practice mooring knots for a week. Ring the bell standing beside my pier whenever you are ready, $N, and the crossing will set you down in the middle of Eastbrook town. Mind the wolves.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "ferryman_odo",
+        "count": 1,
+        "label": "Report to Ferryman Odo"
+      }
+    ],
+    "xpReward": 150,
+    "copperReward": 50,
+    "itemRewards": {},
+    "requiresQuest": "q_ps_the_long_walk"
   }
 }

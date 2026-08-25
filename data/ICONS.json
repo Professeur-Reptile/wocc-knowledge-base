@@ -332,6 +332,8 @@
     "instant_poison",
     "adrenaline_rush",
     "deadly_poison",
+    "melting_acid",
+    "nightshade_coating",
     "stealth",
     "heroic_strike",
     "battle_shout",
@@ -575,16 +577,6 @@
     "enrage_passive",
     "measured_fury",
     "seasoned_soldier",
-    "sport_boot",
-    "sport_dive",
-    "sport_feint",
-    "sport_hoof",
-    "sport_kick",
-    "sport_pass",
-    "sport_punt",
-    "sport_second_wind",
-    "sport_shoot",
-    "sport_shoulder",
     "sudden_death"
   ]
 }

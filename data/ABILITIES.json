@@ -69,7 +69,7 @@
     "id": "hammer_of_grace",
     "name": "Hammer of Grace",
     "class": "paladin",
-    "learnLevel": 3,
+    "learnLevel": 1,
     "cost": 0,
     "castTime": 0,
     "cooldown": 7,
@@ -4207,13 +4207,14 @@
     "requiresTarget": true,
     "requiresStealth": true,
     "requiresOutOfCombat": true,
+    "noCombatEntry": true,
     "effects": [
       {
         "type": "incapacitate",
         "duration": 8
       }
     ],
-    "description": "Incapacitates the target for 8 sec. Must be stealthed and out of combat. Any damage breaks the effect."
+    "description": "Incapacitates the target for 8 sec without breaking Duskveil or starting a fight. Must be stealthed and out of combat. Any damage breaks the effect."
   },
   "crippling_poison": {
     "id": "crippling_poison",
@@ -4348,6 +4349,58 @@
       }
     ],
     "description": "Coats your weapon for 30 min, causing each of your melee swings to deal 14 additional Nature damage."
+  },
+  "melting_acid": {
+    "id": "melting_acid",
+    "name": "Melting Acid",
+    "class": "rogue",
+    "learnLevel": 16,
+    "cost": 40,
+    "castTime": 0,
+    "cooldown": 0,
+    "range": 0,
+    "school": "nature",
+    "requiresTarget": true,
+    "effects": [
+      {
+        "type": "directDamage",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "type": "buffTarget",
+        "kind": "melting_acid",
+        "value": 0.05,
+        "duration": 12
+      }
+    ],
+    "description": "Splashes the target with a caustic poison, dealing $d Nature damage and reducing its armor by 5% for 12 sec."
+  },
+  "nightshade_coating": {
+    "id": "nightshade_coating",
+    "name": "Nightshade Coating",
+    "class": "rogue",
+    "learnLevel": 18,
+    "cost": 40,
+    "castTime": 0,
+    "cooldown": 0,
+    "range": 0,
+    "school": "nature",
+    "requiresTarget": true,
+    "effects": [
+      {
+        "type": "directDamage",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "type": "buffTarget",
+        "kind": "mortal_wound",
+        "value": 0.25,
+        "duration": 12
+      }
+    ],
+    "description": "Coats the target in nightshade, dealing $d Nature damage and reducing the healing it receives by 25% for 12 sec."
   },
   "blind": {
     "id": "blind",
@@ -5315,7 +5368,7 @@
         "duration": 1800
       }
     ],
-    "description": "Adopt Courser's Guise, increasing your movement speed by 30% for 30 min."
+    "description": "Adopt Courser's Guise, increasing your movement speed by 30% for 30 min. While active, taking damage dazes you, halving your movement speed for 4 sec (each hit refreshes the daze)."
   },
   "pack_rally": {
     "id": "pack_rally",
@@ -6140,7 +6193,7 @@
     "school": "nature",
     "requiresTarget": false,
     "effects": [],
-    "description": "Passive: Dual-wield attacks have no extra miss chance. Every 3rd landed weapon attack triggers 2 Galeheart Echoes for 50% Nature damage and grants Stormcast for 12 sec. Stormcast makes your next Arc Bolt, Jolt, or Mending Waters instant and cost 50% less Mana. Ancestral Strike counts as 2 attacks. (Warspirit)"
+    "description": "Passive: Dual-wield attacks have no extra miss chance. Every 3rd landed weapon attack triggers 2 Galeheart Echoes for 25% Nature damage and grants Stormcast for 12 sec. Stormcast makes your next Arc Bolt, Jolt, or Mending Waters instant and cost 50% less Mana. Ancestral Strike counts as 2 attacks. (Warspirit)"
   },
   "stormsurge": {
     "id": "stormsurge",
@@ -6821,7 +6874,7 @@
         "damage": 16
       }
     ],
-    "description": "Hexes the enemy for 8 sec. Its next 3 damaging actions each generate 7 Condemnation and lash it for 16 Shadow damage."
+    "description": "Hexes the enemy for 8 sec. Its next 3 damaging actions each generate 7 Condemnation and lash it for 17 Shadow damage."
   },
   "cruel_pact": {
     "id": "cruel_pact",
@@ -7719,7 +7772,7 @@
         "duration": 30
       }
     ],
-    "description": "Calls a Pyre Colossus down at the target area, dealing 58-72 Fire damage on impact. It fights for 30 sec without replacing your demon, burns nearby enemies every 2 sec, and generates 1 Wrack every 1 sec."
+    "description": "Calls a Pyre Colossus down at the target area, dealing 64-79 Fire damage on impact. It fights for 30 sec without replacing your demon, burns nearby enemies every 2 sec, and generates 1 Wrack every 1 sec."
   },
   "soul_harvest": {
     "id": "soul_harvest",
@@ -11015,7 +11068,7 @@
     "school": "fire",
     "requiresTarget": false,
     "effects": [],
-    "description": "Passive: your spell critical strikes burn the target for 40% of the damage dealt over 6 sec, stacking. (Fire mastery)"
+    "description": "Passive: your spell critical strikes burn the target for 30% of the damage dealt over 6 sec, stacking. (Fire mastery)"
   },
   "hot_streak": {
     "id": "hot_streak",
@@ -11510,13 +11563,14 @@
     "range": 24,
     "school": "physical",
     "requiresTarget": true,
+    "targetType": "any",
     "effects": [
       {
         "type": "blinkForward",
         "distance": 24
       }
     ],
-    "description": "Steps through the shadows toward your target without breaking Duskveil. (Rogue talent)"
+    "description": "Steps through the shadows to your target, friend or foe, without breaking Duskveil. (Rogue talent)"
   },
   "silence": {
     "id": "silence",
@@ -12257,226 +12311,5 @@
       }
     ],
     "description": "Channel for 6 sec, healing party members within 30 yards for $d every 2 sec. Healing increases with Spell Power."
-  },
-  "sport_kick": {
-    "id": "sport_kick",
-    "name": "Kick",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 1.2,
-    "range": 18,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballKick",
-        "power": 16,
-        "loft": 3
-      }
-    ],
-    "description": "Knock the ball along the ground toward the aim point."
-  },
-  "sport_boot": {
-    "id": "sport_boot",
-    "name": "Big Boot",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 6,
-    "range": 30,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballKick",
-        "power": 24,
-        "loft": 7
-      }
-    ],
-    "description": "A long lofted boot toward the aim point. The crowd loves it."
-  },
-  "sport_hoof": {
-    "id": "sport_hoof",
-    "name": "Hoof It",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 8,
-    "range": 30,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballKick",
-        "power": 26,
-        "loft": 4
-      }
-    ],
-    "description": "Hammer the ball low and hard up the field."
-  },
-  "sport_punt": {
-    "id": "sport_punt",
-    "name": "Long Punt",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 10,
-    "range": 34,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballKick",
-        "power": 26,
-        "loft": 9
-      }
-    ],
-    "description": "A keeper's punt, high and far."
-  },
-  "sport_shoot": {
-    "id": "sport_shoot",
-    "name": "Shoot",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 1.4,
-    "range": 34,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballShoot",
-        "power": 28,
-        "loft": 11
-      }
-    ],
-    "description": "Hold to build power, release to shoot at goal. Too much power sails over."
-  },
-  "sport_pass": {
-    "id": "sport_pass",
-    "name": "Pass",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 1,
-    "range": 42,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "ballPass",
-        "power": 26,
-        "loft": 0
-      }
-    ],
-    "description": "Roll a firm pass to your targeted teammate, leading their run."
-  },
-  "sport_feint": {
-    "id": "sport_feint",
-    "name": "Feint",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 8,
-    "range": 10,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "sportDash",
-        "distance": 5
-      }
-    ],
-    "description": "A quick sidestep burst toward the aim point."
-  },
-  "sport_dive": {
-    "id": "sport_dive",
-    "name": "Dive",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 8,
-    "range": 12,
-    "school": "physical",
-    "requiresTarget": false,
-    "targetMode": "position",
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "sportDash",
-        "distance": 8,
-        "catchBall": true
-      }
-    ],
-    "description": "Fling yourself toward the aim point. A crossing ball sticks to you."
-  },
-  "sport_shoulder": {
-    "id": "sport_shoulder",
-    "name": "Shoulder",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 10,
-    "range": 0,
-    "school": "physical",
-    "requiresTarget": true,
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "stun",
-        "duration": 1.2
-      },
-      {
-        "type": "sportShove",
-        "distance": 4
-      }
-    ],
-    "description": "A fair harvest-truce shoulder. Sends them tumbling off the ball."
-  },
-  "sport_second_wind": {
-    "id": "sport_second_wind",
-    "name": "Fresh Legs",
-    "class": "warrior",
-    "learnLevel": 1,
-    "cost": 0,
-    "castTime": 0,
-    "cooldown": 12,
-    "range": 0,
-    "school": "physical",
-    "requiresTarget": false,
-    "offGcd": true,
-    "effects": [
-      {
-        "type": "selfBuff",
-        "kind": "buff_speed",
-        "value": 1.5,
-        "duration": 4
-      }
-    ],
-    "description": "Find your legs: move 50% faster for 4 sec."
   }
 }

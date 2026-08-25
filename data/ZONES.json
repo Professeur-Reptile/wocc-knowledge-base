@@ -10,14 +10,14 @@
     ],
     "biome": "vale",
     "hub": {
-      "x": 0,
-      "z": 0,
+      "x": -14,
+      "z": -100,
       "radius": 26,
       "name": "Eastbrook"
     },
     "graveyard": {
-      "x": -12,
-      "z": -14
+      "x": 0,
+      "z": -70
     },
     "lakes": [
       {
@@ -28,20 +28,20 @@
     ],
     "pois": [
       {
-        "x": 0,
-        "z": -3,
+        "x": -14,
+        "z": -102,
         "label": "Eastbrook",
         "id": "eastbrook"
       },
       {
-        "x": -2,
-        "z": 70,
+        "x": 2,
+        "z": -4,
         "label": "Wolf Run",
         "id": "wolf_run"
       },
       {
-        "x": 65,
-        "z": 0,
+        "x": 60,
+        "z": -64,
         "label": "Boar Meadow",
         "id": "boar_meadow"
       },
@@ -58,14 +58,14 @@
         "id": "sableweb"
       },
       {
-        "x": -84,
-        "z": -64,
+        "x": -34,
+        "z": 142,
         "label": "Copper Dig",
         "id": "copper_dig"
       },
       {
-        "x": 76,
-        "z": -76,
+        "x": 98,
+        "z": 28,
         "label": "Bandit Camp",
         "id": "bandit_camp"
       },
@@ -76,8 +76,8 @@
         "id": "fallen_chapel"
       },
       {
-        "x": -5,
-        "z": -52,
+        "x": -136,
+        "z": 112,
         "label": "Reliquary Hill",
         "id": "reliquary_hill"
       },
@@ -91,13 +91,20 @@
         "x": -11,
         "z": -112,
         "label": "The Sowfield",
-        "id": "the_sowfield"
+        "id": "the_sowfield",
+        "hideOnMap": true
       },
       {
         "x": 150,
         "z": -46,
         "label": "The Farshore Causeway",
         "id": "the_farshore_causeway"
+      },
+      {
+        "x": -101,
+        "z": -54,
+        "label": "Eastbrook Docks",
+        "id": "eastbrook_docks"
       }
     ],
     "welcome": "Find Marshal Redbrook in town - he has work for you.",
@@ -1407,5 +1414,63 @@
     ],
     "welcome": "Cross the sandbar and Gullhaven's bell will find you before the town does. The breaks tear open without warning, and the redoubt holds its shore against whatever pours through. They have been waiting a long while for someone like you.",
     "welcomeQuestId": "q_fs_bell_at_the_landing"
+  },
+  {
+    "id": "proving_shore",
+    "name": "The Proving Shore",
+    "xMin": -540,
+    "xMax": -180,
+    "zMin": -180,
+    "zMax": 180,
+    "levelRange": [
+      1,
+      2
+    ],
+    "biome": "vale",
+    "hub": {
+      "x": -300,
+      "z": 50,
+      "radius": 14,
+      "name": "Dawnrest Camp"
+    },
+    "graveyard": {
+      "x": -324,
+      "z": 58
+    },
+    "lakes": [],
+    "pois": [
+      {
+        "x": -300,
+        "z": 50,
+        "label": "Dawnrest Camp",
+        "id": "dawnrest_camp"
+      },
+      {
+        "x": -280,
+        "z": 0,
+        "label": "The Old Pier",
+        "id": "the_old_pier"
+      },
+      {
+        "x": -336,
+        "z": -14,
+        "label": "The Practice Yard",
+        "id": "the_practice_yard"
+      },
+      {
+        "x": -380,
+        "z": -42,
+        "label": "The Wreck Line",
+        "id": "the_wreck_line"
+      },
+      {
+        "x": -306,
+        "z": -22,
+        "label": "The Gauntlet",
+        "id": "the_gauntlet"
+      }
+    ],
+    "welcome": "The Proving Shore asks nothing of you but time. Learn the camp, strike the effigies, walk the wreck line, and when you are ready, Ferryman Odo will see you across to the vale.",
+    "welcomeQuestId": "q_ps_the_gauntlet"
   }
 ]

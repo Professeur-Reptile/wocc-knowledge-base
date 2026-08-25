@@ -4,8 +4,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -70,
-      "z": -53
+      "x": -20,
+      "z": 153
     },
     "level": 4,
     "tier": 1
@@ -15,8 +15,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -73,
-      "z": -49
+      "x": -23,
+      "z": 157
     },
     "level": 4,
     "tier": 1
@@ -26,8 +26,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -67,
-      "z": -57
+      "x": -17,
+      "z": 149
     },
     "level": 4,
     "tier": 1
@@ -37,8 +37,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -92,
-      "z": -48
+      "x": -42,
+      "z": 158
     },
     "level": 4,
     "tier": 1
@@ -48,8 +48,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -87,
-      "z": -45
+      "x": -37,
+      "z": 161
     },
     "level": 4,
     "tier": 1
@@ -59,8 +59,8 @@
     "zoneId": "eastbrook_vale",
     "type": "ore",
     "pos": {
-      "x": -65,
-      "z": -69
+      "x": -15,
+      "z": 137
     },
     "level": 4,
     "tier": 1
@@ -136,7 +136,7 @@
     "zoneId": "eastbrook_vale",
     "type": "herb",
     "pos": {
-      "x": -59,
+      "x": -58,
       "z": 91
     },
     "level": 4,
@@ -169,8 +169,8 @@
     "zoneId": "eastbrook_vale",
     "type": "herb",
     "pos": {
-      "x": 6,
-      "z": -69
+      "x": 12,
+      "z": -63
     },
     "level": 4,
     "tier": 1

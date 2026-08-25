@@ -4,10 +4,10 @@
     "name": "The Merchant",
     "title": "Keeper of the World Market",
     "pos": {
-      "x": -4.376409317062264,
-      "z": 7.967830304040863
+      "x": -19.333512834321652,
+      "z": -95.49976921301501
     },
-    "facing": 2.508844,
+    "facing": 2.4805494847391065,
     "color": 13938487,
     "questIds": [],
     "market": true,
@@ -18,10 +18,10 @@
     "name": "Marshal Redbrook",
     "title": "Town Marshal",
     "pos": {
-      "x": 4.5,
-      "z": 5.5
+      "x": -58,
+      "z": -102
     },
-    "facing": -2.2318394956455836,
+    "facing": 1.5707963267948966,
     "color": 12031243,
     "questIds": [
       "q_wolves",
@@ -37,10 +37,10 @@
     "name": "Trader Wilkes",
     "title": "Provisioner",
     "pos": {
-      "x": -7.125851435200138,
-      "z": 0.812357418766734
+      "x": -17.833512834321652,
+      "z": -106.50023078698499
     },
-    "facing": 1.405648,
+    "facing": 0.6610431688506869,
     "color": 1999945,
     "questIds": [
       "q_boars",
@@ -68,25 +68,25 @@
     "name": "Apothecary Lin",
     "title": "Herbalist",
     "pos": {
-      "x": 2.8431593444121797,
-      "z": 9.717148252611294
+      "x": -72,
+      "z": -96
     },
-    "facing": -2.788602,
+    "facing": 1.673877935317597,
     "color": 8207512,
     "questIds": [
       "q_spiders"
     ],
-    "greeting": "Careful where you step in the eastern woods, friend."
+    "greeting": "Careful where you step in the northeastern woods, friend."
   },
   "brother_aldric": {
     "id": "brother_aldric",
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": -16.59147045515334,
-      "z": -1.3973000209293893
+      "x": 5.181980515339464,
+      "z": -74.81801948466054
     },
-    "facing": 1.368826,
+    "facing": 0.7853981633974483,
     "color": 16251385,
     "questIds": [
       "q_bones",
@@ -107,10 +107,10 @@
     "name": "Smith Haldren",
     "title": "Armorer & Weaponsmith",
     "pos": {
-      "x": 5.617914034868791,
-      "z": 15.074687401746273
+      "x": -3.4,
+      "z": -112.5
     },
-    "facing": -2.876775,
+    "facing": -1.6631256615264958,
     "color": 7371644,
     "questIds": [
       "q_prof_hobby_switch"
@@ -135,10 +135,10 @@
     "name": "Fisherman Brandt",
     "title": "Old Salt",
     "pos": {
-      "x": -22,
-      "z": 4
+      "x": -95,
+      "z": -50
     },
-    "facing": 1.661456213995642,
+    "facing": -1.5707963267948966,
     "color": 2388387,
     "questIds": [
       "q_murlocs"
@@ -153,10 +153,10 @@
     "name": "Foreman Odell",
     "title": "Mine Foreman",
     "pos": {
-      "x": -8,
-      "z": -9.5
+      "x": -84,
+      "z": -63
     },
-    "facing": 0.607802,
+    "facing": 0.6747409422235526,
     "color": 10502144,
     "questIds": [
       "q_prof_intro",
@@ -169,10 +169,10 @@
     "name": "Bursar Fernando",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": 14.156943251329539,
-      "z": 8.685223202016726
+      "x": 8.49982143312659,
+      "z": -97.50017856687342
     },
-    "facing": -2.0119758072098772,
+    "facing": -2.356194490192345,
     "color": 13214247,
     "questIds": [],
     "banker": true,
@@ -183,38 +183,24 @@
     "name": "Card Master",
     "title": "Dealer of Chance",
     "pos": {
-      "x": 10.5,
-      "z": 1
+      "x": 20,
+      "z": -98
     },
-    "facing": -1.4758446204521403,
+    "facing": -2.677945044588987,
     "color": 8007567,
     "questIds": [],
     "cardMaster": true,
     "greeting": "Care for a Card Duel? Best of three, winner takes the bragging rights."
-  },
-  "groundskeeper_bram": {
-    "id": "groundskeeper_bram",
-    "name": "Groundskeeper Bram",
-    "title": "Keeper of the Sowfield",
-    "pos": {
-      "x": -6,
-      "z": -82
-    },
-    "facing": 3.141592653589793,
-    "color": 4160820,
-    "questIds": [],
-    "dynamic": true,
-    "greeting": "The truce holds at the Sowfield, $C: boots and shoulders only. Care to play for the Copper Pail?"
   },
   "chronicler_saul": {
     "id": "chronicler_saul",
     "name": "Saul the Chronicler",
     "title": "The Vale Chronicle",
     "pos": {
-      "x": 0,
-      "z": -14.5
+      "x": 10.2,
+      "z": -87.5
     },
-    "facing": -0.3006056700423954,
+    "facing": 0.5880026035475675,
     "color": 13666862,
     "questIds": [],
     "greeting": "Every deed worth doing is worth writing down twice, $N: once for the ledger and once for the fireside."
@@ -224,10 +210,10 @@
     "name": "Forgemistress Darva",
     "title": "Master of the Forge",
     "pos": {
-      "x": 1.7573530626642033,
-      "z": 16.121620532318982
+      "x": -8.171547617899419,
+      "z": -120.39003105620014
     },
-    "facing": -2.876775,
+    "facing": -2.0344439357957027,
     "color": 11883548,
     "questIds": [
       "q_prof_attune_smith",
@@ -245,10 +231,10 @@
     "name": "Cook Marlow",
     "title": "Master of the Kitchens",
     "pos": {
-      "x": -12.780764037489869,
-      "z": 10.316661779002187
+      "x": -42.62589170715949,
+      "z": -92.23189846640925
     },
-    "facing": 2.4301335278502854,
+    "facing": -0.669638945676638,
     "color": 13208139,
     "questIds": [
       "q_prof_attune_apothecary",
@@ -270,10 +256,10 @@
     "name": "Weaver Ottilie",
     "title": "Master of the Loom",
     "pos": {
-      "x": -4.171032337012701,
-      "z": -18.01874944082567
+      "x": -27.278889744907204,
+      "z": -126.68721665810318
     },
-    "facing": 0.30338,
+    "facing": 2.5535900500422257,
     "color": 7430568,
     "questIds": [
       "q_prof_attune_outfitter",
@@ -293,10 +279,10 @@
     "name": "Tinker Gizzel",
     "title": "Master of the Toolworks",
     "pos": {
-      "x": 6.999944260671105,
-      "z": -13.825962484617639
+      "x": -16.277350098112613,
+      "z": -122.64714310642654
     },
-    "facing": -0.3006056700423954,
+    "facing": 0.5880026035475675,
     "color": 11570519,
     "questIds": [
       "q_prof_attune_bombardier",
@@ -827,10 +813,10 @@
     "name": "FURY",
     "title": "Honor Quartermaster",
     "pos": {
-      "x": -22.5,
-      "z": -7.5
+      "x": 16,
+      "z": -78
     },
-    "facing": 1.171280832795522,
+    "facing": -2.2455372690184494,
     "color": 11872810,
     "questIds": [],
     "vendorItems": [
@@ -891,8 +877,8 @@
     "name": "Brother Halven",
     "title": "Reliquary Keeper",
     "pos": {
-      "x": -5,
-      "z": -52
+      "x": -136,
+      "z": 112
     },
     "facing": 0,
     "color": 2827808,
@@ -1725,6 +1711,153 @@
       "q_fs_bram_come_home"
     ],
     "greeting": "It opened right where the nets dry. Right there, where I stood every morning of my life. I do not go down to the shore anymore. I do not go much of anywhere anymore."
+  },
+  "wayfarer_bryn": {
+    "id": "wayfarer_bryn",
+    "name": "Wayfarer Bryn",
+    "title": "Harbor Guide",
+    "pos": {
+      "x": 6,
+      "z": -7
+    },
+    "facing": 0.7,
+    "color": 9071258,
+    "questIds": [],
+    "greeting": "Eastbrook takes all comers, friend. And for the unsteady, there is always the Proving Shore: the ferry bell by the Ravenpost mailbox rings you across any day of the year, and its twin on the island rings you home."
+  },
+  "instructor_maren": {
+    "id": "instructor_maren",
+    "name": "Instructor Maren",
+    "title": "Proving Master",
+    "pos": {
+      "x": -299,
+      "z": 49
+    },
+    "facing": -2.356194490192345,
+    "color": 7031434,
+    "questIds": [
+      "q_ps_pouch_and_purse",
+      "q_ps_the_signpost",
+      "q_ps_the_long_walk",
+      "q_ps_set_sail"
+    ],
+    "greeting": "Every hero the vale has ever thanked stood where you stand now, $C, and not one of them knew which end of a blade to hold. That is what this shore is for. Ask, practice, and fail where failing is free."
+  },
+  "quartermaster_finch": {
+    "id": "quartermaster_finch",
+    "name": "Quartermaster Finch",
+    "title": "Camp Outfitter",
+    "pos": {
+      "x": -312,
+      "z": 57.2
+    },
+    "facing": 3.141592653589793,
+    "color": 7039802,
+    "vendorItems": [
+      "linen_pouch"
+    ],
+    "vendorQuestGates": {
+      "linen_pouch": "q_ps_pouch_and_purse"
+    },
+    "questIds": [
+      "q_ps_the_wreck_line",
+      "q_ps_pouch_and_purse"
+    ],
+    "greeting": "My counter keeps exactly one thing for sale, $N: a spare pouch for what you pick up along the way, when your lesson calls for it. Everything else here is salvage bound for the vale. Coin buys the pouch, and work earns the coin. That is the whole economy, and it never gets more complicated. Only bigger."
+  },
+  "bursar_wick": {
+    "id": "bursar_wick",
+    "name": "Bursar Wick",
+    "title": "The Gilded Strongbox",
+    "pos": {
+      "x": -325,
+      "z": 42
+    },
+    "facing": 0.7853981633974483,
+    "color": 13214247,
+    "questIds": [],
+    "banker": true,
+    "greeting": "The Gilded Strongbox keeps a desk even here, $N. Whatever you deposit with me waits in the same vault behind every bursar in every town, safe from wolves, water, and your own worse judgment."
+  },
+  "ferryman_odo": {
+    "id": "ferryman_odo",
+    "name": "Ferryman Odo",
+    "title": "Keeper of the Crossing",
+    "pos": {
+      "x": -284,
+      "z": -9
+    },
+    "facing": 3.141592653589793,
+    "color": 4876938,
+    "questIds": [
+      "q_ps_set_sail"
+    ],
+    "greeting": "Fresh off the crossing, $N? Warden Tam keeps the Gauntlet on the strand just south of my pier: run his lanes first and your legs will thank you. Every keeper on this shore hands you to the next when your work is done, and the card at the top of your screen always knows the way. When the vale calls you back, ring the bell standing beside my pier and the crossing will set you down in Eastbrook town."
+  },
+  "warden_tam": {
+    "id": "warden_tam",
+    "name": "Warden Tam",
+    "title": "Keeper of the Gauntlet",
+    "pos": {
+      "x": -283,
+      "z": -21
+    },
+    "facing": 0.05,
+    "color": 9067066,
+    "questIds": [
+      "q_ps_the_gauntlet"
+    ],
+    "greeting": "These lanes are the Gauntlet, $N, and every adventurer the vale respects has run them. The lantern posts stay lit all night, so the lanes never close."
+  },
+  "overseer_pell": {
+    "id": "overseer_pell",
+    "name": "Overseer Pell",
+    "title": "Gauntlet Overseer",
+    "pos": {
+      "x": -337,
+      "z": -33
+    },
+    "facing": 1.5707963267948966,
+    "color": 5925434,
+    "questIds": [
+      "q_ps_the_gauntlet",
+      "q_ps_strike_true"
+    ],
+    "greeting": "I clock every run that comes down these lanes, $N, and I have seen far worse footwork. The path behind me climbs to the practice yard: that is where footwork turns into swordwork."
+  },
+  "drillmaster_rook": {
+    "id": "drillmaster_rook",
+    "name": "Drillmaster Rook",
+    "title": "Yard Master",
+    "pos": {
+      "x": -345,
+      "z": -11
+    },
+    "facing": 2.356194490192345,
+    "color": 8014410,
+    "questIds": [
+      "q_ps_strike_true",
+      "q_ps_hone_the_edge",
+      "q_ps_shell_and_claw"
+    ],
+    "greeting": "Straw first, shells second, $N. An effigy teaches your arm the swing; the scuttlers down the strand teach it to land on something that minds."
+  },
+  "tidewarden_nel": {
+    "id": "tidewarden_nel",
+    "name": "Tidewarden Nel",
+    "title": "Keeper of the Strand",
+    "pos": {
+      "x": -371,
+      "z": -13
+    },
+    "facing": 2.356194490192345,
+    "color": 3828330,
+    "questIds": [
+      "q_ps_shell_and_claw",
+      "q_ps_mother_of_pearl",
+      "q_ps_the_wreck_line"
+    ],
+    "greeting": "The tide takes and the tide pays, $N. I keep the tally of both: what the scuttlers pinch off the wrecks, and what honest hands carry back up this path."
   },
   "spirit_healer": {
     "id": "spirit_healer",

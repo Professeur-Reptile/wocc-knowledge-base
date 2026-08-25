@@ -5888,7 +5888,8 @@
     "sellValue": 3600,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ],
     "set": "crownforged"
   },
@@ -5966,7 +5967,8 @@
     "sellValue": 3600,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ],
     "set": "crownforged"
   },
@@ -6184,7 +6186,8 @@
     "sellValue": 12000,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ]
   },
   "crownforged_warspaulders": {
@@ -6204,7 +6207,8 @@
     "sellValue": 12000,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ]
   },
   "nighttalon_crown": {
@@ -11472,6 +11476,71 @@
       "druid"
     ]
   },
+  "ps_castaway_crate": {
+    "id": "ps_castaway_crate",
+    "name": "Castaway Crate",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ps_the_wreck_line",
+    "noVendorSell": true,
+    "pickupDeny": "Barnacles seal the crate shut.",
+    "pickupEnough": "You already have enough castaway crates."
+  },
+  "ps_ferry_bell": {
+    "id": "ps_ferry_bell",
+    "name": "Ferry Bell",
+    "kind": "quest",
+    "sellValue": 0,
+    "noVendorSell": true,
+    "pickupDeny": "The ferry bell hangs silent.",
+    "pickupEnough": "The ferry bell has nothing to give."
+  },
+  "ps_passing_stone": {
+    "id": "ps_passing_stone",
+    "name": "Passing Stone",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ps_the_long_walk",
+    "use": {
+      "type": "passingStone"
+    },
+    "noVendorSell": true
+  },
+  "ps_briny_lure": {
+    "id": "ps_briny_lure",
+    "name": "Briny Lure",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ps_mother_of_pearl",
+    "use": {
+      "type": "summon"
+    },
+    "noVendorSell": true
+  },
+  "ps_lustrous_pearl": {
+    "id": "ps_lustrous_pearl",
+    "name": "Lustrous Pearl",
+    "kind": "quest",
+    "sellValue": 0,
+    "questId": "q_ps_mother_of_pearl",
+    "noVendorSell": true
+  },
+  "mother_of_pearl": {
+    "id": "mother_of_pearl",
+    "name": "Mother of Pearl",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "uncommon",
+    "requiredLevel": 1,
+    "stats": {
+      "str": 1,
+      "agi": 1,
+      "sta": 1,
+      "int": 1,
+      "spi": 1
+    },
+    "sellValue": 50
+  },
   "dawnhold_posy": {
     "id": "dawnhold_posy",
     "name": "Dawnhold Garden Posy",
@@ -12334,7 +12403,8 @@
     "sellValue": 12000,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ],
     "heroicOf": "crownforged_dreadhelm",
     "critRating": 20
@@ -12547,7 +12617,8 @@
     "sellValue": 12000,
     "requiredClass": [
       "warrior",
-      "paladin"
+      "paladin",
+      "shaman"
     ],
     "heroicOf": "crownforged_warspaulders",
     "critRating": 20

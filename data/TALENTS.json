@@ -873,10 +873,10 @@
         "signature": "pyroblast",
         "mastery": {
           "name": "Ignition",
-          "description": "Your spell critical strikes burn the target for 40% of the damage dealt over 6 sec, stacking. Increases critical strike chance by 2%.",
+          "description": "Your spell critical strikes burn the target for 30% of the damage dealt over 6 sec, stacking. Increases critical strike chance by 2%.",
           "effect": {
             "global": {
-              "ignitionPct": 0.4
+              "ignitionPct": 0.3
             },
             "stats": {
               "crit": 0.02
@@ -2085,7 +2085,7 @@
         "signature": "hemorrhage",
         "mastery": {
           "name": "False Face",
-          "description": "Increases the damage of your critical strikes by 25%, and you move 50% faster while in Duskveil.",
+          "description": "Increases the damage of your critical strikes by 25%, and you move at 100% speed while in Duskveil.",
           "effect": {
             "global": {
               "critDmgPhysPct": 0.25
@@ -2093,11 +2093,11 @@
             "ability": [
               {
                 "ability": "stealth",
-                "buffPct": 0.5
+                "buffPct": 1
               },
               {
                 "ability": "vanish",
-                "buffPct": 0.5
+                "buffPct": 1
               }
             ]
           }
