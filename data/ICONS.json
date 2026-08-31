@@ -108,6 +108,7 @@
     "gravewyrm_thornmaul": "hammer_d",
     "maul_of_the_scourged_wilds": "hammer_d",
     "wildsoul_maul": "hammer_d",
+    "varkhul_forgebreaker": "hammer_varkhul",
     "rusty_hatchet": "axe_a",
     "copper_bearded_axe": "axe_a",
     "drogmars_skullcleaver": "axe_b",
@@ -122,7 +123,16 @@
     "fen_reaver_glaive": "scythe",
     "tidereaver_gaff": "spear_a",
     "ironbark_boar_spear": "spear_a",
-    "fanglords_beastspear": "spear_a"
+    "fanglords_beastspear": "spear_a",
+    "forgefathers_warhammer": "hammer_c",
+    "springtouched_crozier": "hammer_c",
+    "cinderfang_kris": "adv_dagger",
+    "slagrender_cleaver": "adv_axe_1handed",
+    "anvilguard_blade": "adv_sword_1handed",
+    "heart_of_the_end_greatblade": "adv_sword_2handed_color",
+    "staff_of_the_last_spring": "adv_staff",
+    "forgefire_spire": "adv_staff",
+    "wand_of_quenched_sparks": "adv_wand"
   },
   "abilityIcons": [
     "divine_ascension",

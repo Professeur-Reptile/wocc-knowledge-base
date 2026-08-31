@@ -479,6 +479,493 @@
     "enterText": "You pass through the sealed royal door.",
     "leaveText": "You return to the cold air of Thornpeak."
   },
+  "ignivar_forge_lift": {
+    "id": "ignivar_forge_lift",
+    "name": "The Forge-Lift",
+    "index": 14,
+    "doorPos": {
+      "x": 503.05,
+      "z": 2243.7
+    },
+    "guideVisible": false,
+    "entry": {
+      "x": 0,
+      "z": -4
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -6.5
+    },
+    "spawns": [],
+    "npcs": [],
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Forge-Lift Gate",
+        "x": 0,
+        "z": 6.5,
+        "templateId": "ignivar_lift_gate_locked",
+        "dungeonId": "ignivar_forge_approach",
+        "lootable": false
+      }
+    ],
+    "interior": "ignivar_lift",
+    "suggestedPlayers": 10,
+    "enterText": "The forge-lift shudders and sinks; hammerfall rises to meet you.",
+    "leaveText": "The lift hauls you back into the open air of the keep."
+  },
+  "ignivar_forge_approach": {
+    "id": "ignivar_forge_approach",
+    "name": "Halls of the First Tempering",
+    "index": 10,
+    "doorPos": {
+      "x": 503.05,
+      "z": 2243.7
+    },
+    "overworldDoor": false,
+    "guideVisible": false,
+    "entry": {
+      "x": 0,
+      "z": -50
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -54
+    },
+    "leaveOffset": {
+      "x": 0,
+      "z": -6.5
+    },
+    "spawns": [
+      {
+        "mobId": "derelict_mech",
+        "x": -16,
+        "z": -17,
+        "facing": 0,
+        "packId": "approach_1"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": -14.3,
+        "z": -14,
+        "facing": -2.09,
+        "packId": "approach_1"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": -17.7,
+        "z": -14,
+        "facing": 2.09,
+        "idleStationary": true,
+        "packId": "approach_1"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": 13,
+        "z": 2,
+        "facing": 0,
+        "packId": "approach_2"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": 14.7,
+        "z": 5,
+        "facing": -2.09,
+        "packId": "approach_2"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": 11.3,
+        "z": 5,
+        "facing": 2.09,
+        "idleStationary": true,
+        "packId": "approach_2"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": -21,
+        "z": 7,
+        "facing": 0,
+        "idleStationary": true,
+        "packId": "approach_3",
+        "miniboss": {
+          "healthMultiplier": 2.35,
+          "scale": 2.75,
+          "ccImmune": true,
+          "slowImmune": true
+        }
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": -19.3,
+        "z": 10,
+        "facing": -2.09,
+        "packId": "approach_3"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": -22.7,
+        "z": 10,
+        "facing": 2.09,
+        "packId": "approach_3"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": 19,
+        "z": 39.7,
+        "facing": 0,
+        "packId": "approach_4"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": 21.3,
+        "z": 42,
+        "facing": -1.57,
+        "packId": "approach_4"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": 19,
+        "z": 44.3,
+        "facing": -3.14,
+        "idleStationary": true,
+        "packId": "approach_4"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 16.7,
+        "z": 42,
+        "facing": 1.57,
+        "idleStationary": true,
+        "packId": "approach_4"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": -22,
+        "z": 39.4,
+        "facing": 0,
+        "packId": "approach_5"
+      },
+      {
+        "mobId": "derelict_mech",
+        "x": -19.5,
+        "z": 41.2,
+        "facing": -1.26,
+        "packId": "approach_5"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": -20.5,
+        "z": 44.1,
+        "facing": -2.51,
+        "idleStationary": true,
+        "packId": "approach_5"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": -23.5,
+        "z": 44.1,
+        "facing": 2.51,
+        "idleStationary": true,
+        "packId": "approach_5"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": -24.5,
+        "z": 41.2,
+        "facing": 1.26,
+        "idleStationary": true,
+        "packId": "approach_5",
+        "miniboss": {
+          "healthMultiplier": 2.35,
+          "scale": 2.75,
+          "ccImmune": true,
+          "slowImmune": true
+        }
+      }
+    ],
+    "npcs": [
+      {
+        "npcId": "archivist_maelin_emberward",
+        "x": 0,
+        "z": -47
+      },
+      {
+        "npcId": "archivist_maelin_ember_projection",
+        "x": 0,
+        "z": 48
+      },
+      {
+        "npcId": "crucible_quartermaster",
+        "x": 6,
+        "z": -47
+      }
+    ],
+    "objects": [
+      {
+        "itemId": "ignivar_record_first_tempering",
+        "name": "First Tempering Record",
+        "x": -13,
+        "z": -40,
+        "interactOnly": true
+      },
+      {
+        "itemId": "ignivar_record_living_metal",
+        "name": "Living Metal Record",
+        "x": 13,
+        "z": -8,
+        "interactOnly": true
+      },
+      {
+        "itemId": "ignivar_record_herald_key",
+        "name": "Herald-Key Record",
+        "x": -13,
+        "z": 21,
+        "interactOnly": true
+      },
+      {
+        "itemId": "",
+        "name": "Sealed Herald Gate",
+        "x": 0,
+        "z": 53,
+        "templateId": "ignivar_raid_gate_locked",
+        "dungeonId": "ignivar_raid_arena",
+        "lootable": false
+      }
+    ],
+    "interior": "ignivar_approach",
+    "suggestedPlayers": 10,
+    "enterText": "Hammerfall echoes through the Halls of the First Tempering.",
+    "leaveText": "You step away from the first forge and breathe freely again."
+  },
+  "ignivar_raid_arena": {
+    "id": "ignivar_raid_arena",
+    "name": "Crucible of the Last Spring",
+    "index": 11,
+    "doorPos": {
+      "x": 503.05,
+      "z": 2243.7
+    },
+    "overworldDoor": false,
+    "guideVisible": false,
+    "entry": {
+      "x": 0,
+      "z": -27
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -30
+    },
+    "spawns": [
+      {
+        "mobId": "ignivar_herald_of_the_last_flame",
+        "x": 0,
+        "z": 4
+      }
+    ],
+    "npcs": [
+      {
+        "npcId": "archivist_maelin_ember_projection",
+        "x": 10,
+        "z": 24,
+        "facing": 3.141592653589793
+      }
+    ],
+    "objects": [
+      {
+        "itemId": "",
+        "name": "north_west Water Conduit",
+        "x": -16.2,
+        "z": 16.4,
+        "templateId": "ignivar_water_conduit_ready",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "north_east Water Conduit",
+        "x": 17.1,
+        "z": 16.8,
+        "templateId": "ignivar_water_conduit_ready",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "south_east Water Conduit",
+        "x": 16.6,
+        "z": -16.5,
+        "templateId": "ignivar_water_conduit_ready",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "south_west Water Conduit",
+        "x": -17.4,
+        "z": -17.1,
+        "templateId": "ignivar_water_conduit_ready",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Sealed Assembly Gate",
+        "x": 0,
+        "z": 31.5,
+        "templateId": "ignivar_raid_gate_locked",
+        "dungeonId": "ignivar_molten_assembly",
+        "lootable": false
+      }
+    ],
+    "interior": "ignivar",
+    "suggestedPlayers": 10,
+    "enterText": "Heat shimmers above the sealed waters of the Crucible.",
+    "leaveText": "You step away from the Crucible and breathe freely again."
+  },
+  "ignivar_molten_assembly": {
+    "id": "ignivar_molten_assembly",
+    "name": "Molten Assembly",
+    "index": 13,
+    "doorPos": {
+      "x": 503.05,
+      "z": 2243.7
+    },
+    "overworldDoor": false,
+    "guideVisible": false,
+    "entry": {
+      "x": 0,
+      "z": -50
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -54
+    },
+    "spawns": [
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": -5,
+        "z": -24,
+        "packId": "intake"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 0,
+        "z": -22,
+        "packId": "intake"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 5,
+        "z": -24,
+        "packId": "intake"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": -5,
+        "z": 4,
+        "packId": "middle"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 0,
+        "z": 6,
+        "packId": "middle"
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 5,
+        "z": 4,
+        "packId": "middle"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": -5,
+        "z": 31,
+        "packId": "final",
+        "miniboss": {
+          "healthMultiplier": 2.35,
+          "scale": 2.75,
+          "ccImmune": true,
+          "slowImmune": true
+        }
+      },
+      {
+        "mobId": "ignivar_ember_sentinel",
+        "x": 0,
+        "z": 33,
+        "packId": "final"
+      },
+      {
+        "mobId": "ignivar_crucible_warden",
+        "x": 5,
+        "z": 31,
+        "packId": "final",
+        "miniboss": {
+          "healthMultiplier": 2.35,
+          "scale": 2.75,
+          "ccImmune": true,
+          "slowImmune": true
+        }
+      }
+    ],
+    "npcs": [
+      {
+        "npcId": "archivist_maelin_ember_projection",
+        "x": 0,
+        "z": -47
+      }
+    ],
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Sealed Inner Crucible Gate",
+        "x": 0,
+        "z": 53,
+        "templateId": "ignivar_raid_gate_locked",
+        "dungeonId": "ignivar_inner_crucible",
+        "lootable": false
+      }
+    ],
+    "interior": "ignivar_approach",
+    "suggestedPlayers": 10,
+    "enterText": "The opened gate leads into a molten assembly hall.",
+    "leaveText": "You leave the assembly line and return to the Crucible."
+  },
+  "ignivar_inner_crucible": {
+    "id": "ignivar_inner_crucible",
+    "name": "The Inner Crucible",
+    "index": 12,
+    "doorPos": {
+      "x": 503.05,
+      "z": 2243.7
+    },
+    "overworldDoor": false,
+    "guideVisible": false,
+    "entry": {
+      "x": 0,
+      "z": -34
+    },
+    "exitOffset": {
+      "x": 0,
+      "z": -38
+    },
+    "spawns": [
+      {
+        "mobId": "varkhul_forgefather_of_the_last_flame",
+        "x": 0,
+        "z": 16,
+        "facing": 0
+      }
+    ],
+    "npcs": [
+      {
+        "npcId": "archivist_maelin_ember_projection",
+        "x": 14,
+        "z": 31
+      }
+    ],
+    "interior": "ignivar_depths",
+    "suggestedPlayers": 10,
+    "enterText": "The opened gate leads deeper into the Crucible.",
+    "leaveText": "You leave the silent depths of the Crucible."
+  },
   "drowned_temple": {
     "id": "drowned_temple",
     "name": "The Drowned Temple",

@@ -2,138 +2,38 @@
   "deathlord": {
     "id": "deathlord",
     "name": "Barrowlord Battlegear",
+    "lineage": "strength_lineage",
     "bonuses": [
       {
         "pieces": 2,
         "effect": {
-          "ap": 40
+          "str": 10,
+          "sta": 10
         },
-        "text": "Increases attack power by 40."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "str": 15,
-          "sta": 15
-        },
-        "text": "Increases Strength by 15 and Stamina by 15."
+        "text": "Increases Strength by 10 and Stamina by 10."
       },
       {
         "pieces": 4,
         "effect": {
+          "ap": 25,
           "proc": {
             "id": "set_gravemight",
             "name": "Gravemight",
             "trigger": "weaponCrit",
             "chance": 0.5,
             "aura": "buff_ap",
-            "value": 60,
+            "value": 40,
             "duration": 10,
             "icd": 15
           }
         },
-        "text": "Your weapon critical strikes have a 50% chance to grant Gravemight, increasing attack power by 60 for 10 sec."
-      }
-    ]
-  },
-  "wyrmshadow": {
-    "id": "wyrmshadow",
-    "name": "Nightfang Vestments",
-    "bonuses": [
-      {
-        "pieces": 2,
-        "effect": {
-          "ap": 40
-        },
-        "text": "Increases attack power by 40."
+        "text": "Increases attack power by 25. Your weapon critical strikes have a 50% chance to grant Gravemight, increasing attack power by 40 for 10 sec."
       },
       {
-        "pieces": 3,
+        "pieces": 6,
         "effect": {
-          "agi": 15,
-          "critRating": 20
-        },
-        "text": "Increases Agility by 15 and critical strike chance by 1%."
-      },
-      {
-        "pieces": 4,
-        "effect": {
-          "proc": {
-            "id": "set_fangrush",
-            "name": "Fangrush",
-            "trigger": "weaponCrit",
-            "chance": 0.5,
-            "aura": "buff_haste",
-            "value": 1.25,
-            "duration": 8,
-            "icd": 15
-          }
-        },
-        "text": "Your weapon critical strikes have a 50% chance to grant Fangrush, increasing attack speed by 25% for 8 sec."
-      }
-    ]
-  },
-  "necromancers": {
-    "id": "necromancers",
-    "name": "Mournweave Raiment",
-    "bonuses": [
-      {
-        "pieces": 2,
-        "effect": {
-          "castPushbackReduction": 1,
-          "sp": 20
-        },
-        "text": "Increases spell power by 20. Damage taken no longer delays your spellcasting (100% pushback resistance)."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "int": 10,
-          "sta": 10
-        },
-        "text": "Increases Intellect by 10 and Stamina by 10."
-      },
-      {
-        "pieces": 4,
-        "effect": {
-          "proc": {
-            "id": "set_clearcasting",
-            "name": "Clearcasting",
-            "trigger": "spellCast",
-            "chance": 0.1,
-            "aura": "next_cast_free",
-            "duration": 12,
-            "icd": 4
-          }
-        },
-        "text": "Your spells have a 10% chance to grant Clearcasting, making your next spell free."
-      }
-    ]
-  },
-  "crownforged": {
-    "id": "crownforged",
-    "name": "Bonewrought Regalia",
-    "bonuses": [
-      {
-        "pieces": 2,
-        "effect": {
-          "ap": 40
-        },
-        "text": "Increases attack power by 40."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "str": 15,
-          "sta": 15,
-          "hasteRating": 150
-        },
-        "text": "Increases Strength by 15, Stamina by 15, and attack and casting speed by 7.5%."
-      },
-      {
-        "pieces": 4,
-        "effect": {
-          "hitRating": 60,
+          "hasteRating": 80,
+          "hitRating": 30,
           "proc": {
             "id": "set_bonesplinter",
             "name": "Bonesplinter",
@@ -141,41 +41,52 @@
             "chance": 1,
             "applyTo": "target",
             "aura": "dot",
-            "value": 8,
+            "value": 5,
             "tickInterval": 2,
             "duration": 12,
             "maxStacks": 3,
             "school": "physical"
           }
         },
-        "text": "Increases Hit by 6%. Your weapon critical strikes splinter the target with Bonesplinter, bleeding it for 8 damage every 2 sec for 12 sec. Stacks up to 3 times."
+        "text": "Increases attack and casting speed by 4% and Hit by 3%. Your weapon critical strikes splinter the target with Bonesplinter, bleeding it for 5 damage every 2 sec for 12 sec. Stacks up to 3 times."
       }
     ]
   },
-  "nighttalon": {
-    "id": "nighttalon",
-    "name": "Direfang Pelt",
+  "wyrmshadow": {
+    "id": "wyrmshadow",
+    "name": "Nightfang Vestments",
+    "lineage": "agility_lineage",
     "bonuses": [
       {
         "pieces": 2,
         "effect": {
-          "ap": 40
+          "agi": 10,
+          "critRating": 20
         },
-        "text": "Increases attack power by 40."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "agi": 15,
-          "critRating": 20,
-          "hasteRating": 150
-        },
-        "text": "Increases Agility by 15, critical strike chance by 1%, and attack and casting speed by 7.5%."
+        "text": "Increases Agility by 10 and critical strike chance by 1%."
       },
       {
         "pieces": 4,
         "effect": {
-          "hitRating": 60,
+          "ap": 25,
+          "proc": {
+            "id": "set_fangrush",
+            "name": "Fangrush",
+            "trigger": "weaponCrit",
+            "chance": 0.5,
+            "aura": "buff_haste",
+            "value": 1.15,
+            "duration": 8,
+            "icd": 15
+          }
+        },
+        "text": "Increases attack power by 25. Your weapon critical strikes have a 50% chance to grant Fangrush, increasing attack speed by 15% for 8 sec."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
+          "hitRating": 30,
           "proc": {
             "id": "set_ragged_gash",
             "name": "Ragged Gash",
@@ -183,92 +94,267 @@
             "chance": 1,
             "applyTo": "target",
             "aura": "dot",
-            "value": 6,
+            "value": 4,
             "tickInterval": 2,
             "duration": 12,
             "maxStacks": 3,
             "school": "physical"
           }
         },
-        "text": "Increases Hit by 6%. Your weapon critical strikes tear a Ragged Gash, bleeding the target for 6 damage every 2 sec for 12 sec. Stacks up to 3 times."
+        "text": "Increases attack and casting speed by 4% and Hit by 3%. Your weapon critical strikes tear a Ragged Gash, bleeding the target for 4 damage every 2 sec for 12 sec. Stacks up to 3 times."
+      }
+    ]
+  },
+  "necromancers": {
+    "id": "necromancers",
+    "name": "Mournweave Raiment",
+    "lineage": "caster_lineage",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "int": 10,
+          "spi": 10,
+          "castPushbackReduction": 0.5
+        },
+        "text": "Increases Intellect by 10 and Spirit by 10. Damage taken delays your spellcasting half as much (50% pushback resistance)."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "sp": 12,
+          "proc": {
+            "id": "set_clearcasting",
+            "name": "Clearcasting",
+            "trigger": "spellCast",
+            "chance": 0.06,
+            "aura": "next_cast_free",
+            "duration": 12,
+            "icd": 4
+          }
+        },
+        "text": "Increases spell power by 12. Your spells have a 6% chance to grant Clearcasting, making your next spell free."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
+          "proc": {
+            "id": "set_soulblaze",
+            "name": "Soulblaze",
+            "trigger": "spellCast",
+            "chance": 0.1,
+            "aura": "buff_spellpower",
+            "value": 25,
+            "duration": 10,
+            "icd": 20
+          }
+        },
+        "text": "Increases attack and casting speed by 4%. Your spells have a 10% chance to grant Soulblaze, increasing spell power by 25 for 10 sec."
+      }
+    ]
+  },
+  "crownforged": {
+    "id": "crownforged",
+    "name": "Bonewrought Regalia",
+    "lineage": "strength_lineage",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "str": 10,
+          "sta": 10
+        },
+        "text": "Increases Strength by 10 and Stamina by 10."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "ap": 25,
+          "proc": {
+            "id": "set_gravemight",
+            "name": "Gravemight",
+            "trigger": "weaponCrit",
+            "chance": 0.5,
+            "aura": "buff_ap",
+            "value": 40,
+            "duration": 10,
+            "icd": 15
+          }
+        },
+        "text": "Increases attack power by 25. Your weapon critical strikes have a 50% chance to grant Gravemight, increasing attack power by 40 for 10 sec."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
+          "hitRating": 30,
+          "proc": {
+            "id": "set_bonesplinter",
+            "name": "Bonesplinter",
+            "trigger": "weaponCrit",
+            "chance": 1,
+            "applyTo": "target",
+            "aura": "dot",
+            "value": 5,
+            "tickInterval": 2,
+            "duration": 12,
+            "maxStacks": 3,
+            "school": "physical"
+          }
+        },
+        "text": "Increases attack and casting speed by 4% and Hit by 3%. Your weapon critical strikes splinter the target with Bonesplinter, bleeding it for 5 damage every 2 sec for 12 sec. Stacks up to 3 times."
+      }
+    ]
+  },
+  "nighttalon": {
+    "id": "nighttalon",
+    "name": "Direfang Pelt",
+    "lineage": "agility_lineage",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "agi": 10,
+          "critRating": 20
+        },
+        "text": "Increases Agility by 10 and critical strike chance by 1%."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "ap": 25,
+          "proc": {
+            "id": "set_fangrush",
+            "name": "Fangrush",
+            "trigger": "weaponCrit",
+            "chance": 0.5,
+            "aura": "buff_haste",
+            "value": 1.15,
+            "duration": 8,
+            "icd": 15
+          }
+        },
+        "text": "Increases attack power by 25. Your weapon critical strikes have a 50% chance to grant Fangrush, increasing attack speed by 15% for 8 sec."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
+          "hitRating": 30,
+          "proc": {
+            "id": "set_ragged_gash",
+            "name": "Ragged Gash",
+            "trigger": "weaponCrit",
+            "chance": 1,
+            "applyTo": "target",
+            "aura": "dot",
+            "value": 4,
+            "tickInterval": 2,
+            "duration": 12,
+            "maxStacks": 3,
+            "school": "physical"
+          }
+        },
+        "text": "Increases attack and casting speed by 4% and Hit by 3%. Your weapon critical strikes tear a Ragged Gash, bleeding the target for 4 damage every 2 sec for 12 sec. Stacks up to 3 times."
       }
     ]
   },
   "soulflame": {
     "id": "soulflame",
     "name": "Wraithfire Regalia",
+    "lineage": "caster_lineage",
     "bonuses": [
       {
         "pieces": 2,
         "effect": {
-          "castPushbackReduction": 1,
-          "sp": 20
+          "int": 10,
+          "spi": 10,
+          "castPushbackReduction": 0.5
         },
-        "text": "Increases spell power by 20. Damage taken no longer delays your spellcasting (100% pushback resistance)."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "int": 15,
-          "spi": 15,
-          "hasteRating": 150
-        },
-        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 7.5%."
+        "text": "Increases Intellect by 10 and Spirit by 10. Damage taken delays your spellcasting half as much (50% pushback resistance)."
       },
       {
         "pieces": 4,
         "effect": {
+          "sp": 12,
+          "proc": {
+            "id": "set_clearcasting",
+            "name": "Clearcasting",
+            "trigger": "spellCast",
+            "chance": 0.06,
+            "aura": "next_cast_free",
+            "duration": 12,
+            "icd": 4
+          }
+        },
+        "text": "Increases spell power by 12. Your spells have a 6% chance to grant Clearcasting, making your next spell free."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
           "proc": {
             "id": "set_soulblaze",
             "name": "Soulblaze",
             "trigger": "spellCast",
             "chance": 0.1,
             "aura": "buff_spellpower",
-            "value": 40,
+            "value": 25,
             "duration": 10,
             "icd": 20
           }
         },
-        "text": "Your spells have a 10% chance to grant Soulblaze, increasing spell power by 40 for 10 sec."
+        "text": "Increases attack and casting speed by 4%. Your spells have a 10% chance to grant Soulblaze, increasing spell power by 25 for 10 sec."
       }
     ]
   },
   "stormcallers": {
     "id": "stormcallers",
     "name": "Galecall Vestments",
+    "lineage": "caster_lineage",
     "bonuses": [
       {
         "pieces": 2,
         "effect": {
-          "castPushbackReduction": 1,
-          "sp": 20
+          "int": 10,
+          "spi": 10,
+          "castPushbackReduction": 0.5
         },
-        "text": "Increases spell power by 20. Damage taken no longer delays your spellcasting (100% pushback resistance)."
-      },
-      {
-        "pieces": 3,
-        "effect": {
-          "int": 15,
-          "spi": 15,
-          "hasteRating": 150
-        },
-        "text": "Increases Intellect by 15, Spirit by 15, and attack and casting speed by 7.5%."
+        "text": "Increases Intellect by 10 and Spirit by 10. Damage taken delays your spellcasting half as much (50% pushback resistance)."
       },
       {
         "pieces": 4,
         "effect": {
+          "sp": 12,
+          "proc": {
+            "id": "set_clearcasting",
+            "name": "Clearcasting",
+            "trigger": "spellCast",
+            "chance": 0.06,
+            "aura": "next_cast_free",
+            "duration": 12,
+            "icd": 4
+          }
+        },
+        "text": "Increases spell power by 12. Your spells have a 6% chance to grant Clearcasting, making your next spell free."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
           "proc": {
             "id": "set_soulblaze",
             "name": "Soulblaze",
             "trigger": "spellCast",
             "chance": 0.1,
             "aura": "buff_spellpower",
-            "value": 40,
+            "value": 25,
             "duration": 10,
             "icd": 20
           }
         },
-        "text": "Your spells have a 10% chance to grant Soulblaze, increasing spell power by 40 for 10 sec."
+        "text": "Increases attack and casting speed by 4%. Your spells have a 10% chance to grant Soulblaze, increasing spell power by 25 for 10 sec."
       }
     ]
   },
@@ -279,7 +365,7 @@
       {
         "pieces": 3,
         "effect": {
-          "hasteRating": 150
+          "hasteRating": 80
         },
         "text": "Increases attack and casting speed by 7.5%."
       }
@@ -292,7 +378,7 @@
       {
         "pieces": 3,
         "effect": {
-          "hasteRating": 150
+          "hasteRating": 80
         },
         "text": "Increases attack and casting speed by 7.5%."
       }
@@ -305,7 +391,7 @@
       {
         "pieces": 3,
         "effect": {
-          "hasteRating": 150
+          "hasteRating": 80
         },
         "text": "Increases attack and casting speed by 7.5%."
       }
@@ -506,6 +592,470 @@
           }
         },
         "text": "Increases Warfare Offense and Defense Rating by 80. Your spells have a 15% chance to grant Thornguard, increasing dodge by 15% for 6 sec."
+      }
+    ]
+  },
+  "slagbreaker": {
+    "id": "slagbreaker",
+    "name": "Slagbreaker Battlegear",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Redhand empowers your next Maiming Strike by 30 percent per stack instead of 20."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Every second cast of Redhand reduces Breachmaker's remaining cooldown by 3 sec."
+      }
+    ]
+  },
+  "emberfury": {
+    "id": "emberfury",
+    "name": "Emberfury Harness",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your Enrage lasts 6 sec instead of 4."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Bloodletting always Enrages you, and its healing rises to 8 percent of your maximum health."
+      }
+    ]
+  },
+  "forgewall": {
+    "id": "forgewall",
+    "name": "Forgewall Aegis",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Iron Resolve converts rage at 5 absorb per point instead of 4."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Casting Shieldcrack reduces Iron Resolve's remaining cooldown by 2 sec."
+      }
+    ]
+  },
+  "dawnforged": {
+    "id": "dawnforged",
+    "name": "Dawnforged Vestments",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Beacon of Light copies 55 percent of your direct heals. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Radiant Resonance's empowered Dawn's Embrace is instant."
+      }
+    ]
+  },
+  "oathpyre": {
+    "id": "oathpyre",
+    "name": "Oathpyre Bastion",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Vowkeeper Strike's chance to arm Solar Reprisal rises to 30 percent, and blocking an attack arms it 40 percent of the time."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Consuming Solar Reprisal shields you for 6 percent of your maximum health for 10 sec."
+      }
+    ]
+  },
+  "zealfire": {
+    "id": "zealfire",
+    "name": "Zealfire Warplate",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Final Edict and Dawnfall cut each other's remaining cooldown by 3 sec instead of 2."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Hammer of Wrath cast under Dawn's Wrath strikes 40 percent harder, up from 20."
+      }
+    ]
+  },
+  "packlord_emberhide": {
+    "id": "packlord_emberhide",
+    "name": "Packlord's Emberhide",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Pack Command's cooldown is reduced to 3 sec."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Pack Command's chance to reset Stampede's cooldown rises to 30 percent."
+      }
+    ]
+  },
+  "coldsight_trackers": {
+    "id": "coldsight_trackers",
+    "name": "Coldsight Trackers",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Measured Shot restores 5 additional Focus."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Long Draw critical strikes extend Cold Focus by 2 sec, up to 6 sec per activation."
+      }
+    ]
+  },
+  "slagsnare": {
+    "id": "slagsnare",
+    "name": "Slagsnare Trappings",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Gutting Strike generates 20 Focus."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Woundrend that consumes 3 Hunting Momentum preserves them. Cannot occur more than once every 8 sec."
+      }
+    ]
+  },
+  "cinderfang": {
+    "id": "cinderfang",
+    "name": "Cinderfang Shroud",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Venom Ritual's energy refund rises to 20 per builder."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Venom Dart's cooldown is reduced to 4 sec."
+      }
+    ]
+  },
+  "smolderstrike": {
+    "id": "smolderstrike",
+    "name": "Smolderstrike Leathers",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Haymaker hits 20 percent harder."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Lights Out refunds 6 sec of Mirrored Blades' remaining cooldown."
+      }
+    ]
+  },
+  "ashveil": {
+    "id": "ashveil",
+    "name": "Ashveil Garb",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Lurker's Strike hits 25 percent harder."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Your Veiled Edge strike hits for triple, up from double."
+      }
+    ]
+  },
+  "emberscreed": {
+    "id": "emberscreed",
+    "name": "Creed of Embers Vestments",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your Doctrine link converts 10 percent more of your Holy damage into healing. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "When your Psalm of Warding is fully consumed, your next Scouring Hymn within 10 sec is instant. Cannot occur more than once every 15 sec."
+      }
+    ]
+  },
+  "benison_dawnweave": {
+    "id": "benison_dawnweave",
+    "name": "Benison Dawnweave",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Seraphic Vigil's rescue heals for 270, up from 180. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "When Seraphic Vigil triggers, its ally is also mended for 15 percent of their maximum health over 10 sec."
+      }
+    ]
+  },
+  "vesperash": {
+    "id": "vesperash",
+    "name": "Vesperash Shroud",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Call Tithefiend's cooldown is reduced by 6 sec. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Calling your Tithefiend resets Mindfracture's cooldown, and the fiend returns twice as much mana per hit."
+      }
+    ]
+  },
+  "stormkindled": {
+    "id": "stormkindled",
+    "name": "Stormkindled Regalia",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Unleash Weapon on Pyrebrand grants 3 Thunder. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Earthen Jolt's bonus per Thunder rises to 30 percent."
+      }
+    ]
+  },
+  "warspirit_emberscale": {
+    "id": "warspirit_emberscale",
+    "name": "Warspirit Emberscale",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Ancestral Strike advances your cadence 3 steps."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Ancestral Strike hits 30 percent harder."
+      }
+    ]
+  },
+  "stonehearth": {
+    "id": "stonehearth",
+    "name": "Stonehearth Bastion",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "While Stonebound, Stormcast Mending Waters costs no mana and heals 25 percent more."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "While Stonebound, completing a cadence heals you for 3 percent of your maximum health."
+      }
+    ]
+  },
+  "springmender": {
+    "id": "springmender",
+    "name": "Springmender Scale",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Tidecall's cooldown is reduced by 4 sec. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Cascading Mend reaches a fourth ally and harvests Mending Currents at 150 percent."
+      }
+    ]
+  },
+  "chronoweave": {
+    "id": "chronoweave",
+    "name": "Aetherweave Vestments",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Temporal Echo converts 50 percent of your single-target Arcane damage into healing. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Temporal Cascade's cooldown is reduced by 5 sec."
+      }
+    ]
+  },
+  "pyroclast": {
+    "id": "pyroclast",
+    "name": "Pyroclast Regalia",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Scald always critically strikes targets at or below 35 percent health. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Your Fire spells' critical strikes outside Phoenix Trance reduce its remaining cooldown by 1.5 sec."
+      }
+    ]
+  },
+  "frostquench": {
+    "id": "frostquench",
+    "name": "Frostquench Weave",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Rimelance critical strikes bank a second Icicle, up to the maximum of 5. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Winterlash plants 3 Winter's Chill charges, up from 2."
+      }
+    ]
+  },
+  "hexthread": {
+    "id": "hexthread",
+    "name": "Hexthread Shroud",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Needle of Fate grants 2 additional Condemnation. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Passing Sentence refunds 10 Condemnation."
+      }
+    ]
+  },
+  "gravebrand": {
+    "id": "gravebrand",
+    "name": "Gravebrand Regalia",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Reaping Command's cooldown is reduced by 2 sec. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Reaping Command's unison strikes deal 25 percent more damage."
+      }
+    ]
+  },
+  "ruincaller": {
+    "id": "ruincaller",
+    "name": "Ruincaller Vestments",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Conflagrate holds 3 charges. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Ruinbolt strikes 20 percent harder."
+      }
+    ]
+  },
+  "moonscorch": {
+    "id": "moonscorch",
+    "name": "Moonscorch Raiment",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Moonseed may extend Lunar Tempest twice per application, to a maximum of 12 sec. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Moonsurge and Sunwake strike 25 percent harder."
+      }
+    ]
+  },
+  "wildfang_emberhide": {
+    "id": "wildfang_emberhide",
+    "name": "Wildfang Emberhide",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Redharvest restores 45 energy, up from 30."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Redharvest plants a fresh Flense on the target."
+      }
+    ]
+  },
+  "cinderbark": {
+    "id": "cinderbark",
+    "name": "Cinderbark Ward",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Sweeping Claws has a 30 percent chance to bank an additional Old Blood."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Marrowbreak hits 30 percent harder, and its emergency guard no longer replaces the strike."
+      }
+    ]
+  },
+  "grovespring": {
+    "id": "grovespring",
+    "name": "Grovespring Raiment",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Swiftmend consumes your own Wildbloom or Second Bloom first and heals 25 percent more. Damage taken no longer delays your spellcasting."
+      },
+      {
+        "pieces": 4,
+        "effect": {},
+        "text": "Overbloom harvests 75 percent of your remaining effects and banks 1 Verdance afterward."
       }
     ]
   }

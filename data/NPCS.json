@@ -59,7 +59,8 @@
       "handaxe",
       "gathering_sickle",
       "ironreel_fishing_rod",
-      "silverstream_fishing_rod"
+      "silverstream_fishing_rod",
+      "burlap_reagent_pouch"
     ],
     "greeting": "Fresh bread, clean water, fair prices. What can I get you?"
   },
@@ -270,7 +271,8 @@
       "linen_pouch",
       "travelers_knapsack",
       "gathering_sickle",
-      "spool_of_thread"
+      "spool_of_thread",
+      "burlap_reagent_pouch"
     ],
     "greeting": "Mind the threads, $C. A steady hand at the loom beats a strong one."
   },
@@ -1858,6 +1860,55 @@
       "q_ps_the_wreck_line"
     ],
     "greeting": "The tide takes and the tide pays, $N. I keep the tally of both: what the scuttlers pinch off the wrecks, and what honest hands carry back up this path."
+  },
+  "archivist_maelin_emberward": {
+    "id": "archivist_maelin_emberward",
+    "name": "Archivist Maelin Emberward",
+    "title": "Crucible Archivist",
+    "pos": {
+      "x": 0,
+      "z": 0
+    },
+    "facing": 0,
+    "color": 14263135,
+    "questIds": [
+      "q_ignivar_echoes_in_iron"
+    ],
+    "greeting": "Every hammer mark in this place is a sentence. Help me read what Varkhul tried to hide.",
+    "dynamic": true
+  },
+  "archivist_maelin_ember_projection": {
+    "id": "archivist_maelin_ember_projection",
+    "name": "Maelin's Ember Projection",
+    "title": "Ember Projection",
+    "pos": {
+      "x": 0,
+      "z": 0
+    },
+    "facing": 0,
+    "color": 16738858,
+    "questIds": [
+      "q_ignivar_echoes_in_iron",
+      "q_ignivar_heralds_heart",
+      "q_ignivar_the_forgefather"
+    ],
+    "greeting": "The embers carry Maelin's voice forward through the forge.",
+    "dynamic": true
+  },
+  "crucible_quartermaster": {
+    "id": "crucible_quartermaster",
+    "name": "Quartermaster Bronn Emberward",
+    "title": "Crucible Quartermaster",
+    "pos": {
+      "x": 0,
+      "z": 0
+    },
+    "facing": 0,
+    "color": 11759661,
+    "questIds": [],
+    "crucibleVendor": true,
+    "greeting": "The forge marks its own. Bring me a sigil from the Crucible and I will fit you for war.",
+    "dynamic": true
   },
   "spirit_healer": {
     "id": "spirit_healer",

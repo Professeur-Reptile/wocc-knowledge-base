@@ -2092,5 +2092,129 @@
       "trainer"
     ],
     "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_foragers_haversack",
+    "professionId": "tailoring",
+    "resultItemId": "foragers_haversack",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 3
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 3
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_duskweave_bag",
+    "professionId": "tailoring",
+    "resultItemId": "duskweave_bag",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "pristine_silk",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 3
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 6
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 3
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_resonant_weave_bag",
+    "professionId": "tailoring",
+    "resultItemId": "resonant_weave_bag",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "resonant_thread",
+        "count": 8
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 4
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 4
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_loombound_reagent_satchel",
+    "professionId": "tailoring",
+    "resultItemId": "loombound_reagent_satchel",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "resonant_thread",
+        "count": 12
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 6
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 5
+      },
+      {
+        "itemId": "homespun_cloth",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 6
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
   }
 ]
