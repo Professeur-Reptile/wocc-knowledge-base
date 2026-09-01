@@ -455,7 +455,8 @@
       "holy_nova",
       "seraphic_vigil",
       "shadowform",
-      "summon_tithefiend"
+      "summon_tithefiend",
+      "prayer_of_returning"
     ],
     "color": 13030640
   },
@@ -697,7 +698,9 @@
       "rip",
       "hurricane",
       "skull_bash",
-      "primal_reflexes"
+      "primal_reflexes",
+      "wildwake",
+      "grove_awakening"
     ],
     "color": 16747546
   }

@@ -1903,12 +1903,12 @@
       "x": 0,
       "z": 0
     },
-    "facing": 0,
+    "facing": 3.141592653589793,
+    "dynamic": true,
     "color": 11759661,
     "questIds": [],
     "crucibleVendor": true,
-    "greeting": "The forge marks its own. Bring me a sigil from the Crucible and I will fit you for war.",
-    "dynamic": true
+    "greeting": "The forge marks its own. Bring me a sigil from the Crucible and I will fit you for war."
   },
   "spirit_healer": {
     "id": "spirit_healer",

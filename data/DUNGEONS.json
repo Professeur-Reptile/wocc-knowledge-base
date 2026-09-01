@@ -694,11 +694,6 @@
         "npcId": "archivist_maelin_ember_projection",
         "x": 0,
         "z": 48
-      },
-      {
-        "npcId": "crucible_quartermaster",
-        "x": 6,
-        "z": -47
       }
     ],
     "objects": [

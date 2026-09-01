@@ -233,7 +233,7 @@
     "learnLevel": 6,
     "cost": 60,
     "castTime": 8,
-    "cooldown": 0,
+    "cooldown": 300,
     "range": 30,
     "school": "holy",
     "requiresTarget": true,
@@ -10586,6 +10586,54 @@
     ],
     "description": "Spends your 5 Verdance: every ally carrying your heal-over-time effects is instantly healed for $b% of the healing those effects had left, the effects are removed, and the target gets a fresh Wildbloom."
   },
+  "wildwake": {
+    "id": "wildwake",
+    "name": "Wildwake",
+    "class": "druid",
+    "specs": [
+      "restoration"
+    ],
+    "learnLevel": 16,
+    "cost": 60,
+    "castTime": 2,
+    "cooldown": 300,
+    "range": 30,
+    "school": "nature",
+    "requiresTarget": true,
+    "targetType": "friendly",
+    "targetsDead": true,
+    "effects": [
+      {
+        "type": "resurrectAlly",
+        "hpFrac": 0.35
+      }
+    ],
+    "description": "Coax a fallen ally into sudden bloom, returning them to life at your side with 35% of their health and mana, even in the thick of combat. (Groveheart)"
+  },
+  "grove_awakening": {
+    "id": "grove_awakening",
+    "name": "Grove Awakening",
+    "class": "druid",
+    "specs": [
+      "restoration"
+    ],
+    "learnLevel": 20,
+    "cost": 250,
+    "castTime": 7,
+    "cooldown": 300,
+    "range": 0,
+    "school": "nature",
+    "requiresTarget": false,
+    "requiresOutOfCombat": true,
+    "projectile": false,
+    "effects": [
+      {
+        "type": "massResurrectGroup",
+        "hpFrac": 0.3
+      }
+    ],
+    "description": "Call every fallen member of your group or raid within 40 yards and in your line of sight back to your side with 30% health and mana. Cannot be cast in combat. (Groveheart)"
+  },
   "kick": {
     "id": "kick",
     "name": "Boot",
@@ -12314,5 +12362,30 @@
       }
     ],
     "description": "Channel for 6 sec, healing party members within 30 yards for $d every 2 sec. Healing increases with Spell Power."
+  },
+  "prayer_of_returning": {
+    "id": "prayer_of_returning",
+    "name": "Prayer of Returning",
+    "class": "priest",
+    "specs": [
+      "holy",
+      "discipline"
+    ],
+    "learnLevel": 20,
+    "cost": 250,
+    "castTime": 7,
+    "cooldown": 300,
+    "range": 0,
+    "school": "holy",
+    "requiresTarget": false,
+    "requiresOutOfCombat": true,
+    "projectile": false,
+    "effects": [
+      {
+        "type": "massResurrectGroup",
+        "hpFrac": 0.3
+      }
+    ],
+    "description": "Call every fallen member of your group or raid within 40 yards and in your line of sight back to your side with 30% health and mana. Cannot be cast in combat. (Benison and Doctrine)"
   }
 }

@@ -12558,7 +12558,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -12582,7 +12581,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -12606,7 +12604,6 @@
     "hasteRating": 25,
     "hitRating": 60,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest"
@@ -12629,7 +12626,6 @@
     "hasteRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest"
@@ -12651,7 +12647,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12672,7 +12667,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12693,7 +12687,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "rogue",
       "hunter",
@@ -12716,7 +12709,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "rogue",
       "hunter",
@@ -12740,7 +12732,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12762,7 +12753,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12784,7 +12774,6 @@
     "hasteRating": 25,
     "hitRating": 60,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12806,7 +12795,6 @@
     "hasteRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "druid"
     ]
@@ -12827,7 +12815,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "paladin",
@@ -12850,7 +12837,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "paladin",
@@ -12873,7 +12859,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "paladin",
@@ -12896,7 +12881,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "paladin",
@@ -12920,7 +12904,6 @@
     "hitRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "shaman"
     ]
@@ -12942,7 +12925,6 @@
     "critRating": 60,
     "hasteRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "shaman"
     ]
@@ -12964,7 +12946,6 @@
     "hasteRating": 25,
     "hitRating": 60,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "paladin",
       "shaman"
@@ -12987,7 +12968,6 @@
     "hasteRating": 60,
     "critRating": 25,
     "sellValue": 10000,
-    "soulbound": true,
     "requiredClass": [
       "paladin",
       "shaman"
@@ -13005,8 +12985,7 @@
       "sta": 9
     },
     "critRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "ignivars_ember_choker": {
     "id": "ignivars_ember_choker",
@@ -13020,8 +12999,7 @@
       "agi": 8
     },
     "hitRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "locket_of_the_last_flame": {
     "id": "locket_of_the_last_flame",
@@ -13036,8 +13014,7 @@
     },
     "spellPower": 4,
     "critRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "heartspring_amulet": {
     "id": "heartspring_amulet",
@@ -13052,8 +13029,7 @@
     },
     "healPower": 8,
     "hasteRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "seal_of_the_forgewall": {
     "id": "seal_of_the_forgewall",
@@ -13067,8 +13043,7 @@
       "sta": 8
     },
     "hitRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "band_of_marked_strikes": {
     "id": "band_of_marked_strikes",
@@ -13082,8 +13057,7 @@
       "agi": 7
     },
     "hitRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "circle_of_cinders": {
     "id": "circle_of_cinders",
@@ -13098,8 +13072,7 @@
     },
     "spellPower": 4,
     "hitRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "loop_of_quiet_springs": {
     "id": "loop_of_quiet_springs",
@@ -13114,8 +13087,7 @@
     },
     "healPower": 8,
     "hitRating": 25,
-    "sellValue": 8000,
-    "soulbound": true
+    "sellValue": 8000
   },
   "bulwark_of_the_inner_crucible": {
     "id": "bulwark_of_the_inner_crucible",
@@ -13134,7 +13106,6 @@
     "blockValue": 30,
     "critRating": 25,
     "sellValue": 12000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "paladin",
@@ -13159,7 +13130,6 @@
     "healPower": 18,
     "hasteRating": 25,
     "sellValue": 12000,
-    "soulbound": true,
     "requiredClass": [
       "paladin",
       "shaman"
@@ -13179,7 +13149,6 @@
     "healPower": 28,
     "hasteRating": 25,
     "sellValue": 12000,
-    "soulbound": true,
     "requiredClass": [
       "priest",
       "mage",
@@ -13202,7 +13171,6 @@
     "spellPower": 14,
     "critRating": 25,
     "sellValue": 12000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -13229,7 +13197,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 14000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "rogue",
@@ -13258,7 +13225,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 14000,
-    "soulbound": true,
     "requiredClass": [
       "rogue",
       "hunter"
@@ -13284,7 +13250,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 14000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "rogue",
@@ -13312,7 +13277,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 14000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "rogue",
@@ -13341,7 +13305,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 16000,
-    "soulbound": true,
     "requiredClass": [
       "warrior",
       "hunter",
@@ -13370,7 +13333,6 @@
     "hasteRating": 70,
     "hitRating": 30,
     "sellValue": 16000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -13401,7 +13363,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 16000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -13431,7 +13392,6 @@
     "hasteRating": 70,
     "hitRating": 30,
     "sellValue": 14000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
@@ -13461,7 +13421,6 @@
     "critRating": 70,
     "hitRating": 30,
     "sellValue": 12000,
-    "soulbound": true,
     "requiredClass": [
       "mage",
       "priest",
