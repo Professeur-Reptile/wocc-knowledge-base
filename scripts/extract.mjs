@@ -221,6 +221,23 @@ async function main() {
       console.warn(`  ⚠ Boutiques de delve non extraites : ${err.message}`);
     }
 
+    // Stock du Quartier-maître du Creuset (v0.41.0) : les 145 pièces des
+    // 29 panoplies du raid ne tombent d'AUCUNE table — elles s'échangent
+    // contre un sigil de leur emplacement, lâché par les deux boss. La
+    // correspondance pièce → sigil ne vit que dans CRUCIBLE_VENDOR_STOCK,
+    // donc sans elle ces 145 objets n'ont aucune provenance publiée : le
+    // Codex les donnait sans source et le BiS de La-Clauderie les écartait
+    // purement et simplement comme inobtenables (signalé le 6 septembre 2026,
+    // « est-ce que les BiS sont à jour avec le nouveau set de raid ? » — ils
+    // ne l'étaient pas). Toléré absent (tags antérieurs à la v0.41.0).
+    try {
+      const crucibleBundlePath = path.join(workDir, 'crucible_vendor.bundle.cjs');
+      await bundleModule(repoPath, 'src/sim/content/ignivar_loot.ts', crucibleBundlePath);
+      dumpRegistries(crucibleBundlePath, ['CRUCIBLE_VENDOR_STOCK'], outDir);
+    } catch (err) {
+      console.warn(`  ⚠ Stock du Quartier-maître du Creuset non extrait : ${err.message}`);
+    }
+
     // Compagnons de delve : DELVES référence companion_tessa/companion_edda,
     // dont le gabarit de monstre vit sous un autre id (mobTemplateId) dans ce
     // registre — sans lui, la fiche « Compagnon » du Codex restait vide.

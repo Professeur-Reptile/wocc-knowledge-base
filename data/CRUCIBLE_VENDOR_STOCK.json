@@ -1,0 +1,582 @@
+[
+  {
+    "itemId": "slagbreaker_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "slagbreaker_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "slagbreaker_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "slagbreaker_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "slagbreaker_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "emberfury_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "emberfury_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "emberfury_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "emberfury_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "emberfury_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "forgewall_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "forgewall_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "forgewall_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "forgewall_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "forgewall_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "dawnforged_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "dawnforged_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "dawnforged_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "dawnforged_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "dawnforged_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "oathpyre_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "oathpyre_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "oathpyre_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "oathpyre_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "oathpyre_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "zealfire_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "zealfire_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "zealfire_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "zealfire_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "zealfire_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "packlord_emberhide_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "packlord_emberhide_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "packlord_emberhide_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "packlord_emberhide_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "packlord_emberhide_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "coldsight_trackers_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "coldsight_trackers_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "coldsight_trackers_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "coldsight_trackers_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "coldsight_trackers_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "slagsnare_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "slagsnare_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "slagsnare_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "slagsnare_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "slagsnare_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "cinderfang_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "cinderfang_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "cinderfang_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "cinderfang_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "cinderfang_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "smolderstrike_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "smolderstrike_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "smolderstrike_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "smolderstrike_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "smolderstrike_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "ashveil_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "ashveil_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "ashveil_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "ashveil_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "ashveil_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "emberscreed_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "emberscreed_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "emberscreed_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "emberscreed_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "emberscreed_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "benison_dawnweave_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "benison_dawnweave_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "benison_dawnweave_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "benison_dawnweave_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "benison_dawnweave_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "vesperash_helmet",
+    "sigilId": "sigil_ember_helmet"
+  },
+  {
+    "itemId": "vesperash_shoulder",
+    "sigilId": "sigil_ember_shoulder"
+  },
+  {
+    "itemId": "vesperash_chest",
+    "sigilId": "sigil_ember_chest"
+  },
+  {
+    "itemId": "vesperash_gloves",
+    "sigilId": "sigil_ember_gloves"
+  },
+  {
+    "itemId": "vesperash_legs",
+    "sigilId": "sigil_ember_legs"
+  },
+  {
+    "itemId": "stormkindled_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "stormkindled_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "stormkindled_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "stormkindled_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "stormkindled_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "warspirit_emberscale_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "warspirit_emberscale_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "warspirit_emberscale_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "warspirit_emberscale_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "warspirit_emberscale_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "stonehearth_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "stonehearth_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "stonehearth_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "stonehearth_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "stonehearth_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "springmender_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "springmender_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "springmender_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "springmender_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "springmender_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "chronoweave_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "chronoweave_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "chronoweave_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "chronoweave_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "chronoweave_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "pyroclast_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "pyroclast_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "pyroclast_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "pyroclast_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "pyroclast_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "frostquench_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "frostquench_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "frostquench_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "frostquench_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "frostquench_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "hexthread_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "hexthread_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "hexthread_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "hexthread_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "hexthread_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "gravebrand_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "gravebrand_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "gravebrand_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "gravebrand_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "gravebrand_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "ruincaller_helmet",
+    "sigilId": "sigil_tempest_helmet"
+  },
+  {
+    "itemId": "ruincaller_shoulder",
+    "sigilId": "sigil_tempest_shoulder"
+  },
+  {
+    "itemId": "ruincaller_chest",
+    "sigilId": "sigil_tempest_chest"
+  },
+  {
+    "itemId": "ruincaller_gloves",
+    "sigilId": "sigil_tempest_gloves"
+  },
+  {
+    "itemId": "ruincaller_legs",
+    "sigilId": "sigil_tempest_legs"
+  },
+  {
+    "itemId": "moonscorch_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "moonscorch_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "moonscorch_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "moonscorch_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "moonscorch_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "wildfang_emberhide_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "wildfang_emberhide_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "wildfang_emberhide_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "wildfang_emberhide_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "wildfang_emberhide_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "cinderbark_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "cinderbark_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "cinderbark_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "cinderbark_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "cinderbark_legs",
+    "sigilId": "sigil_anvil_legs"
+  },
+  {
+    "itemId": "grovespring_helmet",
+    "sigilId": "sigil_anvil_helmet"
+  },
+  {
+    "itemId": "grovespring_shoulder",
+    "sigilId": "sigil_anvil_shoulder"
+  },
+  {
+    "itemId": "grovespring_chest",
+    "sigilId": "sigil_anvil_chest"
+  },
+  {
+    "itemId": "grovespring_gloves",
+    "sigilId": "sigil_anvil_gloves"
+  },
+  {
+    "itemId": "grovespring_legs",
+    "sigilId": "sigil_anvil_legs"
+  }
+]
