@@ -583,7 +583,7 @@
 /* ================= chargement des données ================= */
 
 const DATA = {};
-const FILES = ['ITEMS','MOBS','QUESTS','NPCS','ZONES','DUNGEONS','DELVES','ITEM_SETS','GATHER_NODES','FISHING_TABLES','WORLD_BOSSES','HEROIC_BOSS_LOOT','ALL_RECIPES','HEROIC_VENDOR_STOCK','DELVE_SHOPS','DELVE_COMPANIONS','CLASSES','_meta'];
+const FILES = ['ITEMS','MOBS','QUESTS','NPCS','ZONES','DUNGEONS','DELVES','ITEM_SETS','GATHER_NODES','FISHING_TABLES','WORLD_BOSSES','HEROIC_BOSS_LOOT','ALL_RECIPES','HEROIC_VENDOR_STOCK','CRUCIBLE_VENDOR_STOCK','DELVE_SHOPS','DELVE_COMPANIONS','CLASSES','_meta'];
 
 async function load() {
   const res = await Promise.all(FILES.map(f =>
@@ -738,6 +738,19 @@ function buildCrossRefs() {
     addOrigin(o.itemId, fr
       ? `Vendu par ${npcRef('heroic_quartermaster')} — <b>${o.marks} Heroic Marks</b> (quartier-maître héroïque)`
       : `Sold by ${npcRef('heroic_quartermaster')} — <b>${o.marks} Heroic Marks</b> (heroic quartermaster)`);
+
+  // Quartier-maître du Creuset : les 145 pièces des 29 panoplies du raid ne
+  // tombent d'aucune table, elles s'échangent contre un sigil d'emplacement
+  // lâché par les deux boss (CRUCIBLE_VENDOR_STOCK, ignivar_loot.ts). Sans
+  // cette ligne, elles s'affichaient toutes « aucune source connue ».
+  for (const o of (DATA.CRUCIBLE_VENDOR_STOCK || [])) {
+    const sig = byId.item[o.sigilId];
+    const sigHtml = sig
+      ? `<span class="xlink q-${quality(sig)}" data-open="item|${esc(sig.id)}">${esc(sig.name)}</span>`
+      : esc(o.sigilId);
+    addOrigin(o.itemId, (fr ? `Échangé chez ` : `Redeemed from `) + npcRef('crucible_quartermaster')
+      + ` — <b>1</b> × ` + sigHtml);
+  }
 
   // Boutiques de delve : pièces payées en Marks, avec leur condition (shop.ts).
   for (const [delveId, entries] of Object.entries(DATA.DELVE_SHOPS || {}))
