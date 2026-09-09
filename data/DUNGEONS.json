@@ -361,12 +361,12 @@
     "name": "The Last Keep",
     "index": 8,
     "doorPos": {
-      "x": 421,
-      "z": 2013.4
+      "x": 479.4,
+      "z": 2168.1
     },
     "leaveOffset": {
-      "x": 0,
-      "z": 3.5
+      "x": -3.5,
+      "z": 0
     },
     "staticDoor": true,
     "entry": {
@@ -437,11 +437,11 @@
     "overworldDoor": false,
     "entry": {
       "x": 0,
-      "z": 4
+      "z": 20
     },
     "exitOffset": {
       "x": 0,
-      "z": -6
+      "z": 17
     },
     "spawns": [
       {
@@ -454,22 +454,22 @@
       {
         "itemId": "bastion_ward_stone",
         "name": "Left Wardstone",
-        "x": -40,
-        "z": 79,
+        "x": -30,
+        "z": 74,
         "interactOnly": true
       },
       {
         "itemId": "bastion_ward_stone",
         "name": "Right Wardstone",
-        "x": 40,
-        "z": 79,
+        "x": 30,
+        "z": 74,
         "interactOnly": true
       },
       {
         "itemId": "bastion_ward_stone",
         "name": "Threshold Wardstone",
         "x": 0,
-        "z": 63,
+        "z": 62,
         "interactOnly": true
       }
     ],
@@ -1066,7 +1066,7 @@
     ],
     "interior": "temple",
     "suggestedPlayers": 5,
-    "enterText": "You step through the moongate — the air turns to cold water and pale light, and the singing closes over your head.",
+    "enterText": "You step through the moongate: the air turns to cold water and pale light, and the singing closes over your head.",
     "leaveText": "You surface through the moongate into the mountain night."
   },
   "wildheart_basin": {

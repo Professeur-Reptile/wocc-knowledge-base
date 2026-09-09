@@ -1,4 +1,125 @@
 {
+  "crucible_str_mail": {
+    "id": "crucible_str_mail",
+    "name": "Crucible Striker's Mail",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your direct Physical damage and your pets' direct Physical damage build a charge, at most once per second. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_tank_mail": {
+    "id": "crucible_tank_mail",
+    "name": "Crucible Guardian's Mail",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Enemy damage starts a 10 sec counting period. When health lost during that period reaches 40% of your maximum health, gain a shield absorbing 8% of your maximum health for 6 sec. Can occur once every 20 sec. Absorbed damage and self-damage do not count. Stored damage and the shield end when you leave combat or stop wearing two pieces of this collection. The cooldown does not reset."
+      }
+    ]
+  },
+  "crucible_caster_mail": {
+    "id": "crucible_caster_mail",
+    "name": "Crucible Spellcaster's Mail",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your magic damage and your pets' magic damage build a charge, at most once per second, including damage over time. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_healer_mail": {
+    "id": "crucible_healer_mail",
+    "name": "Crucible Healer's Mail",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Healing an ally who is in combat turns 20% of your overhealing into a shield on that ally for 6 sec. Includes healing over time and damage converted into healing. This also works when healing yourself in combat. Protection from all wearers is limited to 5% of the recipient's maximum health. Additional overhealing fills the shield without extending its duration. This protection does not trigger other healing effects. Your shields end when the shielded ally leaves combat, you die, or you stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_agi_leather": {
+    "id": "crucible_agi_leather",
+    "name": "Crucible Skirmisher's Leather",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your direct Physical damage and your pets' direct Physical damage build a charge, at most once per second. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_str_leather": {
+    "id": "crucible_str_leather",
+    "name": "Crucible Prowler's Leather",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your direct Physical damage and your pets' direct Physical damage build a charge, at most once per second. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_tank_leather": {
+    "id": "crucible_tank_leather",
+    "name": "Crucible Guardian's Leather",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Enemy damage starts a 10 sec counting period. When health lost during that period reaches 40% of your maximum health, gain a shield absorbing 8% of your maximum health for 6 sec. Can occur once every 20 sec. Absorbed damage and self-damage do not count. Stored damage and the shield end when you leave combat or stop wearing two pieces of this collection. The cooldown does not reset."
+      }
+    ]
+  },
+  "crucible_caster_leather": {
+    "id": "crucible_caster_leather",
+    "name": "Crucible Spellcaster's Leather",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your magic damage and your pets' magic damage build a charge, at most once per second, including damage over time. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_healer_leather": {
+    "id": "crucible_healer_leather",
+    "name": "Crucible Healer's Leather",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Healing an ally who is in combat turns 20% of your overhealing into a shield on that ally for 6 sec. Includes healing over time and damage converted into healing. This also works when healing yourself in combat. Protection from all wearers is limited to 5% of the recipient's maximum health. Additional overhealing fills the shield without extending its duration. This protection does not trigger other healing effects. Your shields end when the shielded ally leaves combat, you die, or you stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_caster_cloth": {
+    "id": "crucible_caster_cloth",
+    "name": "Crucible Spellcaster's Cloth",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Your magic damage and your pets' magic damage build a charge, at most once per second, including damage over time. At 6 charges, you and your pets deal 8% more damage for 6 sec. Charges expire after 8 sec without a qualifying hit and cannot build during the damage bonus. Charges and the damage bonus end when you leave combat or stop wearing two pieces of this collection."
+      }
+    ]
+  },
+  "crucible_healer_cloth": {
+    "id": "crucible_healer_cloth",
+    "name": "Crucible Healer's Cloth",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {},
+        "text": "Healing an ally who is in combat turns 20% of your overhealing into a shield on that ally for 6 sec. Includes healing over time and damage converted into healing. This also works when healing yourself in combat. Protection from all wearers is limited to 5% of the recipient's maximum health. Additional overhealing fills the shield without extending its duration. This protection does not trigger other healing effects. Your shields end when the shielded ally leaves combat, you die, or you stop wearing two pieces of this collection."
+      }
+    ]
+  },
   "deathlord": {
     "id": "deathlord",
     "name": "Barrowlord Battlegear",
@@ -355,6 +476,59 @@
           }
         },
         "text": "Increases attack and casting speed by 4%. Your spells have a 10% chance to grant Soulblaze, increasing spell power by 25 for 10 sec."
+      }
+    ]
+  },
+  "bramblehide": {
+    "id": "bramblehide",
+    "name": "Roots' Bramblehide",
+    "lineage": "strength_lineage",
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effect": {
+          "str": 10,
+          "sta": 10
+        },
+        "text": "Increases Strength by 10 and Stamina by 10."
+      },
+      {
+        "pieces": 4,
+        "effect": {
+          "ap": 25,
+          "proc": {
+            "id": "set_gravemight",
+            "name": "Gravemight",
+            "trigger": "weaponCrit",
+            "chance": 0.5,
+            "aura": "buff_ap",
+            "value": 40,
+            "duration": 10,
+            "icd": 15
+          }
+        },
+        "text": "Increases attack power by 25. Your weapon critical strikes have a 50% chance to grant Gravemight, increasing attack power by 40 for 10 sec."
+      },
+      {
+        "pieces": 6,
+        "effect": {
+          "hasteRating": 80,
+          "hitRating": 30,
+          "proc": {
+            "id": "set_bonesplinter",
+            "name": "Bonesplinter",
+            "trigger": "weaponCrit",
+            "chance": 1,
+            "applyTo": "target",
+            "aura": "dot",
+            "value": 5,
+            "tickInterval": 2,
+            "duration": 12,
+            "maxStacks": 3,
+            "school": "physical"
+          }
+        },
+        "text": "Increases attack and casting speed by 4% and Hit by 3%. Your weapon critical strikes splinter the target with Bonesplinter, bleeding it for 5 damage every 2 sec for 12 sec. Stacks up to 3 times."
       }
     ]
   },
@@ -783,7 +957,7 @@
       {
         "pieces": 4,
         "effect": {},
-        "text": "Your Veiled Edge strike hits for triple, up from double."
+        "text": "Veiled Edge adds 100% weapon damage to your next Lurker's Strike instead of 50%. It does not increase the flat bonus or stack with the stealth bonus."
       }
     ]
   },
@@ -906,12 +1080,12 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Temporal Echo converts 50 percent of your single-target Arcane damage into healing. Damage taken no longer delays your spellcasting."
+        "text": "Temporal Echo converts 50 percent of your other single-target Arcane damage into healing. Aether Surge and Aether Darts instead convert 200 percent of their damage. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
         "effect": {},
-        "text": "Temporal Cascade's cooldown is reduced by 5 sec."
+        "text": "Temporal Cascade's cooldown is reduced by 5 sec and its mana cost is reduced by 30 percent."
       }
     ]
   },
@@ -1050,7 +1224,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Swiftmend consumes your own Wildbloom or Second Bloom first and heals 25 percent more. Damage taken no longer delays your spellcasting."
+        "text": "Fleetmend consumes your own Wildbloom or Second Bloom first and heals 25 percent more. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,

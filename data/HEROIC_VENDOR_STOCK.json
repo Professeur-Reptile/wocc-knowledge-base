@@ -38,5 +38,121 @@
   {
     "itemId": "medallion_of_endless_profit",
     "marks": 16
+  },
+  {
+    "itemId": "wyrmfall_core",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_ironhusk_flask",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_warboar_flask",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_runewater_flask",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_stonepot_stew",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_warspice_skewers",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_sageleaf_chowder",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_grand_cauldron",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_laden_hearth",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_peppered_deepbarb_catfish",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_roast_hollowgill_sturgeon",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_stonepot_feast",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_warspice_feast",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_sageleaf_feast",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_clockreel_fishing_rod",
+    "marks": 16
+  },
+  {
+    "itemId": "pattern_highwatch_gourd_soup",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_highwatch_barley_porridge",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_evergarden_sunmelon_tart",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_evergarden_harvest_platter",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_evergarden_braised_greens",
+    "marks": 12
+  },
+  {
+    "itemId": "pattern_harvest_feast",
+    "marks": 12
+  },
+  {
+    "itemId": "highland_barley_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "frost_gourd_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "thornpeak_cabbage_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "frost_lentils_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "gilded_sunmelon_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "evergarden_greens_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "gilded_yam_seed",
+    "marks": 12
+  },
+  {
+    "itemId": "evergarden_pumpkin_seed",
+    "marks": 12
   }
 ]

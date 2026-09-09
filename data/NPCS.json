@@ -11,7 +11,7 @@
     "color": 13938487,
     "questIds": [],
     "market": true,
-    "greeting": "Welcome to the World Market, $C. Buy from every adventurer in the realm — or set out your own wares and let coin find you."
+    "greeting": "Welcome to the World Market, $C. Buy from every adventurer in the realm, or set out your own wares and let coin find you."
   },
   "marshal_redbrook": {
     "id": "marshal_redbrook",
@@ -60,6 +60,7 @@
       "gathering_sickle",
       "ironreel_fishing_rod",
       "silverstream_fishing_rod",
+      "field_kit",
       "burlap_reagent_pouch"
     ],
     "greeting": "Fresh bread, clean water, fair prices. What can I get you?"
@@ -117,17 +118,13 @@
       "q_prof_hobby_switch"
     ],
     "vendorItems": [
-      "eastbrook_arming_sword",
       "eastbrook_greatsword",
       "bronzework_mace",
       "vale_carving_knife",
       "hickory_shortstaff",
       "eastbrook_buckler",
-      "eastbrook_chain_vest",
       "valespun_robe",
-      "tanned_leather_jerkin",
-      "hobnail_boots",
-      "eastbrook_wool_trousers"
+      "hobnail_boots"
     ],
     "greeting": "Mind the sparks, $C. Good steel is the difference between a scar and a grave."
   },
@@ -145,9 +142,10 @@
       "q_murlocs"
     ],
     "vendorItems": [
-      "simple_fishing_pole"
+      "simple_fishing_pole",
+      "field_kit"
     ],
-    "greeting": "Blrb-glub— sorry, been listening to those fish-men too long."
+    "greeting": "Blrb-glub... sorry, been listening to those fish-men too long."
   },
   "foreman_odell": {
     "id": "foreman_odell",
@@ -223,6 +221,7 @@
     ],
     "vendorItems": [
       "copper_mining_pick",
+      "field_kit",
       "smithing_flux"
     ],
     "greeting": "The forge answers to me, $C. Bring good ore and it will answer to you too."
@@ -240,7 +239,9 @@
     "questIds": [
       "q_prof_attune_apothecary",
       "q_prof_amends_apothecary",
-      "q_prof_workorder_kitchens"
+      "q_prof_workorder_kitchens",
+      "q_prof_workorder_kitchens_wheat",
+      "q_prof_workorder_kitchens_rice"
     ],
     "vendorItems": [
       "baked_bread",
@@ -271,6 +272,7 @@
       "linen_pouch",
       "travelers_knapsack",
       "gathering_sickle",
+      "field_kit",
       "spool_of_thread",
       "burlap_reagent_pouch"
     ],
@@ -294,9 +296,34 @@
     "vendorItems": [
       "handaxe",
       "simple_fishing_pole",
+      "field_kit",
       "arcanite_bar"
     ],
     "greeting": "Springs, sprockets, and sharp edges, $C: the toolworks has whatever your hands lack."
+  },
+  "farmer_jessica": {
+    "id": "farmer_jessica",
+    "name": "Farmer Jessica",
+    "title": "Allotment Keeper",
+    "pos": {
+      "x": -15.5,
+      "z": -81.5
+    },
+    "facing": -1.5707963267948966,
+    "color": 11043898,
+    "questIds": [
+      "q_farm_intro"
+    ],
+    "vendorItems": [
+      "vale_wheat_seed",
+      "brook_carrot_seed",
+      "brook_carrot",
+      "compost",
+      "garden_hoe",
+      "field_kit"
+    ],
+    "farmer": true,
+    "greeting": "Good soil and fair weather, $N. Buy a seed from me, sow it in one of those beds, and go about your day. It keeps growing while you are away, and it never spoils. Your Harvest Journal (Shift+K, or the Farming row of your Professions window) lists every planted bed and its timer."
   },
   "warden_fenwick": {
     "id": "warden_fenwick",
@@ -340,7 +367,7 @@
       "q_mistcaller",
       "q_highwatch_summons"
     ],
-    "greeting": "The Light keep you above the water, $N. The dead in this fen do not sleep — they wade."
+    "greeting": "The Light keep you above the water, $N. The dead in this fen do not sleep: they wade."
   },
   "provisioner_hale": {
     "id": "provisioner_hale",
@@ -380,9 +407,10 @@
       "gathering_sickle",
       "bronze_sickle",
       "simple_fishing_pole",
-      "ironreel_fishing_rod"
+      "ironreel_fishing_rod",
+      "field_kit"
     ],
-    "greeting": "Dry boots, dry bread, dry powder — at Fenbridge you get two of the three on a good day."
+    "greeting": "Dry boots, dry bread, dry powder: at Fenbridge you get two of the three on a good day."
   },
   "herbalist_yara": {
     "id": "herbalist_yara",
@@ -415,7 +443,7 @@
       "q_cult_camp",
       "q_olen"
     ],
-    "greeting": "Quiet feet and a short blade keep you breathing out here. Speak quick — I am due back in the reeds."
+    "greeting": "Quiet feet and a short blade keep you breathing out here. Speak quick, for I am due back in the reeds."
   },
   "bursar_petra_vell": {
     "id": "bursar_petra_vell",
@@ -465,6 +493,26 @@
     ],
     "greeting": "A hide is only as good as its tanning, $C. The vats are ready when you are."
   },
+  "farmer_teasel": {
+    "id": "farmer_teasel",
+    "name": "Farmer Teasel",
+    "title": "Fen Paddy Farmer",
+    "pos": {
+      "x": -21,
+      "z": 333.5
+    },
+    "facing": 0,
+    "color": 7044922,
+    "questIds": [],
+    "vendorItems": [
+      "marsh_rice_seed",
+      "bog_beet_seed",
+      "compost",
+      "field_kit"
+    ],
+    "farmer": true,
+    "greeting": "Marsh rice and bog beet seed, $C, and compost to feed them. The paddies drain slow, so mind where you tread."
+  },
   "captain_thessaly": {
     "id": "captain_thessaly",
     "name": "Captain Thessaly",
@@ -486,7 +534,7 @@
       "q_revenants",
       "q_revenant_vanguard"
     ],
-    "greeting": "Two hundred years this wall has held, $C. It will not break on my watch — but it groans."
+    "greeting": "Two hundred years this wall has held, $C. It will not break on my watch, but it groans."
   },
   "brother_aldric_highwatch": {
     "id": "brother_aldric_highwatch",
@@ -587,9 +635,10 @@
       "silverleaf_sickle",
       "simple_fishing_pole",
       "silverstream_fishing_rod",
+      "field_kit",
       "arcanite_bar"
     ],
-    "greeting": "Wool, hardtack, and steel-shod boots — Highwatch runs on all three, and I am short of everything."
+    "greeting": "Wool, hardtack, and steel-shod boots: Highwatch runs on all three, and I am short of everything."
   },
   "armorer_hode": {
     "id": "armorer_hode",
@@ -785,10 +834,31 @@
       "minor_mana_potion",
       "lesser_healing_potion",
       "lesser_mana_potion",
-      "elixir_of_the_bear",
       "glass_vial"
     ],
     "greeting": "Measure twice and pour once, $C. The apothecary has no patience for spilled reagents."
+  },
+  "farmer_hollis": {
+    "id": "farmer_hollis",
+    "name": "Farmer Hollis",
+    "title": "Highwatch Terrace Farmer",
+    "pos": {
+      "x": -18,
+      "z": 695.5
+    },
+    "facing": 3.141592653589793,
+    "color": 9202250,
+    "questIds": [],
+    "vendorItems": [
+      "compost",
+      "highland_barley_seed",
+      "frost_gourd_seed",
+      "thornpeak_cabbage_seed",
+      "frost_lentils_seed",
+      "field_kit"
+    ],
+    "farmer": true,
+    "greeting": "The terraces give what the mountain allows, $C. I sell seed and compost, and if a crop of yours comes up withered I will work the husks back into good soil for you."
   },
   "tidewatcher_ondrel": {
     "id": "tidewatcher_ondrel",
@@ -808,7 +878,7 @@
       "q_silence_the_choir",
       "q_drowned_moon"
     ],
-    "greeting": "The mere drinks the moonlight, $C, and gives back the drowned. I have watched that gate for thirty nights — and tonight it is open."
+    "greeting": "The mere drinks the moonlight, $C, and gives back the drowned. I have watched that gate for thirty nights, and tonight it is open."
   },
   "fury": {
     "id": "fury",
@@ -940,7 +1010,7 @@
   "provisioner_fenna": {
     "id": "provisioner_fenna",
     "name": "Provisioner Fenna",
-    "title": "Eldergleam Provisioner",
+    "title": "Eldershine Provisioner",
     "pos": {
       "x": -46,
       "z": 1031
@@ -958,7 +1028,8 @@
       "roast_mountain_goat",
       "glacier_melt",
       "healing_potion",
-      "mana_potion"
+      "mana_potion",
+      "field_kit"
     ],
     "greeting": "Bread still warm, water still sweet. The Hollow provides, and so do I."
   },
@@ -1368,7 +1439,7 @@
   "sexton_marrow": {
     "id": "sexton_marrow",
     "name": "Sexton Marrow",
-    "title": "Sexton of Gallowmere",
+    "title": "Sexton of Gibbetmere",
     "pos": {
       "x": 363,
       "z": 1436
@@ -1386,7 +1457,7 @@
   "widow_tansy": {
     "id": "widow_tansy",
     "name": "Widow Tansy",
-    "title": "Candlewright of Gallowmere",
+    "title": "Candlewright of Gibbetmere",
     "pos": {
       "x": 357,
       "z": 1424
@@ -1468,7 +1539,7 @@
   },
   "hermit_okku": {
     "id": "hermit_okku",
-    "name": "Okku",
+    "name": "Okrim",
     "title": "The Man Who Went In",
     "pos": {
       "x": -397,
@@ -1549,6 +1620,28 @@
       "q_eg_bull_of_the_court"
     ],
     "greeting": "Hand me that barrow, would you? These lawns do not walk themselves, whatever the hamlet thinks."
+  },
+  "farmer_verbena": {
+    "id": "farmer_verbena",
+    "name": "Farmer Verbena",
+    "title": "Parterre Gardener",
+    "pos": {
+      "x": 348.5,
+      "z": 867
+    },
+    "facing": 0,
+    "color": 8231772,
+    "questIds": [],
+    "vendorItems": [
+      "compost",
+      "gilded_sunmelon_seed",
+      "evergarden_greens_seed",
+      "gilded_yam_seed",
+      "evergarden_pumpkin_seed",
+      "field_kit"
+    ],
+    "farmer": true,
+    "greeting": "Mind the edging, $N, these beds are the pride of the parterre. Seed and compost are what I sell, and I will turn any withered husks you carry into more of it."
   },
   "watcher_maren": {
     "id": "watcher_maren",
@@ -1713,6 +1806,20 @@
       "q_fs_bram_come_home"
     ],
     "greeting": "It opened right where the nets dry. Right there, where I stood every morning of my life. I do not go down to the shore anymore. I do not go much of anywhere anymore."
+  },
+  "riftwright_maelis": {
+    "id": "riftwright_maelis",
+    "name": "Riftwright Maelis",
+    "title": "Rift Forgemaster",
+    "pos": {
+      "x": 377,
+      "z": 7
+    },
+    "facing": 3.141592653589793,
+    "color": 8011658,
+    "questIds": [],
+    "riftForge": true,
+    "greeting": "A Riftbound band remembers the break that made it, $C. Bring me the band, and the essence the breaks shed, and I will teach it to remember more."
   },
   "wayfarer_bryn": {
     "id": "wayfarer_bryn",
@@ -1890,7 +1997,9 @@
     "questIds": [
       "q_ignivar_echoes_in_iron",
       "q_ignivar_heralds_heart",
-      "q_ignivar_the_forgefather"
+      "q_ignivar_the_forgefather",
+      "q_forgefathers_requiem",
+      "q_requiem_at_the_forge"
     ],
     "greeting": "The embers carry Maelin's voice forward through the forge.",
     "dynamic": true
@@ -1904,11 +2013,11 @@
       "z": 0
     },
     "facing": 3.141592653589793,
-    "dynamic": true,
     "color": 11759661,
     "questIds": [],
     "crucibleVendor": true,
-    "greeting": "The forge marks its own. Bring me a sigil from the Crucible and I will fit you for war."
+    "greeting": "The forge marks its own. Bring me a sigil from the Crucible and I will fit you for war.",
+    "dynamic": true
   },
   "spirit_healer": {
     "id": "spirit_healer",
@@ -1923,5 +2032,22 @@
     "questIds": [],
     "greeting": "Rest now, spirit. I can return you to your body, but the crossing back leaves you weak.",
     "dynamic": true
+  },
+  "drillmaster_hale": {
+    "id": "drillmaster_hale",
+    "name": "Drillmaster Hale",
+    "title": "Quay Sparring Master",
+    "pos": {
+      "x": -88,
+      "z": -45
+    },
+    "facing": -2.71,
+    "color": 8014410,
+    "questIds": [
+      "q_hub_know_your_numbers",
+      "q_hub_healing_numbers"
+    ],
+    "dynamic": true,
+    "greeting": "That dummy behind me never swings back and never goes down, $C. What matters is the tally: your Damage Meters count every blow you land on it. Target it and open the meters, and I will walk you through the rest."
   }
 }

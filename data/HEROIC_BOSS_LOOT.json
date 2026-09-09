@@ -1,166 +1,669 @@
 {
+  "sexton_marrow": [
+    {
+      "itemId": "quilted_trousers",
+      "chance": 0.5,
+      "rollGroup": "sexton_marrow_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "oiled_boots",
+      "chance": 0.5,
+      "rollGroup": "sexton_marrow_heroic",
+      "preserveSourceTier": true
+    }
+  ],
+  "knight_commander_olen": [
+    {
+      "itemId": "trollhide_leggings",
+      "chance": 0.32258064516129026,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "marshstrider_boots",
+      "chance": 0.32258064516129026,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "fenmist_robe",
+      "chance": 0.16129032258064513,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_tideguard_greaves",
+      "chance": 0.06451612903225806,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_tideguard_sabatons",
+      "chance": 0.06451612903225806,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_eelscale_leggings",
+      "chance": 0.06451612903225823,
+      "rollGroup": "knight_commander_olen_heroic",
+      "preserveSourceTier": true
+    }
+  ],
+  "choirmother_selthe": [
+    {
+      "itemId": "heroic_selthes_seastriders",
+      "chance": 1,
+      "rollGroup": "choirmother_selthe_heroic",
+      "preserveSourceTier": true
+    }
+  ],
+  "korgath_the_bound": [
+    {
+      "itemId": "boneplate_vest",
+      "chance": 0.16999999999999998,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "revenant_silk_robe",
+      "chance": 0.16499999999999998,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "nightwalk_jerkin",
+      "chance": 0.16499999999999998,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "zealotsbane_blade",
+      "chance": 0.09499999999999997,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_korgaths_chainwraps",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_staff_of_velkhar",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_shadowmeld_tunic",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmcult_grand_robe",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_gravewyrm_sabatons",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmcult_soulsteps",
+      "chance": 0.04999999999999999,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmshadow_treads",
+      "chance": 0.024999999999999994,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_boundstone_helm",
+      "chance": 0.039999999999999994,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_gravewyrm_mantle",
+      "chance": 0.0399999999999997,
+      "rollGroup": "korgath_the_bound_heroic",
+      "preserveSourceTier": true
+    }
+  ],
+  "grand_necromancer_velkhar": [
+    {
+      "itemId": "boneplate_vest",
+      "chance": 0.19428571428571426,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "revenant_silk_robe",
+      "chance": 0.18857142857142853,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "nightwalk_jerkin",
+      "chance": 0.18857142857142853,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "emberwood_staff",
+      "chance": 0.11428571428571427,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_boneguard_breastplate",
+      "chance": 0.057142857142857134,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_shadowmeld_tunic",
+      "chance": 0.057142857142857134,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_staff_of_velkhar",
+      "chance": 0.057142857142857134,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_gravewyrm_stalkers_treads",
+      "chance": 0.057142857142857134,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_deathlord_legguards",
+      "chance": 0.028571428571428567,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_necromancers_soulsteps",
+      "chance": 0.028571428571428567,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmshadow_legguards",
+      "chance": 0.028571428571428692,
+      "rollGroup": "grand_necromancer_velkhar_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "necromancers_reagent_satchel",
+      "chance": 0.2,
+      "preserveSourceTier": true
+    }
+  ],
   "morthen": [
     {
+      "itemId": "cryptbone_greaves",
+      "chance": 0.09418282548476456,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "quilted_trousers",
+      "chance": 0.09141274238227147,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "oiled_boots",
+      "chance": 0.09141274238227147,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "greyjaw_hide_boots",
+      "chance": 0.06925207756232687,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "cryptbone_helm",
+      "chance": 0.04986149584487535,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "cryptbone_pauldrons",
+      "chance": 0.04986149584487535,
+      "rollGroup": "morthen_heroic",
+      "preserveSourceTier": true
+    },
+    {
       "itemId": "morthens_cryptforged_hauberk",
-      "chance": 0.25,
+      "chance": 0.06925207756232687,
       "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "shadowpulse_handwraps",
-      "chance": 0.25,
+      "chance": 0.06925207756232687,
       "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "bonechill_striders",
-      "chance": 0.25,
+      "chance": 0.06925207756232687,
       "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "lunarward_cinch",
-      "chance": 0.25,
+      "chance": 0.06925207756232687,
       "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "cryptplate_helm",
-      "chance": 0.34,
-      "rollGroup": "morthen_heroic2"
+      "chance": 0.09418282548476456,
+      "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "shadowpulse_slippers",
-      "chance": 0.33,
-      "rollGroup": "morthen_heroic2"
+      "chance": 0.09141274238227147,
+      "rollGroup": "morthen_heroic"
     },
     {
       "itemId": "bonechill_cord",
-      "chance": 0.33,
-      "rollGroup": "morthen_heroic2"
+      "chance": 0.09141274238227137,
+      "rollGroup": "morthen_heroic"
+    },
+    {
+      "itemId": "gravewoven_bag",
+      "chance": 0.2,
+      "preserveSourceTier": true
     },
     {
       "itemId": "reins_stormfeather_griffin",
       "chance": 0.005
+    },
+    {
+      "itemId": "pattern_highwatch_gourd_soup",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
+    },
+    {
+      "itemId": "pattern_highwatch_barley_porridge",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
     }
   ],
   "vael_the_mistcaller": [
     {
+      "itemId": "trollhide_leggings",
+      "chance": 0.08854166666666667,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "marshstrider_boots",
+      "chance": 0.0859375,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "fenmist_robe",
+      "chance": 0.0859375,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "eelskin_tunic",
+      "chance": 0.05208333333333333,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_tidescale_vest",
+      "chance": 0.026041666666666664,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_drowned_prayer_leggings",
+      "chance": 0.026041666666666664,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_drowned_prayer_sandals",
+      "chance": 0.026041666666666664,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_eelscale_treads",
+      "chance": 0.026041666666666664,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "mistveil_cord",
+      "chance": 0.031249999999999997,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "mistveil_grips",
+      "chance": 0.031249999999999997,
+      "rollGroup": "vael_heroic",
+      "preserveSourceTier": true
+    },
+    {
       "itemId": "mistcallers_fang",
-      "chance": 0.34,
+      "chance": 0.08854166666666667,
       "rollGroup": "vael_heroic"
     },
     {
       "itemId": "tidebound_spaulders",
-      "chance": 0.33,
+      "chance": 0.0859375,
       "rollGroup": "vael_heroic"
     },
     {
       "itemId": "sash_of_the_sunken_court",
-      "chance": 0.33,
+      "chance": 0.0859375,
       "rollGroup": "vael_heroic"
     },
     {
       "itemId": "mistforged_pauldrons",
-      "chance": 0.25,
-      "rollGroup": "vael_heroic2"
+      "chance": 0.06510416666666666,
+      "rollGroup": "vael_heroic"
     },
     {
       "itemId": "tideguard_faceguard",
-      "chance": 0.25,
-      "rollGroup": "vael_heroic2"
+      "chance": 0.06510416666666666,
+      "rollGroup": "vael_heroic"
     },
     {
       "itemId": "sunken_court_mantle",
-      "chance": 0.25,
-      "rollGroup": "vael_heroic2"
+      "chance": 0.06510416666666666,
+      "rollGroup": "vael_heroic"
     },
     {
       "itemId": "dreamroot_boots",
-      "chance": 0.25,
-      "rollGroup": "vael_heroic2"
+      "chance": 0.06510416666666674,
+      "rollGroup": "vael_heroic"
+    },
+    {
+      "itemId": "mistcallers_duffel",
+      "chance": 0.1,
+      "preserveSourceTier": true
     },
     {
       "itemId": "reins_shadowjump_toad",
       "chance": 0.005
+    },
+    {
+      "itemId": "pattern_highwatch_gourd_soup",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
+    },
+    {
+      "itemId": "pattern_highwatch_barley_porridge",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
     }
   ],
   "ysolei": [
     {
+      "itemId": "heroic_ysols_pearl_greaves",
+      "chance": 0.14285714285714285,
+      "rollGroup": "ysolei_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_moonshroud_breastplate",
+      "chance": 0.09714285714285716,
+      "rollGroup": "ysolei_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_moonshroud_robe",
+      "chance": 0.09428571428571429,
+      "rollGroup": "ysolei_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_moonshroud_tunic",
+      "chance": 0.09428571428571429,
+      "rollGroup": "ysolei_heroic",
+      "preserveSourceTier": true
+    },
+    {
       "itemId": "lunar_tide_greatstaff",
-      "chance": 0.25,
+      "chance": 0.07142857142857142,
       "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "tidewoven_trousers",
-      "chance": 0.25,
+      "chance": 0.07142857142857142,
       "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "choirmothers_casque",
-      "chance": 0.25,
+      "chance": 0.07142857142857142,
       "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "stormbark_mantle",
-      "chance": 0.25,
+      "chance": 0.07142857142857142,
       "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "lunar_choir_leggings",
-      "chance": 0.34,
-      "rollGroup": "ysolei_heroic2"
+      "chance": 0.09714285714285716,
+      "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "choir_blessed_spaulders",
-      "chance": 0.33,
-      "rollGroup": "ysolei_heroic2"
+      "chance": 0.09428571428571429,
+      "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "tideworn_warboots",
-      "chance": 0.33,
-      "rollGroup": "ysolei_heroic2"
+      "chance": 0.0942857142857143,
+      "rollGroup": "ysolei_heroic"
     },
     {
       "itemId": "reins_grag_bear",
       "chance": 0.001
+    },
+    {
+      "itemId": "pattern_highwatch_gourd_soup",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
+    },
+    {
+      "itemId": "pattern_highwatch_barley_porridge",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
     }
   ],
   "korzul_the_gravewyrm": [
     {
+      "itemId": "boneplate_vest",
+      "chance": 0.08785529715762272,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "revenant_silk_robe",
+      "chance": 0.08527131782945735,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "nightwalk_jerkin",
+      "chance": 0.08527131782945735,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "cultist_flayer",
+      "chance": 0.025839793281653742,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmfang_greatblade",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_staff_of_the_gravewyrm",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_fang_of_korzul",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_deathlord_warplate",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_necromancers_starshroud",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmshadow_harness",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_boundstone_girdle",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_gravewyrm_gauntlets",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_deathlords_dread_visage",
+      "chance": 0.010335917312661496,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_necromancers_soulspire_mantle",
+      "chance": 0.010335917312661496,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wyrmshadow_talongrips",
+      "chance": 0.010335917312661496,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_nightfangs_greatstaff",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wildgrowth_leggings",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_grovewardens_grips",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_verdant_walkers",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_gravewyrm_bone_quiver",
+      "chance": 0.012919896640826871,
+      "rollGroup": "korzul_heroic",
+      "preserveSourceTier": true
+    },
+    {
       "itemId": "gravewyrm_cleaver",
-      "chance": 0.34,
+      "chance": 0.08785529715762272,
       "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "shroud_of_the_gravewyrm",
-      "chance": 0.33,
+      "chance": 0.08527131782945735,
       "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "sanctum_prowlers_grips",
-      "chance": 0.33,
+      "chance": 0.08527131782945735,
       "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "gravewyrm_claws",
-      "chance": 0.25,
-      "rollGroup": "korzul_heroic2"
+      "chance": 0.06459948320413435,
+      "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "gravescale_girdle",
-      "chance": 0.25,
-      "rollGroup": "korzul_heroic2"
+      "chance": 0.06459948320413435,
+      "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "wyrmchoir_handwraps",
-      "chance": 0.25,
-      "rollGroup": "korzul_heroic2"
+      "chance": 0.06459948320413435,
+      "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "wildsoul_maul",
-      "chance": 0.25,
-      "rollGroup": "korzul_heroic2"
+      "chance": 0.06459948320413456,
+      "rollGroup": "korzul_heroic"
     },
     {
       "itemId": "reins_stalkglider_snail",
       "chance": 0.001
+    },
+    {
+      "itemId": "pattern_highwatch_gourd_soup",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
+    },
+    {
+      "itemId": "pattern_highwatch_barley_porridge",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
     }
   ],
   "wildheart_beastmaster": [
@@ -171,34 +674,70 @@
   ],
   "wildheart_high_priest": [
     {
+      "itemId": "bloodmane_warleggings",
+      "chance": 0.1069182389937107,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "vineclaw_stalking_breeches",
+      "chance": 0.10377358490566038,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "sunbone_ritual_sarong",
+      "chance": 0.10377358490566038,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wildheart_tuskblade",
+      "chance": 0.018867924528301886,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wildheart_hexwood_staff",
+      "chance": 0.018867924528301886,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
+      "itemId": "heroic_wildheart_fangknife",
+      "chance": 0.018867924528301886,
+      "rollGroup": "wildheart_heroic",
+      "preserveSourceTier": true
+    },
+    {
       "itemId": "basin_stalkers_tunic",
-      "chance": 0.34,
+      "chance": 0.1069182389937107,
       "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "verdant_heart_vestment",
-      "chance": 0.33,
+      "chance": 0.10377358490566038,
       "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "sunbone_ritual_hauberk",
-      "chance": 0.33,
+      "chance": 0.10377358490566038,
       "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "greatfang_of_the_basin",
-      "chance": 0.34,
-      "rollGroup": "wildheart_heroic2"
+      "chance": 0.1069182389937107,
+      "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "sunbone_oracles_crown",
-      "chance": 0.33,
-      "rollGroup": "wildheart_heroic2"
+      "chance": 0.10377358490566038,
+      "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "bloodmane_war_legguards",
-      "chance": 0.33,
-      "rollGroup": "wildheart_heroic2"
+      "chance": 0.10377358490566047,
+      "rollGroup": "wildheart_heroic"
     },
     {
       "itemId": "reins_grag_bear",
@@ -207,6 +746,16 @@
     {
       "itemId": "reins_stalkglider_snail",
       "chance": 0.001
+    },
+    {
+      "itemId": "pattern_highwatch_gourd_soup",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
+    },
+    {
+      "itemId": "pattern_highwatch_barley_porridge",
+      "chance": 0.04,
+      "rollGroup": "heroic_farm_patterns"
     }
   ],
   "nythraxis_scourge_of_thornpeak": [
@@ -245,80 +794,80 @@
   "ignivar_herald_of_the_last_flame": [
     {
       "itemId": "sigil_anvil_chest",
-      "chance": 0.34,
-      "rollGroup": "ignivar_h_sigil_robe"
+      "chance": 0.17,
+      "rollGroup": "ignivar_h_exclusive"
     },
     {
       "itemId": "sigil_ember_chest",
-      "chance": 0.33,
-      "rollGroup": "ignivar_h_sigil_robe"
+      "chance": 0.17,
+      "rollGroup": "ignivar_h_exclusive"
     },
     {
       "itemId": "sigil_tempest_chest",
-      "chance": 0.33,
-      "rollGroup": "ignivar_h_sigil_robe"
+      "chance": 0.16,
+      "rollGroup": "ignivar_h_exclusive"
     },
     {
       "itemId": "forgefathers_warhammer",
-      "chance": 0.34,
-      "rollGroup": "ignivar_h_weapon"
+      "chance": 0.17,
+      "rollGroup": "ignivar_h_exclusive"
     },
     {
       "itemId": "anvilguard_blade",
-      "chance": 0.33,
-      "rollGroup": "ignivar_h_weapon"
+      "chance": 0.17,
+      "rollGroup": "ignivar_h_exclusive"
     },
     {
       "itemId": "springtouched_crozier",
-      "chance": 0.33,
-      "rollGroup": "ignivar_h_weapon"
+      "chance": 0.16,
+      "rollGroup": "ignivar_h_exclusive"
     }
   ],
   "varkhul_forgefather_of_the_last_flame": [
     {
       "itemId": "sigil_anvil_chest",
-      "chance": 0.34,
-      "rollGroup": "varkhul_h_sigil_robe"
+      "chance": 0.12,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "sigil_ember_chest",
-      "chance": 0.33,
-      "rollGroup": "varkhul_h_sigil_robe"
+      "chance": 0.12,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "sigil_tempest_chest",
-      "chance": 0.33,
-      "rollGroup": "varkhul_h_sigil_robe"
+      "chance": 0.11,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "bulwark_of_the_inner_crucible",
-      "chance": 0.485,
-      "rollGroup": "varkhul_h_shields"
+      "chance": 0.135,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "ember_wardens_barrier",
-      "chance": 0.485,
-      "rollGroup": "varkhul_h_shields"
+      "chance": 0.135,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "varkhul_emberward",
       "chance": 0.03,
-      "rollGroup": "varkhul_h_shields"
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "heart_of_the_end_greatblade",
-      "chance": 0.34,
-      "rollGroup": "varkhul_h_weapon"
+      "chance": 0.12,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "forgefire_spire",
-      "chance": 0.33,
-      "rollGroup": "varkhul_h_weapon"
+      "chance": 0.12,
+      "rollGroup": "varkhul_h_exclusive"
     },
     {
       "itemId": "staff_of_the_last_spring",
-      "chance": 0.33,
-      "rollGroup": "varkhul_h_weapon"
+      "chance": 0.11,
+      "rollGroup": "varkhul_h_exclusive"
     }
   ]
 }

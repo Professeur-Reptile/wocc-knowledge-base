@@ -21,6 +21,39 @@
       "copper_mining_pick"
     ]
   },
+  "q_farm_intro": {
+    "id": "q_farm_intro",
+    "name": "First Furrow",
+    "giverNpcId": "farmer_jessica",
+    "turnInNpcId": "farmer_jessica",
+    "text": "Take this hoe and a pinch of vale wheat seed, $N. Sow the seed in one of the beds beside me, then go about your business. Come back whenever you like and bring the crop in; I will be here.",
+    "completionText": "There, your first crop in your own hands. It keeps growing while you are away, and it never spoils. Your Harvest Journal (Shift+K, or the Farming row of your Professions window) lists every planted bed and its timer. Come back for seed whenever the beds call you, $N.",
+    "objectives": [
+      {
+        "type": "farm",
+        "action": "plant",
+        "cropId": "vale_wheat",
+        "patchId": "patch_eastbrook",
+        "count": 1,
+        "label": "Vale Wheat planted"
+      },
+      {
+        "type": "farm",
+        "action": "harvest",
+        "cropId": "vale_wheat",
+        "patchId": "patch_eastbrook",
+        "count": 1,
+        "label": "Vale Wheat harvested"
+      }
+    ],
+    "xpReward": 150,
+    "copperReward": 50,
+    "itemRewards": {},
+    "requiredItems": [
+      "garden_hoe",
+      "vale_wheat_seed"
+    ]
+  },
   "q_wolves": {
     "id": "q_wolves",
     "name": "Wolves at the Door",
@@ -46,7 +79,7 @@
     "giverNpcId": "marshal_redbrook",
     "turnInNpcId": "marshal_redbrook",
     "text": "There is one wolf no trap has held: Old Greyjaw. He has taken three hounds and a stable boy's arm. He prowls the deep woods north of the wolf runs. Bring me his fang.",
-    "completionText": "So the old devil is dead at last. The stable boy will sleep easier — and so will I.",
+    "completionText": "So the old devil is dead at last. The stable boy will sleep easier, and so will I.",
     "objectives": [
       {
         "type": "collect",
@@ -114,7 +147,7 @@
     "name": "Trouble at the Lake",
     "giverNpcId": "fisherman_brandt",
     "turnInNpcId": "fisherman_brandt",
-    "text": "Twenty years I have fished Mirror Lake, and never lost a net until those gurgling fish-men crawled out of the shallows. Drive the Mudfin back — slay 8 of them. And watch yourself: where there is one mudfin, there are five.",
+    "text": "Twenty years I have fished Mirror Lake, and never lost a net until those gurgling fish-men crawled out of the shallows. Drive the Mudfin back: slay 8 of them. And watch yourself: where there is one mudfin, there are five.",
     "completionText": "Hah! That will teach them to mind their own mudholes.",
     "objectives": [
       {
@@ -135,7 +168,7 @@
     "giverNpcId": "foreman_odell",
     "turnInNpcId": "foreman_odell",
     "text": "We struck a fine copper vein and then those burrowing vermin came boiling out of the hillside. My crew will not set foot in the dig until it is cleared. Put down 10 Deeprock Diggers.",
-    "completionText": "Ha! Back to work, lads! You have my thanks — and my coin.",
+    "completionText": "Ha! Back to work, lads! You have my thanks, and my coin.",
     "objectives": [
       {
         "type": "kill",
@@ -195,7 +228,7 @@
     "name": "Whispers Below",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "You have laid the dead to rest, but they will not stay resting — something calls them back. Search the chapel ruin for any trace of the one doing the calling. If you find a sigil or seal, bring it to me untouched.",
+    "text": "You have laid the dead to rest, but they will not stay resting: something calls them back. Search the chapel ruin for any trace of the one doing the calling. If you find a sigil or seal, bring it to me untouched.",
     "completionText": "This sigil... it bears the mark of the Gravecallers, a sect I had prayed was extinct. This is worse than I feared, $N.",
     "objectives": [
       {
@@ -215,8 +248,8 @@
     "name": "The Names of the Dead",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "If the Gravecallers raised our dead, I must know whose graves they robbed. The chapel sexton kept a burial ledger, and the wind has scattered its pages across the chapel yard. Gather 3 of them for me, $N — the dead deserve to be called by their names.",
-    "completionText": "These poor souls... and look here. Sexton Marrow — the chapel's own living caretaker — his grave the first disturbed. Morthen began with the very man who buried Eastbrook's dead.",
+    "text": "If the Gravecallers raised our dead, I must know whose graves they robbed. The chapel sexton kept a burial ledger, and the wind has scattered its pages across the chapel yard. Gather 3 of them for me, $N. The dead deserve to be called by their names.",
+    "completionText": "These poor souls... and look here. Sexton Marrow, the chapel's own living caretaker, his grave the first disturbed. Morthen began with the very man who buried Eastbrook's dead.",
     "objectives": [
       {
         "type": "collect",
@@ -236,7 +269,7 @@
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
     "text": "Every name in that ledger is a soul Morthen means to drag from the earth, and the chapel yard already crawls with those he has called. Return 12 Restless Bones to their graves, $N, before the Gravecaller's whisper swells into a chorus.",
-    "completionText": "The yard grows quieter — but the calling has not stopped. It rises from below now, $N. From the crypt itself.",
+    "completionText": "The yard grows quieter, but the calling has not stopped. It rises from below now, $N. From the crypt itself.",
     "objectives": [
       {
         "type": "kill",
@@ -255,7 +288,7 @@
     "name": "The Binding Rite",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "The crypt beneath the chapel must be unsealed if we are to stop the Gravecaller — but only a binding rite will let the living pass. I need 4 lumps of Blessed Tallow — the mine's burrowers hoard tallow by the crate — and 6 Ghostly Essences from the restless dead.",
+    "text": "The crypt beneath the chapel must be unsealed if we are to stop the Gravecaller, but only a binding rite will let the living pass. I need 4 lumps of Blessed Tallow (the mine's burrowers hoard tallow by the crate) and 6 Ghostly Essences from the restless dead.",
     "completionText": "It is done. The way below stands open... and may the Light forgive me for opening it. Gather your strongest companions before you descend, $N. No one should face the Hollow alone.",
     "objectives": [
       {
@@ -281,8 +314,8 @@
     "name": "Into the Hollow",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "Morthen the Gravecaller waits at the bottom of the Hollow Crypt, ringed by the elite dead he has raised. He is far beyond any one hero — take four companions, no fewer. End him, and the Vale's dead will finally sleep.",
-    "completionText": "The whispering has stopped. You have done what the whole Vale could not, $N — the dead sleep, and Eastbrook owes you everything it has.",
+    "text": "Morthen the Gravecaller waits at the bottom of the Hollow Crypt, ringed by the elite dead he has raised. He is far beyond any one hero: take four companions, no fewer. End him, and the Vale's dead will finally sleep.",
+    "completionText": "The whispering has stopped. You have done what the whole Vale could not, $N. The dead sleep, and Eastbrook owes you everything it has.",
     "objectives": [
       {
         "type": "kill",
@@ -306,8 +339,8 @@
     "name": "The Sexton's Bell",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "The ledger named him and the crypt holds him: Sexton Marrow, the chapel's caretaker, the first man Morthen raised — guarding his master's door in death as faithfully as he kept the chapel in life. Take four companions into the Hollow Crypt and grant the old sexton the rest he was robbed of, $N.",
-    "completionText": "So Marrow is free at last. Ring no bell for him — he heard enough of them in life.",
+    "text": "The ledger named him and the crypt holds him: Sexton Marrow, the chapel's caretaker, the first man Morthen raised, guarding his master's door in death as faithfully as he kept the chapel in life. Take four companions into the Hollow Crypt and grant the old sexton the rest he was robbed of, $N.",
+    "completionText": "So Marrow is free at last. Ring no bell for him: he heard enough of them in life.",
     "objectives": [
       {
         "type": "kill",
@@ -331,8 +364,8 @@
     "name": "The Gravecaller's Trail",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "brother_aldric",
-    "text": "Morthen is dead, yet a question gnaws at me: a sect that hid for a century does not spend itself on one village chapel. He kept a grimoire — his rites, his correspondence. If anything of it survives, it lies in the vestry of the ruined chapel above the crypt. Search the ruin and bring me whatever remains of his writings, $N.",
-    "completionText": "Morthen wrote to a 'Fogbinder' in the northern fen. The sect is not dead, $N — it has merely been patient.",
+    "text": "Morthen is dead, yet a question gnaws at me: a sect that hid for a century does not spend itself on one village chapel. He kept a grimoire: his rites, his correspondence. If anything of it survives, it lies in the vestry of the ruined chapel above the crypt. Search the ruin and bring me whatever remains of his writings, $N.",
+    "completionText": "Morthen wrote to a 'Fogbinder' in the northern fen. The sect is not dead, $N. It has merely been patient.",
     "objectives": [
       {
         "type": "collect",
@@ -376,7 +409,7 @@
     "giverNpcId": "marshal_redbrook",
     "turnInNpcId": "marshal_redbrook",
     "text": "A pack of cutthroats has made camp in the northwest hills. They have robbed three wagons this week. Drive them out: slay 10 Vale Bandits.",
-    "completionText": "Ten fewer knives in the dark. Take this — you have earned it.",
+    "completionText": "Ten fewer knives in the dark. Take this: you have earned it.",
     "objectives": [
       {
         "type": "kill",
@@ -702,6 +735,50 @@
     "shareable": false,
     "repeatCadenceTicks": 36000
   },
+  "q_prof_workorder_kitchens_wheat": {
+    "id": "q_prof_workorder_kitchens_wheat",
+    "name": "Kitchens Wheat Order",
+    "giverNpcId": "cook_marlow",
+    "turnInNpcId": "cook_marlow",
+    "text": "Bread does not bake itself, $N, and my flour bins are scraping bottom. Bring me eight sheaves of vale wheat and I will pay you honest coin for the lot. Grown by your own hand or bought off the market, I do not care, so long as it grinds.",
+    "completionText": "Good dry grain, and plenty of it. There is your pay, counted out. When the next crop comes in, you know which door to knock on.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "vale_wheat",
+        "count": 8,
+        "label": "Vale Wheat delivered"
+      }
+    ],
+    "xpReward": 100,
+    "copperReward": 16,
+    "itemRewards": {},
+    "repeatable": true,
+    "shareable": false,
+    "repeatCadenceTicks": 36000
+  },
+  "q_prof_workorder_kitchens_rice": {
+    "id": "q_prof_workorder_kitchens_rice",
+    "name": "Kitchens Rice Order",
+    "giverNpcId": "cook_marlow",
+    "turnInNpcId": "cook_marlow",
+    "text": "The marsh folk swear by their rice, $N, and I mean to find out why. Fetch me five measures of marsh rice and there is coin waiting for you here. Keep it dry on the road, mind: wet rice is porridge, and I did not order porridge.",
+    "completionText": "Plump and dry, every grain. Here is your coin. If the marsh keeps giving, so do I.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "marsh_rice",
+        "count": 5,
+        "label": "Marsh Rice delivered"
+      }
+    ],
+    "xpReward": 100,
+    "copperReward": 20,
+    "itemRewards": {},
+    "repeatable": true,
+    "shareable": false,
+    "repeatCadenceTicks": 36000
+  },
   "q_prof_workorder_loom": {
     "id": "q_prof_workorder_loom",
     "name": "Loom Work Order",
@@ -780,7 +857,7 @@
     "name": "Muster at Fenbridge",
     "giverNpcId": "brother_aldric",
     "turnInNpcId": "warden_fenwick",
-    "text": "Morthen's writings named a master in the northern marsh — a 'Fogbinder.' Now Warden Fenwick has sounded the muster horn at Fenbridge, and I do not believe in coincidence, $N. Take the causeway north, pull the muster order from the gatepost, and present it to the Warden.",
+    "text": "Morthen's writings named a master in the northern marsh, a 'Fogbinder.' Now Warden Fenwick has sounded the muster horn at Fenbridge, and I do not believe in coincidence, $N. Take the causeway north, pull the muster order from the gatepost, and present it to the Warden.",
     "completionText": "Aldric's seal, is it? Then you'll do. The fen has been swallowing my patrols whole, and I need every blade that floats.",
     "objectives": [
       {
@@ -800,7 +877,7 @@
     "name": "Teeth of the Fen",
     "giverNpcId": "warden_fenwick",
     "turnInNpcId": "warden_fenwick",
-    "text": "The mire prowlers have learned what a supply mule sounds like, and now they hunt the causeway itself. Last week they dragged a courier into the reeds not fifty paces from this gate. Thin them out, $N — twelve dead prowlers ought to teach the rest fear.",
+    "text": "The mire prowlers have learned what a supply mule sounds like, and now they hunt the causeway itself. Last week they dragged a courier into the reeds not fifty paces from this gate. Thin them out, $N: twelve dead prowlers ought to teach the rest fear.",
     "completionText": "Twelve, and not a bite on you? The causeway breathes easier tonight.",
     "objectives": [
       {
@@ -819,7 +896,7 @@
     "name": "Pelts for the Causeway",
     "giverNpcId": "provisioner_hale",
     "turnInNpcId": "provisioner_hale",
-    "text": "Every plank of that causeway rests on pilings wrapped in oiled prowler hide — the only thing the rot will not chew through. My stock is gone and the south spans are already sinking. Bring me 8 unspoiled pelts, $N, before we are all wading to Eastbrook.",
+    "text": "Every plank of that causeway rests on pilings wrapped in oiled prowler hide, the only thing the rot will not chew through. My stock is gone and the south spans are already sinking. Bring me 8 unspoiled pelts, $N, before we are all wading to Eastbrook.",
     "completionText": "Good thick pelts, these. The causeway will outlast the both of us now.",
     "objectives": [
       {
@@ -838,7 +915,7 @@
     "name": "The Lost Caravan",
     "giverNpcId": "provisioner_hale",
     "turnInNpcId": "provisioner_hale",
-    "text": "A caravan out of Eastbrook went into the mist three days back and never rang the gate bell. The wreck is strewn the whole length of the causeway — crates, casks, the lot, sinking slow. Salvage 5 loads of goods before the marsh finishes the job.",
+    "text": "A caravan out of Eastbrook went into the mist three days back and never rang the gate bell. The wreck is strewn the whole length of the causeway: crates, casks, the lot, sinking slow. Salvage 5 loads of goods before the marsh finishes the job.",
     "completionText": "Waterlogged, but whole. Poor drivers... the fen keeps what it catches, $N. Remember that.",
     "objectives": [
       {
@@ -878,7 +955,7 @@
     "name": "The Deepfen Stirs",
     "giverNpcId": "warden_fenwick",
     "turnInNpcId": "warden_fenwick",
-    "text": "The Deepfen mudfins kept to their shallows for twenty years. Now they swarm the east bank like flies on a carcass — and my wardens say they are dragging things up from the lake bed. Whatever has them stirred, I want it stopped. Cull 12 of the snappers.",
+    "text": "The Deepfen mudfins kept to their shallows for twenty years. Now they swarm the east bank like flies on a carcass, and my wardens say they are dragging things up from the lake bed. Whatever has them stirred, I want it stopped. Cull 12 of the snappers.",
     "completionText": "That will push them back to the mud for a while. But something set them digging, and I mean to learn what.",
     "objectives": [
       {
@@ -898,8 +975,8 @@
     "name": "Idols of the Deep",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "Fenwick's wardens say the fish-men dredge idols from the lake bottom and clutch them like holy relics. If those idols are what I fear, I must see them with my own eyes. Take 5 from the Deepfen snappers — they will not part with them kindly.",
-    "completionText": "Gravecaller work — older than Morthen, older than me. The sect did not begin in Eastbrook, $N. It began here, and the lake has been keeping its secrets.",
+    "text": "Fenwick's wardens say the fish-men dredge idols from the lake bottom and clutch them like holy relics. If those idols are what I fear, I must see them with my own eyes. Take 5 from the Deepfen snappers: they will not part with them kindly.",
+    "completionText": "Gravecaller work, older than Morthen, older than me. The sect did not begin in Eastbrook, $N. It began here, and the lake has been keeping its secrets.",
     "objectives": [
       {
         "type": "collect",
@@ -967,7 +1044,7 @@
     "name": "Silk and Venom",
     "giverNpcId": "herbalist_yara",
     "turnInNpcId": "herbalist_yara",
-    "text": "Widow venom is the only thing that draws fen-rot from a wound — I bled a man of it just this morning. But the thicket west of the road has gone from nuisance to horror; the webs are taking deer whole now. Kill 10 widows and cut me 6 venom sacs, whole and unburst.",
+    "text": "Widow venom is the only thing that draws fen-rot from a wound: I bled a man of it just this morning. But the thicket west of the road has gone from nuisance to horror; the webs are taking deer whole now. Kill 10 widows and cut me 6 venom sacs, whole and unburst.",
     "completionText": "Whole sacs, every one. You have steadier hands than half the surgeons in the south, $N.",
     "objectives": [
       {
@@ -1020,7 +1097,7 @@
     "name": "The Drowned Dead",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "Travelers drowned on the causeway are walking out of the lakes, $N — still hung with the weeds they died in. This is no restless haunting. Drowning leaves no marks; it makes obedient corpses. Someone is filling this fen like a tithing box. Return 12 of the Drowned Dead to their rest.",
+    "text": "Travelers drowned on the causeway are walking out of the lakes, $N, still hung with the weeds they died in. This is no restless haunting. Drowning leaves no marks; it makes obedient corpses. Someone is filling this fen like a tithing box. Return 12 of the Drowned Dead to their rest.",
     "completionText": "Each one you fell is a stolen soul set free. But the one who drowned them is still pouring water.",
     "objectives": [
       {
@@ -1040,8 +1117,8 @@
     "name": "Censers from the Deep",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "North of the widow lake stands a chapel that drowned with its congregation when the marsh rose. The dead there carry rusted censers — funerary ones, the kind swung at a Gravecaller rite. Gather 4 from the chapel yard and I will read what rite was sung over that water.",
-    "completionText": "As I feared. These censers burned grave-ash, not incense. Someone consecrated that chapel to the drowning — and the rite is signed 'Voss.'",
+    "text": "North of the widow lake stands a chapel that drowned with its congregation when the marsh rose. The dead there carry rusted censers, funerary ones, the kind swung at a Gravecaller rite. Gather 4 from the chapel yard and I will read what rite was sung over that water.",
+    "completionText": "As I feared. These censers burned grave-ash, not incense. Someone consecrated that chapel to the drowning, and the rite is signed 'Voss.'",
     "objectives": [
       {
         "type": "collect",
@@ -1109,8 +1186,8 @@
     "name": "Mounds of the Mirefen",
     "giverNpcId": "warden_fenwick",
     "turnInNpcId": "warden_fenwick",
-    "text": "The Mirefen trolls have torn open the old barrow-mounds east of the far lake — burial mounds, $N, older than any kingdom of men. Whatever gold they think is down there, what they are letting OUT is worse. Drive them off the mounds: 12 trolls dead ought to do it.",
-    "completionText": "Trolls don't dig without a reason. Someone told them where to dig — and I'd wager my gate it wears a grey robe.",
+    "text": "The Mirefen trolls have torn open the old barrow-mounds east of the far lake: burial mounds, $N, older than any kingdom of men. Whatever gold they think is down there, what they are letting OUT is worse. Drive them off the mounds: 12 trolls dead ought to do it.",
+    "completionText": "Trolls don't dig without a reason. Someone told them where to dig, and I'd wager my gate it wears a grey robe.",
     "objectives": [
       {
         "type": "kill",
@@ -1129,7 +1206,7 @@
     "name": "Fetish and Bone",
     "giverNpcId": "scout_maren",
     "turnInNpcId": "scout_maren",
-    "text": "I crawled the troll mounds two nights past. Those fetishes they plant are not troll-craft — the knots are wrong, the bones are man-bones, and every one points at the open barrows like a signpost. Bring me 8 of them and I will prove to Fenwick who is really paying for this dig.",
+    "text": "I crawled the troll mounds two nights past. Those fetishes they plant are not troll-craft: the knots are wrong, the bones are man-bones, and every one points at the open barrows like a signpost. Bring me 8 of them and I will prove to Fenwick who is really paying for this dig.",
     "completionText": "Same maker as the banners in the cult camp. The trolls are hired shovels, nothing more. Good work, $N.",
     "objectives": [
       {
@@ -1153,7 +1230,7 @@
     "name": "The Glutton",
     "giverNpcId": "provisioner_hale",
     "turnInNpcId": "provisioner_hale",
-    "text": "There's one troll the others won't dig beside — Grubjaw, the Glutton. He ate my last two pack-mules, harness and all, and my insurance man drowned years ago. He prowls the far eastern mounds, $N. Bring me his tusk and I will outfit you proper.",
+    "text": "There's one troll the others won't dig beside: Grubjaw, the Glutton. He ate my last two pack-mules, harness and all, and my insurance man drowned years ago. He prowls the far eastern mounds, $N. Bring me his tusk and I will outfit you proper.",
     "completionText": "That tusk is long as my forearm! The mules are avenged, and Fenbridge owes you a round.",
     "objectives": [
       {
@@ -1177,7 +1254,7 @@
     "name": "Robes in the Reeds",
     "giverNpcId": "scout_maren",
     "turnInNpcId": "scout_maren",
-    "text": "There — north past the third lake, where the mist never lifts. Grey robes, grey banners: Gravecallers, camped in the open like they already own the fen. They have stopped hiding, $N, which means they think they have already won. Prove them wrong. Cut down 12 of their cultists.",
+    "text": "There, north past the third lake, where the mist never lifts. Grey robes, grey banners: Gravecallers, camped in the open like they already own the fen. They have stopped hiding, $N, which means they think they have already won. Prove them wrong. Cut down 12 of their cultists.",
     "completionText": "Twelve robes face-down in the mud. Now they know the fen watches back.",
     "objectives": [
       {
@@ -1197,8 +1274,8 @@
     "name": "Stopping the Summoning",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "Maren's reports name summoners among the cultists — voices that call the drowned up out of the water like hounds to a whistle. Their ciphers will spell out the chain of command. Silence 8 summoners and bring me 4 of their ciphers.",
-    "completionText": "Every cipher is countersigned 'Deacon Voss' — and addressed onward to a 'Fogbinder' in the Bastion. Morthen's master, $N. We have found him.",
+    "text": "Maren's reports name summoners among the cultists, voices that call the drowned up out of the water like hounds to a whistle. Their ciphers will spell out the chain of command. Silence 8 summoners and bring me 4 of their ciphers.",
+    "completionText": "Every cipher is countersigned 'Deacon Voss', and addressed onward to a 'Fogbinder' in the Bastion. Morthen's master, $N. We have found him.",
     "objectives": [
       {
         "type": "kill",
@@ -1223,8 +1300,8 @@
     "name": "The Deacon of the Mire",
     "giverNpcId": "warden_fenwick",
     "turnInNpcId": "warden_fenwick",
-    "text": "So a deacon of the Gravecallers stands at the heart of that camp, singing my drowned wardens up out of the lakes to serve him. His hymn ends today. Take the camp road north, $N, and put Deacon Voss in the ground — deep enough that nobody sings HIM back up.",
-    "completionText": "Voss is dead and the mist over the camp is already thinning. You have broken their voice in the fen — now only the Bastion remains.",
+    "text": "So a deacon of the Gravecallers stands at the heart of that camp, singing my drowned wardens up out of the lakes to serve him. His hymn ends today. Take the camp road north, $N, and put Deacon Voss in the ground, deep enough that nobody sings HIM back up.",
+    "completionText": "Voss is dead and the mist over the camp is already thinning. You have broken their voice in the fen. Now only the Bastion remains.",
     "objectives": [
       {
         "type": "kill",
@@ -1248,7 +1325,7 @@
     "name": "The Sunken Bastion",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "The Sunken Bastion — a knight's hold that drowned in the fen a century ago — is where Voss's letters point, and where this Fogbinder sings his drowning hymns. The cult has warded its door with grave-stones. Bring me one of the ward stones, $N, and I will unweave the seal.",
+    "text": "The Sunken Bastion, a knight's hold that drowned in the fen a century ago, is where Voss's letters point, and where this Fogbinder sings his drowning hymns. The cult has warded its door with grave-stones. Bring me one of the ward stones, $N, and I will unweave the seal.",
     "completionText": "The ward parts like rotten rope. The door stands open... and the dark below it is listening.",
     "objectives": [
       {
@@ -1269,7 +1346,7 @@
     "name": "The Knight-Commander's Shame",
     "giverNpcId": "scout_maren",
     "turnInNpcId": "scout_maren",
-    "text": "Knight-Commander Olen held the Bastion when it sank — drowned at his post rather than abandon it. Every warden learns his name with pride. Now the Fogbinder has raised him as a puppet to guard the very door he died defending. That shame ends, $N. Take four companions below and grant Olen the rest he earned.",
+    "text": "Knight-Commander Olen held the Bastion when it sank, drowned at his post rather than abandon it. Every warden learns his name with pride. Now the Fogbinder has raised him as a puppet to guard the very door he died defending. That shame ends, $N. Take four companions below and grant Olen the rest he earned.",
     "completionText": "Then his watch is finally over. I'll see his name cut into the gate myself. Thank you, $N.",
     "objectives": [
       {
@@ -1295,8 +1372,8 @@
     "name": "The Fogbinder",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "brother_aldric_fen",
-    "text": "At the bottom of the Bastion waits Vael the Fogbinder — Morthen's master, Voss's master, the voice that has drowned a hundred travelers to raise itself an army. He is far beyond any one hero: take four companions, no fewer. End him, $N, and the fen's dead may finally lie still.",
-    "completionText": "Vael is dead, and the mist is lifting for the first time in years. But Maren heard his last words, and they freeze my blood: 'The Wyrm stirs beneath the peaks.' The sect serves something older than we ever guessed, $N. Rest while you can — the mountains are next.",
+    "text": "At the bottom of the Bastion waits Vael the Fogbinder, Morthen's master, Voss's master, the voice that has drowned a hundred travelers to raise itself an army. He is far beyond any one hero: take four companions, no fewer. End him, $N, and the fen's dead may finally lie still.",
+    "completionText": "Vael is dead, and the mist is lifting for the first time in years. But Maren heard his last words, and they freeze my blood: 'The Wyrm stirs beneath the peaks.' The sect serves something older than we ever guessed, $N. Rest while you can: the mountains are next.",
     "objectives": [
       {
         "type": "kill",
@@ -1343,7 +1420,7 @@
     "name": "The Watch on the Peaks",
     "giverNpcId": "brother_aldric_fen",
     "turnInNpcId": "captain_thessaly",
-    "text": "Vael's last words have not left me, $N: the Wyrm stirs beneath the peaks. Captain Thessaly commands the wall at Highwatch, at the head of the mountain road north. A summons stands posted at her gate — take it up, and tell her Brother Aldric is climbing the mountain behind you.",
+    "text": "Vael's last words have not left me, $N: the Wyrm stirs beneath the peaks. Captain Thessaly commands the wall at Highwatch, at the head of the mountain road north. A summons stands posted at her gate: take it up, and tell her Brother Aldric is climbing the mountain behind you.",
     "completionText": "Aldric's word reaches far. If the priest of the Vale is climbing the mountain himself, then it is as bad as I feared. Welcome to Highwatch, $N.",
     "objectives": [
       {
@@ -1363,7 +1440,7 @@
     "name": "Stalkers on the Ridge",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "The ridge cats have come down from the high snows hungry, and my patrols bleed for it. Every stalker you put down is a soldier I keep on the wall. Thin them, $N — twelve, to start.",
+    "text": "The ridge cats have come down from the high snows hungry, and my patrols bleed for it. Every stalker you put down is a soldier I keep on the wall. Thin them, $N: twelve, to start.",
     "completionText": "Twelve fewer shadows on the ridge. The patrols will breathe easier tonight.",
     "objectives": [
       {
@@ -1382,8 +1459,8 @@
     "name": "First Frost at Highwatch",
     "giverNpcId": "quartermaster_bree",
     "turnInNpcId": "quartermaster_bree",
-    "text": "Winter on this mountain does not knock, $N — it kicks the door in. Eight ridge stalker pelts will line enough cloaks to see the wall through the first snows. The beasts prowl the ridges flanking the road south.",
-    "completionText": "Thick as my arm, these. The watch will not freeze this year — take these treads for your trouble.",
+    "text": "Winter on this mountain does not knock, $N. It kicks the door in. Eight ridge stalker pelts will line enough cloaks to see the wall through the first snows. The beasts prowl the ridges flanking the road south.",
+    "completionText": "Thick as my arm, these. The watch will not freeze this year: take these treads for your trouble.",
     "objectives": [
       {
         "type": "collect",
@@ -1468,8 +1545,8 @@
     "name": "Deeprock Trouble",
     "giverNpcId": "loremaster_caddis",
     "turnInNpcId": "loremaster_caddis",
-    "text": "The tunnelers at Deeprock Burrows are digging deeper than any pit-rat has business digging — straight down, as if something were calling them. Their tunnels run beneath our wall, $N. Collapse the matter: kill twelve Deeprock Tunnelers.",
-    "completionText": "Straight down, every shaft of it — burrowers do not dig like that on their own. I must consult my books.",
+    "text": "The tunnelers at Deeprock Burrows are digging deeper than any pit-rat has business digging: straight down, as if something were calling them. Their tunnels run beneath our wall, $N. Collapse the matter: kill twelve Deeprock Tunnelers.",
+    "completionText": "Straight down, every shaft of it: burrowers do not dig like that on their own. I must consult my books.",
     "objectives": [
       {
         "type": "kill",
@@ -1488,7 +1565,7 @@
     "name": "Strange Wax",
     "giverNpcId": "quartermaster_bree",
     "turnInNpcId": "quartermaster_bree",
-    "text": "Caddis showed me a lump of wax taken off one of those tunnelers — it glows, $N, and it is warm as a heartbeat. He wants more for study, and I want it off my requisition list. Bring back six lumps of the glowing wax.",
+    "text": "Caddis showed me a lump of wax taken off one of those tunnelers: it glows, $N, and it is warm as a heartbeat. He wants more for study, and I want it off my requisition list. Bring back six lumps of the glowing wax.",
     "completionText": "Still warm. The Loremaster says the glow matches no flame he knows of. I say it is mountain trouble, and I say it kindly.",
     "objectives": [
       {
@@ -1508,7 +1585,7 @@
     "name": "Ogres at the Foothills",
     "giverNpcId": "scout_maren_highwatch",
     "turnInNpcId": "scout_maren_highwatch",
-    "text": "The Thornpeak clans never come this far east — yet here they are, camped in the eastern foothills with war paint on. Somebody is paying them, $N, and ogres do not take promises. Cut twelve of them down while I find out who holds the purse.",
+    "text": "The Thornpeak clans never come this far east, yet here they are, camped in the eastern foothills with war paint on. Somebody is paying them, $N, and ogres do not take promises. Cut twelve of them down while I find out who holds the purse.",
     "completionText": "Twelve down, and still they are not pulling back. Whoever bought them paid in something heavier than gold.",
     "objectives": [
       {
@@ -1528,8 +1605,8 @@
     "name": "Totems of War",
     "giverNpcId": "scout_maren_highwatch",
     "turnInNpcId": "scout_maren_highwatch",
-    "text": "Around the war-camp the ogres have raised totems — crude things of hide and skull, but they mark a muster, not a raid. Tear down six of them and bring them to me. Mind the crushers on the perimeter, $N.",
-    "completionText": "Skull, hide... and look here — wyrm-scale bindings. These totems were gifts, $N. The cult is arming the clans.",
+    "text": "Around the war-camp the ogres have raised totems, crude things of hide and skull, but they mark a muster, not a raid. Tear down six of them and bring them to me. Mind the crushers on the perimeter, $N.",
+    "completionText": "Skull, hide... and look here: wyrm-scale bindings. These totems were gifts, $N. The cult is arming the clans.",
     "objectives": [
       {
         "type": "collect",
@@ -1550,7 +1627,7 @@
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
     "text": "Maren's totems name the hand that bought the clans: an ogre they call Brakka the Wallbreaker, and he is mustering the rest against my gate. Cut off the head and the clans scatter. Bring me Brakka, $N, and Highwatch will pay a captain's bounty.",
-    "completionText": "Bounty paid in full. The foothills are quieter — now we deal with the ones doing the buying.",
+    "completionText": "Bounty paid in full. The foothills are quieter. Now we deal with the ones doing the buying.",
     "objectives": [
       {
         "type": "kill",
@@ -1569,8 +1646,8 @@
     "name": "Break the War-Camp",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "Drogmar's war-camp squats in the eastern crags, and his crushers are the spine of it — each one worth three of my soldiers. Take companions; this is no errand for one blade. Break ten crushers and the warlord's muster breaks with them.",
-    "completionText": "Ten crushers down. The war-camp is a body without a spine — time to take the head.",
+    "text": "Drogmar's war-camp squats in the eastern crags, and his crushers are the spine of it, each one worth three of my soldiers. Take companions; this is no errand for one blade. Break ten crushers and the warlord's muster breaks with them.",
+    "completionText": "Ten crushers down. The war-camp is a body without a spine. Time to take the head.",
     "objectives": [
       {
         "type": "kill",
@@ -1590,8 +1667,8 @@
     "name": "Warlord Drogmar",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "Warlord Drogmar took the Wyrmcult's coin and swore the clans to the mountain's waking. He is the hammer they mean to swing at my wall — and when he slams the ground, $N, do not be standing near him. Take your companions into the war-camp and end him, for Highwatch.",
-    "completionText": "Drogmar, dead in his own camp. The clans will scatter to the high passes — you have bought my wall a winter, $N.",
+    "text": "Warlord Drogmar took the Broodsworn's coin and swore the clans to the mountain's waking. He is the hammer they mean to swing at my wall, and when he slams the ground, $N, do not be standing near him. Take your companions into the war-camp and end him, for Highwatch.",
+    "completionText": "Drogmar, dead in his own camp. The clans will scatter to the high passes: you have bought my wall a winter, $N.",
     "objectives": [
       {
         "type": "kill",
@@ -1615,7 +1692,7 @@
     "name": "The Mountain Wakes",
     "giverNpcId": "loremaster_caddis",
     "turnInNpcId": "loremaster_caddis",
-    "text": "Stormcrag has stood silent a thousand years, and now the very stones of it get up and walk. Elementals do not simply wake, $N — something beneath this mountain is turning in its sleep. Put twelve of them down so I may study what remains.",
+    "text": "Stormcrag has stood silent a thousand years, and now the very stones of it get up and walk. Elementals do not simply wake, $N. Something beneath this mountain is turning in its sleep. Put twelve of them down so I may study what remains.",
     "completionText": "The fragments hum like struck bells. The mountain is not angry, $N... it is being disturbed.",
     "objectives": [
       {
@@ -1635,7 +1712,7 @@
     "name": "Cores of the Storm",
     "giverNpcId": "loremaster_caddis",
     "turnInNpcId": "loremaster_caddis",
-    "text": "At each elemental's heart sits a storm core — a knot of lightning bound in stone. Six of them, set side by side, will tell me where the disturbance is centered. I suspect I already know, $N, and I dearly hope that I am wrong.",
+    "text": "At each elemental's heart sits a storm core, a knot of lightning bound in stone. Six of them, set side by side, will tell me where the disturbance is centered. I suspect I already know, $N, and I dearly hope that I am wrong.",
     "completionText": "Each core leans the same way, like iron filings to a lodestone. They point south, $N. To the Sanctum.",
     "objectives": [
       {
@@ -1655,8 +1732,8 @@
     "name": "The Shardlord",
     "giverNpcId": "loremaster_caddis",
     "turnInNpcId": "loremaster_caddis",
-    "text": "Among the elementals one burns brighter than the rest: Shardlord Kazzix, a storm given shoulders. Its heartshard would anchor every reading I have taken — if you can wrench it from the thing. It walks the far crags west of Stormcrag, beyond the second camp.",
-    "completionText": "The heartshard! Still crackling — magnificent. Take these leggings; I sized them off a guess and a prayer.",
+    "text": "Among the elementals one burns brighter than the rest: Shardlord Kazzix, a storm given shoulders. Its heartshard would anchor every reading I have taken, if you can wrench it from the thing. It walks the far crags west of Stormcrag, beyond the second camp.",
+    "completionText": "The heartshard! Still crackling. Magnificent. Take these leggings; I sized them off a guess and a prayer.",
     "objectives": [
       {
         "type": "collect",
@@ -1679,14 +1756,14 @@
     "name": "Chants on the Wind",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "When the wind comes off the southern peaks, $N, it carries chanting. The Wyrmcult no longer hides — they have raised tents below the Sanctum and they sing to what sleeps beneath it. Silence twelve zealots. Every voice stilled buys the mountain another night of sleep.",
-    "completionText": "The wind is quieter. But what troubles me is not the chanting, $N — it is that something may be chanting back.",
+    "text": "When the wind comes off the southern peaks, $N, it carries chanting. The Broodsworn no longer hides: they have raised tents below the Sanctum and they sing to what sleeps beneath it. Silence twelve zealots. Every voice stilled buys the mountain another night of sleep.",
+    "completionText": "The wind is quieter. But what troubles me is not the chanting, $N. It is that something may be chanting back.",
     "objectives": [
       {
         "type": "kill",
         "targetMobId": "wyrmcult_zealot",
         "count": 12,
-        "label": "Wyrmcult Zealot slain"
+        "label": "Broodsworn Zealot slain"
       }
     ],
     "xpReward": 4000,
@@ -1722,7 +1799,7 @@
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
     "text": "The orders speak of a \"ring of phylacteries\", soul-vessels, $N, set about the Sanctum to feed it. The cult's necromancers carry them like holy relics. Take five phylacteries from them, unbroken, and bring them to me. I must know what souls they hold.",
-    "completionText": "Light forgive us. These hold the dead of the Vale and the fen — every corpse the Gravecallers ever raised, harvested. They were never building an army, $N. They were gathering a tithe.",
+    "completionText": "Light forgive us. These hold the dead of the Vale and the fen, every corpse the Gravecallers ever raised, harvested. They were never building an army, $N. They were gathering a tithe.",
     "objectives": [
       {
         "type": "collect",
@@ -1742,8 +1819,8 @@
     "name": "The Revenant Fields",
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
-    "text": "East of the Sanctum road lies an old battlefield — the vanguard of the last army that tried to take this mountain, two hundred years buried. The cult has called them up, bones in rusted plate. Put twelve revenants back in the ground, $N.",
-    "completionText": "They were soldiers once, like mine. Whatever called them up has no respect for the dead — or a use for them I do not care to learn.",
+    "text": "East of the Sanctum road lies an old battlefield, the vanguard of the last army that tried to take this mountain, two hundred years buried. The cult has called them up, bones in rusted plate. Put twelve revenants back in the ground, $N.",
+    "completionText": "They were soldiers once, like mine. Whatever called them up has no respect for the dead, or a use for them I do not care to learn.",
     "objectives": [
       {
         "type": "kill",
@@ -1764,7 +1841,7 @@
     "giverNpcId": "captain_thessaly",
     "turnInNpcId": "captain_thessaly",
     "text": "The revenants are forming ranks, $N, true ranks, shield-lines and columns, drilling with no drummer. Break their vanguard and bring me ten of their bones, so the smiths can read how they were bound. Do it before the march begins, and Highwatch will owe you its best steel.",
-    "completionText": "The fields lie still again. Take this — it was made for the defenders of the wall, and no one has earned it more.",
+    "completionText": "The fields lie still again. Take this: it was made for the defenders of the wall, and no one has earned it more.",
     "objectives": [
       {
         "type": "collect",
@@ -1787,7 +1864,7 @@
     "name": "Sigils of the Wyrm",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "It is time you knew the whole of it, $N. The Gravecallers serve Korzul the Gravewyrm — an ancient dragon sealed beneath this mountain — and every soul they have stolen since Eastbrook is a tithe poured into its waking. On the Sanctum Approach the cult has laid sigils to thin the seal. Bring me three; I would read the rite they are working.",
+    "text": "It is time you knew the whole of it, $N. The Gravecallers serve Korzul the Gravewyrm (an ancient dragon sealed beneath this mountain), and every soul they have stolen since Eastbrook is a tithe poured into its waking. On the Sanctum Approach the cult has laid sigils to thin the seal. Bring me three; I would read the rite they are working.",
     "completionText": "Yes... a waking-litany, generations in the writing. They are close, $N. Closer than I dared fear.",
     "objectives": [
       {
@@ -1808,8 +1885,8 @@
     "name": "Breaking the Seal",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "The seal on the Sanctum was wrought with mountain-fire, and only mountain-fire will let us pass without tearing it wide open. The stormcrag elementals carry embers of that first forging in their cores. Bring me five Blessed Embers, $N — for if the cult opens that gate first, they will not be careful, and the Wyrm will not wake gently.",
-    "completionText": "They burn blue and clean — the mountain remembers its old oath. With these I can unbind the gate for us alone.",
+    "text": "The seal on the Sanctum was wrought with mountain-fire, and only mountain-fire will let us pass without tearing it wide open. The stormcrag elementals carry embers of that first forging in their cores. Bring me five Blessed Embers, $N, for if the cult opens that gate first, they will not be careful, and the Wyrm will not wake gently.",
+    "completionText": "They burn blue and clean: the mountain remembers its old oath. With these I can unbind the gate for us alone.",
     "objectives": [
       {
         "type": "collect",
@@ -1842,7 +1919,7 @@
         "type": "kill",
         "targetMobId": "wyrmcult_necromancer",
         "count": 6,
-        "label": "Wyrmcult Necromancer slain"
+        "label": "Broodsworn Necromancer slain"
       }
     ],
     "xpReward": 4400,
@@ -1859,8 +1936,8 @@
     "name": "The Sanctum Gate",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "This is the last threshold, $N. The gate of the Gravewyrm Sanctum was locked with a keystone, and the cult shattered it into shards rather than see it turned against them. The shards lie scattered in the gate plaza, under the eyes of the boneclad dead. Bring me three, and I will open the way the Light intended — quietly.",
-    "completionText": "The shards sit true... and the gate knows its key. The way below stands open, $N. Gather the strongest companions you can find — what comes next, no one should face alone.",
+    "text": "This is the last threshold, $N. The gate of the Gravewyrm Sanctum was locked with a keystone, and the cult shattered it into shards rather than see it turned against them. The shards lie scattered in the gate plaza, under the eyes of the boneclad dead. Bring me three, and I will open the way the Light intended, quietly.",
+    "completionText": "The shards sit true... and the gate knows its key. The way below stands open, $N. Gather the strongest companions you can find: what comes next, no one should face alone.",
     "objectives": [
       {
         "type": "collect",
@@ -1879,8 +1956,8 @@
     "name": "The Bound Guardian",
     "giverNpcId": "scout_maren_highwatch",
     "turnInNpcId": "scout_maren_highwatch",
-    "text": "My last sweep of the Sanctum's mouth found chains, $N — chains thick as a ship's mast, and something ogre-shaped straining inside them. The cult bound a champion at the threshold: Korgath, fed on rage for longer than either of us has been alive. Take four companions and put him down — and when the chains come off, do not let him corner you.",
-    "completionText": "Korgath, broken at last. Even his chains deserved a kinder end than that. The wraps are yours — wear them past the threshold he kept.",
+    "text": "My last sweep of the Sanctum's mouth found chains, $N, chains thick as a ship's mast, and something ogre-shaped straining inside them. The cult bound a champion at the threshold: Korgath, fed on rage for longer than either of us has been alive. Take four companions and put him down, and when the chains come off, do not let him corner you.",
+    "completionText": "Korgath, broken at last. Even his chains deserved a kinder end than that. The wraps are yours: wear them past the threshold he kept.",
     "objectives": [
       {
         "type": "kill",
@@ -1905,8 +1982,8 @@
     "name": "The Grand Necromancer",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "Every thread we have followed — Morthen, Vael, the phylacteries — was spun by one hand: Grand Necromancer Velkhar, first of the Gravecallers, keeper of the waking rite. He stands in the ritual vault below, pouring two lands' worth of stolen souls into the Wyrm. End him, $N, and the tithe ends with him.",
-    "completionText": "Velkhar is dead, and the rite is headless. But you felt it down there, did you not? The souls are already spent — the Wyrm is no longer asleep.",
+    "text": "Every thread we have followed (Morthen, Vael, the phylacteries) was spun by one hand: Grand Necromancer Velkhar, first of the Gravecallers, keeper of the waking rite. He stands in the ritual vault below, pouring two lands' worth of stolen souls into the Wyrm. End him, $N, and the tithe ends with him.",
+    "completionText": "Velkhar is dead, and the rite is headless. But you felt it down there, did you not? The souls are already spent: the Wyrm is no longer asleep.",
     "objectives": [
       {
         "type": "kill",
@@ -1931,8 +2008,8 @@
     "name": "Korzul the Gravewyrm",
     "giverNpcId": "brother_aldric_highwatch",
     "turnInNpcId": "brother_aldric_highwatch",
-    "text": "There is no rite left to stop, $N — only the Wyrm itself, half-woken in its hollow, gorged on the dead of the Vale and the fen. If it rises, the wall, the marsh, Eastbrook — everything we have defended falls in a single night. Take your companions into the Wyrm's Hollow and finish what we began in a chapel yard so long ago. The Light has carried you this far; carry it the rest of the way.",
-    "completionText": "It is over. The dead of three lands may rest, the mountain sleeps unhaunted — and it is your name, $N, that every bell from here to Eastbrook rings tonight.",
+    "text": "There is no rite left to stop, $N: only the Wyrm itself, half-woken in its hollow, gorged on the dead of the Vale and the fen. If it rises, the wall, the marsh, Eastbrook, everything we have defended falls in a single night. Take your companions into the Wyrm's Hollow and finish what we began in a chapel yard so long ago. The Light has carried you this far; carry it the rest of the way.",
+    "completionText": "It is over. The dead of three lands may rest, the mountain sleeps unhaunted, and it is your name, $N, that every bell from here to Eastbrook rings tonight.",
     "objectives": [
       {
         "type": "kill",
@@ -2157,7 +2234,7 @@
     "name": "Light on the Water",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "Look there, $N — under the surface, a stair of pale stone running down into the dark, and a gate of cold light at the head of it. The old wardens scratched warnings into the shore-rocks before the water took them. Take a rubbing of one for me; I would read what they feared before we go any closer.",
+    "text": "Look there, $N, under the surface, a stair of pale stone running down into the dark, and a gate of cold light at the head of it. The old wardens scratched warnings into the shore-rocks before the water took them. Take a rubbing of one for me; I would read what they feared before we go any closer.",
     "completionText": "A waking-prayer... to something they called the Drowned Moon. And below it, in a steadier hand: \"It only sleeps.\" The water has been listening a long time, $N.",
     "objectives": [
       {
@@ -2177,8 +2254,8 @@
     "name": "What the Tarn Gives Up",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "Since the gate opened, things climb out of the mere at dusk — bloated, pale, finned where hands ought to be. Glimmermere Waders, the old rubbings name them. They drag anything living back down with them. Cull ten before they thin my watch to nothing.",
-    "completionText": "Ten back in the water. They feel no cold, $N, and no fear — only the pull of that gate. Whatever sings to them, it sings loud.",
+    "text": "Since the gate opened, things climb out of the mere at dusk: bloated, pale, finned where hands ought to be. Glimmermere Waders, the old rubbings name them. They drag anything living back down with them. Cull ten before they thin my watch to nothing.",
+    "completionText": "Ten back in the water. They feel no cold, $N, and no fear, only the pull of that gate. Whatever sings to them, it sings loud.",
     "objectives": [
       {
         "type": "kill",
@@ -2197,7 +2274,7 @@
     "name": "The Drowned Choir",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "The waders do not act alone. Among them walk the Drowned Votaries — the cult that sank with the temple, still in their rotted vestments, still singing the prayer from the shore-rocks. Silence eight of them, and bring me six of the offerings they carry. I would know what they mean to give their goddess.",
+    "text": "The waders do not act alone. Among them walk the Drowned Votaries, the cult that sank with the temple, still in their rotted vestments, still singing the prayer from the shore-rocks. Silence eight of them, and bring me six of the offerings they carry. I would know what they mean to give their goddess.",
     "completionText": "Pearls, knuckle-bones, a child's carved fish... grave-gifts, $N. They are not raising the dead. They are dressing them, the way you dress a body for burial. The temple is a tomb that refuses to close.",
     "objectives": [
       {
@@ -2227,8 +2304,8 @@
     "name": "Sethrael the Palecoil",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "One shape in the mere is no drowned man. A serpent the colour of bone glides the deep shelf where the stair begins — Sethrael, the rubbings call it, the Palecoil, the moon's own watch-beast. While it guards that water, no one reaches the gate alive. Go down to the shelf and kill it, $N. Take its heartscale so I know the deed is done.",
-    "completionText": "Cold as the bottom of the world, and still it twitches. The shelf is clear, $N — the stair to the gate stands open. I almost wish it did not.",
+    "text": "One shape in the mere is no drowned man. A serpent the colour of bone glides the deep shelf where the stair begins: Sethrael, the rubbings call it, the Palecoil, the moon's own watch-beast. While it guards that water, no one reaches the gate alive. Go down to the shelf and kill it, $N. Take its heartscale so I know the deed is done.",
+    "completionText": "Cold as the bottom of the world, and still it twitches. The shelf is clear, $N. The stair to the gate stands open. I almost wish it did not.",
     "objectives": [
       {
         "type": "collect",
@@ -2252,7 +2329,7 @@
     "name": "Silence the Choir",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "The singing comes from below the gate now, and one voice leads it: Choirmother Selthe, who first taught the cult to drown without dying. While she keeps the prayer, the temple will never sleep — and the mere will never stop giving up its dead. Take companions through the gate and end her. This is no errand for a lone blade, $N.",
+    "text": "The singing comes from below the gate now, and one voice leads it: Choirmother Selthe, who first taught the cult to drown without dying. While she keeps the prayer, the temple will never sleep, and the mere will never stop giving up its dead. Take companions through the gate and end her. This is no errand for a lone blade, $N.",
     "completionText": "The prayer falters... and for the first time in thirty nights, the mere is quiet. But quiet is not the same as ended. Selthe was only the choir. Something below it still listens.",
     "objectives": [
       {
@@ -2278,8 +2355,8 @@
     "name": "The Drowned Moon",
     "giverNpcId": "tidewatcher_ondrel",
     "turnInNpcId": "tidewatcher_ondrel",
-    "text": "I have read the last of the rubbings, $N, and I understand now what the cult drowned themselves to keep asleep. Ysolei — the Drowned Moon made flesh — coils on the altar at the temple's heart, and the stolen warmth of every life the mere took is pouring into her waking. When the moon stands full she rises, and the water rises with her — the tarn, the wall, the whole mountain under it. Gather the strongest you can find and put her back to sleep. For good, this time.",
-    "completionText": "The altar is dark, the water is still, and the moon over the tarn is only the moon. You drowned a goddess tonight, $N — and the mountain will never know how close it came. Let the wardens of the shore-rocks rest easy at last.",
+    "text": "I have read the last of the rubbings, $N, and I understand now what the cult drowned themselves to keep asleep. Ysolei, the Drowned Moon made flesh, coils on the altar at the temple's heart, and the stolen warmth of every life the mere took is pouring into her waking. When the moon stands full she rises, and the water rises with her: the tarn, the wall, the whole mountain under it. Gather the strongest you can find and put her back to sleep. For good, this time.",
+    "completionText": "The altar is dark, the water is still, and the moon over the tarn is only the moon. You drowned a goddess tonight, $N, and the mountain will never know how close it came. Let the wardens of the shore-rocks rest easy at last.",
     "objectives": [
       {
         "type": "kill",
@@ -2634,7 +2711,7 @@
     "name": "The Old Shell of the Shallows",
     "giverNpcId": "huntsman_deral",
     "turnInNpcId": "huntsman_deral",
-    "text": "The first name is Old Marrowshell, a crab the size of a cart that has hunted the eastern shallows since before Eldergleam had a gate. It wanders, $N, so you will have to walk the shoreline until you cross its track. Do not go alone, and do not trust its stillness.",
+    "text": "The first name is Old Marrowshell, a crab the size of a cart that has hunted the eastern shallows since before Eldershine had a gate. It wanders, $N, so you will have to walk the shoreline until you cross its track. Do not go alone, and do not trust its stillness.",
     "completionText": "The shallows are just water again. I have watched that shell break better hunters than me, $N. Not you.",
     "objectives": [
       {
@@ -3089,17 +3166,17 @@
   },
   "q_fv_frostmane_tyrant": {
     "id": "q_fv_frostmane_tyrant",
-    "name": "The Frostmane Tyrant",
+    "name": "The Rimemane Tyrant",
     "giverNpcId": "warden_kaldra",
     "turnInNpcId": "warden_kaldra",
-    "text": "The howlers were not hunting when they came down the terraces. They were fleeing. A yeti has claimed the high ground, the mountain folk call it the Frostmane, and even the packs will not share a slope with it. It has to end, $N, before winter drives it down to my walls. Bring a friend. Bring two.",
-    "completionText": "When the wind dropped last night the whole village heard the silence where the Frostmane used to be. The Reach owes you a debt it will be years in paying, $N. Wear this, and every door in Icemantle is open to you.",
+    "text": "The howlers were not hunting when they came down the terraces. They were fleeing. A yeti has claimed the high ground, the mountain folk call it the Rimemane, and even the packs will not share a slope with it. It has to end, $N, before winter drives it down to my walls. Bring a friend. Bring two.",
+    "completionText": "When the wind dropped last night the whole village heard the silence where the Rimemane used to be. The Reach owes you a debt it will be years in paying, $N. Wear this, and every door in Icemantle is open to you.",
     "objectives": [
       {
         "type": "kill",
         "targetMobId": "frostmane_yeti",
         "count": 1,
-        "label": "The Frostmane slain"
+        "label": "The Rimemane slain"
       }
     ],
     "xpReward": 6000,
@@ -3186,7 +3263,7 @@
         "type": "kill",
         "targetMobId": "harvest_sprite",
         "count": 8,
-        "label": "Harvest Sprite driven off"
+        "label": "Gleaning Sprite driven off"
       },
       {
         "type": "interact",
@@ -3558,7 +3635,7 @@
     "name": "Eyes on the Vigil",
     "giverNpcId": "lira_dewsong",
     "turnInNpcId": "astronomer_cassian",
-    "text": "Something has the striders bold and the herds uneasy, $N, and I cannot read it in the flowers. Cassian can read it in the sky. He keeps his observatory camp by the Standing Vigil east of here, where the nightkin drift among the stones. Find him, and ask what the stars are saying.",
+    "text": "Something has the striders bold and the herds uneasy, $N, and I cannot read it in the flowers. Cassian can read it in the sky. He keeps his observatory camp by the Standing Vigil east of here, where the gloamkin drift among the stones. Find him, and ask what the stars are saying.",
     "completionText": "Lira sent you? Then the gardens feel it too. Sit by the glass a moment, $N. The stars have been restless for a month, and every chart I draw leans north toward the barrow.",
     "objectives": [
       {
@@ -3579,7 +3656,7 @@
     "name": "The Charts in the Stones",
     "giverNpcId": "astronomer_cassian",
     "turnInNpcId": "astronomer_cassian",
-    "text": "The Vigil stones are older than Moonrest, older than the nightkin who tend them, and their faces are cut with star charts I have spent my life learning to read. The sky has shifted, $N, and I must know how far. Read the charts on three of the stones and bring me their bearings.",
+    "text": "The Vigil stones are older than Moonrest, older than the gloamkin who tend them, and their faces are cut with star charts I have spent my life learning to read. The sky has shifted, $N, and I must know how far. Read the charts on three of the stones and bring me their bearings.",
     "completionText": "No doubt is left. Every bearing has crept toward the Sleepless Barrow, as if the sky itself leans over that mound to watch. The old kings were buried under aligned stars for a reason, $N.",
     "objectives": [
       {
@@ -3627,7 +3704,7 @@
     "giverNpcId": "astronomer_cassian",
     "turnInNpcId": "astronomer_cassian",
     "text": "Every bearing, every restless star, every opened mound points to one thing: the Barrow King is waking beneath the great mound, and this realm has no dawn to hold him back. He must be put to rest before he remembers his crown, $N. Do not go alone: bring a friend, and keep the flower-light at your back.",
-    "completionText": "The stars have settled for the first time in a season, $N. The mounds are closed, the nightkin have gone still at their stones, and the king sleeps below once more. Wear this mantle: Moonrest cut it for whoever the night finally trusted.",
+    "completionText": "The stars have settled for the first time in a season, $N. The mounds are closed, the gloamkin have gone still at their stones, and the king sleeps below once more. Wear this mantle: Moonrest cut it for whoever the night finally trusted.",
     "objectives": [
       {
         "type": "kill",
@@ -3649,11 +3726,11 @@
   },
   "q_ww_bells_of_gallowmere": {
     "id": "q_ww_bells_of_gallowmere",
-    "name": "The Bells of Gallowmere",
+    "name": "The Bells of Gibbetmere",
     "giverNpcId": "lampman_cobb",
     "turnInNpcId": "sexton_marrow",
-    "text": "Hear that tolling, $N? That is Gallowmere, up the north road, ringing its dead to sleep. Sexton Marrow keeps the count of every soul under the canopy, living and buried. Go and be counted, before the wood counts you itself.",
-    "completionText": "Cobb sent you up the road whole, did he? Good man. He has kept those gate lanterns lit for thirty years, and the wood has never once got past him. Welcome to Gallowmere, $N. Mind the bells.",
+    "text": "Hear that tolling, $N? That is Gibbetmere, up the north road, ringing its dead to sleep. Sexton Marrow keeps the count of every soul under the canopy, living and buried. Go and be counted, before the wood counts you itself.",
+    "completionText": "Cobb sent you up the road whole, did he? Good man. He has kept those gate lanterns lit for thirty years, and the wood has never once got past him. Welcome to Gibbetmere, $N. Mind the bells.",
     "objectives": [
       {
         "type": "interact",
@@ -3716,7 +3793,7 @@
     "name": "Candles at the Bounds",
     "giverNpcId": "widow_tansy",
     "turnInNpcId": "widow_tansy",
-    "text": "Four boundary stones ring Gallowmere, $N, one on each road out, and a grave-candle burns on every stone. While they burn, the buried stay buried. The drizzle has drowned them, all four, and I am too old to walk the bounds alone. Take my taper and relight them, quickly.",
+    "text": "Four boundary stones ring Gibbetmere, $N, one on each road out, and a grave-candle burns on every stone. While they burn, the buried stay buried. The drizzle has drowned them, all four, and I am too old to walk the bounds alone. Take my taper and relight them, quickly.",
     "completionText": "All four burning? Then breathe, $N. You did not hear it, but the whole village did: the bells rang easier the moment the last wick caught.",
     "objectives": [
       {
@@ -3777,7 +3854,7 @@
     "name": "What the Bark Holds",
     "giverNpcId": "vicar_creel",
     "turnInNpcId": "vicar_creel",
-    "text": "In the Hanging Glade east of Gallowmere the spinners hang their silk-wrapped dead from the boughs, and the gravenbark shamblers stand guard beneath like patient pallbearers. Those are our people up there, $N. Break five shamblers, cut down three of the wrapped dead, and bring them home to soil.",
+    "text": "In the Hanging Glade east of Gibbetmere the spinners hang their silk-wrapped dead from the boughs, and the gravenbark shamblers stand guard beneath like patient pallbearers. Those are our people up there, $N. Break five shamblers, cut down three of the wrapped dead, and bring them home to soil.",
     "completionText": "Three souls back under honest ground before nightfall. The shamblers will grow back, bark always does, but tonight the glade hangs empty, and that is enough.",
     "objectives": [
       {
@@ -3804,13 +3881,13 @@
     "giverNpcId": "sexton_marrow",
     "turnInNpcId": "sexton_marrow",
     "text": "My gravedigger Mosley took the chapel road three days ago to open a plot in the old yard, and the dig came down on top of him. He clawed his way out, the fool is alive, but he is huddled by the chapel graves and will not move for spinners on the road. Walk him home, $N. I cannot ring the bells for a living man.",
-    "completionText": "He came through the gate on his own two feet, swearing he will dig nothing deeper than a turnip bed from now on. He will be back at the yard by Sunday, they always are. Thank you, $N. Gallowmere keeps its people, that is the whole of our law.",
+    "completionText": "He came through the gate on his own two feet, swearing he will dig nothing deeper than a turnip bed from now on. He will be back at the yard by Sunday, they always are. Thank you, $N. Gibbetmere keeps its people, that is the whole of our law.",
     "objectives": [
       {
         "type": "escort",
         "escortId": "esc_ww_mosley",
         "count": 1,
-        "label": "Gravedigger Mosley walked safely back to Gallowmere"
+        "label": "Gravedigger Mosley walked safely back to Gibbetmere"
       }
     ],
     "xpReward": 5600,
@@ -3825,7 +3902,7 @@
     "giverNpcId": "vicar_creel",
     "turnInNpcId": "vicar_creel",
     "text": "You have heard the horn by now, $N, thin and far off, the sound the whole wood holds its breath for. The Pale Huntsman rides his clearing north of here, and every grave he passes grows shallower. He was a man once, and he was buried wrong, and I am done pretending prayer will do it. Take a friend, take two, and unhorse him.",
-    "completionText": "The horn stopped mid-note. Every bell in Gallowmere rang once, on its own, and then the wood went quieter than I have heard it in thirty years. You have done the rite I could not, $N. Wear this, and walk under the canopy unafraid.",
+    "completionText": "The horn stopped mid-note. Every bell in Gibbetmere rang once, on its own, and then the wood went quieter than I have heard it in thirty years. You have done the rite I could not, $N. Wear this, and walk under the canopy unafraid.",
     "objectives": [
       {
         "type": "kill",
@@ -3955,14 +4032,14 @@
     "name": "The Man Who Went In",
     "giverNpcId": "pearlmother_isha",
     "turnInNpcId": "hermit_okku",
-    "text": "The divers will not step past the treeline, $N, and I will not ask them to. You have heard the drums by now: everyone does, by the second night. One man on this island ever walked toward that sound and came back. Okku. He camps under the great banyans at the Vinefall, deep up the Tangle road. Find him, and ask him what the green is hiding.",
+    "text": "The divers will not step past the treeline, $N, and I will not ask them to. You have heard the drums by now: everyone does, by the second night. One man on this island ever walked toward that sound and came back. Okrim. He camps under the great banyans at the Vinefall, deep up the Tangle road. Find him, and ask him what the green is hiding.",
     "completionText": "Isha sent you? The Pearl-Mother has not spoken my name in years. Sit out of the vines' reach, $N, and I will tell you what I know: the drums are not the danger. They are the warning.",
     "objectives": [
       {
         "type": "interact",
         "targetNpcId": "hermit_okku",
         "count": 1,
-        "label": "Find Okku at the Vinefall"
+        "label": "Find Okrim at the Vinefall"
       }
     ],
     "xpReward": 2800,
@@ -4844,8 +4921,8 @@
     "requiresQuest": "q_ps_the_long_walk"
   },
   "q_ignivar_echoes_in_iron": {
-    "xpReward": 0,
-    "copperReward": 0,
+    "xpReward": 5300,
+    "copperReward": 25000,
     "itemRewards": {},
     "minLevel": 20,
     "suggestedPlayers": 10,
@@ -4873,8 +4950,8 @@
     ]
   },
   "q_ignivar_heralds_heart": {
-    "xpReward": 0,
-    "copperReward": 0,
+    "xpReward": 5300,
+    "copperReward": 25000,
     "itemRewards": {},
     "minLevel": 20,
     "suggestedPlayers": 10,
@@ -4897,8 +4974,8 @@
     "requiresQuest": "q_ignivar_echoes_in_iron"
   },
   "q_ignivar_the_forgefather": {
-    "xpReward": 0,
-    "copperReward": 0,
+    "xpReward": 5300,
+    "copperReward": 25000,
     "itemRewards": {},
     "minLevel": 20,
     "suggestedPlayers": 10,
@@ -4918,5 +4995,114 @@
       }
     ],
     "requiresQuest": "q_ignivar_heralds_heart"
+  },
+  "q_forgefathers_requiem": {
+    "xpReward": 5300,
+    "copperReward": 25000,
+    "itemRewards": {},
+    "minLevel": 20,
+    "suggestedPlayers": 10,
+    "shareable": false,
+    "id": "q_forgefathers_requiem",
+    "giverNpcId": "archivist_maelin_ember_projection",
+    "turnInNpcId": "archivist_maelin_ember_projection",
+    "name": "The Forgefather's Requiem",
+    "text": "Varkhul kept an ember of the Last Spring at his heart. Recover it from him and use it to learn the shaping of Forgebreaker and begin Requiem at the Forge. This requires Weaponcrafting skill 125. You can also bring the ember to me to learn the shaping. His defeat on either difficulty will yield the ember while this task is active.",
+    "completionText": "It still sings. Keep the ember: your hammer will need its voice. I have taught you one shaping of Forgebreaker. Use the ember to begin Requiem at the Forge. The ember and the shaping are spent only when your craft succeeds.",
+    "rev": 1,
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "forgefathers_ember",
+        "count": 1,
+        "label": "Forgefather's Ember recovered"
+      }
+    ],
+    "requiresQuest": "q_ignivar_the_forgefather",
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman",
+      "druid"
+    ],
+    "keepsCollectedItems": true,
+    "recipeReward": "recipe_varkhul_forgebreaker"
+  },
+  "q_requiem_at_the_forge": {
+    "xpReward": 5300,
+    "copperReward": 25000,
+    "itemRewards": {},
+    "minLevel": 20,
+    "suggestedPlayers": 10,
+    "shareable": false,
+    "id": "q_requiem_at_the_forge",
+    "giverNpcId": "archivist_maelin_ember_projection",
+    "turnInNpcId": "archivist_maelin_ember_projection",
+    "name": "Requiem at the Forge",
+    "text": "Take the ember, fifteen Cores of the Last Flame, Fine Osmium Ore and Fine Highpine Logs to a forge. Shape Forgebreaker yourself to complete this quest immediately and receive your rewards. You keep the hammer, and it binds to you. If you already forged it, you can bring it to me in your bags or equipped. This shaping can create only one hammer.",
+    "completionText": "The spring's voice carries through the iron. What Varkhul chained, your hands have set free. Carry Forgebreaker well, smith.",
+    "rev": 1,
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "varkhul_forgebreaker",
+        "count": 1,
+        "label": "Forgebreaker forged and carried"
+      }
+    ],
+    "requiresQuest": "q_forgefathers_requiem",
+    "requiredClass": [
+      "warrior",
+      "paladin",
+      "shaman",
+      "druid"
+    ],
+    "keepsCollectedItems": true
+  },
+  "q_hub_know_your_numbers": {
+    "id": "q_hub_know_your_numbers",
+    "name": "Know Your Numbers",
+    "giverNpcId": "drillmaster_hale",
+    "turnInNpcId": "drillmaster_hale",
+    "text": "Strength you cannot measure is strength you cannot improve, $N. Target the training dummy, open your Damage Meters, and land ten blows on it, swings or spells, while you watch the window count what you deal. When the ten are in, come back and tell me the number.",
+    "completionText": "Ten blows, and now you know what they are worth. Every time you take a new weapon, a new talent or a new idea, $N, come back to this post and put a number on it. The meters are honest even when the vale is not.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "hub_dummy_drill",
+        "count": 10,
+        "label": "Blow landed on the Training Dummy"
+      }
+    ],
+    "xpReward": 60,
+    "copperReward": 40,
+    "itemRewards": {}
+  },
+  "q_hub_healing_numbers": {
+    "id": "q_hub_healing_numbers",
+    "name": "Numbers That Heal",
+    "giverNpcId": "drillmaster_hale",
+    "turnInNpcId": "drillmaster_hale",
+    "requiresQuest": "q_hub_know_your_numbers",
+    "requiredClass": [
+      "druid",
+      "shaman",
+      "paladin",
+      "priest"
+    ],
+    "requiresUsableHealAbility": true,
+    "text": "A post is not the only thing worth measuring, $N. Target the Healing Dummy beside it, open your Damage Meters, and switch to the Healing tab. Land three heals that actually restore health while you watch the window count them the same way it counted blows.",
+    "completionText": "Healed numbers, not hurt ones, but numbers all the same, $N. A healer who never watches those meters is guessing at their own worth.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetObjectItemId": "hub_healing_drill",
+        "count": 3,
+        "label": "Effective heal landed on the Healing Dummy"
+      }
+    ],
+    "xpReward": 60,
+    "copperReward": 40,
+    "itemRewards": {}
   }
 }

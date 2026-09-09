@@ -233,7 +233,7 @@
         "count": 1
       }
     ],
-    "skillReq": 150,
+    "skillReq": 125,
     "itemLevelBudget": 30,
     "level": 20,
     "stationType": "toolworks"
@@ -273,7 +273,7 @@
         "count": 1
       }
     ],
-    "skillReq": 150,
+    "skillReq": 125,
     "itemLevelBudget": 30,
     "level": 20,
     "stationType": "toolworks"
@@ -313,7 +313,7 @@
         "count": 1
       }
     ],
-    "skillReq": 150,
+    "skillReq": 125,
     "itemLevelBudget": 30,
     "level": 20,
     "stationType": "toolworks"
@@ -366,6 +366,33 @@
     "stationType": "toolworks",
     "acquisition": [
       "trainer"
+    ]
+  },
+  {
+    "id": "recipe_clockreel_fishing_rod",
+    "professionId": "engineering",
+    "resultItemId": "clockreel_fishing_rod",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "glimmerfin_koi",
+        "count": 2
+      },
+      {
+        "itemId": "raw_hollowgill_sturgeon",
+        "count": 10
+      },
+      {
+        "itemId": "tidewrought_fishing_rod",
+        "count": 1
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 30,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "drop"
     ]
   },
   {
@@ -451,7 +478,7 @@
     ],
     "skillReq": 75,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 17,
     "stationType": "loom"
   },
   {
@@ -479,7 +506,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "stationType": "tannery"
   },
   {
@@ -499,7 +526,7 @@
     ],
     "skillReq": 75,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 17,
     "stationType": "forge"
   },
   {
@@ -790,7 +817,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -821,7 +848,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -852,7 +879,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1045,7 +1072,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1076,7 +1103,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1107,7 +1134,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1296,7 +1323,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1323,7 +1350,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1354,7 +1381,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1543,7 +1570,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1570,7 +1597,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1605,7 +1632,7 @@
     ],
     "skillReq": 50,
     "itemLevelBudget": 20,
-    "level": 20,
+    "level": 15,
     "acquisition": [
       "trainer"
     ],
@@ -1643,6 +1670,10 @@
       {
         "itemId": "game_meat",
         "count": 2
+      },
+      {
+        "itemId": "vale_wheat",
+        "count": 1
       },
       {
         "itemId": "cooking_salt",
@@ -1722,6 +1753,14 @@
         "count": 3
       },
       {
+        "itemId": "vale_wheat",
+        "count": 2
+      },
+      {
+        "itemId": "bog_beet",
+        "count": 1
+      },
+      {
         "itemId": "goldleaf_herb",
         "count": 1
       },
@@ -1747,6 +1786,10 @@
       {
         "itemId": "raw_frostgill_trout",
         "count": 2
+      },
+      {
+        "itemId": "brook_carrot",
+        "count": 1
       },
       {
         "itemId": "silverleaf_herb",
@@ -1778,6 +1821,10 @@
       {
         "itemId": "raw_mirror_trout",
         "count": 1
+      },
+      {
+        "itemId": "marsh_rice",
+        "count": 2
       },
       {
         "itemId": "goldleaf_herb",
@@ -1840,6 +1887,14 @@
       {
         "itemId": "game_meat",
         "count": 4
+      },
+      {
+        "itemId": "highland_barley",
+        "count": 2
+      },
+      {
+        "itemId": "frost_gourd",
+        "count": 2
       },
       {
         "itemId": "sunpetal_herb",
@@ -1913,6 +1968,10 @@
       {
         "itemId": "venom_gland",
         "count": 2
+      },
+      {
+        "itemId": "vale_wheat",
+        "count": 1
       },
       {
         "itemId": "silverleaf_herb",
@@ -1990,6 +2049,10 @@
       {
         "itemId": "venom_gland",
         "count": 3
+      },
+      {
+        "itemId": "bog_beet",
+        "count": 2
       },
       {
         "itemId": "goldleaf_herb",
@@ -2075,6 +2138,10 @@
       {
         "itemId": "venom_gland",
         "count": 2
+      },
+      {
+        "itemId": "frost_gourd",
+        "count": 1
       },
       {
         "itemId": "sunpetal_herb",
@@ -2216,5 +2283,3614 @@
       "trainer"
     ],
     "stationType": "loom"
+  },
+  {
+    "id": "recipe_hammered_copper_band",
+    "professionId": "jewelcrafting",
+    "resultItemId": "hammered_copper_band",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "copper_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_polished_copper_loop",
+    "professionId": "jewelcrafting",
+    "resultItemId": "polished_copper_loop",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "copper_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 3
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_coiled_copper_torc",
+    "professionId": "jewelcrafting",
+    "resultItemId": "coiled_copper_torc",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "copper_ore",
+        "count": 5
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_riveted_iron_signet",
+    "professionId": "jewelcrafting",
+    "resultItemId": "riveted_iron_signet",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "iron_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 1
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_etched_iron_loop",
+    "professionId": "jewelcrafting",
+    "resultItemId": "etched_iron_loop",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "iron_ore",
+        "count": 3
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_iron_link_choker",
+    "professionId": "jewelcrafting",
+    "resultItemId": "iron_link_choker",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "iron_ore",
+        "count": 5
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 1
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_weighted_thorium_band",
+    "professionId": "jewelcrafting",
+    "resultItemId": "weighted_thorium_band",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 2
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_gleaming_thorium_loop",
+    "professionId": "jewelcrafting",
+    "resultItemId": "gleaming_thorium_loop",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 3
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 2
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_burnished_thorium_amulet",
+    "professionId": "jewelcrafting",
+    "resultItemId": "burnished_thorium_amulet",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 2
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_silverleaf_primer",
+    "professionId": "inscription",
+    "resultItemId": "silverleaf_primer",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "silverleaf_herb",
+        "count": 3
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_silverleaf_scroll",
+    "professionId": "inscription",
+    "resultItemId": "silverleaf_scroll",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "silverleaf_herb",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_goldleaf_folio",
+    "professionId": "inscription",
+    "resultItemId": "goldleaf_folio",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "goldleaf_herb",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_goldleaf_scroll",
+    "professionId": "inscription",
+    "resultItemId": "goldleaf_scroll",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "goldleaf_herb",
+        "count": 1
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_sunpetal_grimoire",
+    "professionId": "inscription",
+    "resultItemId": "sunpetal_grimoire",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_sunpetal_scroll",
+    "professionId": "inscription",
+    "resultItemId": "sunpetal_scroll",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "frost_gourd",
+        "count": 1
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 1
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_deed_of_making",
+    "professionId": "inscription",
+    "resultItemId": "deed_of_making",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sablewax_vellum",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_quickening_catalyst",
+    "professionId": "alchemy",
+    "resultItemId": "quickening_catalyst",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 2
+      },
+      {
+        "itemId": "venom_gland",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary",
+    "oncePerDay": true
+  },
+  {
+    "id": "recipe_duskforged_billet",
+    "professionId": "weaponcrafting",
+    "resultItemId": "duskforged_billet",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 3
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_forgefold_plating",
+    "professionId": "armorcrafting",
+    "resultItemId": "forgefold_plating",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 3
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_wyrmhide_cording",
+    "professionId": "leatherworking",
+    "resultItemId": "wyrmhide_cording",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "pristine_hide",
+        "count": 1
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 4
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_sunspun_bolt",
+    "professionId": "tailoring",
+    "resultItemId": "sunspun_bolt",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 1
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_prismglass_setting",
+    "professionId": "jewelcrafting",
+    "resultItemId": "prismglass_setting",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "thorium_ore",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_precision_chassis",
+    "professionId": "engineering",
+    "resultItemId": "precision_chassis",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "ashwood_log",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      },
+      {
+        "itemId": "cogwheel_blank",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_seasoned_stock",
+    "professionId": "cooking",
+    "resultItemId": "seasoned_stock",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "prime_cut",
+        "count": 1
+      },
+      {
+        "itemId": "game_meat",
+        "count": 3
+      },
+      {
+        "itemId": "marsh_rice",
+        "count": 2
+      },
+      {
+        "itemId": "bog_beet",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_lucent_reagent",
+    "professionId": "enchanting",
+    "resultItemId": "lucent_reagent",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "arcane_essence",
+        "count": 3
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 4
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_sablewax_vellum",
+    "professionId": "inscription",
+    "resultItemId": "sablewax_vellum",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      },
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_spiritweld_girdle",
+    "professionId": "armorcrafting",
+    "resultItemId": "spiritweld_girdle",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "forgefold_plating",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_forgefold_legguards",
+    "professionId": "armorcrafting",
+    "resultItemId": "forgefold_legguards",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "forgefold_plating",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_wardspeaker_sabatons",
+    "professionId": "armorcrafting",
+    "resultItemId": "wardspeaker_sabatons",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "forgefold_plating",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_briarstep_jerkin",
+    "professionId": "leatherworking",
+    "resultItemId": "briarstep_jerkin",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "wyrmhide_cording",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_fenbloom_breeches",
+    "professionId": "leatherworking",
+    "resultItemId": "fenbloom_breeches",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "wyrmhide_cording",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_barksong_handguards",
+    "professionId": "leatherworking",
+    "resultItemId": "barksong_handguards",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "wyrmhide_cording",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_sunspun_vestments",
+    "professionId": "tailoring",
+    "resultItemId": "sunspun_vestments",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunspun_bolt",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_sunspun_leggings",
+    "professionId": "tailoring",
+    "resultItemId": "sunspun_leggings",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunspun_bolt",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_sunspun_handwraps",
+    "professionId": "tailoring",
+    "resultItemId": "sunspun_handwraps",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunspun_bolt",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_sunspun_haversack",
+    "professionId": "tailoring",
+    "resultItemId": "sunspun_haversack",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sunspun_bolt",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 4
+      },
+      {
+        "itemId": "pristine_silk",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_duskforged_warblade",
+    "professionId": "weaponcrafting",
+    "resultItemId": "duskforged_warblade",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "duskforged_billet",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_ridgebreaker",
+    "professionId": "weaponcrafting",
+    "resultItemId": "ridgebreaker",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "duskforged_billet",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_duskforged_bulwark",
+    "professionId": "weaponcrafting",
+    "resultItemId": "duskforged_bulwark",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "duskforged_billet",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "iron_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_wyrmfall_pendant",
+    "professionId": "jewelcrafting",
+    "resultItemId": "wyrmfall_pendant",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "prismglass_setting",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_warhewn_signet",
+    "professionId": "jewelcrafting",
+    "resultItemId": "warhewn_signet",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "prismglass_setting",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_prismglass_loop",
+    "professionId": "jewelcrafting",
+    "resultItemId": "prismglass_loop",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "prismglass_setting",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_gyrelens_array",
+    "professionId": "engineering",
+    "resultItemId": "gyrelens_array",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "precision_chassis",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "ashwood_log",
+        "count": 4
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_masters_field_forge",
+    "professionId": "engineering",
+    "resultItemId": "masters_field_forge",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "precision_chassis",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "ashwood_log",
+        "count": 4
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_makers_charm",
+    "professionId": "engineering",
+    "resultItemId": "makers_charm",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "precision_chassis",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "ashwood_log",
+        "count": 4
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "toolworks"
+  },
+  {
+    "id": "recipe_voidbound_grimoire",
+    "professionId": "inscription",
+    "resultItemId": "voidbound_grimoire",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "sablewax_vellum",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_essence",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_ironhusk_flask",
+    "professionId": "alchemy",
+    "resultItemId": "ironhusk_flask",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      },
+      {
+        "itemId": "pristine_venom_gland",
+        "count": 1
+      },
+      {
+        "itemId": "venom_gland",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "highland_barley",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_warboar_flask",
+    "professionId": "alchemy",
+    "resultItemId": "warboar_flask",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      },
+      {
+        "itemId": "pristine_venom_gland",
+        "count": 1
+      },
+      {
+        "itemId": "venom_gland",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "highland_barley",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_runewater_flask",
+    "professionId": "alchemy",
+    "resultItemId": "runewater_flask",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "quickening_catalyst",
+        "count": 1
+      },
+      {
+        "itemId": "pristine_venom_gland",
+        "count": 1
+      },
+      {
+        "itemId": "venom_gland",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "highland_barley",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_stonepot_stew",
+    "professionId": "cooking",
+    "resultItemId": "stonepot_stew",
+    "resultCount": 4,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 1
+      },
+      {
+        "itemId": "prime_cut",
+        "count": 2
+      },
+      {
+        "itemId": "game_meat",
+        "count": 4
+      },
+      {
+        "itemId": "frost_gourd",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_warspice_skewers",
+    "professionId": "cooking",
+    "resultItemId": "warspice_skewers",
+    "resultCount": 4,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 1
+      },
+      {
+        "itemId": "prime_cut",
+        "count": 2
+      },
+      {
+        "itemId": "game_meat",
+        "count": 4
+      },
+      {
+        "itemId": "highland_barley",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_sageleaf_chowder",
+    "professionId": "cooking",
+    "resultItemId": "sageleaf_chowder",
+    "resultCount": 4,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 1
+      },
+      {
+        "itemId": "prime_cut",
+        "count": 2
+      },
+      {
+        "itemId": "game_meat",
+        "count": 4
+      },
+      {
+        "itemId": "thornpeak_cabbage",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_grand_cauldron",
+    "professionId": "alchemy",
+    "resultItemId": "grand_cauldron",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "quickening_catalyst",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "gilded_sunmelon",
+        "count": 2
+      },
+      {
+        "itemId": "fine_gilded_sunmelon",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 4
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 2
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_laden_hearth",
+    "professionId": "cooking",
+    "resultItemId": "laden_hearth",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 2
+      },
+      {
+        "itemId": "prime_cut",
+        "count": 4
+      },
+      {
+        "itemId": "game_meat",
+        "count": 4
+      },
+      {
+        "itemId": "evergarden_greens",
+        "count": 2
+      },
+      {
+        "itemId": "fine_evergarden_greens",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_peppered_deepbarb_catfish",
+    "professionId": "cooking",
+    "resultItemId": "peppered_deepbarb_catfish",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_roast_hollowgill_sturgeon",
+    "professionId": "cooking",
+    "resultItemId": "roast_hollowgill_sturgeon",
+    "resultCount": 2,
+    "reagents": [
+      {
+        "itemId": "raw_hollowgill_sturgeon",
+        "count": 4
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 2
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 2
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_stonepot_feast",
+    "professionId": "cooking",
+    "resultItemId": "stonepot_feast",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 1
+      },
+      {
+        "itemId": "evergarden_greens",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      },
+      {
+        "itemId": "raw_hollowgill_sturgeon",
+        "count": 3
+      },
+      {
+        "itemId": "raw_stillmere_salmon",
+        "count": 2
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_warspice_feast",
+    "professionId": "cooking",
+    "resultItemId": "warspice_feast",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 1
+      },
+      {
+        "itemId": "evergarden_greens",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      },
+      {
+        "itemId": "raw_hollowgill_sturgeon",
+        "count": 3
+      },
+      {
+        "itemId": "raw_stillmere_salmon",
+        "count": 2
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_sageleaf_feast",
+    "professionId": "cooking",
+    "resultItemId": "sageleaf_feast",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "seasoned_stock",
+        "count": 3
+      },
+      {
+        "itemId": "wyrmfall_core",
+        "count": 1
+      },
+      {
+        "itemId": "evergarden_greens",
+        "count": 1
+      },
+      {
+        "itemId": "sunpetal_herb",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      },
+      {
+        "itemId": "raw_deepbarb_catfish",
+        "count": 4
+      },
+      {
+        "itemId": "raw_hollowgill_sturgeon",
+        "count": 3
+      },
+      {
+        "itemId": "raw_stillmere_salmon",
+        "count": 2
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_bronze_hoe",
+    "professionId": "engineering",
+    "resultItemId": "bronze_hoe",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "fine_vale_wheat",
+        "count": 4
+      },
+      {
+        "itemId": "garden_hoe",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_skysilver_hoe",
+    "professionId": "engineering",
+    "resultItemId": "skysilver_hoe",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "fine_marsh_rice",
+        "count": 4
+      },
+      {
+        "itemId": "bronze_hoe",
+        "count": 1
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 15,
+    "level": 15,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_osmium_hoe",
+    "professionId": "engineering",
+    "resultItemId": "osmium_hoe",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "fine_highland_barley",
+        "count": 4
+      },
+      {
+        "itemId": "skysilver_hoe",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_evergarden_hoe",
+    "professionId": "engineering",
+    "resultItemId": "evergarden_hoe",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "fine_evergarden_greens",
+        "count": 2
+      },
+      {
+        "itemId": "osmium_hoe",
+        "count": 1
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 30,
+    "level": 20,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_vale_hearth_loaf",
+    "professionId": "cooking",
+    "resultItemId": "vale_hearth_loaf",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "vale_wheat",
+        "count": 3
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_eastbrook_root_pottage",
+    "professionId": "cooking",
+    "resultItemId": "eastbrook_root_pottage",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "brook_carrot",
+        "count": 2
+      },
+      {
+        "itemId": "fine_brook_carrot",
+        "count": 1
+      },
+      {
+        "itemId": "vale_wheat",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_fenbridge_rice_bowl",
+    "professionId": "cooking",
+    "resultItemId": "fenbridge_rice_bowl",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "marsh_rice",
+        "count": 4
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_fenbridge_beet_braise",
+    "professionId": "cooking",
+    "resultItemId": "fenbridge_beet_braise",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "bog_beet",
+        "count": 3
+      },
+      {
+        "itemId": "fine_bog_beet",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_highwatch_barley_bannock",
+    "professionId": "cooking",
+    "resultItemId": "highwatch_barley_bannock",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "highland_barley",
+        "count": 4
+      },
+      {
+        "itemId": "thornpeak_cabbage",
+        "count": 2
+      },
+      {
+        "itemId": "fine_thornpeak_cabbage",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_highwatch_gourd_soup",
+    "professionId": "cooking",
+    "resultItemId": "highwatch_gourd_soup",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "frost_gourd",
+        "count": 3
+      },
+      {
+        "itemId": "fine_frost_gourd",
+        "count": 1
+      },
+      {
+        "itemId": "frost_lentils",
+        "count": 2
+      },
+      {
+        "itemId": "fine_frost_lentils",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_evergarden_sunmelon_tart",
+    "professionId": "cooking",
+    "resultItemId": "evergarden_sunmelon_tart",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "gilded_sunmelon",
+        "count": 3
+      },
+      {
+        "itemId": "fine_gilded_sunmelon",
+        "count": 1
+      },
+      {
+        "itemId": "gilded_yam",
+        "count": 2
+      },
+      {
+        "itemId": "fine_gilded_yam",
+        "count": 1
+      },
+      {
+        "itemId": "vale_wheat",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_evergarden_harvest_platter",
+    "professionId": "cooking",
+    "resultItemId": "evergarden_harvest_platter",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "evergarden_greens",
+        "count": 3
+      },
+      {
+        "itemId": "fine_evergarden_greens",
+        "count": 1
+      },
+      {
+        "itemId": "evergarden_pumpkin",
+        "count": 2
+      },
+      {
+        "itemId": "fine_evergarden_pumpkin",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_eastbrook_glazed_carrots",
+    "professionId": "cooking",
+    "resultItemId": "eastbrook_glazed_carrots",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "brook_carrot",
+        "count": 4
+      },
+      {
+        "itemId": "vale_wheat",
+        "count": 1
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_fenbridge_rice_pudding",
+    "professionId": "cooking",
+    "resultItemId": "fenbridge_rice_pudding",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "marsh_rice",
+        "count": 4
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_highwatch_barley_porridge",
+    "professionId": "cooking",
+    "resultItemId": "highwatch_barley_porridge",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "highland_barley",
+        "count": 4
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 75,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_evergarden_braised_greens",
+    "professionId": "cooking",
+    "resultItemId": "evergarden_braised_greens",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "evergarden_greens",
+        "count": 4
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 1
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_harvest_feast",
+    "professionId": "cooking",
+    "resultItemId": "harvest_feast",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "evergarden_greens",
+        "count": 4
+      },
+      {
+        "itemId": "gilded_sunmelon",
+        "count": 4
+      },
+      {
+        "itemId": "cooking_salt",
+        "count": 2
+      }
+    ],
+    "skillReq": 100,
+    "itemLevelBudget": 25,
+    "level": 25,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "kitchens"
+  },
+  {
+    "id": "recipe_growth_tonic",
+    "professionId": "alchemy",
+    "resultItemId": "growth_tonic",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "silverleaf_herb",
+        "count": 2
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_oiled_boots",
+    "professionId": "leatherworking",
+    "resultItemId": "oiled_boots",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "mudfin_scale",
+        "count": 4
+      },
+      {
+        "itemId": "rough_hide",
+        "count": 6
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 2
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 2
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_gravewyrm_bone_quiver",
+    "professionId": "leatherworking",
+    "resultItemId": "gravewyrm_bone_quiver",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "cracked_wyrm_scale",
+        "count": 3
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 2
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 1
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 20,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_fenshadow_maul",
+    "professionId": "weaponcrafting",
+    "resultItemId": "fenshadow_maul",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "cracked_ogre_tusk",
+        "count": 2
+      },
+      {
+        "itemId": "elderwood_log",
+        "count": 2
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 2
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 12,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "forge"
+  },
+  {
+    "id": "recipe_lesser_healing_potion",
+    "professionId": "alchemy",
+    "resultItemId": "lesser_healing_potion",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "tallow_candle",
+        "count": 2
+      },
+      {
+        "itemId": "goldleaf_herb",
+        "count": 1
+      },
+      {
+        "itemId": "glass_vial",
+        "count": 1
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "apothecary"
+  },
+  {
+    "id": "recipe_linen_pouch",
+    "professionId": "tailoring",
+    "resultItemId": "linen_pouch",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "bandit_bandana",
+        "count": 2
+      },
+      {
+        "itemId": "linen_scrap",
+        "count": 4
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "loom"
+  },
+  {
+    "id": "recipe_wildgrove_cinch",
+    "professionId": "leatherworking",
+    "resultItemId": "wildgrove_cinch",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "old_cragmaws_pelt",
+        "count": 1
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 3
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 1
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 1
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 14,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_cragprowl_belt",
+    "professionId": "leatherworking",
+    "resultItemId": "cragprowl_belt",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "emberwing_cinderscale",
+        "count": 1
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 3
+      },
+      {
+        "itemId": "thorium_ore",
+        "count": 1
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 1
+      }
+    ],
+    "skillReq": 50,
+    "itemLevelBudget": 20,
+    "level": 16,
+    "acquisition": [
+      "trainer"
+    ],
+    "stationType": "tannery"
+  },
+  {
+    "id": "recipe_cogwheel_blank",
+    "professionId": "engineering",
+    "resultItemId": "cogwheel_blank",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "copper_ore",
+        "count": 4
+      },
+      {
+        "itemId": "smithing_flux",
+        "count": 2
+      }
+    ],
+    "skillReq": 0,
+    "itemLevelBudget": 10,
+    "level": 10,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_copperlens_ocular",
+    "professionId": "engineering",
+    "resultItemId": "copperlens_ocular",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "cogwheel_blank",
+        "count": 1
+      },
+      {
+        "itemId": "copper_ore",
+        "count": 2
+      },
+      {
+        "itemId": "arcane_dust",
+        "count": 3
+      }
+    ],
+    "skillReq": 25,
+    "itemLevelBudget": 16,
+    "level": 15,
+    "stationType": "toolworks",
+    "acquisition": [
+      "trainer"
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_mail_chest",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_str_mail_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_mail_waist",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_str_mail_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_mail_feet",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_str_mail_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_mail_chest",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_tank_mail_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_mail_waist",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_tank_mail_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_mail_feet",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_tank_mail_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_mail_chest",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_caster_mail_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_mail_waist",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_caster_mail_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_mail_feet",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_caster_mail_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_mail_chest",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_healer_mail_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_mail_waist",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_healer_mail_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_mail_feet",
+    "professionId": "armorcrafting",
+    "resultItemId": "crucible_healer_mail_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "forge",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 6
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_agi_leather_chest",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_agi_leather_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_agi_leather_waist",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_agi_leather_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_agi_leather_feet",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_agi_leather_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_leather_chest",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_str_leather_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_leather_waist",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_str_leather_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_str_leather_feet",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_str_leather_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_leather_chest",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_tank_leather_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_leather_waist",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_tank_leather_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_tank_leather_feet",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_tank_leather_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_leather_chest",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_caster_leather_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_leather_waist",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_caster_leather_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_leather_feet",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_caster_leather_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_leather_chest",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_healer_leather_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_leather_waist",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_healer_leather_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_leather_feet",
+    "professionId": "leatherworking",
+    "resultItemId": "crucible_healer_leather_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "tannery",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "pristine_hide",
+        "count": 4
+      },
+      {
+        "itemId": "tanning_agent",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_cloth_chest",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_caster_cloth_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_cloth_waist",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_caster_cloth_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_caster_cloth_feet",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_caster_cloth_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_cloth_chest",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_healer_cloth_chest",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_cloth_waist",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_healer_cloth_waist",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_crucible_healer_cloth_feet",
+    "professionId": "tailoring",
+    "resultItemId": "crucible_healer_cloth_feet",
+    "resultCount": 1,
+    "skillReq": 100,
+    "itemLevelBudget": 29,
+    "level": 29,
+    "acquisition": [
+      "drop"
+    ],
+    "stationType": "loom",
+    "reagents": [
+      {
+        "itemId": "lastflame_core",
+        "count": 3,
+        "noDiscount": true
+      },
+      {
+        "itemId": "spider_silk",
+        "count": 8
+      },
+      {
+        "itemId": "spool_of_thread",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "recipe_varkhul_forgebreaker",
+    "professionId": "weaponcrafting",
+    "resultItemId": "varkhul_forgebreaker",
+    "resultCount": 1,
+    "reagents": [
+      {
+        "itemId": "forgefathers_ember",
+        "count": 1,
+        "noDiscount": true
+      },
+      {
+        "itemId": "lastflame_core",
+        "count": 15,
+        "noDiscount": true
+      },
+      {
+        "itemId": "fine_thorium_ore",
+        "count": 10
+      },
+      {
+        "itemId": "fine_elderwood_log",
+        "count": 6
+      }
+    ],
+    "skillReq": 125,
+    "itemLevelBudget": 42,
+    "level": 42,
+    "stationType": "forge",
+    "acquisition": [
+      "quest"
+    ],
+    "consumeOnCraft": true
   }
 ]

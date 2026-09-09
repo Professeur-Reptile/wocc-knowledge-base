@@ -272,7 +272,7 @@
       {
         "x": 55,
         "z": 820,
-        "label": "Wyrmcult Tents",
+        "label": "Broodsworn Tents",
         "id": "wyrmcult_tents"
       },
       {
@@ -311,7 +311,7 @@
       "x": -40,
       "z": 1030,
       "radius": 30,
-      "name": "Eldergleam"
+      "name": "Eldershine"
     },
     "graveyard": {
       "x": -60,
@@ -373,7 +373,7 @@
       {
         "x": -40,
         "z": 1030,
-        "label": "Eldergleam",
+        "label": "Eldershine",
         "id": "eldergleam"
       },
       {
@@ -419,7 +419,7 @@
         "id": "the_gleaming_deep"
       }
     ],
-    "welcome": "The air hums with old magic. Seek Keeper Saelwyn beneath the great tree of Eldergleam.",
+    "welcome": "The air hums with old magic. Seek Keeper Saelwyn beneath the great tree of Eldershine.",
     "welcomeQuestId": "q_veil_thinned"
   },
   {
@@ -494,14 +494,14 @@
         "id": "cinder_dunes"
       },
       {
-        "x": 460,
-        "z": 2140,
+        "x": 418,
+        "z": 2032,
         "label": "Trollmoot",
         "id": "trollmoot"
       },
       {
-        "x": 406,
-        "z": 2032,
+        "x": 486,
+        "z": 2168,
         "label": "The Last Keep",
         "id": "the_last_keep"
       },
@@ -943,7 +943,7 @@
       {
         "x": -290,
         "z": 1380,
-        "label": "The Moonwell",
+        "label": "The Moonspring",
         "id": "the_moonwell"
       },
       {
@@ -990,7 +990,7 @@
       "x": 360,
       "z": 1430,
       "radius": 17,
-      "name": "Gallowmere"
+      "name": "Gibbetmere"
     },
     "graveyard": {
       "x": 378,
@@ -1017,7 +1017,7 @@
       {
         "x": 360,
         "z": 1430,
-        "label": "Gallowmere",
+        "label": "Gibbetmere",
         "id": "gallowmere"
       },
       {
@@ -1051,7 +1051,7 @@
         "id": "the_huntsmans_clearing"
       }
     ],
-    "welcome": "The canopy closes over the road like a lid. Keep to the lanterns of Gallowmere, and do not answer if the wood calls your name.",
+    "welcome": "The canopy closes over the road like a lid. Keep to the lanterns of Gibbetmere, and do not answer if the wood calls your name.",
     "welcomeQuestId": "q_ww_bells_of_gallowmere"
   },
   {
@@ -1470,7 +1470,7 @@
         "id": "the_gauntlet"
       }
     ],
-    "welcome": "The Proving Shore asks nothing of you but time. Learn the camp, strike the effigies, walk the wreck line, and when you are ready, Ferryman Odo will see you across to the vale.",
+    "welcome": "The Proving Shore asks nothing of you but time. Learn the camp, strike the effigies, walk the wreck line and, when you are ready, Ferryman Odo will see you across to the vale. You can also ring the bell to go to the vale directly.",
     "welcomeQuestId": "q_ps_the_gauntlet"
   }
 ]

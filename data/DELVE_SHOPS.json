@@ -113,6 +113,11 @@
       "gate": "clears:3"
     },
     {
+      "itemId": "osmium_hoe",
+      "marks": 24,
+      "gate": "clears:3"
+    },
+    {
       "itemId": "arcanite_mining_pick",
       "marks": 56,
       "gate": "heroicClear"
@@ -129,6 +134,11 @@
     },
     {
       "itemId": "tidewrought_fishing_rod",
+      "marks": 56,
+      "gate": "heroicClear"
+    },
+    {
+      "itemId": "evergarden_hoe",
       "marks": 56,
       "gate": "heroicClear"
     }

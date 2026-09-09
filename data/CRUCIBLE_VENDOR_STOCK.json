@@ -1,5 +1,53 @@
 [
   {
+    "itemId": "pattern_crucible_str_mail",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_tank_mail",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_caster_mail",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_healer_mail",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_agi_leather",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_str_leather",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_tank_leather",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_caster_leather",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_healer_leather",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_caster_cloth",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "pattern_crucible_healer_cloth",
+    "sigilId": "lastflame_core"
+  },
+  {
+    "itemId": "formula_lastflame_zeal",
+    "sigilId": "lastflame_core"
+  },
+  {
     "itemId": "slagbreaker_helmet",
     "sigilId": "sigil_anvil_helmet"
   },
