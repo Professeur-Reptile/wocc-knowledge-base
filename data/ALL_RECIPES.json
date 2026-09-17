@@ -403,15 +403,15 @@
     "reagents": [
       {
         "itemId": "arcane_shard",
-        "count": 5
+        "count": 1
       },
       {
         "itemId": "arcane_essence",
-        "count": 4
+        "count": 14
       },
       {
         "itemId": "arcane_dust",
-        "count": 6
+        "count": 10
       }
     ],
     "skillReq": 25,
@@ -430,15 +430,15 @@
     "reagents": [
       {
         "itemId": "arcane_shard",
-        "count": 5
+        "count": 1
       },
       {
         "itemId": "arcane_essence",
-        "count": 4
+        "count": 14
       },
       {
         "itemId": "arcane_dust",
-        "count": 6
+        "count": 10
       }
     ],
     "skillReq": 25,

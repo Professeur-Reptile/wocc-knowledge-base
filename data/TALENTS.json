@@ -27,7 +27,7 @@
         "name": "Wildfang",
         "role": "tank",
         "icon": "x",
-        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Wolf spends it for damage, Bruin spends it to tank.",
+        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Cat spends it for damage, Bruin spends it to tank.",
         "signature": "feral_charge",
         "mastery": {
           "name": "Primal Heart",
@@ -67,12 +67,12 @@
       {
         "level": 5,
         "theme": "movement",
-        "decision": "escape control, sprint after shifting, or cast while moving",
+        "decision": "escape control, a longer and more frequent shift sprint, or cast while moving",
         "options": [
           {
             "id": "dru_r5_improved_wrath",
             "name": "Wildshift",
-            "description": "Shapeshifting removes breakable roots and slows.",
+            "description": "Shapeshifting into Cat, Bruin, or Moonwing Form removes breakable roots and slows.",
             "icon": "travel_form",
             "effect": {
               "intrinsic": {
@@ -83,16 +83,15 @@
           },
           {
             "id": "dru_r5_ferocity",
-            "name": "Loping Stride",
-            "description": "Shapeshifting grants 60% movement speed for 3 sec, at most once every 20 sec.",
+            "name": "Longstride",
+            "description": "Loping Stride lasts 5 sec and its cooldown is 12 sec.",
             "icon": "cat_form",
             "effect": {
               "intrinsic": {
-                "mechanic": "druid_loping_stride",
+                "mechanic": "druid_longstride",
                 "metrics": {
-                  "pct": 0.6,
-                  "duration": 3,
-                  "icd": 20
+                  "duration": 5,
+                  "icd": 12
                 }
               }
             }
@@ -3038,11 +3037,11 @@
           {
             "id": "wlk_r8_curse_of_exhaustion",
             "name": "Leaden Hex",
-            "description": "Damaging spells apply a 5% slow for 5 sec, stacking 3 times. At 3 stacks, the next spell roots for 3.5 sec and consumes them. A target can be rooted once every 15 sec.",
+            "description": "Damaging spells apply a 10% slow for 5 sec, stacking 3 times. At 3 stacks, the next spell roots for 3.5 sec and consumes them. A target can be rooted once every 15 sec.",
             "icon": "wlk_r8_curse_of_exhaustion",
             "effect": {
               "global": {
-                "warlockLeadenHex": 0.05
+                "warlockLeadenHex": 0.1
               },
               "tuning": {
                 "maxStacks": 3,

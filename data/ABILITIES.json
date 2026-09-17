@@ -3379,7 +3379,6 @@
     "school": "arcane",
     "requiresTarget": true,
     "targetType": "friendly",
-    "partyOnlyTarget": true,
     "effects": [
       {
         "type": "massTemporalEcho",
@@ -3555,7 +3554,7 @@
         "type": "perfectMoment"
       }
     ],
-    "description": "Seize your perfect moment: instantly gain 4 Arcane Charges, and for 10 sec Aether Darts does not consume them. (Chronomancer)"
+    "description": "Seize your perfect moment: instantly gain 4 Arcane Charges, and for 10 sec Aether Darts does not consume them and deals 20% increased damage. (Chronomancer)"
   },
   "temporal_acceleration": {
     "id": "temporal_acceleration",
@@ -6878,16 +6877,19 @@
     "range": 30,
     "school": "shadow",
     "requiresTarget": true,
+    "projectile": false,
     "effects": [
       {
         "type": "afflictionViolence",
         "duration": 8,
         "charges": 3,
         "doomPerProc": 7,
-        "damage": 16
+        "damage": 16,
+        "interval": 2,
+        "tickDoom": 2
       }
     ],
-    "description": "Hexes the enemy for 8 sec. Its next 3 damaging actions each generate 7 Condemnation and lash it for 17 Shadow damage."
+    "description": "Hexes the enemy for 8 sec, dealing Shadow damage and generating 2 Condemnation every 2 sec. Its next 3 damaging actions each generate 7 Condemnation and lash it for 17 Shadow damage."
   },
   "cruel_pact": {
     "id": "cruel_pact",
@@ -6950,9 +6952,9 @@
     "cooldown": 45,
     "offGcd": true,
     "usableWhileCasting": true,
-    "range": 30,
+    "range": 0,
     "school": "shadow",
-    "requiresTarget": true,
+    "requiresTarget": false,
     "projectile": false,
     "effects": [
       {
@@ -6976,9 +6978,9 @@
     "cooldown": 90,
     "offGcd": true,
     "usableWhileCasting": true,
-    "range": 30,
+    "range": 0,
     "school": "shadow",
-    "requiresTarget": true,
+    "requiresTarget": false,
     "projectile": false,
     "effects": [
       {
@@ -7042,12 +7044,14 @@
         "rank": 2,
         "level": 8,
         "cost": 38,
-        "castTime": 2.2,
+        "castTime": 2,
         "effects": [
           {
             "type": "directDamage",
             "min": 67,
-            "max": 87
+            "max": 87,
+            "damageMult": 0.8,
+            "spellPowerCoeff": 0.6097142857142857
           }
         ]
       },
@@ -7055,12 +7059,14 @@
         "rank": 3,
         "level": 14,
         "cost": 55,
-        "castTime": 2.7,
+        "castTime": 2,
         "effects": [
           {
             "type": "directDamage",
             "min": 118,
-            "max": 148
+            "max": 148,
+            "damageMult": 0.8,
+            "spellPowerCoeff": 0.7482857142857143
           }
         ]
       },
@@ -7068,12 +7074,14 @@
         "rank": 4,
         "level": 20,
         "cost": 80,
-        "castTime": 3,
+        "castTime": 2,
         "effects": [
           {
             "type": "directDamage",
             "min": 126,
-            "max": 156
+            "max": 156,
+            "damageMult": 0.8,
+            "spellPowerCoeff": 0.8314285714285715
           }
         ]
       }
@@ -7651,7 +7659,7 @@
         "charges": 3
       }
     ],
-    "description": "Brands an enemy for 15 sec. Your next 3 direct spells echo for 25% damage against the branded enemy, or copy 50% damage to it when cast against another target."
+    "description": "Brands an enemy for 15 sec. Your next 3 direct spells echo for 25% damage against the branded enemy, or copy 50% damage to it when cast against another target. Ruinbolt echoes also count as critical hits, without another critical damage multiplier."
   },
   "cinderhide": {
     "id": "cinderhide",
@@ -8556,7 +8564,7 @@
         "duration": 3600
       }
     ],
-    "description": "Shapeshift into a bear: armor +110%, maximum health +30%, greatly increased attack power, your attacks build rage and generate 30% more threat. Cast again to return to caster form."
+    "description": "Shapeshift into a bear: armor +110%, maximum health +30%, greatly increased attack power, your attacks build rage and generate 30% more threat. Shifting into any form grants Loping Stride, a short burst of movement speed. Cast again to return to caster form."
   },
   "bear_charge": {
     "id": "bear_charge",
@@ -8581,7 +8589,7 @@
         "duration": 1
       }
     ],
-    "description": "Rush an enemy, generating 9 rage and stunning it for 1 sec. 8-25 yd range. Bruin Form only."
+    "description": "Rush an enemy, generating 9 rage and stunning it for 1 sec. For 3 sec afterwards, or until you leave combat, Cat Form is free and Pins that target (the one you Rushed), slowing it by 50% for 4 sec. 8-25 yd range. Bruin Form only."
   },
   "maul": {
     "id": "maul",
@@ -8711,7 +8719,7 @@
   "cat_form": {
     "id": "cat_form",
     "tooltipOmitEffectLines": true,
-    "name": "Wolf Form",
+    "name": "Cat Form",
     "class": "druid",
     "learnLevel": 4,
     "cost": 30,
@@ -8728,7 +8736,7 @@
         "duration": 3600
       }
     ],
-    "description": "Shapeshift into a wolf: agility rises with your level, attack power +8 plus 2 per level, your attacks use energy and combo points, and you generate 29% less threat. Cast again to return to caster form."
+    "description": "Shapeshift into a cat: agility rises with your level, attack power +8 plus 2 per level, your attacks use energy and combo points, you move 15% faster, and you generate 29% less threat. Shifting into any form grants Loping Stride, a short burst of movement speed. Cast again to return to caster form."
   },
   "prowl": {
     "id": "prowl",
@@ -8748,11 +8756,11 @@
       {
         "type": "selfBuff",
         "kind": "stealth",
-        "value": 0.95,
+        "value": 1,
         "duration": 3600
       }
     ],
-    "description": "Enter stealth while in Wolf Form, moving 5% slower. Cannot be used in combat."
+    "description": "Enter stealth while in Cat Form. Cannot be used in combat."
   },
   "rake": {
     "id": "rake",
@@ -8798,7 +8806,7 @@
         ]
       }
     ],
-    "description": "Flense the enemy for weapon damage plus $d and cause bleeding damage over 18 sec. Awards 1 combo point. Wolf Form only.",
+    "description": "Flense the enemy for weapon damage plus $d and cause bleeding damage over 18 sec. Awards 1 combo point. Cat Form only.",
     "specNotes": {
       "feral": "Each hit that lands adds 1 Old Blood (max 3)."
     }
@@ -8835,7 +8843,7 @@
         ]
       }
     ],
-    "description": "Claw the enemy for weapon damage plus $d. Awards 1 combo point. Wolf Form only.",
+    "description": "Claw the enemy for weapon damage plus $d. Awards 1 combo point. Cat Form only.",
     "specNotes": {
       "feral": "Each hit that lands adds 1 Old Blood (max 3)."
     }
@@ -8866,7 +8874,7 @@
       "auraKind": "old_blood",
       "minStacks": 3
     },
-    "description": "Finishing move that causes $d. Wolf Form only.",
+    "description": "Finishing move that causes $d. Cat Form only.",
     "specNotes": {
       "feral": "Each hit that lands adds 1 Old Blood; at 3 Old Blood this button becomes Redharvest, which spends the Old Blood for a stronger strike that also instantly deals all the damage your Flense and Bloodrift would still have dealt, and restores energy."
     }
@@ -9046,7 +9054,7 @@
         "duration": 3600
       }
     ],
-    "description": "Instantly shift into a swift travel form, increasing movement speed by 40%. You cannot use other abilities while shifted, but can shift in or out of combat, ideal for escaping."
+    "description": "Instantly shift into a swift fleet form, increasing movement speed by 40% and removing breakable roots and slows. You cannot use other abilities while shifted, but can shift in or out of combat, ideal for escaping. Shifting into any form grants Loping Stride, a short burst of movement speed."
   },
   "enrage": {
     "id": "enrage",
@@ -9132,7 +9140,7 @@
     "tooltipOmitEffectLines": true,
     "name": "Dash",
     "class": "druid",
-    "learnLevel": 18,
+    "learnLevel": 12,
     "cost": 0,
     "castTime": 0,
     "cooldown": 60,
@@ -9149,7 +9157,7 @@
         "duration": 15
       }
     ],
-    "description": "Sprint forward, increasing movement speed by 50% for 15 sec. Wolf Form only."
+    "description": "Sprint forward, increasing movement speed by 50% for 15 sec. Cat Form only."
   },
   "pounce": {
     "id": "pounce",
@@ -9171,7 +9179,54 @@
         "duration": 2
       }
     ],
-    "description": "A stealth opener that stuns the target for 2 sec. Awards 1 combo point. Wolf Form only."
+    "actionReplacement": {
+      "abilityId": "lunge",
+      "absentAuraKind": "stealth"
+    },
+    "description": "A stealth opener that stuns the target for 2 sec. Awards 1 combo point. Cat Form only. Out of stealth this button is Lunge."
+  },
+  "lunge": {
+    "id": "lunge",
+    "name": "Lunge",
+    "class": "druid",
+    "learnLevel": 7,
+    "cost": 40,
+    "castTime": 0,
+    "cooldown": 12,
+    "range": 12,
+    "minRange": 0,
+    "school": "physical",
+    "requiresTarget": true,
+    "awardsCombo": 1,
+    "requiresForm": "cat",
+    "effects": [
+      {
+        "type": "charge"
+      }
+    ],
+    "description": "Lunge at an enemy up to 12 yd away. On arrival, deals 60% weapon damage and awards 1 combo point; a lunge cut short refunds its cooldown. Cat Form only."
+  },
+  "hamstring_bite": {
+    "id": "hamstring_bite",
+    "name": "Takedown",
+    "class": "druid",
+    "learnLevel": 12,
+    "cost": 30,
+    "castTime": 0,
+    "cooldown": 20,
+    "range": 0,
+    "school": "physical",
+    "requiresTarget": true,
+    "spendsCombo": true,
+    "requiresForm": "cat",
+    "effects": [
+      {
+        "type": "finisherStun",
+        "base": 1,
+        "perCombo": 1
+      }
+    ],
+    "description": "Finishing move that stuns the target for 1 sec plus 1 sec per combo point (5 combo points: 6 sec). Cat Form only."
   },
   "insect_swarm": {
     "id": "insect_swarm",
@@ -9197,7 +9252,7 @@
   "tigers_fury": {
     "id": "tigers_fury",
     "tooltipOmitEffectLines": true,
-    "name": "Wolfsblood",
+    "name": "Lynxblood",
     "class": "druid",
     "learnLevel": 20,
     "cost": 0,
@@ -9219,7 +9274,7 @@
         "amount": 30
       }
     ],
-    "description": "Surges 30 energy and increases attack power by $b for $t sec. Wolf Form only."
+    "description": "Surges 30 energy and increases attack power by $b for $t sec. Cat Form only."
   },
   "rip": {
     "id": "rip",
@@ -9244,7 +9299,7 @@
         "perComboTotal": 24
       }
     ],
-    "description": "Finishing move that makes the target bleed every 2 sec for 24 sec: 36 damage plus 24 per combo point spent (5 combo points: $d total). Wolf Form only.",
+    "description": "Finishing move that makes the target bleed every 2 sec for 24 sec: 36 damage plus 24 per combo point spent (5 combo points: $d total). Cat Form only.",
     "specNotes": {
       "feral": "The landed hit adds 1 Old Blood (max 3)."
     }
@@ -10331,7 +10386,7 @@
         "duration": 3600
       }
     ],
-    "description": "Shapeshift into a fearsome Moonkin, increasing your spell damage by 20% and your armor by 50%. Lasts until you shift out. Cast again to return to caster form. (Balance signature)"
+    "description": "Shapeshift into a fearsome Moonkin, increasing your spell damage by 20% and your armor by 50%. Lasts until you shift out. Shifting into any form grants Loping Stride, a short burst of movement speed. Cast again to return to caster form. (Balance signature)"
   },
   "feral_charge": {
     "id": "feral_charge",
@@ -10351,7 +10406,7 @@
         "type": "feralCharge"
       }
     ],
-    "description": "Unleash a primal surge. In Wolf Form, Energy regeneration is increased by 100% for 10 sec. In Bruin Form, instantly generates 50 Rage. (Feral signature)"
+    "description": "Unleash a primal surge. In Cat Form, Energy regeneration is increased by 100% for 10 sec. In Bruin Form, instantly generates 50 Rage. (Feral signature)"
   },
   "swiftmend": {
     "id": "swiftmend",
@@ -12099,7 +12154,7 @@
     "learnLevel": 5,
     "cost": 65,
     "ruinCost": 3,
-    "castTime": 2.5,
+    "castTime": 2.3,
     "cooldown": 0,
     "range": 30,
     "school": "fire",
@@ -12112,10 +12167,12 @@
       {
         "type": "directDamage",
         "min": 192,
-        "max": 235
+        "max": 235,
+        "spellPowerCoeff": 0.7142857142857143,
+        "guaranteedCrit": true
       }
     ],
-    "description": "Spends 3 Wrack to hurl a heavy bolt of chaotic fire for $d Fire damage. Desolation shortens its cast by 30%."
+    "description": "Spends 3 Wrack to hurl a heavy bolt of chaotic fire for $d Fire damage before critical damage is applied. Always critically strikes when it hits. Desolation shortens its cast by 30%."
   },
   "typhoon": {
     "id": "typhoon",

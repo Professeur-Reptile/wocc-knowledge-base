@@ -90,13 +90,13 @@
     "statsPerLevel": {
       "str": 0,
       "agi": 0,
-      "sta": 1,
+      "sta": 2,
       "int": 3,
       "spi": 2,
       "armor": 4
     },
     "baseHp": 40,
-    "hpPerLevel": 12,
+    "hpPerLevel": 15,
     "baseMana": 100,
     "manaPerLevel": 24,
     "resourceType": "mana",
@@ -185,7 +185,7 @@
     "statsPerLevel": {
       "str": 1,
       "agi": 3,
-      "sta": 1,
+      "sta": 2,
       "int": 0,
       "spi": 0,
       "armor": 8
@@ -406,13 +406,13 @@
     "statsPerLevel": {
       "str": 0,
       "agi": 0,
-      "sta": 1,
+      "sta": 2,
       "int": 2,
       "spi": 3,
       "armor": 4
     },
     "baseHp": 38,
-    "hpPerLevel": 11,
+    "hpPerLevel": 15,
     "baseMana": 110,
     "manaPerLevel": 26,
     "resourceType": "mana",
@@ -535,13 +535,13 @@
     "statsPerLevel": {
       "str": 0,
       "agi": 0,
-      "sta": 1,
+      "sta": 2,
       "int": 3,
       "spi": 2,
       "armor": 4
     },
     "baseHp": 42,
-    "hpPerLevel": 12,
+    "hpPerLevel": 15,
     "baseMana": 105,
     "manaPerLevel": 25,
     "resourceType": "mana",
@@ -693,6 +693,7 @@
       "hibernate",
       "dash",
       "pounce",
+      "hamstring_bite",
       "insect_swarm",
       "tigers_fury",
       "rip",

@@ -116,7 +116,8 @@
       "speed": 2.2
     },
     "stats": {
-      "str": 2
+      "str": 1,
+      "sta": 1
     },
     "sellValue": 120,
     "requiredClass": [
@@ -163,7 +164,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 2
+      "agi": 1,
+      "sta": 1
     },
     "sellValue": 120,
     "requiredClass": [
@@ -200,7 +202,8 @@
     "stats": {
       "armor": 30,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 150,
     "requiredClass": [
@@ -220,7 +223,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 55,
-      "agi": 3
+      "agi": 2,
+      "sta": 1
     },
     "sellValue": 150,
     "requiredClass": [
@@ -237,7 +241,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 25,
-      "agi": 1
+      "agi": 1,
+      "sta": 1
     },
     "sellValue": 80
   },
@@ -315,7 +320,8 @@
     "stats": {
       "armor": 18,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 150,
     "requiredClass": [
@@ -444,7 +450,8 @@
     },
     "stats": {
       "int": 4,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 850,
     "requiredClass": [
@@ -1983,7 +1990,8 @@
     "stats": {
       "armor": 30,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 72,
     "buyValue": 2100
@@ -1998,7 +2006,8 @@
     "stats": {
       "armor": 52,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 84,
     "buyValue": 2300
@@ -2013,7 +2022,8 @@
     "stats": {
       "armor": 50,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 105,
     "buyValue": 2200
@@ -2028,7 +2038,8 @@
     "stats": {
       "armor": 44,
       "int": 7,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 440
   },
@@ -2042,7 +2053,8 @@
     "stats": {
       "armor": 46,
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 420
   },
@@ -2056,7 +2068,8 @@
     "stats": {
       "armor": 78,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 280
   },
@@ -2108,7 +2121,8 @@
     },
     "stats": {
       "int": 5,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 800
   },
@@ -2141,7 +2155,8 @@
     "stats": {
       "armor": 20,
       "int": 2,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 500,
     "requiredClass": [
@@ -2160,7 +2175,8 @@
     "quality": "rare",
     "stats": {
       "armor": 32,
-      "agi": 3
+      "agi": 3,
+      "sta": 1
     },
     "sellValue": 500,
     "requiredClass": [
@@ -2197,7 +2213,8 @@
     "stats": {
       "armor": 38,
       "int": 3,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 700,
     "requiredClass": [
@@ -2300,7 +2317,8 @@
     },
     "stats": {
       "int": 5,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 880,
     "requiredClass": [
@@ -2347,7 +2365,8 @@
     },
     "stats": {
       "int": 4,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 850
   },
@@ -2361,7 +2380,8 @@
     "stats": {
       "armor": 40,
       "int": 1,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 130
   },
@@ -2375,7 +2395,8 @@
     "stats": {
       "armor": 24,
       "int": 1,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 140
   },
@@ -2402,7 +2423,8 @@
     "stats": {
       "armor": 28,
       "int": 1,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 150
   },
@@ -2435,7 +2457,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 1,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 160,
     "requiredClass": [
@@ -2869,7 +2892,8 @@
     "quality": "epic",
     "stats": {
       "int": 8,
-      "sta": 6
+      "sta": 6,
+      "spi": 5
     },
     "hasteRating": 25,
     "sellValue": 320,
@@ -2897,7 +2921,8 @@
     "quality": "epic",
     "stats": {
       "int": 8,
-      "sta": 5
+      "sta": 5,
+      "spi": 4
     },
     "hasteRating": 25,
     "sellValue": 300,
@@ -2911,7 +2936,8 @@
     "quality": "epic",
     "stats": {
       "int": 10,
-      "sta": 6
+      "sta": 6,
+      "spi": 5
     },
     "critRating": 20,
     "sellValue": 340,
@@ -2933,8 +2959,8 @@
     "quality": "epic",
     "stats": {
       "int": 8,
-      "spi": 5,
-      "sta": 3
+      "spi": 8,
+      "sta": 5
     },
     "hasteRating": 20,
     "sellValue": 340,
@@ -3019,7 +3045,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 30,
-      "agi": 2
+      "agi": 2,
+      "sta": 1
     },
     "sellValue": 120,
     "requiredClass": [
@@ -3038,7 +3065,8 @@
     "stats": {
       "armor": 16,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 120,
     "requiredClass": [
@@ -3076,7 +3104,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 14,
-      "int": 2
+      "int": 2,
+      "sta": 1
     },
     "sellValue": 110,
     "requiredClass": [
@@ -3110,7 +3139,8 @@
     "stats": {
       "armor": 10,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 100,
     "requiredClass": [
@@ -3162,7 +3192,8 @@
     "stats": {
       "armor": 11,
       "agi": 1,
-      "int": 2
+      "int": 2,
+      "sta": 2
     },
     "sellValue": 150
   },
@@ -3178,7 +3209,8 @@
       "speed": 2.5
     },
     "stats": {
-      "str": 3
+      "str": 2,
+      "sta": 1
     },
     "sellValue": 180,
     "requiredClass": [
@@ -3197,7 +3229,8 @@
     "stats": {
       "armor": 12,
       "int": 1,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 140,
     "requiredClass": [
@@ -3219,7 +3252,8 @@
       "speed": 2.5
     },
     "stats": {
-      "str": 2
+      "str": 2,
+      "sta": 1
     },
     "sellValue": 170
   },
@@ -3253,7 +3287,8 @@
     },
     "stats": {
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 175,
     "requiredClass": [
@@ -3278,7 +3313,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 3
+      "agi": 3,
+      "sta": 2
     },
     "sellValue": 170,
     "requiredClass": [
@@ -3364,7 +3400,8 @@
     "stats": {
       "armor": 24,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 120
   },
@@ -3659,7 +3696,8 @@
     },
     "stats": {
       "int": 9,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 285
   },
@@ -3829,7 +3867,8 @@
     "stats": {
       "armor": 41,
       "int": 4,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 140
   },
@@ -3843,7 +3882,8 @@
     "stats": {
       "armor": 37,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 125
   },
@@ -3899,7 +3939,8 @@
     "stats": {
       "armor": 52,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 3
     },
     "sellValue": 340
   },
@@ -3913,7 +3954,8 @@
     "stats": {
       "armor": 40,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 175
   },
@@ -3927,7 +3969,8 @@
     "stats": {
       "armor": 34,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 260
   },
@@ -4499,7 +4542,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 2,
-      "sta": 1
+      "sta": 1,
+      "spi": 1
     },
     "sellValue": 32
   },
@@ -4535,7 +4579,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 3,
-      "sta": 1
+      "sta": 1,
+      "spi": 1
     },
     "sellValue": 46
   },
@@ -4595,7 +4640,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "requiredClass": [
       "mage",
@@ -4615,7 +4661,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "requiredClass": [
       "mage",
@@ -4636,7 +4683,7 @@
     "stats": {
       "int": 5,
       "spi": 3,
-      "sta": 2
+      "sta": 3
     },
     "requiredClass": [
       "mage",
@@ -4776,7 +4823,8 @@
     "stats": {
       "armor": 224,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 300,
@@ -4808,7 +4856,8 @@
     "stats": {
       "armor": 212,
       "int": 8,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 280,
@@ -4840,7 +4889,8 @@
     "stats": {
       "armor": 132,
       "int": 12,
-      "spi": 8
+      "spi": 8,
+      "sta": 7
     },
     "hasteRating": 40,
     "sellValue": 160,
@@ -4856,7 +4906,8 @@
     "stats": {
       "armor": 104,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 140,
@@ -4872,7 +4923,8 @@
     "stats": {
       "armor": 90,
       "int": 12,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "hasteRating": 40,
     "sellValue": 200,
@@ -4888,7 +4940,8 @@
     "stats": {
       "armor": 72,
       "int": 12,
-      "spi": 8
+      "spi": 8,
+      "sta": 7
     },
     "hasteRating": 40,
     "sellValue": 190,
@@ -4904,7 +4957,8 @@
     "stats": {
       "armor": 52,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 170,
@@ -4933,7 +4987,8 @@
     "quality": "uncommon",
     "stats": {
       "int": 3,
-      "sta": 2
+      "sta": 2,
+      "spi": 2
     },
     "sellValue": 36,
     "requiredClass": [
@@ -5596,7 +5651,8 @@
       "speed": 2.4
     },
     "stats": {
-      "str": 4
+      "str": 4,
+      "sta": 2
     },
     "sellValue": 300,
     "requiredClass": [
@@ -5618,7 +5674,8 @@
     },
     "stats": {
       "int": 5,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 300,
     "requiredClass": [
@@ -5643,7 +5700,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 4
+      "agi": 4,
+      "sta": 2
     },
     "sellValue": 300,
     "requiredClass": [
@@ -5689,7 +5747,8 @@
     "stats": {
       "armor": 45,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 350,
     "requiredClass": [
@@ -5708,7 +5767,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 80,
-      "agi": 5
+      "agi": 3,
+      "sta": 2
     },
     "sellValue": 350,
     "requiredClass": [
@@ -5754,7 +5814,8 @@
     "stats": {
       "armor": 42,
       "int": 4,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 300,
     "requiredClass": [
@@ -5777,7 +5838,8 @@
     },
     "stats": {
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 420,
     "requiredClass": [
@@ -5885,7 +5947,8 @@
     },
     "stats": {
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 1400,
     "requiredClass": [
@@ -5905,7 +5968,8 @@
     "stats": {
       "armor": 48,
       "int": 5,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 480,
     "requiredClass": [
@@ -5972,7 +6036,8 @@
     },
     "stats": {
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 1400,
     "requiredClass": [
@@ -6019,7 +6084,8 @@
     },
     "stats": {
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 1200,
     "requiredClass": [
@@ -6045,7 +6111,7 @@
     },
     "stats": {
       "agi": 5,
-      "sta": 2
+      "sta": 3
     },
     "sellValue": 1200,
     "requiredClass": [
@@ -6128,7 +6194,8 @@
     "stats": {
       "armor": 48,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1100,
     "requiredClass": [
@@ -6148,7 +6215,8 @@
     "stats": {
       "armor": 42,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 1100,
     "requiredClass": [
@@ -6386,7 +6454,8 @@
     "stats": {
       "armor": 48,
       "int": 3,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 320
   },
@@ -6400,7 +6469,8 @@
     "stats": {
       "armor": 28,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 300
   },
@@ -6414,7 +6484,8 @@
     "stats": {
       "armor": 42,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 310
   },
@@ -6428,7 +6499,8 @@
     "stats": {
       "armor": 110,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 380
   },
@@ -6442,7 +6514,8 @@
     "stats": {
       "armor": 34,
       "int": 3,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 340
   },
@@ -6483,7 +6556,7 @@
     },
     "stats": {
       "agi": 7,
-      "sta": 3
+      "sta": 4
     },
     "sellValue": 3000,
     "requiredClass": [
@@ -6782,7 +6855,8 @@
     "stats": {
       "armor": 60,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 800,
     "requiredClass": [
@@ -6801,8 +6875,8 @@
     "quality": "uncommon",
     "stats": {
       "armor": 105,
-      "agi": 6,
-      "sta": 2
+      "agi": 5,
+      "sta": 3
     },
     "sellValue": 800,
     "requiredClass": [
@@ -6822,8 +6896,8 @@
       "speed": 2.3
     },
     "stats": {
-      "str": 6,
-      "sta": 2
+      "str": 5,
+      "sta": 3
     },
     "sellValue": 900,
     "requiredClass": [
@@ -6847,7 +6921,8 @@
     },
     "stats": {
       "int": 6,
-      "spi": 2
+      "spi": 2,
+      "sta": 3
     },
     "sellValue": 900,
     "requiredClass": [
@@ -6872,7 +6947,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 8
+      "agi": 5,
+      "sta": 3
     },
     "sellValue": 900,
     "requiredClass": [
@@ -6934,7 +7010,8 @@
     },
     "stats": {
       "int": 7,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 950,
     "requiredClass": [
@@ -7018,7 +7095,7 @@
     },
     "stats": {
       "str": 8,
-      "sta": 3
+      "sta": 4
     },
     "sellValue": 2400,
     "requiredClass": [
@@ -7041,8 +7118,8 @@
       "speed": 2.7
     },
     "stats": {
-      "str": 8,
-      "sta": 3
+      "str": 7,
+      "sta": 4
     },
     "sellValue": 2000,
     "requiredClass": [
@@ -7066,7 +7143,8 @@
     },
     "stats": {
       "int": 8,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 2000,
     "requiredClass": [
@@ -7091,8 +7169,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 8,
-      "sta": 3
+      "agi": 7,
+      "sta": 4
     },
     "sellValue": 2000,
     "requiredClass": [
@@ -7137,7 +7215,8 @@
     },
     "stats": {
       "int": 9,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 2000,
     "requiredClass": [
@@ -7162,8 +7241,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 8,
-      "sta": 3
+      "agi": 7,
+      "sta": 4
     },
     "sellValue": 2000,
     "requiredClass": [
@@ -7229,7 +7308,8 @@
     },
     "stats": {
       "int": 9,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 2500,
     "requiredClass": [
@@ -7288,7 +7368,8 @@
     "stats": {
       "armor": 75,
       "int": 9,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 3000,
     "requiredClass": [
@@ -7363,7 +7444,8 @@
     "stats": {
       "armor": 68,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -7404,7 +7486,8 @@
     "stats": {
       "armor": 92,
       "int": 11,
-      "spi": 7
+      "spi": 7,
+      "sta": 6
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -7484,7 +7567,8 @@
     "stats": {
       "armor": 80,
       "int": 8,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -7505,7 +7589,8 @@
     "stats": {
       "armor": 86,
       "int": 13,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -7590,7 +7675,8 @@
     },
     "stats": {
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "sellValue": 8000,
     "requiredClass": [
@@ -7655,7 +7741,8 @@
     "stats": {
       "armor": 70,
       "int": 9,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -7734,7 +7821,8 @@
     "stats": {
       "armor": 60,
       "int": 8,
-      "sta": 5
+      "sta": 5,
+      "spi": 4
     },
     "sellValue": 3600,
     "requiredClass": [
@@ -7755,7 +7843,8 @@
     "stats": {
       "armor": 130,
       "int": 8,
-      "sta": 5
+      "sta": 5,
+      "spi": 4
     },
     "sellValue": 3600,
     "requiredClass": [
@@ -7813,7 +7902,8 @@
     "stats": {
       "armor": 50,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 3600,
     "requiredClass": [
@@ -7834,7 +7924,8 @@
     "stats": {
       "armor": 110,
       "int": 8,
-      "sta": 5
+      "sta": 5,
+      "spi": 4
     },
     "sellValue": 3600,
     "requiredClass": [
@@ -7854,8 +7945,8 @@
       "speed": 3.2
     },
     "stats": {
-      "spi": 25,
-      "sta": 19,
+      "spi": 43,
+      "sta": 23,
       "int": 21
     },
     "spellPower": 25,
@@ -7916,7 +8007,7 @@
     "stats": {
       "str": 15,
       "agi": 15,
-      "sta": 14
+      "sta": 23
     },
     "sellValue": 25000,
     "requiredClass": [
@@ -8076,7 +8167,8 @@
     "stats": {
       "armor": 105,
       "int": 11,
-      "sta": 6
+      "sta": 6,
+      "spi": 6
     },
     "hasteRating": 20,
     "sellValue": 12000,
@@ -8098,7 +8190,8 @@
     "stats": {
       "armor": 92,
       "int": 9,
-      "sta": 6
+      "sta": 6,
+      "spi": 5
     },
     "hasteRating": 20,
     "sellValue": 12000,
@@ -8120,7 +8213,8 @@
     "stats": {
       "armor": 225,
       "int": 10,
-      "sta": 7
+      "sta": 7,
+      "spi": 6
     },
     "critRating": 20,
     "sellValue": 12000,
@@ -8139,7 +8233,8 @@
     "stats": {
       "armor": 190,
       "int": 8,
-      "sta": 7
+      "sta": 7,
+      "spi": 5
     },
     "critRating": 20,
     "sellValue": 12000,
@@ -8224,8 +8319,8 @@
     "quality": "epic",
     "stats": {
       "int": 7,
-      "spi": 5,
-      "sta": 3
+      "spi": 8,
+      "sta": 5
     },
     "critRating": 20,
     "sellValue": 12000,
@@ -8369,7 +8464,8 @@
       "speed": 3
     },
     "stats": {
-      "int": 2
+      "int": 2,
+      "sta": 1
     },
     "sellValue": 600,
     "buyValue": 6000
@@ -8499,7 +8595,8 @@
     "stats": {
       "armor": 36,
       "int": 2,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 420
   },
@@ -8513,7 +8610,8 @@
     "stats": {
       "armor": 56,
       "int": 2,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 450
   },
@@ -8549,7 +8647,8 @@
     "stats": {
       "armor": 100,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1600
   },
@@ -8563,7 +8662,8 @@
     "stats": {
       "armor": 78,
       "int": 5,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1500
   },
@@ -8577,7 +8677,8 @@
     "stats": {
       "armor": 50,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 460
   },
@@ -8605,7 +8706,8 @@
     "stats": {
       "armor": 58,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1900
   },
@@ -8619,7 +8721,8 @@
     "stats": {
       "armor": 118,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 2000
   },
@@ -8661,7 +8764,8 @@
     "stats": {
       "armor": 32,
       "int": 5,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1900
   },
@@ -8675,7 +8779,8 @@
     "stats": {
       "armor": 36,
       "int": 5,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 1850
   },
@@ -8689,7 +8794,8 @@
     "stats": {
       "armor": 60,
       "int": 7,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 2100
   },
@@ -8703,7 +8809,8 @@
     "stats": {
       "armor": 180,
       "int": 7,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 2400
   },
@@ -8717,7 +8824,8 @@
     "stats": {
       "armor": 56,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 2200
   },
@@ -8734,9 +8842,9 @@
       "speed": 3.6
     },
     "stats": {
-      "str": 7,
+      "str": 6,
       "agi": 5,
-      "sta": 5
+      "sta": 6
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -8753,8 +8861,8 @@
     "stats": {
       "armor": 160,
       "int": 9,
-      "spi": 5,
-      "sta": 4
+      "spi": 9,
+      "sta": 6
     },
     "sellValue": 8000
   },
@@ -8771,9 +8879,9 @@
       "speed": 3.6
     },
     "stats": {
-      "str": 9,
+      "str": 8,
       "agi": 7,
-      "sta": 7
+      "sta": 8
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -8793,9 +8901,9 @@
       "speed": 3.7
     },
     "stats": {
-      "str": 10,
+      "str": 9,
       "agi": 8,
-      "sta": 8
+      "sta": 9
     },
     "hitRating": 20,
     "sellValue": 14000,
@@ -9020,7 +9128,8 @@
     "stats": {
       "armor": 680,
       "int": 8,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "hasteRating": 20,
     "sellValue": 12000,
@@ -9039,7 +9148,8 @@
     "stats": {
       "armor": 190,
       "int": 10,
-      "spi": 7
+      "spi": 7,
+      "sta": 6
     },
     "hasteRating": 20,
     "sellValue": 12000
@@ -9054,7 +9164,8 @@
     "stats": {
       "armor": 165,
       "int": 8,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 20,
     "sellValue": 12000,
@@ -9073,7 +9184,8 @@
     "stats": {
       "armor": 190,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "critRating": 20,
     "sellValue": 12000,
@@ -9092,8 +9204,8 @@
     "stats": {
       "armor": 112,
       "int": 9,
-      "spi": 5,
-      "sta": 2
+      "spi": 7,
+      "sta": 5
     },
     "sellValue": 8000
   },
@@ -9107,7 +9219,8 @@
     "stats": {
       "armor": 88,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 7500
   },
@@ -9121,7 +9234,8 @@
     "stats": {
       "armor": 82,
       "int": 7,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 7200
   },
@@ -9197,7 +9311,8 @@
     },
     "stats": {
       "int": 6,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 700,
     "requiredClass": [
@@ -9220,7 +9335,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 6
+      "agi": 6,
+      "sta": 2
     },
     "sellValue": 700,
     "requiredClass": [
@@ -9257,7 +9373,8 @@
     "stats": {
       "armor": 35,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 1400,
     "requiredClass": [
@@ -9276,8 +9393,8 @@
     "quality": "rare",
     "stats": {
       "armor": 60,
-      "agi": 6,
-      "sta": 2
+      "agi": 5,
+      "sta": 3
     },
     "sellValue": 1400,
     "requiredClass": [
@@ -9320,7 +9437,8 @@
     },
     "stats": {
       "int": 10,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 2200,
     "requiredClass": [
@@ -9343,8 +9461,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 9,
-      "sta": 3
+      "agi": 8,
+      "sta": 4
     },
     "sellValue": 2200,
     "requiredClass": [
@@ -9391,7 +9509,8 @@
     "stats": {
       "armor": 70,
       "int": 10,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 2400,
     "requiredClass": [
@@ -9457,7 +9576,8 @@
     "stats": {
       "armor": 40,
       "int": 2,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 430
   },
@@ -9473,7 +9593,8 @@
     "stats": {
       "armor": 240,
       "int": 5,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 1700,
     "requiredClass": [
@@ -9549,7 +9670,8 @@
     "stats": {
       "armor": 30,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 205,
     "requiredClass": [
@@ -9651,7 +9773,8 @@
     "stats": {
       "armor": 42,
       "int": 4,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 540,
     "requiredClass": [
@@ -9751,7 +9874,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 2
+      "agi": 2,
+      "sta": 1
     },
     "sellValue": 200,
     "requiredClass": [
@@ -9787,7 +9911,8 @@
     "stats": {
       "armor": 18,
       "int": 2,
-      "spi": 1
+      "spi": 1,
+      "sta": 1
     },
     "sellValue": 205,
     "requiredClass": [
@@ -9810,7 +9935,8 @@
     },
     "stats": {
       "int": 2,
-      "spi": 2
+      "spi": 2,
+      "sta": 1
     },
     "sellValue": 195,
     "requiredClass": [
@@ -9833,7 +9959,8 @@
     },
     "stats": {
       "int": 4,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 550,
     "requiredClass": [
@@ -9991,7 +10118,8 @@
     "stats": {
       "armor": 36,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 250,
     "requiredClass": [
@@ -10011,7 +10139,8 @@
     "stats": {
       "armor": 32,
       "int": 3,
-      "spi": 2
+      "spi": 2,
+      "sta": 2
     },
     "sellValue": 255,
     "requiredClass": [
@@ -10085,7 +10214,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 7,
-      "sta": 4
+      "sta": 4,
+      "spi": 4
     },
     "hitRating": 25,
     "sellValue": 4500
@@ -10127,7 +10257,8 @@
     "requiredLevel": 20,
     "stats": {
       "spi": 6,
-      "int": 5
+      "int": 5,
+      "sta": 4
     },
     "hasteRating": 25,
     "sellValue": 4500
@@ -10141,7 +10272,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 6,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "hasteRating": 25,
     "sellValue": 4500
@@ -10169,7 +10301,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 7,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "critRating": 25,
     "sellValue": 6000
@@ -10182,8 +10315,9 @@
     "quality": "epic",
     "requiredLevel": 20,
     "stats": {
-      "str": 6,
-      "agi": 6
+      "str": 4,
+      "agi": 4,
+      "sta": 4
     },
     "hasteRating": 25,
     "sellValue": 6000
@@ -10234,7 +10368,8 @@
     "stats": {
       "armor": 52,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hitRating": 40,
     "sellValue": 9500,
@@ -10297,7 +10432,8 @@
     "stats": {
       "armor": 44,
       "int": 8,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 9500,
@@ -10385,7 +10521,8 @@
     "stats": {
       "armor": 48,
       "int": 9,
-      "sta": 6
+      "sta": 6,
+      "spi": 5
     },
     "hitRating": 40,
     "sellValue": 9500,
@@ -10448,7 +10585,8 @@
     "stats": {
       "armor": 56,
       "int": 9,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 11000,
@@ -10473,7 +10611,8 @@
     },
     "stats": {
       "int": 13,
-      "spi": 9
+      "spi": 9,
+      "sta": 7
     },
     "hitRating": 50,
     "sellValue": 15000,
@@ -10517,7 +10656,8 @@
     "stats": {
       "armor": 292,
       "int": 10,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "hasteRating": 40,
     "sellValue": 12000,
@@ -10537,7 +10677,8 @@
     "stats": {
       "armor": 72,
       "int": 12,
-      "spi": 8
+      "spi": 8,
+      "sta": 7
     },
     "hitRating": 40,
     "sellValue": 12000,
@@ -10559,7 +10700,8 @@
     "stats": {
       "armor": 240,
       "int": 9,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 11000,
@@ -10624,7 +10766,8 @@
     "stats": {
       "armor": 90,
       "int": 12,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "critRating": 40,
     "sellValue": 14000,
@@ -10709,7 +10852,8 @@
     "stats": {
       "armor": 224,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 9500,
@@ -10729,7 +10873,8 @@
     "stats": {
       "armor": 100,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 9500,
@@ -10748,7 +10893,8 @@
     "stats": {
       "armor": 96,
       "int": 8,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 9500,
@@ -10767,8 +10913,8 @@
     "stats": {
       "armor": 148,
       "int": 9,
-      "spi": 5,
-      "sta": 2
+      "spi": 7,
+      "sta": 5
     },
     "critRating": 40,
     "sellValue": 11000,
@@ -10790,9 +10936,9 @@
       "speed": 3.6
     },
     "stats": {
-      "str": 13,
-      "agi": 9,
-      "sta": 7
+      "str": 11,
+      "agi": 8,
+      "sta": 10
     },
     "hitRating": 50,
     "sellValue": 15000,
@@ -10832,7 +10978,8 @@
     "stats": {
       "armor": 172,
       "int": 13,
-      "spi": 9
+      "spi": 9,
+      "sta": 7
     },
     "hasteRating": 40,
     "sellValue": 14000,
@@ -10851,7 +10998,8 @@
     "stats": {
       "armor": 335,
       "int": 12,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "hasteRating": 40,
     "sellValue": 14000,
@@ -10896,7 +11044,8 @@
     "stats": {
       "armor": 76,
       "int": 11,
-      "spi": 7
+      "spi": 7,
+      "sta": 6
     },
     "critRating": 40,
     "sellValue": 12000,
@@ -10942,7 +11091,8 @@
     },
     "stats": {
       "int": 13,
-      "spi": 10
+      "spi": 10,
+      "sta": 8
     },
     "hasteRating": 65,
     "critRating": 20,
@@ -10994,7 +11144,8 @@
     },
     "stats": {
       "int": 14,
-      "spi": 9
+      "spi": 9,
+      "sta": 8
     },
     "hasteRating": 65,
     "critRating": 20,
@@ -11035,7 +11186,8 @@
     "stats": {
       "armor": 76,
       "int": 10,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "sellValue": 12000,
     "requiredClass": [
@@ -11076,7 +11228,8 @@
     "stats": {
       "armor": 335,
       "int": 12,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "sellValue": 14000,
     "requiredClass": [
@@ -11425,7 +11578,8 @@
     "stats": {
       "armor": 325,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -11448,7 +11602,8 @@
     "stats": {
       "armor": 290,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -11471,7 +11626,8 @@
     "stats": {
       "armor": 380,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "hasteRating": 60,
@@ -11494,7 +11650,8 @@
     "stats": {
       "armor": 270,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -11517,7 +11674,8 @@
     "stats": {
       "armor": 345,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -12420,7 +12578,8 @@
     "stats": {
       "armor": 90,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -12443,7 +12602,8 @@
     "stats": {
       "armor": 80,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -12466,7 +12626,8 @@
     "stats": {
       "armor": 105,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "hasteRating": 60,
@@ -12489,7 +12650,8 @@
     "stats": {
       "armor": 75,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -12512,7 +12674,8 @@
     "stats": {
       "armor": 95,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -12535,7 +12698,8 @@
     "stats": {
       "armor": 90,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "critRating": 60,
@@ -12558,7 +12722,8 @@
     "stats": {
       "armor": 80,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "critRating": 60,
@@ -12581,7 +12746,8 @@
     "stats": {
       "armor": 105,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "critRating": 60,
@@ -12604,7 +12770,8 @@
     "stats": {
       "armor": 75,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "critRating": 60,
@@ -12627,7 +12794,8 @@
     "stats": {
       "armor": 95,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "critRating": 60,
@@ -12650,7 +12818,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -12673,7 +12842,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -12696,7 +12866,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -12719,7 +12890,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -12742,7 +12914,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -12765,7 +12938,8 @@
     "stats": {
       "armor": 325,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -12788,7 +12962,8 @@
     "stats": {
       "armor": 290,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -12811,7 +12986,8 @@
     "stats": {
       "armor": 380,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -12834,7 +13010,8 @@
     "stats": {
       "armor": 270,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -12857,7 +13034,8 @@
     "stats": {
       "armor": 345,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13100,7 +13278,8 @@
     "stats": {
       "armor": 325,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -13123,7 +13302,8 @@
     "stats": {
       "armor": 290,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -13146,7 +13326,8 @@
     "stats": {
       "armor": 380,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "hasteRating": 60,
@@ -13169,7 +13350,8 @@
     "stats": {
       "armor": 270,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -13192,7 +13374,8 @@
     "stats": {
       "armor": 345,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -13215,7 +13398,8 @@
     "stats": {
       "armor": 90,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -13238,7 +13422,8 @@
     "stats": {
       "armor": 80,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -13261,7 +13446,8 @@
     "stats": {
       "armor": 105,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "hasteRating": 60,
@@ -13284,7 +13470,8 @@
     "stats": {
       "armor": 75,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -13307,7 +13494,8 @@
     "stats": {
       "armor": 95,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -13330,7 +13518,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13353,7 +13542,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13376,7 +13566,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -13399,7 +13590,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13422,7 +13614,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13445,7 +13638,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "hasteRating": 60,
@@ -13468,7 +13662,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "hasteRating": 60,
@@ -13491,7 +13686,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "hasteRating": 60,
@@ -13514,7 +13710,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "hasteRating": 60,
@@ -13537,7 +13734,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "hasteRating": 60,
@@ -13560,7 +13758,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "hasteRating": 60,
@@ -13583,7 +13782,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "hasteRating": 60,
@@ -13606,7 +13806,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "hasteRating": 60,
@@ -13629,7 +13830,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "hasteRating": 60,
@@ -13652,7 +13854,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "hasteRating": 60,
@@ -13675,7 +13878,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13698,7 +13902,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13721,7 +13926,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -13744,7 +13950,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13767,7 +13974,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13790,7 +13998,8 @@
     "stats": {
       "armor": 90,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13813,7 +14022,8 @@
     "stats": {
       "armor": 80,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13836,7 +14046,8 @@
     "stats": {
       "armor": 105,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -13859,7 +14070,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13882,7 +14094,8 @@
     "stats": {
       "armor": 95,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13905,7 +14118,8 @@
     "stats": {
       "armor": 185,
       "int": 14,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -13928,7 +14142,8 @@
     "stats": {
       "armor": 165,
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13951,7 +14166,8 @@
     "stats": {
       "armor": 215,
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 8,
     "critRating": 60,
@@ -13974,7 +14190,8 @@
     "stats": {
       "armor": 150,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 5,
     "critRating": 60,
@@ -13997,7 +14214,8 @@
     "stats": {
       "armor": 195,
       "int": 15,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "spellPower": 7,
     "critRating": 60,
@@ -14245,7 +14463,8 @@
     "stats": {
       "armor": 185,
       "int": 11,
-      "spi": 10
+      "spi": 10,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -14268,7 +14487,8 @@
     "stats": {
       "armor": 165,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -14291,7 +14511,8 @@
     "stats": {
       "armor": 215,
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 16,
     "hasteRating": 60,
@@ -14314,7 +14535,8 @@
     "stats": {
       "armor": 150,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 10,
     "hasteRating": 60,
@@ -14337,7 +14559,8 @@
     "stats": {
       "armor": 195,
       "int": 11,
-      "spi": 11
+      "spi": 11,
+      "sta": 7
     },
     "healPower": 14,
     "hasteRating": 60,
@@ -14570,7 +14793,8 @@
     "stats": {
       "armor": 75,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 4,
     "hitRating": 60,
@@ -14593,7 +14817,8 @@
     "stats": {
       "armor": 70,
       "int": 11,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "spellPower": 4,
     "critRating": 60,
@@ -14616,7 +14841,8 @@
     "stats": {
       "armor": 75,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 8,
     "hasteRating": 25,
@@ -14638,7 +14864,8 @@
     "stats": {
       "armor": 70,
       "int": 8,
-      "spi": 8
+      "spi": 8,
+      "sta": 5
     },
     "healPower": 8,
     "hasteRating": 60,
@@ -14744,7 +14971,8 @@
     "stats": {
       "armor": 150,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 4,
     "hitRating": 60,
@@ -14765,7 +14993,8 @@
     "stats": {
       "armor": 145,
       "int": 11,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "spellPower": 4,
     "critRating": 60,
@@ -14786,7 +15015,8 @@
     "stats": {
       "armor": 150,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 8,
     "hasteRating": 25,
@@ -14807,7 +15037,8 @@
     "stats": {
       "armor": 145,
       "int": 8,
-      "spi": 8
+      "spi": 8,
+      "sta": 5
     },
     "healPower": 8,
     "hasteRating": 60,
@@ -14916,7 +15147,8 @@
     "stats": {
       "armor": 270,
       "int": 11,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 4,
     "hitRating": 60,
@@ -14937,7 +15169,8 @@
     "stats": {
       "armor": 255,
       "int": 11,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "spellPower": 4,
     "critRating": 60,
@@ -14958,7 +15191,8 @@
     "stats": {
       "armor": 270,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "healPower": 8,
     "hasteRating": 25,
@@ -14980,7 +15214,8 @@
     "stats": {
       "armor": 255,
       "int": 8,
-      "spi": 8
+      "spi": 8,
+      "sta": 5
     },
     "healPower": 8,
     "hasteRating": 60,
@@ -15013,8 +15248,9 @@
     "quality": "epic",
     "requiredLevel": 20,
     "stats": {
-      "str": 8,
-      "agi": 8
+      "str": 6,
+      "agi": 5,
+      "sta": 5
     },
     "hitRating": 25,
     "sellValue": 8000
@@ -15028,7 +15264,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 11,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "spellPower": 4,
     "critRating": 25,
@@ -15043,7 +15280,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 8,
-      "spi": 8
+      "spi": 8,
+      "sta": 5
     },
     "healPower": 8,
     "hasteRating": 25,
@@ -15071,8 +15309,9 @@
     "quality": "epic",
     "requiredLevel": 20,
     "stats": {
-      "str": 8,
-      "agi": 7
+      "str": 5,
+      "agi": 5,
+      "sta": 5
     },
     "hitRating": 25,
     "sellValue": 8000
@@ -15086,7 +15325,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 10,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "spellPower": 4,
     "hitRating": 25,
@@ -15101,7 +15341,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 8,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "healPower": 8,
     "hitRating": 25,
@@ -15142,7 +15383,8 @@
     "stats": {
       "armor": 760,
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "blockValue": 22,
     "healPower": 18,
@@ -15162,7 +15404,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 9,
-      "spi": 9
+      "spi": 9,
+      "sta": 6
     },
     "healPower": 28,
     "hasteRating": 25,
@@ -15184,7 +15427,8 @@
     "requiredLevel": 20,
     "stats": {
       "int": 12,
-      "spi": 6
+      "spi": 6,
+      "sta": 6
     },
     "spellPower": 14,
     "critRating": 25,
@@ -15262,8 +15506,8 @@
     },
     "stats": {
       "str": 9,
-      "agi": 9,
-      "sta": 7
+      "agi": 8,
+      "sta": 8
     },
     "critRating": 70,
     "hitRating": 30,
@@ -15345,7 +15589,8 @@
     },
     "stats": {
       "int": 17,
-      "spi": 16
+      "spi": 16,
+      "sta": 11
     },
     "healPower": 68,
     "hasteRating": 70,
@@ -15375,7 +15620,8 @@
     },
     "stats": {
       "int": 22,
-      "spi": 11
+      "spi": 11,
+      "sta": 11
     },
     "spellPower": 34,
     "critRating": 70,
@@ -15404,7 +15650,8 @@
     },
     "stats": {
       "int": 13,
-      "spi": 12
+      "spi": 12,
+      "sta": 8
     },
     "healPower": 40,
     "hasteRating": 70,
@@ -15433,7 +15680,8 @@
     },
     "stats": {
       "int": 17,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "spellPower": 20,
     "critRating": 70,
@@ -15600,7 +15848,7 @@
     "stats": {
       "armor": 292,
       "int": 8,
-      "sta": 5,
+      "sta": 6,
       "spi": 3
     },
     "pvpOffenseRating": 18,
@@ -15726,7 +15974,7 @@
     "stats": {
       "armor": 212,
       "int": 7,
-      "sta": 3,
+      "sta": 5,
       "spi": 3
     },
     "pvpOffenseRating": 14,
@@ -15887,7 +16135,7 @@
     "stats": {
       "armor": 76,
       "int": 8,
-      "sta": 5,
+      "sta": 6,
       "spi": 3
     },
     "pvpOffenseRating": 18,
@@ -16013,7 +16261,7 @@
     "stats": {
       "armor": 44,
       "int": 7,
-      "sta": 3,
+      "sta": 5,
       "spi": 3
     },
     "pvpOffenseRating": 14,
@@ -16034,7 +16282,7 @@
     "stats": {
       "armor": 168,
       "int": 8,
-      "sta": 5,
+      "sta": 6,
       "spi": 3
     },
     "pvpOffenseRating": 18,
@@ -16160,7 +16408,7 @@
     "stats": {
       "armor": 96,
       "int": 7,
-      "sta": 3,
+      "sta": 5,
       "spi": 3
     },
     "pvpOffenseRating": 14,
@@ -16212,7 +16460,7 @@
     "requiredLevel": 20,
     "stats": {
       "int": 6,
-      "sta": 4,
+      "sta": 5,
       "spi": 1
     },
     "pvpOffenseRating": 14,
@@ -16298,7 +16546,7 @@
     "requiredLevel": 20,
     "stats": {
       "int": 6,
-      "sta": 3,
+      "sta": 4,
       "spi": 1
     },
     "pvpOffenseRating": 13,
@@ -16316,7 +16564,7 @@
     "requiredLevel": 20,
     "stats": {
       "int": 4,
-      "sta": 3,
+      "sta": 4,
       "spi": 3
     },
     "pvpOffenseRating": 13,
@@ -16589,7 +16837,8 @@
     "stats": {
       "armor": 38,
       "int": 7,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 5000,
     "requiredClass": [
@@ -16630,7 +16879,8 @@
     "stats": {
       "armor": 42,
       "int": 6,
-      "spi": 4
+      "spi": 4,
+      "sta": 3
     },
     "sellValue": 5000,
     "requiredClass": [
@@ -16668,7 +16918,7 @@
     "requiredLevel": 20,
     "stats": {
       "sta": 5,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 5000
   },
@@ -16683,7 +16933,8 @@
     "stats": {
       "armor": 55,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "sellValue": 6500,
     "requiredClass": [
@@ -16769,7 +17020,8 @@
     "stats": {
       "armor": 48,
       "int": 10,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "hasteRating": 40,
     "sellValue": 13000,
@@ -16789,7 +17041,7 @@
     "requiredLevel": 20,
     "stats": {
       "sta": 8,
-      "spi": 5
+      "spi": 9
     },
     "hasteRating": 25,
     "sellValue": 12000
@@ -16824,8 +17076,8 @@
     },
     "stats": {
       "int": 25,
-      "spi": 23,
-      "sta": 17
+      "spi": 40,
+      "sta": 22
     },
     "spellPower": 25,
     "sellValue": 50000,
@@ -17093,7 +17345,7 @@
     },
     "stats": {
       "agi": 13,
-      "sta": 5
+      "sta": 7
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -17184,7 +17436,8 @@
     "stats": {
       "armor": 72,
       "sta": 6,
-      "int": 4
+      "int": 4,
+      "spi": 3
     },
     "sellValue": 2200
   },
@@ -17311,7 +17564,7 @@
     "stats": {
       "armor": 74,
       "sta": 6,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 2300
   },
@@ -17359,7 +17612,7 @@
     "stats": {
       "armor": 60,
       "sta": 3,
-      "spi": 2
+      "spi": 4
     },
     "sellValue": 1000
   },
@@ -17373,7 +17626,7 @@
     "stats": {
       "armor": 76,
       "sta": 6,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 2400
   },
@@ -17424,7 +17677,7 @@
     "stats": {
       "armor": 54,
       "sta": 3,
-      "spi": 3
+      "spi": 5
     },
     "sellValue": 1000
   },
@@ -17438,7 +17691,7 @@
     "stats": {
       "armor": 76,
       "sta": 6,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 2400
   },
@@ -17479,7 +17732,7 @@
     "stats": {
       "armor": 52,
       "sta": 3,
-      "spi": 3
+      "spi": 5
     },
     "sellValue": 1000
   },
@@ -17493,7 +17746,7 @@
     "stats": {
       "armor": 76,
       "sta": 6,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 2400
   },
@@ -17548,7 +17801,7 @@
     "stats": {
       "armor": 76,
       "sta": 6,
-      "spi": 4
+      "spi": 7
     },
     "sellValue": 2400
   },
@@ -17596,7 +17849,7 @@
     "stats": {
       "armor": 52,
       "sta": 3,
-      "spi": 3
+      "spi": 5
     },
     "sellValue": 950
   },
@@ -17651,7 +17904,7 @@
     "stats": {
       "armor": 62,
       "sta": 3,
-      "spi": 2
+      "spi": 4
     },
     "sellValue": 1000
   },
@@ -17735,7 +17988,7 @@
     },
     "stats": {
       "agi": 12,
-      "sta": 6
+      "sta": 7
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -17800,7 +18053,8 @@
     },
     "stats": {
       "int": 15,
-      "spi": 8
+      "spi": 8,
+      "sta": 8
     },
     "sellValue": 8000,
     "requiredClass": [
@@ -17847,9 +18101,9 @@
       "speed": 3.2
     },
     "stats": {
-      "str": 7,
+      "str": 6,
       "agi": 5,
-      "sta": 5
+      "sta": 6
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -17906,7 +18160,8 @@
     "stats": {
       "armor": 55,
       "int": 4,
-      "spi": 3
+      "spi": 3,
+      "sta": 2
     },
     "sellValue": 800,
     "requiredClass": [
@@ -18088,8 +18343,8 @@
       "shaman"
     ],
     "stats": {
-      "str": 12,
-      "sta": 5,
+      "str": 11,
+      "sta": 6,
       "armor": 265
     },
     "critRating": 60,
@@ -18206,8 +18461,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 8,
       "int": 17,
+      "spi": 8,
+      "sta": 8,
       "armor": 380
     },
     "critRating": 25,
@@ -18229,8 +18485,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 5,
       "int": 12,
+      "spi": 5,
+      "sta": 6,
       "armor": 265
     },
     "critRating": 25,
@@ -18252,8 +18509,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 5,
       "int": 11,
+      "spi": 5,
+      "sta": 5,
       "armor": 255
     },
     "critRating": 25,
@@ -18276,9 +18534,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 4,
       "int": 14,
-      "spi": 7,
+      "spi": 11,
+      "sta": 8,
       "armor": 380
     },
     "critRating": 25,
@@ -18302,9 +18560,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 3,
-      "int": 9,
-      "spi": 5,
+      "int": 10,
+      "spi": 7,
+      "sta": 6,
       "armor": 265
     },
     "critRating": 25,
@@ -18328,9 +18586,9 @@
       "shaman"
     ],
     "stats": {
-      "sta": 3,
       "int": 9,
-      "spi": 4,
+      "spi": 7,
+      "sta": 5,
       "armor": 255
     },
     "critRating": 25,
@@ -18377,8 +18635,8 @@
       "hunter"
     ],
     "stats": {
-      "agi": 12,
-      "sta": 5,
+      "agi": 11,
+      "sta": 6,
       "armor": 150
     },
     "critRating": 60,
@@ -18444,8 +18702,8 @@
       "druid"
     ],
     "stats": {
-      "str": 12,
-      "sta": 5,
+      "str": 11,
+      "sta": 6,
       "armor": 150
     },
     "critRating": 60,
@@ -18557,8 +18815,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 8,
       "int": 17,
+      "spi": 8,
+      "sta": 8,
       "armor": 215
     },
     "critRating": 25,
@@ -18580,8 +18839,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 5,
       "int": 12,
+      "spi": 5,
+      "sta": 6,
       "armor": 150
     },
     "critRating": 25,
@@ -18603,8 +18863,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 5,
       "int": 11,
+      "spi": 5,
+      "sta": 5,
       "armor": 145
     },
     "critRating": 25,
@@ -18626,9 +18887,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 4,
       "int": 14,
-      "spi": 7,
+      "spi": 11,
+      "sta": 8,
       "armor": 215
     },
     "critRating": 25,
@@ -18651,9 +18912,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 3,
-      "int": 9,
-      "spi": 5,
+      "int": 10,
+      "spi": 7,
+      "sta": 6,
       "armor": 150
     },
     "critRating": 25,
@@ -18676,9 +18937,9 @@
       "druid"
     ],
     "stats": {
-      "sta": 3,
       "int": 9,
-      "spi": 4,
+      "spi": 7,
+      "sta": 5,
       "armor": 145
     },
     "critRating": 25,
@@ -18703,8 +18964,9 @@
       "warlock"
     ],
     "stats": {
-      "sta": 8,
       "int": 17,
+      "spi": 8,
+      "sta": 8,
       "armor": 105
     },
     "critRating": 25,
@@ -18728,8 +18990,9 @@
       "warlock"
     ],
     "stats": {
-      "sta": 5,
       "int": 12,
+      "spi": 5,
+      "sta": 6,
       "armor": 75
     },
     "critRating": 25,
@@ -18753,8 +19016,9 @@
       "warlock"
     ],
     "stats": {
-      "sta": 5,
       "int": 11,
+      "spi": 5,
+      "sta": 5,
       "armor": 70
     },
     "critRating": 25,
@@ -18777,9 +19041,9 @@
       "priest"
     ],
     "stats": {
-      "sta": 4,
       "int": 14,
-      "spi": 7,
+      "spi": 11,
+      "sta": 8,
       "armor": 105
     },
     "critRating": 25,
@@ -18803,9 +19067,9 @@
       "priest"
     ],
     "stats": {
-      "sta": 3,
-      "int": 9,
-      "spi": 5,
+      "int": 10,
+      "spi": 7,
+      "sta": 6,
       "armor": 75
     },
     "critRating": 25,
@@ -18829,9 +19093,9 @@
       "priest"
     ],
     "stats": {
-      "sta": 3,
       "int": 9,
-      "spi": 4,
+      "spi": 7,
+      "sta": 5,
       "armor": 70
     },
     "critRating": 25,
@@ -19095,7 +19359,8 @@
     "stats": {
       "armor": 48,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 1100,
     "requiredClass": [
@@ -19116,7 +19381,8 @@
     "stats": {
       "armor": 42,
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 1100,
     "requiredClass": [
@@ -19187,8 +19453,8 @@
     "quality": "rare",
     "stats": {
       "armor": 82,
-      "agi": 8,
-      "sta": 3
+      "agi": 7,
+      "sta": 4
     },
     "sellValue": 410,
     "heroicOf": "gravewyrm_mantle"
@@ -19222,9 +19488,9 @@
       "speed": 3.6
     },
     "stats": {
-      "str": 8,
+      "str": 7,
       "agi": 5,
-      "sta": 5
+      "sta": 6
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -19259,7 +19525,8 @@
     },
     "stats": {
       "int": 10,
-      "spi": 4
+      "spi": 4,
+      "sta": 5
     },
     "sellValue": 2500,
     "requiredClass": [
@@ -19281,8 +19548,8 @@
     "quality": "rare",
     "stats": {
       "armor": 130,
-      "agi": 10,
-      "sta": 4
+      "agi": 9,
+      "sta": 5
     },
     "sellValue": 2500,
     "requiredClass": [
@@ -19301,7 +19568,8 @@
     "stats": {
       "armor": 75,
       "int": 10,
-      "spi": 4
+      "spi": 4,
+      "sta": 5
     },
     "sellValue": 3000,
     "requiredClass": [
@@ -19342,7 +19610,8 @@
     "stats": {
       "armor": 68,
       "int": 6,
-      "spi": 3
+      "spi": 3,
+      "sta": 3
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -19444,7 +19713,8 @@
     "stats": {
       "armor": 80,
       "int": 9,
-      "spi": 4
+      "spi": 4,
+      "sta": 4
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -19513,7 +19783,8 @@
     },
     "stats": {
       "int": 13,
-      "spi": 7
+      "spi": 7,
+      "sta": 7
     },
     "sellValue": 8000,
     "requiredClass": [
@@ -19581,7 +19852,8 @@
     "stats": {
       "armor": 92,
       "int": 12,
-      "spi": 8
+      "spi": 8,
+      "sta": 7
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -19644,7 +19916,8 @@
     "stats": {
       "armor": 70,
       "int": 10,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -19665,8 +19938,8 @@
     "quality": "epic",
     "stats": {
       "armor": 110,
-      "agi": 10,
-      "sta": 4
+      "agi": 9,
+      "sta": 5
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -19688,9 +19961,9 @@
       "speed": 3.6
     },
     "stats": {
-      "str": 10,
+      "str": 9,
       "agi": 8,
-      "sta": 8
+      "sta": 9
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -19707,9 +19980,9 @@
     "quality": "epic",
     "stats": {
       "armor": 112,
-      "sta": 2,
       "int": 10,
-      "spi": 6
+      "spi": 8,
+      "sta": 6
     },
     "sellValue": 8000,
     "heroicOf": "wildgrowth_leggings"
@@ -19724,7 +19997,8 @@
     "stats": {
       "armor": 88,
       "int": 9,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "sellValue": 7500,
     "heroicOf": "grovewardens_grips"
@@ -19739,7 +20013,8 @@
     "stats": {
       "armor": 82,
       "int": 8,
-      "spi": 5
+      "spi": 5,
+      "sta": 4
     },
     "sellValue": 7200,
     "heroicOf": "verdant_walkers"
@@ -19773,9 +20048,9 @@
       "speed": 3.2
     },
     "stats": {
-      "sta": 19,
       "int": 21,
-      "spi": 25
+      "spi": 43,
+      "sta": 23
     },
     "spellPower": 25,
     "sellValue": 25000,
@@ -19836,9 +20111,9 @@
       "speed": 2.8
     },
     "stats": {
-      "str": 17,
-      "agi": 17,
-      "sta": 15
+      "str": 15,
+      "agi": 15,
+      "sta": 23
     },
     "sellValue": 25000,
     "requiredClass": [
@@ -19959,8 +20234,9 @@
     "quality": "epic",
     "stats": {
       "armor": 105,
-      "sta": 7,
-      "int": 13
+      "int": 13,
+      "spi": 7,
+      "sta": 7
     },
     "hasteRating": 55,
     "sellValue": 12000,
@@ -19983,8 +20259,9 @@
     "quality": "epic",
     "stats": {
       "armor": 225,
-      "sta": 8,
-      "int": 12
+      "int": 12,
+      "spi": 7,
+      "sta": 8
     },
     "critRating": 55,
     "sellValue": 12000,
@@ -20027,8 +20304,9 @@
     "quality": "epic",
     "stats": {
       "armor": 92,
-      "sta": 7,
-      "int": 10
+      "int": 10,
+      "spi": 6,
+      "sta": 7
     },
     "hasteRating": 55,
     "sellValue": 12000,
@@ -20098,8 +20376,9 @@
     "quality": "epic",
     "stats": {
       "armor": 190,
-      "sta": 8,
-      "int": 9
+      "int": 9,
+      "spi": 6,
+      "sta": 8
     },
     "critRating": 55,
     "sellValue": 12000,
@@ -20116,9 +20395,9 @@
     "slot": "offhand",
     "quality": "epic",
     "stats": {
-      "sta": 3,
       "int": 8,
-      "spi": 6
+      "spi": 9,
+      "sta": 6
     },
     "critRating": 55,
     "sellValue": 12000,
@@ -20189,9 +20468,9 @@
       "speed": 3.7
     },
     "stats": {
-      "str": 12,
+      "str": 11,
       "agi": 9,
-      "sta": 9
+      "sta": 10
     },
     "hitRating": 65,
     "sellValue": 14000,
@@ -20438,7 +20717,8 @@
     "stats": {
       "armor": 680,
       "int": 9,
-      "spi": 8
+      "spi": 8,
+      "sta": 6
     },
     "hasteRating": 55,
     "sellValue": 12000,
@@ -20459,7 +20739,8 @@
     "stats": {
       "armor": 190,
       "int": 12,
-      "spi": 8
+      "spi": 8,
+      "sta": 7
     },
     "hasteRating": 55,
     "sellValue": 12000,
@@ -20476,7 +20757,8 @@
     "stats": {
       "armor": 165,
       "int": 9,
-      "spi": 7
+      "spi": 7,
+      "sta": 5
     },
     "hasteRating": 55,
     "sellValue": 12000,
@@ -20497,7 +20779,8 @@
     "stats": {
       "armor": 190,
       "int": 9,
-      "spi": 6
+      "spi": 6,
+      "sta": 5
     },
     "critRating": 55,
     "sellValue": 12000,
@@ -20532,8 +20815,8 @@
     "quality": "rare",
     "stats": {
       "armor": 130,
-      "sta": 9,
-      "spi": 4
+      "spi": 6,
+      "sta": 11
     },
     "sellValue": 2000,
     "heroicOf": "ysols_pearl_greaves"
@@ -20568,7 +20851,8 @@
     "stats": {
       "armor": 70,
       "int": 10,
-      "spi": 5
+      "spi": 5,
+      "sta": 5
     },
     "sellValue": 2400,
     "requiredClass": [
@@ -20588,8 +20872,8 @@
     "quality": "rare",
     "stats": {
       "armor": 125,
-      "agi": 10,
-      "sta": 4
+      "agi": 9,
+      "sta": 5
     },
     "sellValue": 2400,
     "requiredClass": [
@@ -20611,9 +20895,9 @@
       "speed": 3.2
     },
     "stats": {
-      "str": 8,
+      "str": 7,
       "agi": 5,
-      "sta": 5
+      "sta": 6
     },
     "sellValue": 3200,
     "requiredClass": [
@@ -20637,8 +20921,8 @@
       "dagger": true
     },
     "stats": {
-      "agi": 15,
-      "sta": 7
+      "agi": 14,
+      "sta": 8
     },
     "sellValue": 9000,
     "requiredClass": [
@@ -20706,7 +20990,8 @@
     },
     "stats": {
       "int": 17,
-      "spi": 9
+      "spi": 9,
+      "sta": 9
     },
     "sellValue": 8000,
     "requiredClass": [

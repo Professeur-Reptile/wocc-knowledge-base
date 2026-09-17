@@ -18,10 +18,10 @@
     "name": "Marshal Redbrook",
     "title": "Town Marshal",
     "pos": {
-      "x": -58,
-      "z": -102
+      "x": -1,
+      "z": -93
     },
-    "facing": 1.5707963267948966,
+    "facing": -2.1763409903998667,
     "color": 12031243,
     "questIds": [
       "q_wolves",
@@ -37,10 +37,10 @@
     "name": "Trader Wilkes",
     "title": "Provisioner",
     "pos": {
-      "x": -17.833512834321652,
-      "z": -106.50023078698499
+      "x": -25,
+      "z": -94
     },
-    "facing": 0.6610431688506869,
+    "facing": 2.1995926132103296,
     "color": 1999945,
     "questIds": [
       "q_boars",
@@ -70,10 +70,10 @@
     "name": "Apothecary Lin",
     "title": "Herbalist",
     "pos": {
-      "x": -72,
-      "z": -96
+      "x": -11,
+      "z": -89
     },
-    "facing": 1.673877935317597,
+    "facing": -2.9147938055359073,
     "color": 8207512,
     "questIds": [
       "q_spiders"
@@ -133,10 +133,10 @@
     "name": "Fisherman Brandt",
     "title": "Old Salt",
     "pos": {
-      "x": -95,
-      "z": -50
+      "x": -25,
+      "z": -104
     },
-    "facing": -1.5707963267948966,
+    "facing": 1.3909428270024184,
     "color": 2388387,
     "questIds": [
       "q_murlocs"
@@ -152,10 +152,10 @@
     "name": "Foreman Odell",
     "title": "Mine Foreman",
     "pos": {
-      "x": -84,
-      "z": -63
+      "x": -16,
+      "z": -111
     },
-    "facing": 0.6747409422235526,
+    "facing": 0.21866894587394195,
     "color": 10502144,
     "questIds": [
       "q_prof_intro",
@@ -1812,8 +1812,8 @@
     "name": "Riftwright Maelis",
     "title": "Rift Forgemaster",
     "pos": {
-      "x": 377,
-      "z": 7
+      "x": 366,
+      "z": 10
     },
     "facing": 3.141592653589793,
     "color": 8011658,
