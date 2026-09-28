@@ -27,7 +27,7 @@
         "name": "Wildfang",
         "role": "tank",
         "icon": "x",
-        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Cat spends it for damage, Bruin spends it to tank.",
+        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Cat spends it for damage, Bruin spends it to tank. Reaches 1 yd further with every melee attack, and melee autoattacks grant Nature's Boon about every 15 sec: for 10 sec, one free Wildbloom castable in any form, or one free Oakhide in Bruin Form, either 25% stronger.",
         "signature": "feral_charge",
         "mastery": {
           "name": "Primal Heart",
@@ -1228,10 +1228,10 @@
         "signature": "sunward_disc",
         "mastery": {
           "name": "Oathward",
-          "description": "Increases all threat you generate by 40%, your armor by 20% and your Stamina by 35%.",
+          "description": "Increases all threat you generate by 100%, your armor by 20% and your Stamina by 35%.",
           "effect": {
             "global": {
-              "threatPct": 0.4
+              "threatPct": 1
             },
             "stats": {
               "armorPct": 0.2,
@@ -2839,7 +2839,7 @@
           {
             "id": "sha_r20_bloodlust",
             "name": "Deep Reservoir",
-            "description": "After Earthen Jolt or Faultwake consumes all Thunder, retain 2 Thunder. After a spell consumes Stormcast, retain 1 Warspirit Cadence step. After Cascading Mend consumes Mending Current, restore 25% of the amount consumed.",
+            "description": "After Earthen Jolt or Faultwake consumes a full Thunder bank, retain 2 Thunder. After a spell consumes Stormcast, retain 1 Warspirit Cadence step. After Cascading Mend consumes Mending Current, restore 25% of the amount consumed.",
             "icon": "lightning_bolt",
             "effect": {
               "runtime": {
@@ -2852,7 +2852,7 @@
           {
             "id": "sha_r20_elemental_fury",
             "name": "Echoing Elements",
-            "description": "After Earthen Jolt or Faultwake consumes all Thunder, repeat 40% of its damage after 1 sec. A spell that consumes Stormcast repeats at 40% strength. Healing from consumed Mending Current repeats at 40% strength after 2 sec. These repeats cannot trigger other effects.",
+            "description": "After Earthen Jolt or Faultwake consumes a full Thunder bank, repeat 40% of its damage after 1 sec. A spell that consumes Stormcast repeats at 40% strength. Healing from consumed Mending Current repeats at 40% strength after 2 sec. These repeats cannot trigger other effects.",
             "icon": "chain_lightning",
             "effect": {
               "runtime": {
@@ -2865,7 +2865,7 @@
           {
             "id": "sha_r20_tidal_waves",
             "name": "Living Weapon",
-            "description": "After Earthen Jolt or Faultwake consumes all Thunder, Pyrebrand makes the next Arc Bolt instant. Galeheart's echoes each deal 40% damage to up to 2 enemies within 8 yards. A Stonebound spell that consumes Stormcast grants an absorb equal to 8% of your maximum health. With Lifespring active, Tidecall also adds 50% of its full heal to the most injured ally within 10 yards.",
+            "description": "After Earthen Jolt or Faultwake consumes a full Thunder bank, Pyrebrand makes the next Arc Bolt instant. Galeheart's echoes each deal 40% damage to up to 2 enemies within 8 yards. A Stonebound spell that consumes Stormcast grants an absorb equal to 8% of your maximum health. With Lifespring active, Tidecall also adds 50% of its full heal to the most injured ally within 10 yards.",
             "icon": "rockbiter_weapon",
             "effect": {
               "runtime": {
@@ -3338,10 +3338,10 @@
         "signature": "shield_slam",
         "mastery": {
           "name": "Recompense",
-          "description": "Increases all threat you generate by 80% and your armor by 10%. Vanguard: your Stamina is increased by 40% and you gain armor equal to 70% of your Strength.",
+          "description": "Increases all threat you generate by 110% and your armor by 10%. Vanguard: your Stamina is increased by 40% and you gain armor equal to 70% of your Strength.",
           "effect": {
             "global": {
-              "threatPct": 0.8
+              "threatPct": 1.1
             },
             "stats": {
               "armorPct": 0.1,

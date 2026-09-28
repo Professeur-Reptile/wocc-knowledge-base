@@ -154,5 +154,9 @@
   {
     "itemId": "evergarden_pumpkin_seed",
     "marks": 12
+  },
+  {
+    "itemId": "wayfarers_lodestone",
+    "marks": 16
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "id": "eastbrook_vale",
+    "worldPvp": "sanctuary",
     "name": "Eastbrook Vale",
     "zMin": -180,
     "zMax": 180,
@@ -108,7 +109,8 @@
       }
     ],
     "welcome": "Find Marshal Redbrook in town - he has work for you.",
-    "welcomeQuestId": "q_wolves"
+    "welcomeQuestId": "q_wolves",
+    "welcomeDone": "Marshal Redbrook has no more work for you - the quaint seaside town where your journey began rests easier for it."
   },
   {
     "id": "mirefen_marsh",
@@ -197,7 +199,8 @@
         "id": "the_sunken_bastion"
       }
     ],
-    "welcome": "Report to Warden Fenwick at the Fenbridge gate."
+    "welcome": "Report to Warden Fenwick at the Fenbridge gate.",
+    "welcomeDone": "Warden Fenwick has no more orders for you - the settlement deep within the marshy swamplands stands safer for it."
   },
   {
     "id": "thornpeak_heights",
@@ -288,7 +291,8 @@
         "id": "gravewyrm_sanctum"
       }
     ],
-    "welcome": "Captain Thessaly holds the wall at Highwatch - barely."
+    "welcome": "Captain Thessaly holds the wall at Highwatch - barely.",
+    "welcomeDone": "Captain Thessaly holds the wall at Highwatch - it's never easy, but with the help of adventurers like you it's now manageable."
   },
   {
     "id": "veiled_hollow",
@@ -424,6 +428,7 @@
   },
   {
     "id": "drakelands",
+    "worldPvp": "ffa",
     "name": "The Drakelands",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -523,6 +528,7 @@
   },
   {
     "id": "frostveil",
+    "worldPvp": "ffa",
     "name": "The Frostveil Reach",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -608,6 +614,7 @@
   },
   {
     "id": "amberfall",
+    "worldPvp": "ffa",
     "name": "The Amberfall",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -1410,6 +1417,12 @@
         "z": 58,
         "label": "The Riftfields",
         "id": "the_riftfields"
+      },
+      {
+        "x": 306,
+        "z": 123.05,
+        "label": "The Wreck",
+        "id": "the_wreck"
       }
     ],
     "welcome": "Cross the sandbar and Gullhaven's bell will find you before the town does. The breaks tear open without warning, and the redoubt holds its shore against whatever pours through. They have been waiting a long while for someone like you.",
@@ -1417,6 +1430,7 @@
   },
   {
     "id": "proving_shore",
+    "worldPvp": "sanctuary",
     "name": "The Proving Shore",
     "xMin": -540,
     "xMax": -180,

@@ -386,7 +386,7 @@
         ]
       }
     ],
-    "description": "Deliver a crushing weapon strike and generate 1 Devotion when it deals damage. A successful hit reduces Dawnfall's remaining cooldown by 2 sec. Successful auto-attacks and Final Edict hits have a 15% chance to grant Dawn's Wrath for 8 sec. Ascension also releases a Holy explosion around you."
+    "description": "Deliver a crushing weapon strike and generate 1 Devotion when it deals damage. A successful hit reduces Dawnfall's remaining cooldown by 2 sec. Successful auto-attacks and Final Edict hits have a 15% chance to grant Dawn's Wrath for 8 sec. Ascension also releases a Physical explosion around you."
   },
   "dawnfall": {
     "id": "dawnfall",
@@ -3095,7 +3095,7 @@
         "interval": 1.5
       }
     ],
-    "description": "Shake an 8-yard area for 6 sec, dealing $d Nature damage every 1.5 sec. Damage increases with Spell Power. Thundercall: at 5 Thunder, deal 100% more damage and consume all Thunder."
+    "description": "Shake an 8-yard area for 6 sec, dealing $d Nature damage every 1.5 sec. Damage increases with Spell Power. Thundercall: consume all Thunder, dealing 20% more damage per Thunder (100% at 5)."
   },
   "scorch": {
     "id": "scorch",
@@ -6110,7 +6110,93 @@
     "school": "nature",
     "requiresTarget": false,
     "effects": [],
-    "description": "Passive: Arc Bolt and Skybranch grant Thunder, up to 5. At 5 Thunder, Earthen Jolt deals 125% more damage or Faultwake deals 100% more damage, then consumes all Thunder. (Thundercall)"
+    "description": "Passive: Arc Bolt and Skybranch grant Thunder, up to 5. Earthen Jolt consumes all Thunder and deals 25% more damage per Thunder (125% at 5). Faultwake consumes all Thunder and deals 20% more damage per Thunder (100% at 5). (Thundercall)"
+  },
+  "lightning_overload": {
+    "id": "lightning_overload",
+    "name": "Arc Overload",
+    "class": "shaman",
+    "specs": [
+      "elemental"
+    ],
+    "learnLevel": 10,
+    "passive": true,
+    "cost": 0,
+    "castTime": 0,
+    "cooldown": 0,
+    "range": 0,
+    "school": "nature",
+    "requiresTarget": false,
+    "effects": [],
+    "description": "Passive: Arc Bolt and Skybranch have a 20% chance to Overload, striking their first target again for 50% of the damage dealt and granting 1 Thunder. (Thundercall)"
+  },
+  "lava_burst": {
+    "id": "lava_burst",
+    "name": "Magma Burst",
+    "class": "shaman",
+    "specs": [
+      "elemental"
+    ],
+    "learnLevel": 12,
+    "cost": 45,
+    "castTime": 2,
+    "cooldown": 8,
+    "range": 30,
+    "school": "fire",
+    "requiresTarget": true,
+    "projectileFx": "heavyBolt",
+    "effects": [
+      {
+        "type": "directDamage",
+        "min": 63,
+        "max": 71
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 2,
+        "level": 20,
+        "cost": 70,
+        "effects": [
+          {
+            "type": "directDamage",
+            "min": 105,
+            "max": 119
+          }
+        ]
+      }
+    ],
+    "description": "Deal $d Fire damage. Always critically strikes a target burning with your Cinder Jolt. Magma Surge: each Cinder Jolt tick has a 20% chance to reset this cooldown and make your next Magma Burst within 10 sec instant. Damage increases with Spell Power. (Thundercall)"
+  },
+  "thunderstorm": {
+    "id": "thunderstorm",
+    "name": "Stormbreak",
+    "class": "shaman",
+    "specs": [
+      "elemental"
+    ],
+    "learnLevel": 16,
+    "cost": 0,
+    "castTime": 0,
+    "cooldown": 45,
+    "range": 0,
+    "school": "nature",
+    "requiresTarget": false,
+    "effects": [
+      {
+        "type": "aoeDamage",
+        "min": 55,
+        "max": 63,
+        "radius": 10
+      },
+      {
+        "type": "aoeSlow",
+        "mult": 0.5,
+        "duration": 5,
+        "radius": 10
+      }
+    ],
+    "description": "Call down a thunderclap, dealing $d Nature damage to enemies within 10 yards and slowing them by 50% for 5 sec. Restores 8% of your maximum Mana. Damage increases with Spell Power. (Thundercall)"
   },
   "rockbiter_weapon": {
     "id": "rockbiter_weapon",
@@ -6477,7 +6563,7 @@
         ]
       }
     ],
-    "description": "Deal $d Nature damage. Damage increases with Spell Power. Thundercall: at 5 Thunder, deal 125% more damage and consume all Thunder. Stonebound: force the target to attack you for 3 sec."
+    "description": "Deal $d Nature damage. Damage increases with Spell Power. Thundercall: consume all Thunder, dealing 25% more damage per Thunder (125% at 5). Stonebound: force the target to attack you for 3 sec."
   },
   "lightning_shield": {
     "id": "lightning_shield",
@@ -8579,7 +8665,7 @@
     "school": "physical",
     "requiresTarget": true,
     "offGcd": true,
-    "requiresForm": "bear",
+    "usableInForm": true,
     "effects": [
       {
         "type": "charge"
@@ -8589,7 +8675,7 @@
         "duration": 1
       }
     ],
-    "description": "Rush an enemy, generating 9 rage and stunning it for 1 sec. For 3 sec afterwards, or until you leave combat, Cat Form is free and Pins that target (the one you Rushed), slowing it by 50% for 4 sec. 8-25 yd range. Bruin Form only."
+    "description": "Shift into Bruin Form if you are not already, then rush an enemy, generating 9 rage and stunning it for 1 sec. For 3 sec afterwards, or until you leave combat, Cat Form is free and Pins that target (the one you Rushed), slowing it by 50% for 4 sec. 8-25 yd range. Usable in any form."
   },
   "maul": {
     "id": "maul",
@@ -8750,7 +8836,7 @@
     "range": 0,
     "school": "physical",
     "requiresTarget": false,
-    "requiresForm": "cat",
+    "usableInForm": true,
     "requiresOutOfCombat": true,
     "effects": [
       {
@@ -8760,7 +8846,7 @@
         "duration": 3600
       }
     ],
-    "description": "Enter stealth while in Cat Form. Cannot be used in combat."
+    "description": "Shift into Cat Form if you are not already, and enter stealth. Usable in any form. Cannot be used in combat."
   },
   "rake": {
     "id": "rake",
@@ -8974,12 +9060,12 @@
     "effects": [
       {
         "type": "selfBuff",
-        "kind": "buff_armor",
-        "value": 150,
+        "kind": "buff_armor_pct",
+        "value": 20,
         "duration": 15
       }
     ],
-    "description": "Your skin hardens like bark, increasing armor by 150 for 15 sec."
+    "description": "Your skin hardens like bark, increasing armor by 20% for 15 sec."
   },
   "primal_reflexes": {
     "id": "primal_reflexes",
@@ -9183,7 +9269,7 @@
       "abilityId": "lunge",
       "absentAuraKind": "stealth"
     },
-    "description": "A stealth opener that stuns the target for 2 sec. Awards 1 combo point. Cat Form only. Out of stealth this button is Lunge."
+    "description": "A stealth opener that stuns the target for 2 sec. Awards 1 combo point and, as Wildfang, adds 1 Old Blood (max 3). Cat Form only. Out of stealth this button is Lunge."
   },
   "lunge": {
     "id": "lunge",
@@ -9193,18 +9279,19 @@
     "cost": 40,
     "castTime": 0,
     "cooldown": 12,
-    "range": 12,
+    "range": 25,
     "minRange": 0,
     "school": "physical",
     "requiresTarget": true,
     "awardsCombo": 1,
-    "requiresForm": "cat",
+    "offGcd": true,
+    "usableInForm": true,
     "effects": [
       {
         "type": "charge"
       }
     ],
-    "description": "Lunge at an enemy up to 12 yd away. On arrival, deals 60% weapon damage and awards 1 combo point; a lunge cut short refunds its cooldown. Cat Form only."
+    "description": "Shift into Cat Form if you are not already, then lunge at an enemy up to 25 yd away. On arrival, deals 60% weapon damage, awards 1 combo point and, as Wildfang, adds 1 Old Blood (max 3); a lunge cut short refunds its cooldown. Usable in any form."
   },
   "hamstring_bite": {
     "id": "hamstring_bite",
@@ -11785,7 +11872,7 @@
     "learnLevel": 10,
     "cost": 130,
     "castTime": 3,
-    "cooldown": 0,
+    "cooldown": 12,
     "range": 0,
     "school": "holy",
     "requiresTarget": false,
@@ -12233,7 +12320,10 @@
     "range": 0,
     "school": "nature",
     "requiresTarget": false,
-    "requiresForm": "bear",
+    "requiresForm": [
+      "bear",
+      "cat"
+    ],
     "effects": [
       {
         "type": "hot",
@@ -12243,7 +12333,7 @@
         "pctOfMax": 0.4
       }
     ],
-    "description": "Restores 40% of your maximum health over 10 sec. Bruin Form only."
+    "description": "Restores 40% of your maximum health over 10 sec. Bruin or Cat Form only."
   },
   "berserk": {
     "id": "berserk",
@@ -12456,5 +12546,27 @@
       }
     ],
     "description": "Call every fallen member of your group or raid within 40 yards and in your line of sight back to your side with 30% health and mana. Cannot be cast in combat. (Benison and Doctrine)"
+  },
+  "clockwork_shock_bomb": {
+    "id": "clockwork_shock_bomb",
+    "name": "Clockwork Shock Bomb",
+    "class": "warrior",
+    "learnLevel": 1,
+    "cost": 0,
+    "castTime": 0,
+    "cooldown": 60,
+    "range": 30,
+    "school": "nature",
+    "requiresTarget": false,
+    "targetMode": "position",
+    "effects": [
+      {
+        "type": "aoeDamage",
+        "min": 120,
+        "max": 160,
+        "radius": 5
+      }
+    ],
+    "description": "Throws a Clockwork Shock Bomb at the target location, dealing 120 to 160 Nature damage to enemies within 5 yards."
   }
 }

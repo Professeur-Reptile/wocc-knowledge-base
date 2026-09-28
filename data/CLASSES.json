@@ -499,6 +499,9 @@
     "abilities": [
       "lightning_bolt",
       "thunder_reservoir",
+      "lightning_overload",
+      "lava_burst",
+      "thunderstorm",
       "chain_lightning",
       "rockbiter_weapon",
       "galeheart_weapon",

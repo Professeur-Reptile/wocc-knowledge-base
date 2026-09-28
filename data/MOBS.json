@@ -1688,6 +1688,35 @@
       "meat"
     ]
   },
+  "fenbridge_infiltrator": {
+    "id": "fenbridge_infiltrator",
+    "name": "The Borrowed Face",
+    "minLevel": 6,
+    "maxLevel": 10,
+    "family": "undead",
+    "hpBase": 52,
+    "hpPerLevel": 20,
+    "dmgBase": 8,
+    "dmgPerLevel": 2.3,
+    "attackSpeed": 2.3,
+    "armorPerLevel": 14,
+    "moveSpeed": 6.5,
+    "aggroRadius": 11,
+    "lifeleech": {
+      "healFrac": 0.5,
+      "chance": 0.35,
+      "name": "Drowning Grasp"
+    },
+    "plague": {
+      "chance": 0.3,
+      "sta": 12,
+      "duration": 12,
+      "name": "Bog Rot"
+    },
+    "loot": [],
+    "scale": 1,
+    "color": 8369109
+  },
   "training_dummy": {
     "id": "training_dummy",
     "name": "Training Dummy",
@@ -3470,96 +3499,96 @@
       },
       {
         "itemId": "cindersoaked_slippers",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "steps_of_quiet_water",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "ashenbark_treads",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "ashrunner_boots",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "scorchgrove_striders",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "dewfall_moccasins",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "anvilstance_sabatons",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "furnace_march_greaves",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "thundershock_treads",
-        "chance": 0.03125,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "springwarden_sabatons",
-        "chance": 0.03125,
-        "rollGroup": "varkhul_offset",
-        "normalOnly": true
-      },
-      {
-        "itemId": "orb_of_the_last_spring",
-        "chance": 0.09375,
-        "rollGroup": "varkhul_offset",
-        "normalOnly": true
-      },
-      {
-        "itemId": "cinder_of_the_first_design",
-        "chance": 0.09375,
+        "chance": 0.0390625,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "seal_of_the_forgewall",
-        "chance": 0.125,
+        "chance": 0.08984375,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "band_of_marked_strikes",
-        "chance": 0.125,
+        "chance": 0.08984375,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "circle_of_cinders",
-        "chance": 0.125,
+        "chance": 0.08984375,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
       },
       {
         "itemId": "loop_of_quiet_springs",
+        "chance": 0.08984375,
+        "rollGroup": "varkhul_offset",
+        "normalOnly": true
+      },
+      {
+        "itemId": "forgefathers_temper",
+        "chance": 0.125,
+        "rollGroup": "varkhul_offset",
+        "normalOnly": true
+      },
+      {
+        "itemId": "heart_of_the_crucible",
         "chance": 0.125,
         "rollGroup": "varkhul_offset",
         "normalOnly": true
@@ -3801,103 +3830,115 @@
       },
       {
         "itemId": "pendant_of_the_first_tempering",
-        "chance": 0.125,
+        "chance": 0.078125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "ignivars_ember_choker",
-        "chance": 0.125,
+        "chance": 0.078125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "locket_of_the_last_flame",
-        "chance": 0.125,
+        "chance": 0.078125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "heartspring_amulet",
-        "chance": 0.125,
+        "chance": 0.078125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "cord_of_the_last_flame",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "springbinder_sash",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "cinderbark_cinch",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "slagstalker_belt",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "moonscorch_waistwrap",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "grovetender_belt",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "forgewall_girdle",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "warforged_waistguard",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "stormkindled_chain",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "tidebinder_links",
-        "chance": 0.03125,
+        "chance": 0.01953125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "cinderfang_kris",
-        "chance": 0.0625,
+        "chance": 0.05859375,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
         "itemId": "slagrender_cleaver",
-        "chance": 0.0625,
+        "chance": 0.05859375,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
       {
-        "itemId": "wand_of_quenched_sparks",
-        "chance": 0.0625,
+        "itemId": "kindling_orb",
+        "chance": 0.125,
+        "rollGroup": "ignivar_offset",
+        "normalOnly": true
+      },
+      {
+        "itemId": "molten_fletching",
+        "chance": 0.125,
+        "rollGroup": "ignivar_offset",
+        "normalOnly": true
+      },
+      {
+        "itemId": "last_flame_lantern",
+        "chance": 0.125,
         "rollGroup": "ignivar_offset",
         "normalOnly": true
       },
@@ -7026,8 +7067,45 @@
         "chance": 0.05
       }
     ],
-    "scale": 1.2,
+    "scale": 1.45,
     "color": 9083483,
+    "frenzyOnHit": {
+      "chance": 0.3,
+      "hasteMult": 1.35,
+      "duration": 6
+    }
+  },
+  "rift_marrow_golem": {
+    "id": "rift_marrow_golem",
+    "name": "Marrow Golem",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "undead",
+    "elite": true,
+    "hpBase": 62,
+    "hpPerLevel": 23,
+    "dmgBase": 11,
+    "dmgPerLevel": 2.6,
+    "attackSpeed": 2.7,
+    "armorPerLevel": 18,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "loot": [
+      {
+        "copper": 160,
+        "chance": 1
+      },
+      {
+        "itemId": "bonelord_mantle",
+        "chance": 0.02
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.05
+      }
+    ],
+    "scale": 1.9,
+    "color": 14209727,
     "frenzyOnHit": {
       "chance": 0.3,
       "hasteMult": 1.35,
@@ -7299,7 +7377,7 @@
         "chance": 0.05
       }
     ],
-    "scale": 1.3,
+    "scale": 1.6,
     "color": 10194799,
     "stunOnHit": {
       "chance": 0.15,
@@ -8503,6 +8581,419 @@
       "engage": "Kneel, or burn.",
       "enrage": "THE CITADEL DEVOURS!"
     }
+  },
+  "hoard_brood_egg": {
+    "id": "hoard_brood_egg",
+    "name": "Brood Clutch",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "hpBase": 1,
+    "hpPerLevel": 0,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 10212202,
+    "xpMult": 0
+  },
+  "hoard_brood_hatchling": {
+    "id": "hoard_brood_hatchling",
+    "name": "Vysska's Hatchling",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "hpBase": 30,
+    "hpPerLevel": 11,
+    "dmgBase": 6,
+    "dmgPerLevel": 1.9,
+    "attackSpeed": 1.6,
+    "armorPerLevel": 10,
+    "moveSpeed": 8.5,
+    "aggroRadius": 12,
+    "loot": [],
+    "scale": 0.6,
+    "color": 10145074,
+    "xpMult": 0.25,
+    "untameable": true
+  },
+  "hoard_healing_tide_totem": {
+    "id": "hoard_healing_tide_totem",
+    "name": "Healing Tide Totem",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "hpBase": 54,
+    "hpPerLevel": 5,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 3,
+    "armorPerLevel": 4,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1.35,
+    "color": 5626319,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true
+  },
+  "hoard_bound_pulsar": {
+    "id": "hoard_bound_pulsar",
+    "name": "Bound Pulsar",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "hpBase": 60,
+    "hpPerLevel": 6,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 6272255,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true,
+    "phasesThroughObstacles": true
+  },
+  "hoard_abyssal_tentacle": {
+    "id": "hoard_abyssal_tentacle",
+    "name": "Tentacle of the Maw",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "beast",
+    "hpBase": 60,
+    "hpPerLevel": 6,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 3108728,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true,
+    "phasesThroughObstacles": true
+  },
+  "hoard_silk_cocoon": {
+    "id": "hoard_silk_cocoon",
+    "name": "Silk Cocoon",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "hpBase": 60,
+    "hpPerLevel": 6,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 14277832,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true,
+    "phasesThroughObstacles": true
+  },
+  "hoard_brood_cocoon": {
+    "id": "hoard_brood_cocoon",
+    "name": "Brood Cocoon",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "spider",
+    "hpBase": 60,
+    "hpPerLevel": 6,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 12174474,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true,
+    "phasesThroughObstacles": true
+  },
+  "hoard_coinsack_scurrier": {
+    "id": "hoard_coinsack_scurrier",
+    "name": "Coinsack Scurrier",
+    "minLevel": 16,
+    "maxLevel": 23,
+    "family": "humanoid",
+    "hpBase": 60,
+    "hpPerLevel": 20,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 6,
+    "moveSpeed": 5.6,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 8364122,
+    "xpMult": 0,
+    "untameable": true
+  },
+  "hoard_boss_mushroom": {
+    "id": "hoard_boss_mushroom",
+    "name": "Mother of Mushrooms",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 680,
+    "hpPerLevel": 58,
+    "dmgBase": 15,
+    "dmgPerLevel": 3,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 20,
+    "moveSpeed": 6.5,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.4,
+    "color": 11022922,
+    "rankMechanics": [],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.3,
+      "hasteMult": 1.2
+    },
+    "yells": {
+      "engage": "The spores will have you.",
+      "summon": "Grow, my little ones!"
+    },
+    "untameable": true
+  },
+  "hoard_sporeling": {
+    "id": "hoard_sporeling",
+    "name": "Sporeling",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "burrower",
+    "hpBase": 28,
+    "hpPerLevel": 10,
+    "dmgBase": 5,
+    "dmgPerLevel": 1.6,
+    "attackSpeed": 1.7,
+    "armorPerLevel": 8,
+    "moveSpeed": 7,
+    "aggroRadius": 14,
+    "loot": [],
+    "scale": 0.55,
+    "color": 13215850,
+    "xpMult": 0.2,
+    "untameable": true
+  },
+  "hoard_bloat_cap": {
+    "id": "hoard_bloat_cap",
+    "name": "Bloated Cap",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "hpBase": 40,
+    "hpPerLevel": 10,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 99,
+    "armorPerLevel": 4,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1.6,
+    "color": 12112970,
+    "xpMult": 0,
+    "idleStationary": true,
+    "untameable": true
+  },
+  "hoard_boss_mole": {
+    "id": "hoard_boss_mole",
+    "name": "Deeprake",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "beast",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 700,
+    "hpPerLevel": 60,
+    "dmgBase": 16,
+    "dmgPerLevel": 3.2,
+    "attackSpeed": 2,
+    "armorPerLevel": 22,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.2,
+    "color": 7031346,
+    "rankMechanics": [],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.3,
+      "hasteMult": 1.2
+    },
+    "yells": {
+      "engage": "The ground is mine.",
+      "summon": "Down you come!"
+    },
+    "untameable": true
+  },
+  "hoard_boss_bat": {
+    "id": "hoard_boss_bat",
+    "name": "Colossal Bat",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "beast",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 640,
+    "hpPerLevel": 55,
+    "dmgBase": 15,
+    "dmgPerLevel": 3,
+    "attackSpeed": 1.9,
+    "armorPerLevel": 22,
+    "moveSpeed": 8.5,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 3,
+    "color": 5913146,
+    "rankMechanics": [],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.3,
+      "hasteMult": 1.2
+    },
+    "yells": {
+      "engage": "Screeeee!",
+      "summon": "To me, my flock!"
+    },
+    "untameable": true
+  },
+  "hoard_boss_mimic": {
+    "id": "hoard_boss_mimic",
+    "name": "Voracious Chest",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "elemental",
+    "elite": true,
+    "boss": true,
+    "ccImmune": true,
+    "slowImmune": true,
+    "hpBase": 720,
+    "hpPerLevel": 62,
+    "dmgBase": 17,
+    "dmgPerLevel": 3.3,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 22,
+    "moveSpeed": 7,
+    "aggroRadius": 18,
+    "loot": [
+      {
+        "copper": 5000,
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 1
+      },
+      {
+        "itemId": "rift_essence",
+        "chance": 0.5
+      }
+    ],
+    "scale": 2.6,
+    "color": 9067050,
+    "rankMechanics": [],
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.3,
+      "hasteMult": 1.2
+    },
+    "yells": {
+      "engage": "Hungry... so hungry.",
+      "summon": "More gold, more gold!"
+    },
+    "untameable": true
+  },
+  "hoard_bat_swarmling": {
+    "id": "hoard_bat_swarmling",
+    "name": "Cave Swarmer",
+    "minLevel": 18,
+    "maxLevel": 23,
+    "family": "beast",
+    "hpBase": 22,
+    "hpPerLevel": 8,
+    "dmgBase": 4,
+    "dmgPerLevel": 1.3,
+    "attackSpeed": 1.5,
+    "armorPerLevel": 6,
+    "moveSpeed": 9,
+    "aggroRadius": 16,
+    "loot": [],
+    "scale": 0.7,
+    "color": 6965834,
+    "xpMult": 0.15,
+    "untameable": true
   },
   "yumi_cat": {
     "id": "yumi_cat",
@@ -11057,5 +11548,59 @@
     "componentTags": [
       "meat"
     ]
+  },
+  "eastbrook_freight_caravan": {
+    "id": "eastbrook_freight_caravan",
+    "name": "Eastbrook Freight Caravan",
+    "minLevel": 5,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 650,
+    "hpPerLevel": 45,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 25,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 9132587
+  },
+  "willowfen_remedy_caravan": {
+    "id": "willowfen_remedy_caravan",
+    "name": "Willowfen Remedy Caravan",
+    "minLevel": 19,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 650,
+    "hpPerLevel": 45,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 25,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 7440727
+  },
+  "frostveil_supply_caravan": {
+    "id": "frostveil_supply_caravan",
+    "name": "Frostveil Supply Caravan",
+    "minLevel": 17,
+    "maxLevel": 20,
+    "family": "humanoid",
+    "hpBase": 650,
+    "hpPerLevel": 45,
+    "dmgBase": 1,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2,
+    "armorPerLevel": 25,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "loot": [],
+    "scale": 1,
+    "color": 8032678
   }
 }
