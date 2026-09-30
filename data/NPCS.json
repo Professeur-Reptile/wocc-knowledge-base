@@ -887,7 +887,8 @@
       "vanguard_verdict_greatsword",
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
-      "vanguard_warstaff"
+      "vanguard_warstaff",
+      "vanguard_feral_staff"
     ],
     "dynamic": true,
     "warfareVendor": true,
@@ -1234,7 +1235,8 @@
       "vanguard_verdict_greatsword",
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
-      "vanguard_warstaff"
+      "vanguard_warstaff",
+      "vanguard_feral_staff"
     ],
     "dynamic": true,
     "warfareVendor": true,

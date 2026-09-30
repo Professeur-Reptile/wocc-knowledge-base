@@ -20109,7 +20109,7 @@
     "requiredLevel": 20,
     "stats": {
       "armor": 167,
-      "agi": 12,
+      "str": 12,
       "sta": 7
     },
     "pvpOffenseRating": 46,
@@ -20133,7 +20133,7 @@
     "requiredLevel": 20,
     "stats": {
       "armor": 149,
-      "agi": 10,
+      "str": 10,
       "sta": 6
     },
     "pvpOffenseRating": 40,
@@ -20157,7 +20157,7 @@
     "requiredLevel": 20,
     "stats": {
       "armor": 194,
-      "agi": 15,
+      "str": 15,
       "sta": 8
     },
     "pvpOffenseRating": 55,
@@ -20181,7 +20181,7 @@
     "requiredLevel": 20,
     "stats": {
       "armor": 176,
-      "agi": 13,
+      "str": 13,
       "sta": 7
     },
     "pvpOffenseRating": 48,
@@ -20205,7 +20205,7 @@
     "requiredLevel": 20,
     "stats": {
       "armor": 135,
-      "agi": 9,
+      "str": 9,
       "sta": 6
     },
     "pvpOffenseRating": 37,
@@ -20457,6 +20457,34 @@
       "paladin",
       "druid"
     ]
+  },
+  "vanguard_feral_staff": {
+    "id": "vanguard_feral_staff",
+    "name": "Vanguard's Feral Staff",
+    "kind": "weapon",
+    "slot": "mainhand",
+    "hand": "twohand",
+    "quality": "epic",
+    "requiredLevel": 20,
+    "weapon": {
+      "min": 47,
+      "max": 71,
+      "speed": 3
+    },
+    "stats": {
+      "str": 10,
+      "agi": 9,
+      "sta": 11
+    },
+    "pvpOffenseRating": 73,
+    "pvpDefenseRating": 112,
+    "priceHonor": 1800,
+    "sellValue": 0,
+    "soulbound": true,
+    "requiredClass": [
+      "druid"
+    ],
+    "classLocked": true
   },
   "rimefang": {
     "id": "rimefang",

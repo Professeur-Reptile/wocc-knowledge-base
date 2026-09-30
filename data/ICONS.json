@@ -144,7 +144,8 @@
     "vanguard_verdict_greatsword": "adv_sword_2handed",
     "vanguard_oath_blade": "adv_sword_1handed",
     "vanguard_fang_dagger": "adv_dagger",
-    "vanguard_warstaff": "adv_staff"
+    "vanguard_warstaff": "adv_staff",
+    "vanguard_feral_staff": "adv_staff"
   },
   "abilityIcons": [
     "divine_ascension",
