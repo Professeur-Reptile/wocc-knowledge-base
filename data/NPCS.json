@@ -888,7 +888,15 @@
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
       "vanguard_warstaff",
-      "vanguard_feral_staff"
+      "vanguard_feral_staff",
+      "vanguard_band_of_might",
+      "vanguard_band_of_precision",
+      "vanguard_band_of_focus",
+      "vanguard_band_of_mending",
+      "vanguard_pendant_of_might",
+      "vanguard_pendant_of_precision",
+      "vanguard_pendant_of_focus",
+      "vanguard_pendant_of_mending"
     ],
     "dynamic": true,
     "warfareVendor": true,
@@ -1236,7 +1244,15 @@
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
       "vanguard_warstaff",
-      "vanguard_feral_staff"
+      "vanguard_feral_staff",
+      "vanguard_band_of_might",
+      "vanguard_band_of_precision",
+      "vanguard_band_of_focus",
+      "vanguard_band_of_mending",
+      "vanguard_pendant_of_might",
+      "vanguard_pendant_of_precision",
+      "vanguard_pendant_of_focus",
+      "vanguard_pendant_of_mending"
     ],
     "dynamic": true,
     "warfareVendor": true,
