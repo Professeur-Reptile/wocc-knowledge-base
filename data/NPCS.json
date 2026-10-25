@@ -18,10 +18,10 @@
     "name": "Marshal Redbrook",
     "title": "Town Marshal",
     "pos": {
-      "x": -1,
-      "z": -93
+      "x": 1.5,
+      "z": -95.3
     },
-    "facing": -2.1763409903998667,
+    "facing": -1.9787985229559204,
     "color": 12031243,
     "questIds": [
       "q_wolves",
@@ -70,10 +70,10 @@
     "name": "Apothecary Lin",
     "title": "Herbalist",
     "pos": {
-      "x": -11,
-      "z": -89
+      "x": -24.5,
+      "z": -112.5
     },
-    "facing": -2.9147938055359073,
+    "facing": 0.7853981633974483,
     "color": 8207512,
     "questIds": [
       "q_spiders"
@@ -85,10 +85,10 @@
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": 5.181980515339464,
-      "z": -74.81801948466054
+      "x": 15.011652086947231,
+      "z": -110.38541937474815
     },
-    "facing": 0.7853981633974483,
+    "facing": -0.9599310885968813,
     "color": 16251385,
     "questIds": [
       "q_bones",
@@ -109,10 +109,10 @@
     "name": "Smith Haldren",
     "title": "Armorer & Weaponsmith",
     "pos": {
-      "x": -3.4,
-      "z": -112.5
+      "x": -8.282374584867384,
+      "z": -81.85509712542417
     },
-    "facing": -1.6631256615264958,
+    "facing": -2.7925268031909276,
     "color": 7371644,
     "questIds": [
       "q_prof_hobby_switch"
@@ -133,10 +133,10 @@
     "name": "Fisherman Brandt",
     "title": "Old Salt",
     "pos": {
-      "x": -25,
-      "z": -104
+      "x": -22.3,
+      "z": -104.6
     },
-    "facing": 1.3909428270024184,
+    "facing": 1.2672255874712333,
     "color": 2388387,
     "questIds": [
       "q_murlocs"
@@ -152,10 +152,10 @@
     "name": "Foreman Odell",
     "title": "Mine Foreman",
     "pos": {
-      "x": -16,
-      "z": -111
+      "x": -3.5,
+      "z": -104.5
     },
-    "facing": 0.21866894587394195,
+    "facing": -1.3370531459259951,
     "color": 10502144,
     "questIds": [
       "q_prof_intro",
@@ -168,10 +168,10 @@
     "name": "Vault Keeper",
     "title": "Weekly Rewards",
     "pos": {
-      "x": 12,
-      "z": -119
+      "x": -64.46690116645624,
+      "z": -99.93517677218593
     },
-    "facing": -1.5707963267948966,
+    "facing": 0.7853981633974483,
     "color": 13214247,
     "questIds": [],
     "dynamic": true,
@@ -182,10 +182,10 @@
     "name": "Bursar Fernando",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": 8.49982143312659,
-      "z": -97.50017856687342
+      "x": -55.21592057176678,
+      "z": -105.19195954108784
     },
-    "facing": -2.356194490192345,
+    "facing": 0.7853981633974481,
     "color": 13214247,
     "questIds": [],
     "banker": true,
@@ -196,10 +196,10 @@
     "name": "Card Master",
     "title": "Dealer of Chance",
     "pos": {
-      "x": 20,
-      "z": -98
+      "x": -48.85195954108786,
+      "z": -111.55592057176676
     },
-    "facing": -2.677945044588987,
+    "facing": 0.7853981633974481,
     "color": 8007567,
     "questIds": [],
     "cardMaster": true,
@@ -272,10 +272,10 @@
     "name": "Weaver Ottilie",
     "title": "Master of the Loom",
     "pos": {
-      "x": -27.278889744907204,
-      "z": -126.68721665810318
+      "x": -20.5,
+      "z": -117.5
     },
-    "facing": 2.5535900500422257,
+    "facing": 1.1071487177940904,
     "color": 7430568,
     "questIds": [
       "q_prof_attune_outfitter",
@@ -344,13 +344,14 @@
     "name": "Warden Fenwick",
     "title": "Warden of Fenbridge",
     "pos": {
-      "x": 4.824455435060822,
-      "z": 285.6503188335003
+      "x": 3.507999999999999,
+      "z": 276.56
     },
-    "facing": -0.4048917862850834,
+    "facing": -1.5707963267948966,
     "color": 8278281,
     "questIds": [
       "q_fenbridge_muster",
+      "q_muster_summons",
       "q_prowlers",
       "q_deepfen",
       "q_deepfen_purge",
@@ -359,15 +360,30 @@
     ],
     "greeting": "Hold at the gate, $C. Past those reeds, the fen does the killing for us."
   },
+  "socketwright_skerrit": {
+    "id": "socketwright_skerrit",
+    "name": "Maben Skerrit",
+    "title": "the Socketwright",
+    "pos": {
+      "x": -22,
+      "z": 358
+    },
+    "facing": 1.71,
+    "color": 9071931,
+    "questIds": [
+      "q_socketwrights_due"
+    ],
+    "greeting": "Forty years since I ground that eye and set it in his socket, and never a day paid. You want to hurt the Foreman, $C? Aim for my work."
+  },
   "brother_aldric_fen": {
     "id": "brother_aldric_fen",
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": -14.960203077497741,
-      "z": 296.09529088730875
+      "x": -3.3999999999999986,
+      "z": 299.6
     },
-    "facing": 1.1383885512243588,
+    "facing": 1.5707963267948966,
     "color": 16251385,
     "questIds": [
       "q_aldrics_fallen_star",
@@ -388,10 +404,10 @@
     "name": "Provisioner Hale",
     "title": "Provisioner",
     "pos": {
-      "x": -12.424844495021249,
-      "z": 314.94714794895896
+      "x": 2.85,
+      "z": 292
     },
-    "facing": 2.191045812777718,
+    "facing": -1.5707963267948966,
     "color": 1999945,
     "questIds": [
       "q_prowler_pelts",
@@ -431,10 +447,10 @@
     "name": "Herbalist Yara",
     "title": "Herbalist",
     "pos": {
-      "x": 14.020226082985031,
-      "z": 293.9419887666108
+      "x": 3.3000000000000007,
+      "z": 327.45
     },
-    "facing": -0.9971906342364164,
+    "facing": -1.5707963267948966,
     "color": 8207512,
     "questIds": [
       "q_widows",
@@ -447,10 +463,10 @@
     "name": "Scout Maren",
     "title": "Marshal's Scout",
     "pos": {
-      "x": -12.942629598286846,
-      "z": 320.2950179409249
+      "x": -1.4,
+      "z": 330
     },
-    "facing": 2.601173153319209,
+    "facing": 3.0569469092959145,
     "color": 8218120,
     "questIds": [
       "q_troll_fetishes",
@@ -464,10 +480,10 @@
     "name": "Bursar Petra Vell",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": 15.101663970557492,
-      "z": 306.79285357068125
+      "x": -3.3000000000000007,
+      "z": 322.90000000000003
     },
-    "facing": -1.8972270342276318,
+    "facing": 1.5707963267948966,
     "color": 13214247,
     "questIds": [],
     "banker": true,
@@ -478,10 +494,10 @@
     "name": "Chronicler Osric Fenn",
     "title": "The Marsh Chronicle",
     "pos": {
-      "x": -15.965942703405933,
-      "z": 298.27439341010984
+      "x": -2.599999999999998,
+      "z": 295.40000000000003
     },
-    "facing": 1.1383885512243588,
+    "facing": 1.5707963267948966,
     "color": 4171371,
     "questIds": [],
     "greeting": "Mind the damp on the pages, $N. The fen eats more books than readers ever will."
@@ -491,10 +507,10 @@
     "name": "Tanner Hesk",
     "title": "Master of the Tannery",
     "pos": {
-      "x": 3.053383957289929,
-      "z": 315.5600325924389
+      "x": -24,
+      "z": 328.5
     },
-    "facing": 3.024483909022929,
+    "facing": 2.1293956421384594,
     "color": 9067050,
     "questIds": [
       "q_prof_workorder_tannery"
@@ -527,6 +543,25 @@
     "farmer": true,
     "greeting": "Marsh rice and bog beet seed, $C, and compost to feed them. The paddies drain slow, so mind where you tread."
   },
+  "muster_commander": {
+    "id": "muster_commander",
+    "name": "Muster Commander",
+    "title": "Fenbridge Muster",
+    "pos": {
+      "x": 149.5,
+      "z": 208.5
+    },
+    "facing": -0.36,
+    "color": 10242604,
+    "questIds": [
+      "q_muster_summons",
+      "q_muster_pike_drill",
+      "q_muster_trophy"
+    ],
+    "greeting": "Pikes first, $C, then everyone. That is the whole of it, and it has kept this camp alive.",
+    "dynamic": true,
+    "fixedPost": true
+  },
   "captain_thessaly": {
     "id": "captain_thessaly",
     "name": "Captain Thessaly",
@@ -555,10 +590,10 @@
     "name": "Brother Aldric",
     "title": "Priest of the Vale",
     "pos": {
-      "x": -10,
-      "z": 656
+      "x": -12.200000000000001,
+      "z": 645.16
     },
-    "facing": 0.8,
+    "facing": 0,
     "color": 16251385,
     "questIds": [
       "q_zealots",
@@ -749,6 +784,7 @@
       "emberglass_warstaff",
       "medallion_of_defiance",
       "duelists_brand",
+      "pvp_skull_bag",
       "vanguard_warrior_arms_helmet",
       "vanguard_warrior_arms_shoulder",
       "vanguard_warrior_arms_chest",
@@ -887,16 +923,7 @@
       "vanguard_verdict_greatsword",
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
-      "vanguard_warstaff",
-      "vanguard_feral_staff",
-      "vanguard_band_of_might",
-      "vanguard_band_of_precision",
-      "vanguard_band_of_focus",
-      "vanguard_band_of_mending",
-      "vanguard_pendant_of_might",
-      "vanguard_pendant_of_precision",
-      "vanguard_pendant_of_focus",
-      "vanguard_pendant_of_mending"
+      "vanguard_warstaff"
     ],
     "dynamic": true,
     "warfareVendor": true,
@@ -907,10 +934,10 @@
     "name": "Loremaster Caddis",
     "title": "Loremaster",
     "pos": {
-      "x": 12,
-      "z": 655
+      "x": 8.5,
+      "z": 651.5
     },
-    "facing": -1.2,
+    "facing": -0.6805212246672144,
     "color": 3894949,
     "questIds": [
       "q_kobold_tunnels",
@@ -925,10 +952,10 @@
     "name": "Auctioneer Voss",
     "title": "Keeper of the World Market",
     "pos": {
-      "x": 16,
-      "z": 666
+      "x": -16.035,
+      "z": 661.0625
     },
-    "facing": -2.2,
+    "facing": 1.5707963267948966,
     "color": 9329366,
     "questIds": [],
     "market": true,
@@ -939,8 +966,8 @@
     "name": "Bursar Aldous Crane",
     "title": "The Gilded Strongbox",
     "pos": {
-      "x": -12,
-      "z": 663
+      "x": -17.8,
+      "z": 655.1
     },
     "facing": 1.5707963267948966,
     "color": 13214247,
@@ -1049,10 +1076,10 @@
     "name": "FURY",
     "title": "Honor Quartermaster",
     "pos": {
-      "x": 16,
-      "z": -78
+      "x": 21,
+      "z": -83.5
     },
-    "facing": -2.2455372690184494,
+    "facing": -2.0570389598824015,
     "color": 11872810,
     "questIds": [],
     "vendorItems": [
@@ -1105,6 +1132,7 @@
       "emberglass_warstaff",
       "medallion_of_defiance",
       "duelists_brand",
+      "pvp_skull_bag",
       "vanguard_warrior_arms_helmet",
       "vanguard_warrior_arms_shoulder",
       "vanguard_warrior_arms_chest",
@@ -1243,16 +1271,7 @@
       "vanguard_verdict_greatsword",
       "vanguard_oath_blade",
       "vanguard_fang_dagger",
-      "vanguard_warstaff",
-      "vanguard_feral_staff",
-      "vanguard_band_of_might",
-      "vanguard_band_of_precision",
-      "vanguard_band_of_focus",
-      "vanguard_band_of_mending",
-      "vanguard_pendant_of_might",
-      "vanguard_pendant_of_precision",
-      "vanguard_pendant_of_focus",
-      "vanguard_pendant_of_mending"
+      "vanguard_warstaff"
     ],
     "dynamic": true,
     "warfareVendor": true,
@@ -1308,10 +1327,10 @@
     "name": "Loremother Bryn",
     "title": "Voice of the Shrine",
     "pos": {
-      "x": -20,
-      "z": 1015
+      "x": -37,
+      "z": 1005.3
     },
-    "facing": -0.9,
+    "facing": 0,
     "color": 12890250,
     "questIds": [
       "q_spore_hearts",
@@ -1475,10 +1494,10 @@
     "name": "Hearthkeeper Maeve",
     "title": "Keeper of the Hearth-Lodge",
     "pos": {
-      "x": -40,
-      "z": 1557
+      "x": -37.05,
+      "z": 1540.22
     },
-    "facing": 0.8,
+    "facing": 0,
     "color": 14262374,
     "questIds": [
       "q_fv_winter_pelts",
@@ -1623,8 +1642,8 @@
     "name": "Bridgewright Alden",
     "title": "Master of the Fenway",
     "pos": {
-      "x": -359,
-      "z": 354
+      "x": -356.5,
+      "z": 346
     },
     "facing": 2.9,
     "color": 9072461,
@@ -1641,10 +1660,10 @@
     "name": "Netter Maris",
     "title": "Eel-Netter of Bridgemere",
     "pos": {
-      "x": -354,
-      "z": 364
+      "x": -349.5,
+      "z": 352
     },
-    "facing": -0.8,
+    "facing": -2.2218730482393765,
     "color": 7314080,
     "questIds": [
       "q_wf_eels_for_the_smokehouse",
@@ -2080,8 +2099,8 @@
     "name": "Mender Saul",
     "title": "Field Surgeon",
     "pos": {
-      "x": 312,
-      "z": 78
+      "x": 319.5,
+      "z": 71
     },
     "facing": -1.5707963267948966,
     "color": 10107707,
@@ -2140,13 +2159,13 @@
     "name": "Wayfarer Bryn",
     "title": "Harbor Guide",
     "pos": {
-      "x": 6,
-      "z": -7
+      "x": -79.2,
+      "z": -52.1
     },
     "facing": 0.7,
     "color": 9071258,
     "questIds": [],
-    "greeting": "Eastbrook takes all comers, friend. And for the unsteady, there is always the Proving Shore: the ferry bell by the Ravenpost mailbox rings you across any day of the year, and its twin on the island rings you home."
+    "greeting": "Eastbrook takes all comers, friend. And for the unsteady, there is always the Proving Shore: the ferry bell down on the quay rings you across any day of the year, and its twin on the island rings you home."
   },
   "instructor_maren": {
     "id": "instructor_maren",
@@ -2439,10 +2458,10 @@
     "name": "Cham Pete",
     "title": "Emissary",
     "pos": {
-      "x": -52,
-      "z": -108
+      "x": -72.28,
+      "z": -95.59
     },
-    "facing": 1.41,
+    "facing": 1.68,
     "color": 7032744,
     "questIds": [],
     "dynamic": true,
@@ -2678,10 +2697,10 @@
     "name": "Quartermaster Vaelen",
     "title": "Rift Watch Provisioner",
     "pos": {
-      "x": -302,
-      "z": 812
+      "x": -328.235,
+      "z": 824.9625
     },
-    "facing": 0.8,
+    "facing": 1.5707963267948966,
     "color": 4881050,
     "questIds": [],
     "greeting": "The Rift Watch protects the shore and watches the deep tears. Our stores are open to those of recognized standing.",
@@ -2711,10 +2730,10 @@
     "name": "Templar Althea",
     "title": "Church Order Quartermaster",
     "pos": {
-      "x": 8,
-      "z": -80
+      "x": 13.29,
+      "z": -112.84
     },
-    "facing": 3.14,
+    "facing": -0.96,
     "color": 15521146,
     "questIds": [],
     "greeting": "Walk in the Light of the Dawn. The Church Order supplies those who stand with us in service.",
@@ -2776,8 +2795,8 @@
     "name": "Taskmaster Kaelen",
     "title": "World Quest Taskmaster",
     "pos": {
-      "x": -5,
-      "z": -95
+      "x": -2.8,
+      "z": -96
     },
     "facing": -2.1,
     "color": 9071184,
@@ -2798,5 +2817,154 @@
     "questIds": [],
     "dynamic": true,
     "greeting": "Come in off the quay and warm your hands. The ship at our pier sails up the long east coast to Wickharbor and back again. Far to the west, the other ferry runs between Eastbrook and the Nightbloom. The map on the wall shows both crossings. Rest by the fire before the climb to Wyrmwatch."
+  },
+  "guildmaster_hesper_dunmore": {
+    "id": "guildmaster_hesper_dunmore",
+    "name": "Hesper Dunmore",
+    "title": "Guildmaster of Lantern Hall",
+    "pos": {
+      "x": 118.1,
+      "z": 710
+    },
+    "facing": -2.077894831187234,
+    "color": 3099258,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Welcome to Lantern Hall, $C. Tobias keeps the week's contracts on the board, Garrick trades our seals for honors worth wearing, and Mira will find you a party for any door below the mountain. Bring back a trophy and it hangs in the hall behind me."
+  },
+  "contract_clerk_tobias_wren": {
+    "id": "contract_clerk_tobias_wren",
+    "name": "Tobias Wren",
+    "title": "Contract Clerk",
+    "pos": {
+      "x": 111.5,
+      "z": 690.4
+    },
+    "facing": 0,
+    "color": 5917234,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Three contracts a week, posted every reset. No signing, no fees: see one through and the seals are yours."
+  },
+  "guild_quartermaster_garrick_holt": {
+    "id": "guild_quartermaster_garrick_holt",
+    "name": "Garrick Holt",
+    "title": "Guild Quartermaster",
+    "pos": {
+      "x": 110.9,
+      "z": 715.4
+    },
+    "facing": 3.141592653589793,
+    "color": 6961706,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Seals for honors, friend. Nothing on my shelves will sharpen a blade, but every hall in Highwatch will know where you earned it."
+  },
+  "guild_recruiter_mira_fairweather": {
+    "id": "guild_recruiter_mira_fairweather",
+    "name": "Mira Fairweather",
+    "title": "Guild Recruiter",
+    "pos": {
+      "x": 120.1,
+      "z": 695.7
+    },
+    "facing": -1.5707963267948966,
+    "color": 3828298,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Looking for a party? Every crypt, bastion and temple on this map has a name on my list. Tell me where you are headed."
+  },
+  "cantor_laverock": {
+    "id": "cantor_laverock",
+    "name": "Laverock",
+    "title": "Last Cantor of the Pale Choir",
+    "pos": {
+      "x": 0,
+      "z": 0
+    },
+    "facing": 0,
+    "color": 15129798,
+    "questIds": [],
+    "greeting": "I was the youngest voice of the Pale Choir. On the night of the rite I did not drink, and I ran. Every full moon since, I hear them singing under the water. I must see her before I die. Let me walk behind you. I will not fight, and I will not slow you.",
+    "dynamic": true
+  },
+  "innkeeper_maudie": {
+    "id": "innkeeper_maudie",
+    "name": "Maudie Tapwright",
+    "title": "Innkeeper",
+    "pos": {
+      "x": -25.8,
+      "z": 399
+    },
+    "facing": 1.5707963267948966,
+    "color": 9054762,
+    "questIds": [],
+    "vendorItems": [
+      "baked_bread",
+      "spring_water",
+      "fenbridge_rye",
+      "marsh_mint_tea",
+      "smoked_eel",
+      "silvermist_cordial"
+    ],
+    "dynamic": true,
+    "innkeeper": true,
+    "greeting": "Come in out of the damp, friend, and mind the step down to the fire. The kettle is on, the benches are warm, and the rooms upstairs are dry. Travelers from Fenbridge swear the marsh road is quiet by day, but nobody walks it after dark. Sit a while and rest your feet."
+  },
+  "patron_amos_eelby": {
+    "id": "patron_amos_eelby",
+    "name": "Amos Eelby",
+    "title": "Eel Fisher",
+    "pos": {
+      "x": -17.565,
+      "z": 407.35
+    },
+    "facing": 1.5707963267948966,
+    "color": 5925690,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Pull up a bench, $C. Grissel here swears the big eel under Fenbridge is a myth. I've had my hand on him twice. Twice! Slippery as a tax collector, and near as long as this bench."
+  },
+  "patron_grissel_sedgeworth": {
+    "id": "patron_grissel_sedgeworth",
+    "name": "Grissel Sedgeworth",
+    "title": "Peat Cutter",
+    "pos": {
+      "x": -17.565,
+      "z": 408.65
+    },
+    "facing": 1.5707963267948966,
+    "color": 8016432,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Don't mind Amos. Forty years cutting peat and I've pulled more strange things out of this bog than he's pulled eels: boots, bones, a helmet with the head still worried about it. Warm yourself, the fire's free."
+  },
+  "patron_ned_oxley": {
+    "id": "patron_ned_oxley",
+    "name": "Ned Oxley",
+    "title": "Drover",
+    "pos": {
+      "x": -21.54,
+      "z": 399.7
+    },
+    "facing": -1.5707963267948966,
+    "color": 7227946,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Drove forty head down the causeway and lost two to the mire before Fenbridge. Maudie's ale is the only thing on this road that never lets a man down. Buy your own, mind."
+  },
+  "patron_hester_quillby": {
+    "id": "patron_hester_quillby",
+    "name": "Hester Quillby",
+    "title": "Mapmaker",
+    "pos": {
+      "x": -7.0600000000000005,
+      "z": 417.9
+    },
+    "facing": 3.141592653589793,
+    "color": 4086394,
+    "questIds": [],
+    "dynamic": true,
+    "greeting": "Every map of this marsh I've ever bought was wrong within a season. The water moves the paths, and the paths move the water. So I draw my own, and I sit here where it's dry while the ink sets."
   }
 }

@@ -1,6 +1,7 @@
 [
   {
     "id": "eastbrook_vale",
+    "worldPvp": "sanctuary",
     "name": "Eastbrook Vale",
     "zMin": -180,
     "zMax": 180,
@@ -16,8 +17,8 @@
       "name": "Eastbrook"
     },
     "graveyard": {
-      "x": 0,
-      "z": -70
+      "x": 39.5,
+      "z": -99.3
     },
     "lakes": [
       {
@@ -196,6 +197,18 @@
         "z": 515,
         "label": "The Sunken Bastion",
         "id": "the_sunken_bastion"
+      },
+      {
+        "x": 0,
+        "z": 390,
+        "label": "Barrowmound Reach",
+        "id": "barrowmound_reach"
+      },
+      {
+        "x": 149.5,
+        "z": 295,
+        "label": "Starfall Crater",
+        "id": "starfall_crater"
       }
     ],
     "welcome": "Report to Warden Fenwick at the Fenbridge gate.",
@@ -427,6 +440,7 @@
   },
   {
     "id": "drakelands",
+    "worldPvp": "ffa",
     "name": "The Drakelands",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -526,6 +540,7 @@
   },
   {
     "id": "frostveil",
+    "worldPvp": "ffa",
     "name": "The Frostveil Reach",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -611,6 +626,7 @@
   },
   {
     "id": "amberfall",
+    "worldPvp": "ffa",
     "name": "The Amberfall",
     "riftPortalEligible": true,
     "riftTierWeights": {

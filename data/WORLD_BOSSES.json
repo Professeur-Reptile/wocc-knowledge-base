@@ -11,5 +11,19 @@
       "perPlayer": 5000,
       "max": 1000000
     }
+  },
+  {
+    "templateId": "balgath_cyclops",
+    "pos": {
+      "x": 147,
+      "z": 310
+    },
+    "raidFloorPad": false,
+    "intervalSeconds": 3600,
+    "hpScale": {
+      "base": 24000,
+      "perPlayer": 3500,
+      "max": 600000
+    }
   }
 ]

@@ -378,8 +378,8 @@
     "zoneId": "thornpeak_heights",
     "type": "herb",
     "pos": {
-      "x": 18,
-      "z": 648
+      "x": 30,
+      "z": 645.5
     },
     "level": 17,
     "tier": 1
@@ -554,8 +554,8 @@
     "zoneId": "thornpeak_heights",
     "type": "herb",
     "pos": {
-      "x": 28,
-      "z": 658
+      "x": 24,
+      "z": 645
     },
     "level": 17,
     "tier": 2
@@ -1203,8 +1203,8 @@
     "zoneId": "galecrest",
     "type": "ore",
     "pos": {
-      "x": 430,
-      "z": 379
+      "x": 431,
+      "z": 388
     },
     "level": 20,
     "tier": 1

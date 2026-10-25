@@ -27,7 +27,7 @@
         "name": "Wildfang",
         "role": "tank",
         "icon": "x",
-        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Cat spends it for damage, Bruin spends it to tank. Reaches 1 yd further with every melee attack, and melee autoattacks grant Nature's Boon about every 15 sec: for 10 sec, one free Wildbloom castable in any form, or one free Oakhide in Bruin Form, either 25% stronger.",
+        "description": "A shapeshifter whose landed hits build Old Blood in both forms: Cat spends it for damage, Bruin spends it to tank. Reaches 1 yd further with every melee attack, and melee autoattacks grant Nature's Boon about every 15 sec: for 10 sec, one free Sporemending castable in any form and 50% stronger, or one free Oakhide in Bruin Form and 25% stronger.",
         "signature": "feral_charge",
         "mastery": {
           "name": "Primal Heart",
@@ -50,8 +50,11 @@
         "name": "Groveheart",
         "role": "healer",
         "icon": "+",
-        "description": "A healer who grows Verdance with completed HoT casts and harvests the garden with Overbloom.",
+        "description": "A healer who grows Verdance with completed HoT casts and harvests the garden with Overbloom. Ticks of your heal-over-time effects grant Nature's Boon (at most once every 10 sec): for 10 sec, one Wildmend that is instant, free, castable in any form, and 25% stronger.",
         "signature": "swiftmend",
+        "extraSignatures": [
+          "sporemender_form"
+        ],
         "mastery": {
           "name": "Grove's Gift",
           "description": "Your heal-over-time effects heal 25% more.",
@@ -72,7 +75,7 @@
           {
             "id": "dru_r5_improved_wrath",
             "name": "Wildshift",
-            "description": "Shapeshifting into Cat, Bruin, or Moonwing Form removes breakable roots and slows.",
+            "description": "Shapeshifting into Cat, Bruin, Moonwing, or Sporemender Form removes breakable roots and slows.",
             "icon": "travel_form",
             "effect": {
               "intrinsic": {
@@ -310,7 +313,7 @@
           {
             "id": "dru_r14_empowered_touch",
             "name": "Seedspread",
-            "description": "Overbloom replants a fresh Wildbloom on every ally whose healing it harvested.",
+            "description": "Overbloom replants a fresh Sporemending on every ally whose healing it harvested.",
             "icon": "rejuvenation",
             "effect": {
               "intrinsic": {
@@ -470,10 +473,10 @@
         "signature": "bloodhook",
         "mastery": {
           "name": "Quickblood",
-          "description": "Increases your Agility by 15% and your dodge chance by 4%.",
+          "description": "Increases your Agility by 20% and your dodge chance by 4%.",
           "effect": {
             "stats": {
-              "agiPct": 0.15,
+              "agiPct": 0.2,
               "dodge": 0.04
             }
           }
@@ -489,7 +492,7 @@
           {
             "id": "hun_r5_tactical_retreat",
             "name": "Tactical Retreat",
-            "description": "Trailbreak stores 2 uses and removes roots and movement slows when used.",
+            "description": "Trailbreak stores 2 uses.",
             "icon": "trailbreak",
             "effect": {
               "ability": [
@@ -580,17 +583,16 @@
           },
           {
             "id": "hun_r8_beastguard",
-            "name": "Beastguard",
-            "description": "Redirect 15% of damage to a living pet without reducing it below 20% health. Without one, take 8% less damage below 50% health.",
+            "name": "Lonely Soul",
+            "description": "Redirect 30% of damage taken to a living pet without reducing it below 20% health. Without a living pet, deal 10% more damage.",
             "icon": "concussive_shot",
             "effect": {
               "global": {
-                "petDmgSharePct": 0.15
+                "petDmgSharePct": 0.3
               },
               "runtime": {
                 "petHealthFloorPct": 0.2,
-                "fallbackDamageReductionPct": 0.08,
-                "healthThresholdPct": 0.5
+                "noPetDamagePct": 0.1
               }
             }
           }
@@ -604,7 +606,7 @@
           {
             "id": "hun_r11_double_hush",
             "name": "Double Hush",
-            "description": "Hushing Shot stores 2 uses, each with a 24 sec recharge.",
+            "description": "Hushing Shot stores 2 uses, each recharging 4 sec slower (19 sec).",
             "icon": "counter_shot",
             "effect": {
               "ability": [
@@ -619,12 +621,15 @@
           {
             "id": "hun_r11_binding_payload",
             "name": "Binding Payload",
-            "description": "Frostjaw Trap roots every enemy in its trigger area for 3 sec, then slows them by 40% for 4 sec.",
+            "description": "Your traps root every enemy in their trigger area for 3 sec, then slow them by 40% for 4 sec.",
             "icon": "frostjaw_trap",
             "effect": {
               "ability": [
                 {
                   "ability": "frostjaw_trap"
+                },
+                {
+                  "ability": "bear_trap"
                 }
               ],
               "runtime": {
@@ -678,12 +683,16 @@
           {
             "id": "hun_r14_trapcraft",
             "name": "Trapcraft",
-            "description": "Frostjaw Trap's cooldown is reduced by 20%. Triggering it restores 20 Focus and reduces Trailbreak's cooldown by 5 sec.",
+            "description": "Each trap's cooldown is reduced by 20%. Triggering a trap restores 20 Focus and reduces Trailbreak's cooldown by 5 sec.",
             "icon": "frostjaw_trap",
             "effect": {
               "ability": [
                 {
                   "ability": "frostjaw_trap",
+                  "cooldownPct": -0.2
+                },
+                {
+                  "ability": "bear_trap",
                   "cooldownPct": -0.2
                 }
               ]
@@ -801,12 +810,15 @@
           {
             "id": "hun_r20_chain_reaction",
             "name": "Chain Reaction",
-            "description": "Frostjaw Trap marks enemies within 4 yards for 8 sec. Your next 3 Focus spenders echo 40% damage between marked enemies.",
+            "description": "Your traps mark enemies within 4 yards for 8 sec when triggered. Your next 3 Focus spenders echo 40% damage between marked enemies.",
             "icon": "frostjaw_trap",
             "effect": {
               "ability": [
                 {
                   "ability": "frostjaw_trap"
+                },
+                {
+                  "ability": "bear_trap"
                 }
               ],
               "runtime": {
@@ -2084,7 +2096,7 @@
         "signature": "hemorrhage",
         "mastery": {
           "name": "False Face",
-          "description": "Increases the damage of your critical strikes by 25%, and you move at 100% speed while in Duskveil.",
+          "description": "Increases the damage of your critical strikes by 25%, and you move 15% faster while in Duskveil.",
           "effect": {
             "global": {
               "critDmgPhysPct": 0.25
@@ -2092,11 +2104,11 @@
             "ability": [
               {
                 "ability": "stealth",
-                "buffPct": 1
+                "buffPct": 0.15
               },
               {
                 "ability": "vanish",
-                "buffPct": 1
+                "buffPct": 0.15
               }
             ]
           }

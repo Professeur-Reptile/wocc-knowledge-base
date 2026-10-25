@@ -9,81 +9,1060 @@
     },
     "entry": {
       "x": 0,
-      "z": -2
+      "z": -130
     },
     "exitOffset": {
       "x": 0,
-      "z": -6
+      "z": -140
+    },
+    "bossExitPortal": {
+      "x": -12,
+      "z": 190,
+      "after": "crypt_knellwyrm"
     },
     "spawns": [
       {
-        "mobId": "crypt_shambler",
-        "x": -3,
-        "z": 18
-      },
-      {
-        "mobId": "crypt_shambler",
-        "x": 3,
-        "z": 19
-      },
-      {
-        "mobId": "crypt_shambler",
-        "x": -9,
-        "z": 38
-      },
-      {
-        "mobId": "hollow_acolyte",
+        "mobId": "crypt_ossuary_warrior",
         "x": -5,
-        "z": 39
+        "z": -60,
+        "facing": 3.141592653589793,
+        "packId": "c1",
+        "idleStationary": true
       },
       {
-        "mobId": "crypt_shambler",
-        "x": 9,
-        "z": 54
-      },
-      {
-        "mobId": "hollow_acolyte",
+        "mobId": "crypt_ossuary_warrior",
         "x": 5,
-        "z": 55
+        "z": -60,
+        "facing": 3.141592653589793,
+        "packId": "c1",
+        "idleStationary": true
       },
       {
-        "mobId": "bonechill_widow",
+        "mobId": "crypt_gravecaller_adept",
+        "x": 0,
+        "z": -54,
+        "facing": 3.141592653589793,
+        "packId": "c1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_chapel_gargoyle",
+        "x": 33,
+        "z": -70,
+        "facing": 3.141592653589793,
+        "packId": "c1",
+        "idleStationary": true,
+        "perch": {
+          "y": 15.2
+        }
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -16,
+        "z": -46,
+        "packId": "c2",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -14
+            },
+            {
+              "x": -16,
+              "z": -14
+            }
+          ],
+          "offset": 6
+        }
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -13,
+        "z": -46,
+        "packId": "c2",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -14
+            },
+            {
+              "x": -16,
+              "z": -14
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": -10,
+        "z": -46,
+        "packId": "c2",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -46
+            },
+            {
+              "x": 16,
+              "z": -14
+            },
+            {
+              "x": -16,
+              "z": -14
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 30,
+        "z": -44,
+        "facing": -1.5707963267948966,
+        "packId": "c3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 30,
+        "z": -36,
+        "facing": -1.5707963267948966,
+        "packId": "c3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_chapel_gargoyle",
+        "x": 38,
+        "z": -45,
+        "facing": -1.5707963267948966,
+        "packId": "c3",
+        "idleStationary": true,
+        "perch": {
+          "y": 15.2
+        }
+      },
+      {
+        "mobId": "crypt_chapel_gargoyle",
+        "x": 38,
+        "z": -35,
+        "facing": -1.5707963267948966,
+        "packId": "c3",
+        "idleStationary": true,
+        "perch": {
+          "y": 15.2
+        }
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": 0,
+        "z": 10,
+        "facing": 3.141592653589793,
+        "packId": "c4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
         "x": -5,
-        "z": 68
+        "z": 5,
+        "facing": 3.141592653589793,
+        "packId": "c4",
+        "idleStationary": true
       },
       {
-        "mobId": "bonechill_widow",
-        "x": -1,
-        "z": 70
+        "mobId": "crypt_ossuary_warrior",
+        "x": 5,
+        "z": 5,
+        "facing": 3.141592653589793,
+        "packId": "c4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_chapel_gargoyle",
+        "x": -38,
+        "z": 5,
+        "facing": 1.5707963267948966,
+        "packId": "c4",
+        "idleStationary": true,
+        "perch": {
+          "y": 15.2
+        }
+      },
+      {
+        "mobId": "crypt_chapel_gargoyle",
+        "x": 38,
+        "z": 5,
+        "facing": -1.5707963267948966,
+        "packId": "c4",
+        "idleStationary": true,
+        "perch": {
+          "y": 15.2
+        }
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 0,
+        "z": 31,
+        "facing": 3.141592653589793,
+        "packId": "p1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": 0,
+        "z": 36,
+        "facing": 3.141592653589793,
+        "packId": "p1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": -6,
+        "z": 38,
+        "facing": 3.141592653589793,
+        "packId": "p1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 6,
+        "z": 38,
+        "facing": 3.141592653589793,
+        "packId": "p1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_drake",
+        "x": -14,
+        "z": 28,
+        "packId": "drake",
+        "patrol": {
+          "points": [
+            {
+              "x": -14,
+              "z": 28
+            },
+            {
+              "x": 14,
+              "z": 28
+            },
+            {
+              "x": 14,
+              "z": 104
+            },
+            {
+              "x": -14,
+              "z": 104
+            }
+          ],
+          "offset": 0,
+          "pace": 0.8,
+          "altitude": 22
+        }
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": 0,
+        "z": 98,
+        "facing": 3.141592653589793,
+        "packId": "p2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -5,
+        "z": 93,
+        "facing": 3.141592653589793,
+        "packId": "p2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 5,
+        "z": 93,
+        "facing": 3.141592653589793,
+        "packId": "p2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 0,
+        "z": 102,
+        "facing": 3.141592653589793,
+        "packId": "p2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_crow_caller",
+        "x": -70,
+        "z": 36,
+        "facing": -1.5707963267948966,
+        "packId": "w1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -67,
+        "z": 32,
+        "facing": -1.5707963267948966,
+        "packId": "w1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -73,
+        "z": 31,
+        "facing": -1.5707963267948966,
+        "packId": "w1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -66,
+        "z": 40,
+        "facing": -1.5707963267948966,
+        "packId": "w1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -73,
+        "z": 41,
+        "facing": -1.5707963267948966,
+        "packId": "w1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -96,
+        "z": 34,
+        "packId": "w2",
+        "patrol": {
+          "points": [
+            {
+              "x": -96,
+              "z": 34
+            },
+            {
+              "x": -70,
+              "z": 30
+            },
+            {
+              "x": -64,
+              "z": 56
+            },
+            {
+              "x": -80,
+              "z": 74
+            },
+            {
+              "x": -100,
+              "z": 62
+            }
+          ],
+          "offset": 0,
+          "pace": 0.45,
+          "altitude": 9
+        }
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -96,
+        "z": 34,
+        "packId": "w2",
+        "patrol": {
+          "points": [
+            {
+              "x": -96,
+              "z": 34
+            },
+            {
+              "x": -70,
+              "z": 30
+            },
+            {
+              "x": -64,
+              "z": 56
+            },
+            {
+              "x": -80,
+              "z": 74
+            },
+            {
+              "x": -100,
+              "z": 62
+            }
+          ],
+          "offset": 3,
+          "pace": 0.45,
+          "altitude": 9
+        }
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -96,
+        "z": 34,
+        "packId": "w2",
+        "patrol": {
+          "points": [
+            {
+              "x": -96,
+              "z": 34
+            },
+            {
+              "x": -70,
+              "z": 30
+            },
+            {
+              "x": -64,
+              "z": 56
+            },
+            {
+              "x": -80,
+              "z": 74
+            },
+            {
+              "x": -100,
+              "z": 62
+            }
+          ],
+          "offset": 6,
+          "pace": 0.45,
+          "altitude": 9
+        }
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -96,
+        "z": 34,
+        "packId": "w2",
+        "patrol": {
+          "points": [
+            {
+              "x": -96,
+              "z": 34
+            },
+            {
+              "x": -70,
+              "z": 30
+            },
+            {
+              "x": -64,
+              "z": 56
+            },
+            {
+              "x": -80,
+              "z": 74
+            },
+            {
+              "x": -100,
+              "z": 62
+            }
+          ],
+          "offset": 9,
+          "pace": 0.45,
+          "altitude": 9
+        }
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -96,
+        "z": 34,
+        "packId": "w2",
+        "patrol": {
+          "points": [
+            {
+              "x": -96,
+              "z": 34
+            },
+            {
+              "x": -70,
+              "z": 30
+            },
+            {
+              "x": -64,
+              "z": 56
+            },
+            {
+              "x": -80,
+              "z": 74
+            },
+            {
+              "x": -100,
+              "z": 62
+            }
+          ],
+          "offset": 12,
+          "pace": 0.45,
+          "altitude": 9
+        }
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": -88,
+        "z": 44,
+        "facing": -1.5707963267948966,
+        "packId": "w3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -84,
+        "z": 49,
+        "facing": -1.5707963267948966,
+        "packId": "w3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": -92,
+        "z": 49,
+        "facing": -1.5707963267948966,
+        "packId": "w3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_crow_caller",
+        "x": -86,
+        "z": 64,
+        "facing": 3.141592653589793,
+        "packId": "w4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -80,
+        "z": 61,
+        "facing": 3.141592653589793,
+        "packId": "w4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -90,
+        "z": 60,
+        "facing": 3.141592653589793,
+        "packId": "w4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -78,
+        "z": 57,
+        "facing": 3.141592653589793,
+        "packId": "w4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_carrion_crow",
+        "x": -84,
+        "z": 57,
+        "facing": 3.141592653589793,
+        "packId": "w4",
+        "idleStationary": true
       },
       {
         "mobId": "sexton_marrow",
-        "x": -4,
-        "z": 82
+        "x": -82,
+        "z": 122,
+        "facing": 3.141592653589793,
+        "idleStationary": true
       },
       {
-        "mobId": "hollow_acolyte",
-        "x": 1,
-        "z": 83
+        "mobId": "bonechill_widow",
+        "x": 70,
+        "z": 44,
+        "packId": "e1"
+      },
+      {
+        "mobId": "bonechill_widow",
+        "x": 78,
+        "z": 48,
+        "packId": "e1"
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 74,
+        "z": 54,
+        "facing": 3.141592653589793,
+        "packId": "e1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_egg_sac",
+        "x": 58,
+        "z": 32
+      },
+      {
+        "mobId": "rime_egg_sac",
+        "x": 58,
+        "z": 50
+      },
+      {
+        "mobId": "rime_egg_sac",
+        "x": 93,
+        "z": 48
+      },
+      {
+        "mobId": "rime_egg_sac",
+        "x": 92,
+        "z": 62
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 104,
+        "z": 66,
+        "facing": 3.141592653589793,
+        "packId": "e2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": 106,
+        "z": 72,
+        "facing": 3.141592653589793,
+        "packId": "e2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 104,
+        "z": 80,
+        "facing": 3.141592653589793,
+        "packId": "e2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": 80,
+        "z": 72,
+        "facing": 3.141592653589793,
+        "packId": "e3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 76,
+        "z": 68,
+        "facing": 3.141592653589793,
+        "packId": "e3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 84,
+        "z": 68,
+        "facing": 3.141592653589793,
+        "packId": "e3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rimeweb",
+        "x": 80,
+        "z": 118,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -4,
+        "z": 124,
+        "facing": 3.141592653589793,
+        "packId": "q1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 4,
+        "z": 124,
+        "facing": 3.141592653589793,
+        "packId": "q1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": 0,
+        "z": 130,
+        "facing": 3.141592653589793,
+        "packId": "q1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_adept",
+        "x": 0,
+        "z": 135,
+        "facing": 3.141592653589793,
+        "packId": "q1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": -6,
+        "z": 116,
+        "packId": "q2",
+        "patrol": {
+          "points": [
+            {
+              "x": -6,
+              "z": 116
+            },
+            {
+              "x": 6,
+              "z": 116
+            },
+            {
+              "x": 6,
+              "z": 144
+            },
+            {
+              "x": -6,
+              "z": 144
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": -3,
+        "z": 116,
+        "packId": "q2",
+        "patrol": {
+          "points": [
+            {
+              "x": -6,
+              "z": 116
+            },
+            {
+              "x": 6,
+              "z": 116
+            },
+            {
+              "x": 6,
+              "z": 144
+            },
+            {
+              "x": -6,
+              "z": 144
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "cantor_ilvane",
+        "x": 0,
+        "z": 163,
+        "facing": 3.141592653589793,
+        "packId": "ilvane",
+        "idleStationary": true
+      },
+      {
+        "mobId": "hollow_chorister",
+        "x": -7,
+        "z": 154,
+        "facing": 3.141592653589793,
+        "packId": "ilvane",
+        "idleStationary": true
+      },
+      {
+        "mobId": "hollow_chorister",
+        "x": 7,
+        "z": 154,
+        "facing": 3.141592653589793,
+        "packId": "ilvane",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_gravecaller_necromancer",
+        "x": 46,
+        "z": 161,
+        "facing": -1.5707963267948966,
+        "packId": "s1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 41,
+        "z": 158,
+        "facing": -1.5707963267948966,
+        "packId": "s1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_warrior",
+        "x": 41,
+        "z": 164,
+        "facing": -1.5707963267948966,
+        "packId": "s1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "crypt_ossuary_cutthroat",
+        "x": 49,
+        "z": 165,
+        "facing": -1.5707963267948966,
+        "packId": "s1",
+        "idleStationary": true
       },
       {
         "mobId": "morthen",
         "x": 0,
-        "z": 98
-      },
-      {
-        "mobId": "crypt_shambler",
-        "x": -4,
-        "z": 96
-      },
-      {
-        "mobId": "crypt_shambler",
-        "x": 4,
-        "z": 96
+        "z": 212,
+        "facing": 0,
+        "idleStationary": true
       }
     ],
-    "interior": "crypt",
-    "tombDressing": "coffins",
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Undercroft Grille",
+        "x": 0,
+        "z": 21,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Bone Barrier",
+        "x": -82,
+        "z": 93,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Frost-Web Curtain",
+        "x": 80,
+        "z": 88,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Webbed Causeway",
+        "x": 60,
+        "z": 102,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Twin Seals",
+        "x": 0,
+        "z": 113,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Choir Door",
+        "x": 31,
+        "z": 161,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Bone Stair Gate",
+        "x": 56,
+        "z": 161,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Unquiet Ward",
+        "x": 5.8,
+        "z": 233.6,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Grave Lantern",
+        "x": 84.8,
+        "z": 125.2,
+        "templateId": "crypt_lady_lantern_lit",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Grave Lantern",
+        "x": 89,
+        "z": 101.3,
+        "templateId": "crypt_lady_lantern_lit",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Grave Lantern",
+        "x": 66.2,
+        "z": 109.6,
+        "templateId": "crypt_lady_lantern_lit",
+        "dungeonId": "hollow_crypt",
+        "lootable": false
+      }
+    ],
+    "gates": [
+      {
+        "id": "grille",
+        "name": "Undercroft Grille",
+        "kind": "portcullis",
+        "x": 0,
+        "z": 21,
+        "hw": 7,
+        "rot": 0,
+        "packs": [
+          "c1",
+          "c2",
+          "c3",
+          "c4"
+        ],
+        "openText": "The Undercroft Grille grinds open."
+      },
+      {
+        "id": "yard_barrier",
+        "name": "Bone Barrier",
+        "kind": "bone_barrier",
+        "x": -82,
+        "z": 93,
+        "hw": 7,
+        "rot": 0,
+        "packs": [
+          "w1",
+          "w2",
+          "w3",
+          "w4"
+        ],
+        "sealWhileEngaged": "sexton_marrow",
+        "openText": "The bone barrier before the Bell Yard crumbles."
+      },
+      {
+        "id": "web_curtain",
+        "name": "Frost-Web Curtain",
+        "kind": "web_curtain",
+        "x": 80,
+        "z": 88,
+        "hw": 7,
+        "rot": 0,
+        "packs": [
+          "e1",
+          "e2",
+          "e3"
+        ],
+        "sealWhileEngaged": "rimeweb",
+        "openText": "The frost-web curtain tears apart."
+      },
+      {
+        "id": "web_bridge",
+        "name": "Webbed Causeway",
+        "kind": "web_curtain",
+        "x": 60,
+        "z": 102,
+        "hw": 6,
+        "rot": 1.4876550949064553,
+        "bosses": [
+          "rimeweb"
+        ],
+        "openText": "The webs over the eastern causeway fall away."
+      },
+      {
+        "id": "twin_seals",
+        "name": "Twin Seals",
+        "kind": "warded_arch",
+        "x": 0,
+        "z": 113,
+        "hw": 7,
+        "rot": 0,
+        "packs": [
+          "p1",
+          "drake",
+          "p2"
+        ],
+        "bosses": [
+          "sexton_marrow",
+          "rimeweb"
+        ],
+        "sealWhileEngaged": "cantor_ilvane",
+        "openText": "Both sigils gutter out. The Twin Seals open."
+      },
+      {
+        "id": "choir_door",
+        "name": "Choir Door",
+        "kind": "warded_arch",
+        "x": 31,
+        "z": 161,
+        "hw": 7,
+        "rot": -1.5707963267948966,
+        "packs": [
+          "q1",
+          "q2"
+        ],
+        "bosses": [
+          "cantor_ilvane"
+        ],
+        "openText": "The choir door opens onto the Bone Stair."
+      },
+      {
+        "id": "stair_gate",
+        "name": "Bone Stair Gate",
+        "kind": "bone_barrier",
+        "x": 56,
+        "z": 161,
+        "hw": 6,
+        "rot": -1.5707963267948966,
+        "packs": [
+          "s1"
+        ],
+        "openText": "The gate at the foot of the Bone Stair collapses."
+      },
+      {
+        "id": "rite_ward",
+        "name": "Unquiet Ward",
+        "kind": "rite_ward",
+        "x": 5.8,
+        "z": 233.6,
+        "hw": 6,
+        "rot": 0.4636476090008061,
+        "sealWhileEngaged": "morthen"
+      }
+    ],
+    "bossChainPull": true,
+    "areaCastsPlant": true,
+    "interior": "hollow_crypt",
     "suggestedPlayers": 5,
     "enterText": "You descend into the Hollow Crypt...",
     "leaveText": "You climb back into daylight."
@@ -97,82 +1076,1236 @@
       "z": 515
     },
     "entry": {
-      "x": 0,
-      "z": -2
+      "x": -10,
+      "z": -230
     },
     "exitOffset": {
-      "x": 0,
-      "z": -6
+      "x": -10,
+      "z": -237
+    },
+    "bossExitPortal": {
+      "x": 10,
+      "z": 192
     },
     "spawns": [
       {
         "mobId": "bastion_revenant",
-        "x": -3,
-        "z": 18
+        "x": -54,
+        "z": -178,
+        "facing": 1.5707963267948966,
+        "packId": "f1",
+        "idleStationary": true
       },
       {
         "mobId": "bastion_revenant",
-        "x": 3,
-        "z": 19
+        "x": -54,
+        "z": -186,
+        "facing": 1.5707963267948966,
+        "packId": "f1",
+        "idleStationary": true
       },
       {
-        "mobId": "bastion_revenant",
-        "x": -9,
-        "z": 38
+        "mobId": "barnacle_crawler",
+        "x": -58,
+        "z": -172,
+        "facing": 1.5707963267948966,
+        "packId": "f1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": -59,
+        "z": -190,
+        "facing": 1.5707963267948966,
+        "packId": "f1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": 48,
+        "z": -162,
+        "facing": -1.5707963267948966,
+        "packId": "f2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": 48,
+        "z": -154,
+        "facing": -1.5707963267948966,
+        "packId": "f2",
+        "idleStationary": true
       },
       {
         "mobId": "tidebound_acolyte",
+        "x": 54,
+        "z": -158,
+        "facing": -1.5707963267948966,
+        "packId": "f2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": 44,
+        "z": -166,
+        "facing": -1.5707963267948966,
+        "packId": "f2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -32,
+        "z": -168,
+        "packId": "fa",
+        "patrol": {
+          "points": [
+            {
+              "x": -32,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -192
+            },
+            {
+              "x": -32,
+              "z": -192
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -32,
+        "z": -168,
+        "packId": "fa",
+        "patrol": {
+          "points": [
+            {
+              "x": -32,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -192
+            },
+            {
+              "x": -32,
+              "z": -192
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -32,
+        "z": -168,
+        "packId": "fa",
+        "patrol": {
+          "points": [
+            {
+              "x": -32,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -168
+            },
+            {
+              "x": 24,
+              "z": -192
+            },
+            {
+              "x": -32,
+              "z": -192
+            }
+          ],
+          "offset": 6
+        }
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": -80,
+        "z": -146,
+        "packId": "fb",
+        "patrol": {
+          "points": [
+            {
+              "x": -80,
+              "z": -146
+            },
+            {
+              "x": -40,
+              "z": -140
+            },
+            {
+              "x": -40,
+              "z": -150
+            },
+            {
+              "x": -78,
+              "z": -154
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": -80,
+        "z": -146,
+        "packId": "fb",
+        "patrol": {
+          "points": [
+            {
+              "x": -80,
+              "z": -146
+            },
+            {
+              "x": -40,
+              "z": -140
+            },
+            {
+              "x": -40,
+              "z": -150
+            },
+            {
+              "x": -78,
+              "z": -154
+            }
+          ],
+          "offset": 2.5
+        }
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -80,
+        "z": -146,
+        "packId": "fb",
+        "patrol": {
+          "points": [
+            {
+              "x": -80,
+              "z": -146
+            },
+            {
+              "x": -40,
+              "z": -140
+            },
+            {
+              "x": -40,
+              "z": -150
+            },
+            {
+              "x": -78,
+              "z": -154
+            }
+          ],
+          "offset": 5
+        }
+      },
+      {
+        "mobId": "drowned_sergeant",
+        "x": 0,
+        "z": -146,
+        "facing": 3.141592653589793,
+        "packId": "f3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_revenant",
         "x": -5,
-        "z": 39
-      },
-      {
-        "mobId": "tidebound_acolyte",
-        "x": 9,
-        "z": 54
+        "z": -150,
+        "facing": 3.141592653589793,
+        "packId": "f3",
+        "idleStationary": true
       },
       {
         "mobId": "bastion_revenant",
         "x": 5,
-        "z": 55
+        "z": -150,
+        "facing": 3.141592653589793,
+        "packId": "f3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mistweaver",
+        "x": -60,
+        "z": -88,
+        "facing": 1.5707963267948966,
+        "packId": "b1",
+        "idleStationary": true
       },
       {
         "mobId": "bastion_revenant",
-        "x": -5,
-        "z": 68
+        "x": -54,
+        "z": -84,
+        "facing": 1.5707963267948966,
+        "packId": "b1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_revenant",
+        "x": -54,
+        "z": -92,
+        "facing": 1.5707963267948966,
+        "packId": "b1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": -50,
+        "z": -80,
+        "facing": 1.5707963267948966,
+        "packId": "b1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": -50,
+        "z": -96,
+        "facing": 1.5707963267948966,
+        "packId": "b1",
+        "idleStationary": true
       },
       {
         "mobId": "tidebound_acolyte",
-        "x": -1,
-        "z": 70
+        "x": 58,
+        "z": -86,
+        "facing": -1.5707963267948966,
+        "packId": "b2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "tidebound_acolyte",
+        "x": 58,
+        "z": -94,
+        "facing": -1.5707963267948966,
+        "packId": "b2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": 52,
+        "z": -84,
+        "facing": -1.5707963267948966,
+        "packId": "b2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": 52,
+        "z": -96,
+        "facing": -1.5707963267948966,
+        "packId": "b2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "turretback_hermit",
+        "x": 3.0003846579110155e-15,
+        "z": -112.5,
+        "packId": "hermit",
+        "patrol": {
+          "points": [
+            {
+              "x": 3.0003846579110155e-15,
+              "z": -112.5
+            },
+            {
+              "x": -12.249999999999993,
+              "z": -109.21762239271875
+            },
+            {
+              "x": -21.21762239271874,
+              "z": -100.25000000000001
+            },
+            {
+              "x": -24.5,
+              "z": -88
+            },
+            {
+              "x": -21.217622392718756,
+              "z": -75.75000000000001
+            },
+            {
+              "x": -12.249999999999991,
+              "z": -66.78237760728125
+            },
+            {
+              "x": -6.000769315822031e-15,
+              "z": -63.5
+            },
+            {
+              "x": 12.25,
+              "z": -66.78237760728126
+            },
+            {
+              "x": 21.21762239271874,
+              "z": -75.74999999999999
+            },
+            {
+              "x": 24.5,
+              "z": -87.99999999999999
+            },
+            {
+              "x": 21.217622392718738,
+              "z": -100.25000000000001
+            },
+            {
+              "x": 12.249999999999995,
+              "z": -109.21762239271875
+            }
+          ],
+          "offset": 0,
+          "pace": 0.35
+        }
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -62,
+        "z": -52,
+        "packId": "bc",
+        "patrol": {
+          "points": [
+            {
+              "x": -62,
+              "z": -52
+            },
+            {
+              "x": 40,
+              "z": -52
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": -62,
+        "z": -52,
+        "packId": "bc",
+        "patrol": {
+          "points": [
+            {
+              "x": -62,
+              "z": -52
+            },
+            {
+              "x": 40,
+              "z": -52
+            }
+          ],
+          "offset": 2.5
+        }
+      },
+      {
+        "mobId": "bastion_revenant",
+        "x": -62,
+        "z": -52,
+        "packId": "bc",
+        "patrol": {
+          "points": [
+            {
+              "x": -62,
+              "z": -52
+            },
+            {
+              "x": 40,
+              "z": -52
+            }
+          ],
+          "offset": 5
+        }
+      },
+      {
+        "mobId": "drowned_sergeant",
+        "x": 61,
+        "z": 32,
+        "facing": 3.141592653589793,
+        "packId": "r1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": 64,
+        "z": 38,
+        "facing": 3.141592653589793,
+        "packId": "r1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": 58,
+        "z": 40,
+        "facing": 3.141592653589793,
+        "packId": "r1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": 62,
+        "z": 43,
+        "facing": 3.141592653589793,
+        "packId": "r1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": 58,
+        "z": 67,
+        "facing": 3.141592653589793,
+        "packId": "r2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": 64,
+        "z": 67,
+        "facing": 3.141592653589793,
+        "packId": "r2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mistweaver",
+        "x": 61,
+        "z": 76,
+        "facing": 3.141592653589793,
+        "packId": "r2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": 55,
+        "z": 72,
+        "facing": 3.141592653589793,
+        "packId": "r2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "barnacle_crawler",
+        "x": 66,
+        "z": 73,
+        "facing": 3.141592653589793,
+        "packId": "r2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": 51,
+        "z": 51,
+        "packId": "rc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 51
+            },
+            {
+              "x": 51,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 51
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": 51,
+        "z": 51,
+        "packId": "rc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 51
+            },
+            {
+              "x": 51,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 51
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": 51,
+        "z": 51,
+        "packId": "rc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 51
+            },
+            {
+              "x": 51,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 58
+            },
+            {
+              "x": 63,
+              "z": 51
+            }
+          ],
+          "offset": 6
+        }
       },
       {
         "mobId": "knight_commander_olen",
-        "x": -4,
-        "z": 82
+        "x": 57,
+        "z": 128,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "gaol_turnkey",
+        "x": -2,
+        "z": 57,
+        "facing": 0,
+        "packId": "turnkey",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -28,
+        "z": 76,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -28,
+        "z": 88,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -35,
+        "z": 76,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -35,
+        "z": 88,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
         "mobId": "bastion_revenant",
-        "x": 1,
-        "z": 83
+        "x": 30,
+        "z": 80,
+        "facing": -1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
       },
       {
-        "mobId": "vael_the_mistcaller",
-        "x": 0,
-        "z": 98
+        "mobId": "bastion_revenant",
+        "x": 30,
+        "z": 72,
+        "facing": -1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
       },
       {
         "mobId": "tidebound_acolyte",
-        "x": -4,
-        "z": 96
+        "x": 38,
+        "z": 76,
+        "facing": -1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mistweaver",
+        "x": 38,
+        "z": 84,
+        "facing": -1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_sergeant",
+        "x": -28,
+        "z": 100,
+        "facing": 1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -33,
+        "z": 99,
+        "facing": 1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -31,
+        "z": 104,
+        "facing": 1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "shackled_prisoner",
+        "x": -26,
+        "z": 104,
+        "facing": 1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -16,
+        "z": 76,
+        "packId": "gd",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 96
+            },
+            {
+              "x": -16,
+              "z": 96
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -16,
+        "z": 76,
+        "packId": "gd",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 96
+            },
+            {
+              "x": -16,
+              "z": 96
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -16,
+        "z": 76,
+        "packId": "gd",
+        "patrol": {
+          "points": [
+            {
+              "x": -16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 76
+            },
+            {
+              "x": 16,
+              "z": 96
+            },
+            {
+              "x": -16,
+              "z": 96
+            }
+          ],
+          "offset": 6
+        }
+      },
+      {
+        "mobId": "gaoler_ossick",
+        "x": -2,
+        "z": 12,
+        "facing": 0,
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": -60,
+        "z": 20,
+        "facing": 1.5707963267948966,
+        "packId": "k1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": -64,
+        "z": 26,
+        "facing": 1.5707963267948966,
+        "packId": "k1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "fogbound_arbalest",
+        "x": -58,
+        "z": 28,
+        "facing": 1.5707963267948966,
+        "packId": "k1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "tidebound_acolyte",
+        "x": -66,
+        "z": 20,
+        "facing": 1.5707963267948966,
+        "packId": "k1",
+        "idleStationary": true
       },
       {
         "mobId": "bastion_revenant",
-        "x": 4,
-        "z": 96
+        "x": -60,
+        "z": 84,
+        "facing": 3.141592653589793,
+        "packId": "k2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_revenant",
+        "x": -66,
+        "z": 84,
+        "facing": 3.141592653589793,
+        "packId": "k2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -58,
+        "z": 90,
+        "facing": 3.141592653589793,
+        "packId": "k2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -67,
+        "z": 90,
+        "facing": 3.141592653589793,
+        "packId": "k2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_sergeant",
+        "x": -48,
+        "z": 162,
+        "facing": -1.5707963267948966,
+        "packId": "k3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -52,
+        "z": 157,
+        "facing": -1.5707963267948966,
+        "packId": "k3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_watchman",
+        "x": -52,
+        "z": 167,
+        "facing": -1.5707963267948966,
+        "packId": "k3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mistweaver",
+        "x": -42,
+        "z": 158,
+        "facing": -1.5707963267948966,
+        "packId": "k3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "tidebound_acolyte",
+        "x": -42,
+        "z": 166,
+        "facing": -1.5707963267948966,
+        "packId": "k3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -72,
+        "z": 142,
+        "packId": "kc",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": 142
+            },
+            {
+              "x": -72,
+              "z": 168
+            },
+            {
+              "x": -62,
+              "z": 168
+            },
+            {
+              "x": -62,
+              "z": 142
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "bastion_warhound",
+        "x": -72,
+        "z": 142,
+        "packId": "kc",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": 142
+            },
+            {
+              "x": -72,
+              "z": 168
+            },
+            {
+              "x": -62,
+              "z": 168
+            },
+            {
+              "x": -62,
+              "z": 142
+            }
+          ],
+          "offset": 4
+        }
+      },
+      {
+        "mobId": "vael_the_mistcaller",
+        "x": -22,
+        "z": 214,
+        "facing": 3.141592653589793,
+        "idleStationary": true
       }
     ],
-    "interior": "crypt",
-    "tombDressing": "cargo",
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Sea Gate",
+        "x": 0,
+        "z": -130,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Bailey Drawbridge",
+        "x": 57,
+        "z": -44,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Rampart Door",
+        "x": 57,
+        "z": 100,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Postern Fog Wall",
+        "x": 31,
+        "z": 126,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Gaol Grate",
+        "x": -2,
+        "z": 50,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Keep Stair Chain",
+        "x": -27,
+        "z": 20,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Beacon Ward",
+        "x": -21.5,
+        "z": 180,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Buttress",
+        "x": 43.211417766862326,
+        "z": 143.78858223313767,
+        "templateId": "bastion_buttress_intact",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Buttress",
+        "x": 57,
+        "z": 149.5,
+        "templateId": "bastion_buttress_intact",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Buttress",
+        "x": 70.78858223313767,
+        "z": 143.78858223313767,
+        "templateId": "bastion_buttress_intact",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Buttress",
+        "x": 76.5,
+        "z": 130,
+        "templateId": "bastion_buttress_intact",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Fogbeacon",
+        "x": -4,
+        "z": 208,
+        "templateId": "bastion_beacon_lamp",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Mooring Post",
+        "x": -12.5,
+        "z": 34.5,
+        "templateId": "bastion_mooring_lit",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Mooring Post",
+        "x": 8.5,
+        "z": 34.5,
+        "templateId": "bastion_mooring_lit",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Mooring Post",
+        "x": 8.5,
+        "z": 13.5,
+        "templateId": "bastion_mooring_lit",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Mooring Post",
+        "x": -12.5,
+        "z": 13.5,
+        "templateId": "bastion_mooring_lit",
+        "dungeonId": "sunken_bastion",
+        "lootable": false
+      }
+    ],
+    "gates": [
+      {
+        "id": "sea_gate",
+        "name": "Sea Gate",
+        "kind": "portcullis",
+        "x": 0,
+        "z": -130,
+        "hw": 7.6,
+        "rot": 0,
+        "packs": [
+          "f1",
+          "f2",
+          "fa",
+          "fb",
+          "f3"
+        ],
+        "openText": "Chains shriek in the fog. The Sea Gate grinds open."
+      },
+      {
+        "id": "bailey_drawbridge",
+        "name": "Bailey Drawbridge",
+        "kind": "drawbridge",
+        "x": 57,
+        "z": -44,
+        "hw": 6,
+        "rot": 0,
+        "packs": [
+          "b1",
+          "b2",
+          "hermit",
+          "bc"
+        ],
+        "openText": "The drawbridge crashes down over the ditch."
+      },
+      {
+        "id": "rampart_door",
+        "name": "Rampart Door",
+        "kind": "portcullis",
+        "x": 57,
+        "z": 100,
+        "hw": 7,
+        "rot": 0,
+        "packs": [
+          "r1",
+          "r2",
+          "rc"
+        ],
+        "sealWhileEngaged": "knight_commander_olen",
+        "openText": "The Rampart Door lifts onto the Breach Bastion."
+      },
+      {
+        "id": "postern_fog",
+        "name": "Postern Fog Wall",
+        "kind": "fog_wall",
+        "x": 31,
+        "z": 126,
+        "hw": 5.6,
+        "rot": 1.5707963267948966,
+        "bosses": [
+          "knight_commander_olen"
+        ],
+        "openText": "The fog over the Postern Stair parts."
+      },
+      {
+        "id": "gaol_grate",
+        "name": "Gaol Grate",
+        "kind": "portcullis",
+        "x": -2,
+        "z": 50,
+        "hw": 8.6,
+        "rot": 0,
+        "packs": [
+          "turnkey",
+          "g1",
+          "g2",
+          "g3",
+          "gd"
+        ],
+        "sealWhileEngaged": "gaoler_ossick",
+        "openText": "The Gaol Grate rattles up into the rock."
+      },
+      {
+        "id": "keep_chain",
+        "name": "Keep Stair Chain",
+        "kind": "portcullis",
+        "x": -27,
+        "z": 20,
+        "hw": 5.6,
+        "rot": 1.5707963267948966,
+        "bosses": [
+          "gaoler_ossick"
+        ],
+        "openText": "The chain grate at the Keep Stair winds up."
+      },
+      {
+        "id": "beacon_ward",
+        "name": "Beacon Ward",
+        "kind": "fog_wall",
+        "x": -21.5,
+        "z": 180,
+        "hw": 6,
+        "rot": -2.498091544796509,
+        "packs": [
+          "k1",
+          "k2",
+          "k3",
+          "kc"
+        ],
+        "sealWhileEngaged": "vael_the_mistcaller",
+        "openText": "The fog on the beacon stair thins to nothing."
+      }
+    ],
+    "bossChainPull": true,
+    "areaCastsPlant": true,
+    "interior": "sunken_bastion",
     "suggestedPlayers": 5,
     "enterText": "You wade down into the Sunken Bastion...",
     "leaveText": "You climb out of the drowning dark."
@@ -187,120 +2320,1235 @@
     },
     "entry": {
       "x": 0,
-      "z": -2
+      "z": -222
     },
     "exitOffset": {
       "x": 0,
-      "z": -6
+      "z": -230
+    },
+    "bossExitPortal": {
+      "x": -42,
+      "z": 192
     },
     "spawns": [
       {
         "mobId": "sanctum_boneguard",
-        "x": -3,
-        "z": 20
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": 3,
-        "z": 21
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": -8,
-        "z": 30
-      },
-      {
-        "mobId": "sanctum_drakonid",
         "x": -4,
-        "z": 31
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": 7,
-        "z": 44
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": 3,
-        "z": 45
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": -6,
-        "z": 58
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": -2,
-        "z": 59
-      },
-      {
-        "mobId": "korgath_the_bound",
-        "x": 0,
-        "z": 72
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": -7,
-        "z": 86
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": -3,
-        "z": 87
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": 6,
-        "z": 100
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": 2,
-        "z": 101
-      },
-      {
-        "mobId": "grand_necromancer_velkhar",
-        "x": 0,
-        "z": 114
-      },
-      {
-        "mobId": "sanctum_boneguard",
-        "x": -4,
-        "z": 112
+        "z": -178,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
         "mobId": "sanctum_boneguard",
         "x": 4,
-        "z": 112
+        "z": -178,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": 0,
+        "z": -173,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ogre_sledge_hauler",
+        "x": -44,
+        "z": -146,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": -41,
+        "z": -152,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": -45,
+        "z": -139,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_pyre_tender",
+        "x": 33,
+        "z": -110,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 29,
+        "z": -115,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 35,
+        "z": -115,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 29,
+        "z": -105,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 35,
+        "z": -105,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sledge_tusker",
+        "x": -11.75,
+        "z": -161.69,
+        "packId": "pa",
+        "patrol": {
+          "points": [
+            {
+              "x": -11.75,
+              "z": -161.69
+            },
+            {
+              "x": -30.38,
+              "z": -146.74
+            },
+            {
+              "x": -30.74,
+              "z": -146.4
+            },
+            {
+              "x": -31.02,
+              "z": -145.99
+            },
+            {
+              "x": -31.21,
+              "z": -145.53
+            },
+            {
+              "x": -31.31,
+              "z": -145.05
+            },
+            {
+              "x": -31.31,
+              "z": -144.55
+            },
+            {
+              "x": -31.21,
+              "z": -144.07
+            },
+            {
+              "x": -31.02,
+              "z": -143.61
+            },
+            {
+              "x": -30.75,
+              "z": -143.2
+            },
+            {
+              "x": -30.39,
+              "z": -142.85
+            },
+            {
+              "x": -29.98,
+              "z": -142.58
+            },
+            {
+              "x": 21.93,
+              "z": -115.37
+            },
+            {
+              "x": 22.33,
+              "z": -115.1
+            },
+            {
+              "x": 22.65,
+              "z": -114.74
+            },
+            {
+              "x": 22.87,
+              "z": -114.31
+            },
+            {
+              "x": 22.99,
+              "z": -113.84
+            },
+            {
+              "x": 22.99,
+              "z": -113.36
+            },
+            {
+              "x": 22.87,
+              "z": -112.89
+            },
+            {
+              "x": 22.65,
+              "z": -112.46
+            },
+            {
+              "x": 22.33,
+              "z": -112.1
+            },
+            {
+              "x": 21.93,
+              "z": -111.83
+            },
+            {
+              "x": 21.48,
+              "z": -111.66
+            },
+            {
+              "x": 21,
+              "z": -111.6
+            },
+            {
+              "x": 20.52,
+              "z": -111.66
+            },
+            {
+              "x": 20.07,
+              "z": -111.83
+            },
+            {
+              "x": -31.84,
+              "z": -139.04
+            },
+            {
+              "x": -32.27,
+              "z": -139.28
+            },
+            {
+              "x": -32.68,
+              "z": -139.56
+            },
+            {
+              "x": -33.06,
+              "z": -139.87
+            },
+            {
+              "x": -33.43,
+              "z": -140.21
+            },
+            {
+              "x": -33.76,
+              "z": -140.57
+            },
+            {
+              "x": -34.07,
+              "z": -140.96
+            },
+            {
+              "x": -34.35,
+              "z": -141.37
+            },
+            {
+              "x": -34.59,
+              "z": -141.8
+            },
+            {
+              "x": -34.8,
+              "z": -142.25
+            },
+            {
+              "x": -34.98,
+              "z": -142.71
+            },
+            {
+              "x": -35.12,
+              "z": -143.19
+            },
+            {
+              "x": -35.22,
+              "z": -143.67
+            },
+            {
+              "x": -35.29,
+              "z": -144.17
+            },
+            {
+              "x": -35.32,
+              "z": -144.66
+            },
+            {
+              "x": -35.31,
+              "z": -145.16
+            },
+            {
+              "x": -35.26,
+              "z": -145.65
+            },
+            {
+              "x": -35.18,
+              "z": -146.14
+            },
+            {
+              "x": -35.06,
+              "z": -146.62
+            },
+            {
+              "x": -34.9,
+              "z": -147.09
+            },
+            {
+              "x": -34.71,
+              "z": -147.55
+            },
+            {
+              "x": -34.48,
+              "z": -147.99
+            },
+            {
+              "x": -34.22,
+              "z": -148.41
+            },
+            {
+              "x": -33.93,
+              "z": -148.81
+            },
+            {
+              "x": -33.61,
+              "z": -149.19
+            },
+            {
+              "x": -33.26,
+              "z": -149.54
+            },
+            {
+              "x": -32.89,
+              "z": -149.86
+            },
+            {
+              "x": -14.25,
+              "z": -164.81
+            },
+            {
+              "x": -13.84,
+              "z": -165.06
+            },
+            {
+              "x": -13.38,
+              "z": -165.21
+            },
+            {
+              "x": -12.9,
+              "z": -165.25
+            },
+            {
+              "x": -12.43,
+              "z": -165.17
+            },
+            {
+              "x": -11.98,
+              "z": -164.97
+            },
+            {
+              "x": -11.6,
+              "z": -164.68
+            },
+            {
+              "x": -11.3,
+              "z": -164.3
+            },
+            {
+              "x": -11.1,
+              "z": -163.87
+            },
+            {
+              "x": -11.01,
+              "z": -163.39
+            },
+            {
+              "x": -11.03,
+              "z": -162.91
+            },
+            {
+              "x": -11.17,
+              "z": -162.45
+            },
+            {
+              "x": -11.41,
+              "z": -162.03
+            }
+          ],
+          "offset": 0,
+          "pace": 0.45
+        }
+      },
+      {
+        "mobId": "glacier_splinter",
+        "x": -86,
+        "z": -54,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glacier_splinter",
+        "x": -78,
+        "z": -54,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
       },
       {
         "mobId": "sanctum_drakonid",
-        "x": -5,
-        "z": 130
+        "x": -82,
+        "z": -50,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": -70,
+        "z": -30,
+        "facing": 1.5707963267948966,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": -66,
+        "z": -24,
+        "facing": 1.5707963267948966,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": -66,
+        "z": -36,
+        "facing": 1.5707963267948966,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_pyre_tender",
+        "x": -74,
+        "z": -30,
+        "facing": 1.5707963267948966,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -72,
+        "z": -96,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -84
+            },
+            {
+              "x": -72,
+              "z": -84
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -72,
+        "z": -96,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -84
+            },
+            {
+              "x": -72,
+              "z": -84
+            }
+          ],
+          "offset": 2
+        }
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -72,
+        "z": -96,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -84
+            },
+            {
+              "x": -72,
+              "z": -84
+            }
+          ],
+          "offset": 4
+        }
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -72,
+        "z": -96,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -84
+            },
+            {
+              "x": -72,
+              "z": -84
+            }
+          ],
+          "offset": 6
+        }
       },
       {
         "mobId": "sanctum_drakonid",
-        "x": -1,
-        "z": 132
+        "x": -72,
+        "z": -96,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -72,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -96
+            },
+            {
+              "x": -94,
+              "z": -84
+            },
+            {
+              "x": -72,
+              "z": -84
+            }
+          ],
+          "offset": 9
+        }
+      },
+      {
+        "mobId": "ogre_sledge_hauler",
+        "x": 98,
+        "z": -94,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": 95,
+        "z": -88,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": 95,
+        "z": -100,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": 68,
+        "z": -26,
+        "facing": -1.5707963267948966,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": 68,
+        "z": -34,
+        "facing": -1.5707963267948966,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glacier_splinter",
+        "x": 72,
+        "z": -30,
+        "facing": -1.5707963267948966,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "korgath_the_bound",
+        "x": 0,
+        "z": -22,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": -30,
+        "z": 40,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": -26,
+        "z": 46,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_pyre_tender",
+        "x": -35,
+        "z": 45,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ogre_sledge_hauler",
+        "x": -31,
+        "z": 50,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 26,
+        "z": 38,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 32,
+        "z": 38,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 26,
+        "z": 44,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": 32,
+        "z": 44,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": 22,
+        "z": 48,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": 36,
+        "z": 48,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": -9,
+        "z": 75,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": 9,
+        "z": 75,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": -4,
+        "z": 71,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glacier_splinter",
+        "x": 4,
+        "z": 71,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_goadsmith",
+        "x": 0,
+        "z": 34,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 0,
+              "z": 34
+            },
+            {
+              "x": 0,
+              "z": 62
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": 0,
+        "z": 34,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 0,
+              "z": 34
+            },
+            {
+              "x": 0,
+              "z": 62
+            }
+          ],
+          "offset": 2
+        }
+      },
+      {
+        "mobId": "sanctum_boneguard",
+        "x": 0,
+        "z": 34,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 0,
+              "z": 34
+            },
+            {
+              "x": 0,
+              "z": 62
+            }
+          ],
+          "offset": 4
+        }
+      },
+      {
+        "mobId": "grand_necromancer_velkhar",
+        "x": 0,
+        "z": 107,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": -32,
+        "z": 149,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": -28,
+        "z": 150,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -36,
+        "z": 154,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -38,
+        "z": 147,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -26,
+        "z": 146,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "rime_whelp",
+        "x": -35,
+        "z": 151,
+        "facing": 1.5707963267948966,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ogre_sledge_hauler",
+        "x": 32,
+        "z": 150,
+        "facing": -1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_thawcaller",
+        "x": 28,
+        "z": 151,
+        "facing": -1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "broodsworn_pyre_tender",
+        "x": 37,
+        "z": 154,
+        "facing": -1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glacier_splinter",
+        "x": 27,
+        "z": 146,
+        "facing": -1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": -22,
+        "z": 140,
+        "packId": "pd",
+        "patrol": {
+          "points": [
+            {
+              "x": -22,
+              "z": 140
+            },
+            {
+              "x": 0,
+              "z": 135
+            },
+            {
+              "x": 22,
+              "z": 140
+            },
+            {
+              "x": 0,
+              "z": 135
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "sanctum_drakonid",
+        "x": -22,
+        "z": 140,
+        "packId": "pd",
+        "patrol": {
+          "points": [
+            {
+              "x": -22,
+              "z": 140
+            },
+            {
+              "x": 0,
+              "z": 135
+            },
+            {
+              "x": 22,
+              "z": 140
+            },
+            {
+              "x": 0,
+              "z": 135
+            }
+          ],
+          "offset": 2.5
+        }
       },
       {
         "mobId": "korzul_the_gravewyrm",
         "x": 0,
-        "z": 146
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": -5,
-        "z": 144
-      },
-      {
-        "mobId": "sanctum_drakonid",
-        "x": 5,
-        "z": 144
+        "z": 214,
+        "facing": 3.141592653589793,
+        "idleStationary": true
       }
     ],
-    "interior": "sanctum",
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Rime Gate",
+        "x": 15,
+        "z": -93.5,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "West Chain Stair",
+        "x": -40,
+        "z": -25.5,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "East Chain Stair",
+        "x": 40,
+        "z": -25.5,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Chain Bridge",
+        "x": 0,
+        "z": 2,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Vault Ward",
+        "x": 0,
+        "z": 78,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Tithe Gate",
+        "x": 0,
+        "z": 127.5,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Hollow Ward",
+        "x": 0,
+        "z": 143,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 8,
+        "z": -230,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 0,
+        "z": -128,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": -82,
+        "z": -56,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 84,
+        "z": -56,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 0,
+        "z": -6,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 0,
+        "z": 60,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Calving Face",
+        "x": 0,
+        "z": 168,
+        "templateId": "sanctum_story_0",
+        "dungeonId": "gravewyrm_sanctum",
+        "lootable": false
+      }
+    ],
+    "gates": [
+      {
+        "id": "rime_gate",
+        "name": "Rime Gate",
+        "kind": "ice_wall",
+        "x": 15,
+        "z": -93.5,
+        "hw": 7.6,
+        "rot": 2.2367655641740063,
+        "packs": [
+          "g1",
+          "g2",
+          "g3",
+          "pa"
+        ],
+        "openText": "The Rime Gate cracks from top to bottom and crashes down in a storm of ice."
+      },
+      {
+        "id": "west_chain_stair",
+        "name": "West Chain Stair",
+        "kind": "chain_gate",
+        "x": -40,
+        "z": -25.5,
+        "hw": 5.6,
+        "rot": -1.7861540264926348,
+        "packs": [
+          "g4",
+          "g5",
+          "pb",
+          "g6",
+          "g7"
+        ],
+        "sealWhileEngaged": "korgath_the_bound",
+        "openText": "Both wings fall silent. The grates of the Chain Stairs rise on groaning chains."
+      },
+      {
+        "id": "east_chain_stair",
+        "name": "East Chain Stair",
+        "kind": "chain_gate",
+        "x": 40,
+        "z": -25.5,
+        "hw": 5.6,
+        "rot": 1.7861540264926348,
+        "packs": [
+          "g4",
+          "g5",
+          "pb",
+          "g6",
+          "g7"
+        ],
+        "sealWhileEngaged": "korgath_the_bound"
+      },
+      {
+        "id": "chain_bridge",
+        "name": "Chain Bridge",
+        "kind": "chain_bridge",
+        "x": 0,
+        "z": 2,
+        "hw": 5,
+        "rot": -3.141592653589793,
+        "bosses": [
+          "korgath_the_bound"
+        ],
+        "openText": "A slack chain as thick as a mast falls across the gulf and pulls taut: the Smith's chain is the way down."
+      },
+      {
+        "id": "vault_ward",
+        "name": "Vault Ward",
+        "kind": "rite_ward",
+        "x": 0,
+        "z": 78,
+        "hw": 6.6,
+        "rot": -3.141592653589793,
+        "packs": [
+          "g8",
+          "g9",
+          "g10",
+          "pc"
+        ],
+        "sealWhileEngaged": "grand_necromancer_velkhar",
+        "openText": "The Vault Ward gutters out. Below, the thaw pyres roar."
+      },
+      {
+        "id": "tithe_gate",
+        "name": "Tithe Gate",
+        "kind": "ice_wall",
+        "x": 0,
+        "z": 127.5,
+        "hw": 6.6,
+        "rot": -3.141592653589793,
+        "bosses": [
+          "grand_necromancer_velkhar"
+        ],
+        "openText": "With the rite broken, the Tithe Gate shatters. The shore of the held lies open."
+      },
+      {
+        "id": "hollow_ward",
+        "name": "Hollow Ward",
+        "kind": "rite_ward",
+        "x": 0,
+        "z": 143,
+        "hw": 5.6,
+        "rot": -3.141592653589793,
+        "packs": [
+          "g11",
+          "g12",
+          "pd"
+        ],
+        "sealWhileEngaged": "korzul_the_gravewyrm",
+        "openText": "The Hollow Ward fails. On the lake, the ice groans under the Wyrm's weight."
+      }
+    ],
+    "bossChainPull": true,
+    "areaCastsPlant": true,
+    "quenchZones": [
+      {
+        "x": -37,
+        "z": -136,
+        "r": 2.6
+      },
+      {
+        "x": -33,
+        "z": -153,
+        "r": 2.6
+      },
+      {
+        "x": 84,
+        "z": -100,
+        "r": 2.6
+      },
+      {
+        "x": 86,
+        "z": -84,
+        "r": 2.6
+      },
+      {
+        "x": -18,
+        "z": 36,
+        "r": 2.6
+      },
+      {
+        "x": -14,
+        "z": 52,
+        "r": 2.6
+      },
+      {
+        "x": -10,
+        "z": 44,
+        "r": 2.6
+      },
+      {
+        "x": 22,
+        "z": 40,
+        "r": 2.6
+      },
+      {
+        "x": 30,
+        "z": 46,
+        "r": 2.6
+      }
+    ],
+    "interior": "gravewyrm_sanctum",
     "suggestedPlayers": 5,
     "enterText": "The air goes cold. Something vast breathes below...",
     "leaveText": "You stagger back into the mountain wind."
@@ -971,100 +4219,818 @@
     },
     "entry": {
       "x": 0,
-      "z": -2
+      "z": -230
     },
     "exitOffset": {
       "x": 0,
-      "z": -6
+      "z": -236
+    },
+    "bossExitPortal": {
+      "x": -12,
+      "z": 196
     },
     "spawns": [
       {
-        "mobId": "drowned_templeguard",
-        "x": -3,
-        "z": 20
+        "mobId": "drowned_pilgrim",
+        "x": -30,
+        "z": -185,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
-        "mobId": "drowned_templeguard",
-        "x": 3,
-        "z": 21
+        "mobId": "drowned_pilgrim",
+        "x": -38,
+        "z": -185,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
-        "mobId": "drowned_templeguard",
-        "x": -9,
-        "z": 30
+        "mobId": "drowned_pilgrim",
+        "x": -30,
+        "z": -192,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": -38,
+        "z": -192,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
         "mobId": "pale_choir_acolyte",
-        "x": -5,
-        "z": 31
+        "x": -36,
+        "z": -196,
+        "facing": 1.5707963267948966,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": -14,
+        "z": -123,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": -20,
+        "z": -126,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "lagoon_snapper",
+        "x": -17,
+        "z": -131,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 22,
+        "z": -106,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
       },
       {
         "mobId": "glimmerscale_lurker",
-        "x": 9,
-        "z": 44
-      },
-      {
-        "mobId": "drowned_templeguard",
-        "x": 5,
-        "z": 45
-      },
-      {
-        "mobId": "pearlguard_sentinel",
-        "x": -5,
-        "z": 56
-      },
-      {
-        "mobId": "pale_choir_acolyte",
-        "x": -1,
-        "z": 57
-      },
-      {
-        "mobId": "choirmother_selthe",
-        "x": -4,
-        "z": 80
-      },
-      {
-        "mobId": "pale_choir_acolyte",
-        "x": 2,
-        "z": 81
+        "x": 15,
+        "z": -100,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
       },
       {
         "mobId": "glimmerscale_lurker",
-        "x": 9,
-        "z": 92
+        "x": 15,
+        "z": -109,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
       },
       {
         "mobId": "drowned_templeguard",
         "x": -7,
-        "z": 93
+        "z": -148,
+        "packId": "pa",
+        "patrol": {
+          "points": [
+            {
+              "x": -7,
+              "z": -148
+            },
+            {
+              "x": 0,
+              "z": -90
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": -7,
+        "z": -148,
+        "packId": "pa",
+        "patrol": {
+          "points": [
+            {
+              "x": -7,
+              "z": -148
+            },
+            {
+              "x": 0,
+              "z": -90
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": -7,
+        "z": -148,
+        "packId": "pa",
+        "patrol": {
+          "points": [
+            {
+              "x": -7,
+              "z": -148
+            },
+            {
+              "x": 0,
+              "z": -90
+            }
+          ],
+          "offset": 6
+        }
       },
       {
         "mobId": "pearlguard_sentinel",
+        "x": 0,
+        "z": -60,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
         "x": -5,
-        "z": 104
+        "z": -64,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": 5,
+        "z": -64,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": 0,
+        "z": -55,
+        "facing": 3.141592653589793,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ice_wraith",
+        "x": -9,
+        "z": -47,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ice_wraith",
+        "x": 9,
+        "z": -47,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 0,
+        "z": -43,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "choirmother_selthe",
+        "x": 0,
+        "z": 10,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": -50,
+        "z": 18,
+        "facing": 1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": -57,
+        "z": 17,
+        "facing": 1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": -53,
+        "z": 26,
+        "facing": 1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": -60,
+        "z": 24,
+        "facing": 1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": -66,
+        "z": 66,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
       },
       {
         "mobId": "drowned_templeguard",
-        "x": 3,
-        "z": 105
+        "x": -62,
+        "z": 72,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": -68,
+        "z": 76,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 58,
+        "z": 24,
+        "facing": -1.5707963267948966,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": 51,
+        "z": 17,
+        "facing": -1.5707963267948966,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": 50,
+        "z": 23,
+        "facing": -1.5707963267948966,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": 53,
+        "z": 28,
+        "facing": -1.5707963267948966,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_pilgrim",
+        "x": 56,
+        "z": 17,
+        "facing": -1.5707963267948966,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": 80,
+        "z": 64,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ice_wraith",
+        "x": 85,
+        "z": 70,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "lagoon_snapper",
+        "x": 76,
+        "z": 70,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": 61,
+        "z": 32,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": 61,
+              "z": 32
+            },
+            {
+              "x": 75,
+              "z": 55
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": 61,
+        "z": 32,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": 61,
+              "z": 32
+            },
+            {
+              "x": 75,
+              "z": 55
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": 61,
+        "z": 32,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": 61,
+              "z": 32
+            },
+            {
+              "x": 75,
+              "z": 55
+            }
+          ],
+          "offset": 6
+        }
+      },
+      {
+        "mobId": "mere_hydra_head_left",
+        "x": 5.1,
+        "z": 96.5,
+        "facing": 3.141592653589793,
+        "packId": "hydra",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mere_hydra_head_center",
+        "x": 0,
+        "z": 96.9,
+        "facing": 3.141592653589793,
+        "packId": "hydra",
+        "idleStationary": true
+      },
+      {
+        "mobId": "mere_hydra_head_right",
+        "x": -5.3,
+        "z": 96.8,
+        "facing": 3.141592653589793,
+        "packId": "hydra",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": 40,
+        "z": 133,
+        "facing": -2.356194490192345,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": 45,
+        "z": 133,
+        "facing": -2.356194490192345,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 45,
+        "z": 139,
+        "facing": -2.356194490192345,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": 39,
+        "z": 139,
+        "facing": -2.356194490192345,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": 70,
+        "z": 161,
+        "facing": -2.356194490192345,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": 75,
+        "z": 162,
+        "facing": -2.356194490192345,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": 69,
+        "z": 167,
+        "facing": -2.356194490192345,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "glimmerscale_lurker",
+        "x": 75,
+        "z": 167,
+        "facing": -2.356194490192345,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 51,
+        "z": 146,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 146
+            },
+            {
+              "x": 62,
+              "z": 155
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "lagoon_snapper",
+        "x": 51,
+        "z": 146,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 146
+            },
+            {
+              "x": 62,
+              "z": 155
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "lagoon_snapper",
+        "x": 51,
+        "z": 146,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": 51,
+              "z": 146
+            },
+            {
+              "x": 62,
+              "z": 155
+            }
+          ],
+          "offset": 6
+        }
+      },
+      {
+        "mobId": "tideglass_colossus",
+        "x": 86,
+        "z": 210,
+        "facing": 3.141592653589793,
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": 23,
+        "z": 193,
+        "facing": 1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": 27,
+        "z": 196,
+        "facing": 1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "drowned_templeguard",
+        "x": 21,
+        "z": 199,
+        "facing": 1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": 17,
+        "z": 194,
+        "facing": 1.5707963267948966,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pearlguard_sentinel",
+        "x": 25,
+        "z": 219,
+        "facing": 1.5707963267948966,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "moonlit_siren",
+        "x": 19,
+        "z": 221,
+        "facing": 1.5707963267948966,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "lagoon_snapper",
+        "x": 27,
+        "z": 214,
+        "facing": 1.5707963267948966,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "ice_wraith",
+        "x": 21,
+        "z": 215,
+        "facing": 1.5707963267948966,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "pale_choir_acolyte",
+        "x": 16,
+        "z": 218,
+        "facing": 1.5707963267948966,
+        "packId": "g13",
+        "idleStationary": true
       },
       {
         "mobId": "ysolei",
-        "x": 0,
-        "z": 116
-      },
-      {
-        "mobId": "drowned_templeguard",
-        "x": -4,
-        "z": 114
-      },
-      {
-        "mobId": "drowned_templeguard",
-        "x": 4,
-        "z": 114
+        "x": -26.4,
+        "z": 206,
+        "facing": 1.5707963267948966,
+        "idleStationary": true
       }
     ],
-    "interior": "temple",
+    "objects": [
+      {
+        "itemId": "",
+        "name": "Choir Veil",
+        "x": 0,
+        "z": -33,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "West Court Stair",
+        "x": -27.5,
+        "z": 12,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "East Court Stair",
+        "x": 27.5,
+        "z": 12,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Sunken Prism Stair",
+        "x": 18.7,
+        "z": 114.3,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Prism Ward",
+        "x": 78,
+        "z": 177,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "The Moonbridge",
+        "x": 62.5,
+        "z": 208,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Altar Ward",
+        "x": 8,
+        "z": 206,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "drowned_temple",
+        "lootable": false
+      }
+    ],
+    "npcs": [
+      {
+        "npcId": "cantor_laverock",
+        "x": 4,
+        "z": -226,
+        "facing": 0
+      }
+    ],
+    "gates": [
+      {
+        "id": "choir_veil",
+        "name": "Choir Veil",
+        "kind": "water_veil",
+        "x": 0,
+        "z": -33,
+        "hw": 6.6,
+        "rot": 0,
+        "packs": [
+          "g1",
+          "g2",
+          "g3",
+          "pa",
+          "g4",
+          "g5"
+        ],
+        "sealWhileEngaged": "choirmother_selthe",
+        "openText": "The curtain of falling water over the Choir Stair parts."
+      },
+      {
+        "id": "court_stair_west",
+        "name": "West Court Stair",
+        "kind": "warded_arch",
+        "x": -27.5,
+        "z": 12,
+        "hw": 5.6,
+        "rot": 1.9018924034990288,
+        "bosses": [
+          "choirmother_selthe"
+        ],
+        "openText": "The choir falls silent. The Court Stairs unward."
+      },
+      {
+        "id": "court_stair_east",
+        "name": "East Court Stair",
+        "kind": "warded_arch",
+        "x": 27.5,
+        "z": 12,
+        "hw": 5.6,
+        "rot": -1.9018924034990288,
+        "bosses": [
+          "choirmother_selthe"
+        ]
+      },
+      {
+        "id": "prism_stair_rise",
+        "name": "Sunken Prism Stair",
+        "kind": "sunken_stair",
+        "x": 18.7,
+        "z": 114.3,
+        "hw": 5.6,
+        "rot": -2.32074834993363,
+        "packs": [
+          "g6",
+          "g7",
+          "g8",
+          "g9",
+          "pb",
+          "hydra"
+        ],
+        "openText": "The moon pool drains with a roar. The Prism Stair rises from the lagoon."
+      },
+      {
+        "id": "prism_ward",
+        "name": "Prism Ward",
+        "kind": "warded_arch",
+        "x": 78,
+        "z": 177,
+        "hw": 5.6,
+        "rot": -2.723368324010564,
+        "packs": [
+          "g10",
+          "g11",
+          "pc"
+        ],
+        "sealWhileEngaged": "tideglass_colossus",
+        "openText": "The ward on the Prism Terrace fades."
+      },
+      {
+        "id": "moonbridge",
+        "name": "The Moonbridge",
+        "kind": "light_bridge",
+        "x": 62.5,
+        "z": 208,
+        "hw": 5,
+        "rot": 1.5707963267948966,
+        "bosses": [
+          "tideglass_colossus"
+        ],
+        "openText": "Moonlight gathers over the lagoon and hardens into a bridge."
+      },
+      {
+        "id": "altar_ward",
+        "name": "Altar Ward",
+        "kind": "rite_ward",
+        "x": 8,
+        "z": 206,
+        "hw": 6.2,
+        "rot": 1.5707963267948966,
+        "packs": [
+          "g12",
+          "g13"
+        ],
+        "sealWhileEngaged": "ysolei",
+        "openText": "The rite ward before the Moon Altar breaks."
+      }
+    ],
+    "bossChainPull": true,
+    "areaCastsPlant": true,
+    "interior": "drowned_temple",
     "suggestedPlayers": 5,
     "enterText": "You step through the moongate: the air turns to cold water and pale light, and the singing closes over your head.",
     "leaveText": "You surface through the moongate into the mountain night."
@@ -1074,127 +5040,849 @@
     "name": "The Wildheart Basin",
     "index": 7,
     "doorPos": {
-      "x": -232,
-      "z": 1112
+      "x": -237,
+      "z": 1093
     },
     "entry": {
       "x": 0,
-      "z": -5
+      "z": -217
     },
     "exitOffset": {
       "x": 0,
-      "z": -10
+      "z": -229
     },
     "bossExitPortal": {
       "x": 0,
-      "z": 222
+      "z": 242.5
     },
     "spawns": [
       {
         "mobId": "wildheart_stalker",
-        "x": -7,
-        "z": 36
-      },
-      {
-        "mobId": "wildheart_ravager",
-        "x": 7,
-        "z": 37.5
-      },
-      {
-        "mobId": "wildheart_ravager",
-        "x": -31,
-        "z": 63
-      },
-      {
-        "mobId": "wildheart_stalker",
-        "x": -39,
-        "z": 68
-      },
-      {
-        "mobId": "wildheart_ravager",
         "x": -34,
-        "z": 96
+        "z": -176,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
-        "mobId": "wildheart_hexcaller",
-        "x": -25,
-        "z": 102
+        "mobId": "basin_raptor",
+        "x": -40,
+        "z": -180,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
-        "mobId": "wildheart_stalker",
-        "x": 31,
-        "z": 66
+        "mobId": "basin_raptor",
+        "x": -28,
+        "z": -180,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -40,
+        "z": -172,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -28,
+        "z": -172,
+        "facing": 3.141592653589793,
+        "packId": "g1",
+        "idleStationary": true
       },
       {
         "mobId": "wildheart_ravager",
-        "x": 40,
-        "z": 72
-      },
-      {
-        "mobId": "wildheart_hexcaller",
-        "x": 27,
-        "z": 104
-      },
-      {
-        "mobId": "wildheart_stalker",
-        "x": 38,
-        "z": 111
-      },
-      {
-        "mobId": "wildheart_stalker",
-        "x": -10,
-        "z": 116
+        "x": -36,
+        "z": -140,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
       },
       {
         "mobId": "wildheart_ravager",
-        "x": 10,
-        "z": 117
+        "x": -36,
+        "z": -134,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_hexcaller",
+        "x": -42,
+        "z": -137,
+        "facing": 1.5707963267948966,
+        "packId": "g2",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sunbone_totem_binder",
+        "x": 43,
+        "z": -106,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 37,
+        "z": -111,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 37,
+        "z": -101,
+        "facing": -1.5707963267948966,
+        "packId": "g3",
+        "idleStationary": true
+      },
+      {
+        "mobId": "great_saurian",
+        "x": -50,
+        "z": -118,
+        "packId": "pa",
+        "patrol": {
+          "points": [
+            {
+              "x": -50,
+              "z": -118
+            },
+            {
+              "x": 14,
+              "z": -118
+            },
+            {
+              "x": 14,
+              "z": -100
+            },
+            {
+              "x": -50,
+              "z": -100
+            }
+          ],
+          "offset": 0,
+          "pace": 0.35
+        }
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": -96,
+        "z": -68,
+        "facing": 1.5707963267948966,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": -96,
+        "z": -60,
+        "facing": 1.5707963267948966,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -102,
+        "z": -70,
+        "facing": 1.5707963267948966,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -102,
+        "z": -58,
+        "facing": 1.5707963267948966,
+        "packId": "g4",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_hexcaller",
+        "x": -84,
+        "z": -6,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "vine_lasher",
+        "x": -80,
+        "z": -14,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": -92,
+        "z": -12,
+        "facing": 3.141592653589793,
+        "packId": "g5",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -104,
+        "z": -46,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -104,
+              "z": -46
+            },
+            {
+              "x": -72,
+              "z": -46
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -104,
+        "z": -46,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -104,
+              "z": -46
+            },
+            {
+              "x": -72,
+              "z": -46
+            }
+          ],
+          "offset": 2.5
+        }
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -104,
+        "z": -46,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -104,
+              "z": -46
+            },
+            {
+              "x": -72,
+              "z": -46
+            }
+          ],
+          "offset": 5
+        }
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -104,
+        "z": -46,
+        "packId": "pb",
+        "patrol": {
+          "points": [
+            {
+              "x": -104,
+              "z": -46
+            },
+            {
+              "x": -72,
+              "z": -46
+            }
+          ],
+          "offset": 7.5
+        }
       },
       {
         "mobId": "wildheart_beastmaster",
-        "x": 0,
-        "z": 111
+        "x": -89,
+        "z": 48,
+        "facing": 3.141592653589793,
+        "packId": "beastmaster",
+        "idleStationary": true
       },
       {
-        "mobId": "wildheart_hexcaller",
-        "x": -34,
-        "z": 155
+        "mobId": "fanglord_jaguar",
+        "x": -82,
+        "z": 46,
+        "facing": 3.141592653589793,
+        "packId": "beastmaster",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": 98,
+        "z": -60,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": 104,
+        "z": -56,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": 98,
+        "z": -52,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "vine_lasher",
+        "x": 106,
+        "z": -64,
+        "facing": -1.5707963267948966,
+        "packId": "g6",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sunbone_totem_binder",
+        "x": 104,
+        "z": -8,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
       },
       {
         "mobId": "wildheart_ravager",
-        "x": -25,
-        "z": 160
+        "x": 99,
+        "z": -16,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_hexcaller",
+        "x": 108,
+        "z": -16,
+        "facing": 3.141592653589793,
+        "packId": "g7",
+        "idleStationary": true
+      },
+      {
+        "mobId": "the_gorgebloom",
+        "x": 96,
+        "z": 44,
+        "facing": -1.5707963267948966,
+        "idleStationary": true
+      },
+      {
+        "mobId": "vine_lasher",
+        "x": -22,
+        "z": 6,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
       },
       {
         "mobId": "wildheart_stalker",
-        "x": 34,
-        "z": 160
+        "x": -28,
+        "z": 2,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": -16,
+        "z": 2,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": -22,
+        "z": 13,
+        "facing": 3.141592653589793,
+        "packId": "g8",
+        "idleStationary": true
       },
       {
         "mobId": "wildheart_ravager",
-        "x": 25,
-        "z": 166
+        "x": 20,
+        "z": 34,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
       },
       {
-        "mobId": "wildheart_beastmaster",
-        "x": 0,
-        "z": 183
+        "mobId": "wildheart_ravager",
+        "x": 28,
+        "z": 34,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sunbone_totem_binder",
+        "x": 24,
+        "z": 41,
+        "facing": 3.141592653589793,
+        "packId": "g9",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": -36,
+        "z": -28,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": -36,
+              "z": -28
+            },
+            {
+              "x": 36,
+              "z": -28
+            },
+            {
+              "x": 38,
+              "z": 58
+            },
+            {
+              "x": -38,
+              "z": 58
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -36,
+        "z": -28,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": -36,
+              "z": -28
+            },
+            {
+              "x": 36,
+              "z": -28
+            },
+            {
+              "x": 38,
+              "z": 58
+            },
+            {
+              "x": -38,
+              "z": 58
+            }
+          ],
+          "offset": 3
+        }
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": -36,
+        "z": -28,
+        "packId": "pc",
+        "patrol": {
+          "points": [
+            {
+              "x": -36,
+              "z": -28
+            },
+            {
+              "x": 36,
+              "z": -28
+            },
+            {
+              "x": 38,
+              "z": 58
+            },
+            {
+              "x": -38,
+              "z": 58
+            }
+          ],
+          "offset": 5.5
+        }
       },
       {
         "mobId": "wildheart_hexcaller",
-        "x": -8,
-        "z": 184.5
+        "x": -32,
+        "z": 112,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_hexcaller",
+        "x": -24,
+        "z": 114,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": -28,
+        "z": 106,
+        "facing": 3.141592653589793,
+        "packId": "g10",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 28,
+        "z": 114,
+        "facing": 3.141592653589793,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": 23,
+        "z": 109,
+        "facing": 3.141592653589793,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": 33,
+        "z": 109,
+        "facing": 3.141592653589793,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": 23,
+        "z": 118,
+        "facing": 3.141592653589793,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "basin_raptor",
+        "x": 33,
+        "z": 118,
+        "facing": 3.141592653589793,
+        "packId": "g11",
+        "idleStationary": true
+      },
+      {
+        "mobId": "sunbone_totem_binder",
+        "x": -16,
+        "z": 154,
+        "facing": 3.141592653589793,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": -16,
+        "z": 148,
+        "facing": 3.141592653589793,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_ravager",
+        "x": 16,
+        "z": 148,
+        "facing": 3.141592653589793,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_hexcaller",
+        "x": 16,
+        "z": 154,
+        "facing": 3.141592653589793,
+        "packId": "g12",
+        "idleStationary": true
+      },
+      {
+        "mobId": "vine_lasher",
+        "x": -14,
+        "z": 180,
+        "facing": 3.141592653589793,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": -19,
+        "z": 177,
+        "facing": 3.141592653589793,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 19,
+        "z": 177,
+        "facing": 3.141592653589793,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": 13,
+        "z": 181,
+        "facing": 3.141592653589793,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "spore_toad",
+        "x": 20,
+        "z": 182.5,
+        "facing": 3.141592653589793,
+        "packId": "g13",
+        "idleStationary": true
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 0,
+        "z": 131,
+        "packId": "pd",
+        "patrol": {
+          "points": [
+            {
+              "x": 0,
+              "z": 131
+            },
+            {
+              "x": 0,
+              "z": 170
+            }
+          ],
+          "offset": 0
+        }
+      },
+      {
+        "mobId": "wildheart_stalker",
+        "x": 0,
+        "z": 131,
+        "packId": "pd",
+        "patrol": {
+          "points": [
+            {
+              "x": 0,
+              "z": 131
+            },
+            {
+              "x": 0,
+              "z": 170
+            }
+          ],
+          "offset": 3
+        }
       },
       {
         "mobId": "wildheart_high_priest",
         "x": 0,
-        "z": 213
+        "z": 220,
+        "facing": 3.141592653589793
+      }
+    ],
+    "objects": [
+      {
+        "itemId": "",
+        "name": "West Vine Bridge",
+        "x": -69,
+        "z": -93,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "East Vine Bridge",
+        "x": 69,
+        "z": -93,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Beast Pits Thorn Wall",
+        "x": -86,
+        "z": 8,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Weeping Falls Thorn Wall",
+        "x": 96.6,
+        "z": 9,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Sunbone Causeway Thorn Wall",
+        "x": 0,
+        "z": -76,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Convergence Stair Ward",
+        "x": 0,
+        "z": 75,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      },
+      {
+        "itemId": "",
+        "name": "Shrine Ward",
+        "x": 0,
+        "z": 189,
+        "templateId": "dungeon_gate_closed",
+        "dungeonId": "wildheart_basin",
+        "lootable": false
+      }
+    ],
+    "gates": [
+      {
+        "id": "vine_bridge_west",
+        "name": "West Vine Bridge",
+        "kind": "vine_bridge",
+        "x": -69,
+        "z": -93,
+        "hw": 5,
+        "rot": 2.356194490192345,
+        "packs": [
+          "g1",
+          "g2",
+          "g3",
+          "pa"
+        ],
+        "openText": "With the ford cleared, the vines stir and weave two bridges across the gorge."
+      },
+      {
+        "id": "vine_bridge_east",
+        "name": "East Vine Bridge",
+        "kind": "vine_bridge",
+        "x": 69,
+        "z": -93,
+        "hw": 5,
+        "rot": -2.356194490192345,
+        "packs": [
+          "g1",
+          "g2",
+          "g3",
+          "pa"
+        ]
+      },
+      {
+        "id": "beast_pits_thorns",
+        "name": "Beast Pits Thorn Wall",
+        "kind": "thorn_wall",
+        "x": -86,
+        "z": 8,
+        "hw": 6.6,
+        "rot": -3.141592653589793,
+        "packs": [
+          "g4",
+          "g5",
+          "pb"
+        ],
+        "sealWhileEngaged": "wildheart_beastmaster",
+        "openText": "The thorn hedge before the Beast Pits withers back into the earth."
+      },
+      {
+        "id": "weeping_falls_thorns",
+        "name": "Weeping Falls Thorn Wall",
+        "kind": "thorn_wall",
+        "x": 96.6,
+        "z": 9,
+        "hw": 5.6,
+        "rot": 2.8023000391357487,
+        "packs": [
+          "g6",
+          "g7"
+        ],
+        "sealWhileEngaged": "the_gorgebloom",
+        "openText": "The thorns at the foot of the Weeping Falls shrink away from the path."
+      },
+      {
+        "id": "sunbone_causeway_thorns",
+        "name": "Sunbone Causeway Thorn Wall",
+        "kind": "thorn_wall",
+        "x": 0,
+        "z": -76,
+        "hw": 6.6,
+        "rot": -3.141592653589793,
+        "bosses": [
+          "wildheart_beastmaster",
+          "fanglord_jaguar",
+          "the_gorgebloom"
+        ],
+        "openText": "With the Beastmaster and the Gorgebloom fallen, the thorns on the Sunbone Causeway recede."
+      },
+      {
+        "id": "convergence_arch",
+        "name": "Convergence Stair Ward",
+        "kind": "warded_arch",
+        "x": 0,
+        "z": 75,
+        "hw": 7.6,
+        "rot": -3.141592653589793,
+        "packs": [
+          "g8",
+          "g9",
+          "pc"
+        ],
+        "openText": "The ward across the Convergence Stair flickers and fails."
+      },
+      {
+        "id": "shrine_ward",
+        "name": "Shrine Ward",
+        "kind": "rite_ward",
+        "x": 0,
+        "z": 189,
+        "hw": 8.6,
+        "rot": -3.141592653589793,
+        "packs": [
+          "g10",
+          "g11",
+          "g12",
+          "g13",
+          "pd"
+        ],
+        "sealWhileEngaged": "wildheart_high_priest",
+        "openText": "The Shrine Ward falls. Above the terrace, the stone jaguar watches."
       }
     ],
     "interior": "wildheart",
     "bossChainPull": true,
+    "areaCastsPlant": true,
     "suggestedPlayers": 5,
-    "enterText": "Warm rain hisses on old stone. The Wildheart Basin opens before you.",
+    "enterText": "You step through the idol maw onto a ledge high above the basin. Waterfalls thunder from the rim, and far below, something enormous wades the ford.",
     "leaveText": "You pass back beneath the stone fangs into the Palmreach sun."
   }
 }

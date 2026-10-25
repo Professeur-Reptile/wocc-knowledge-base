@@ -19,6 +19,14 @@
     "itemRewards": {},
     "requiredItems": [
       "copper_mining_pick"
+    ],
+    "choiceRewards": [
+      "brookwatch_leggings",
+      "brookwatch_breeches",
+      "brookwatch_legwraps",
+      "brookwatch_legguards",
+      "brookwatch_chausses",
+      "brookwatch_trousers"
     ]
   },
   "q_farm_intro": {
@@ -52,6 +60,14 @@
     "requiredItems": [
       "garden_hoe",
       "vale_wheat_seed"
+    ],
+    "choiceRewards": [
+      "brookwatch_slippers",
+      "brookwatch_boots",
+      "brookwatch_treads",
+      "brookwatch_sabatons",
+      "brookwatch_greaves",
+      "brookwatch_moccasins"
     ]
   },
   "q_wolves": {
@@ -71,7 +87,15 @@
     ],
     "xpReward": 250,
     "copperReward": 75,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "brookwatch_robe",
+      "brookwatch_jerkin",
+      "brookwatch_tunic",
+      "brookwatch_hauberk",
+      "brookwatch_chainmail",
+      "brookwatch_vest"
+    ]
   },
   "q_greyjaw": {
     "id": "q_greyjaw",
@@ -95,7 +119,15 @@
       "mage": "greyjaw_pelt_cloak",
       "rogue": "greyjaw_pelt_cloak"
     },
-    "requiresQuest": "q_wolves"
+    "requiresQuest": "q_wolves",
+    "choiceRewards": [
+      "brookwatch_sash",
+      "brookwatch_belt",
+      "brookwatch_waistguard",
+      "brookwatch_girdle",
+      "brookwatch_cord",
+      "brookwatch_cinch"
+    ]
   },
   "q_boars": {
     "id": "q_boars",
@@ -114,7 +146,15 @@
     ],
     "xpReward": 350,
     "copperReward": 120,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "brookwatch_slippers",
+      "brookwatch_boots",
+      "brookwatch_treads",
+      "brookwatch_sabatons",
+      "brookwatch_greaves",
+      "brookwatch_moccasins"
+    ]
   },
   "q_spiders": {
     "id": "q_spiders",
@@ -140,7 +180,15 @@
     "xpReward": 420,
     "copperReward": 140,
     "itemRewards": {},
-    "minLevel": 2
+    "minLevel": 2,
+    "choiceRewards": [
+      "brookwatch_mantle",
+      "brookwatch_shoulderpads",
+      "brookwatch_shoulderguards",
+      "brookwatch_pauldrons",
+      "brookwatch_spaulders",
+      "brookwatch_epaulets"
+    ]
   },
   "q_murlocs": {
     "id": "q_murlocs",
@@ -160,7 +208,15 @@
     "xpReward": 520,
     "copperReward": 180,
     "itemRewards": {},
-    "minLevel": 3
+    "minLevel": 3,
+    "choiceRewards": [
+      "brookwatch_hood",
+      "brookwatch_cap",
+      "brookwatch_headguard",
+      "brookwatch_helm",
+      "brookwatch_coif",
+      "brookwatch_cowl"
+    ]
   },
   "q_mine": {
     "id": "q_mine",
@@ -180,7 +236,15 @@
     "xpReward": 620,
     "copperReward": 220,
     "itemRewards": {},
-    "minLevel": 4
+    "minLevel": 4,
+    "choiceRewards": [
+      "hedgerow_robe",
+      "hedgerow_jerkin",
+      "hedgerow_tunic",
+      "hedgerow_hauberk",
+      "hedgerow_chainmail",
+      "hedgerow_vest"
+    ]
   },
   "q_bones": {
     "id": "q_bones",
@@ -200,8 +264,18 @@
     ],
     "xpReward": 700,
     "copperReward": 260,
-    "itemRewards": {},
-    "minLevel": 5
+    "itemRewards": {
+      "warrior": "lychgate_buckler"
+    },
+    "minLevel": 5,
+    "choiceRewards": [
+      "hedgerow_sash",
+      "hedgerow_belt",
+      "hedgerow_waistguard",
+      "hedgerow_girdle",
+      "hedgerow_cord",
+      "hedgerow_cinch"
+    ]
   },
   "q_supplies": {
     "id": "q_supplies",
@@ -221,7 +295,15 @@
     "xpReward": 550,
     "copperReward": 250,
     "itemRewards": {},
-    "minLevel": 3
+    "minLevel": 3,
+    "choiceRewards": [
+      "brookwatch_hood",
+      "brookwatch_cap",
+      "brookwatch_headguard",
+      "brookwatch_helm",
+      "brookwatch_coif",
+      "brookwatch_cowl"
+    ]
   },
   "q_whispers": {
     "id": "q_whispers",
@@ -241,7 +323,15 @@
     "xpReward": 400,
     "copperReward": 150,
     "itemRewards": {},
-    "requiresQuest": "q_bones"
+    "requiresQuest": "q_bones",
+    "choiceRewards": [
+      "brookwatch_hood",
+      "brookwatch_cap",
+      "brookwatch_headguard",
+      "brookwatch_helm",
+      "brookwatch_coif",
+      "brookwatch_cowl"
+    ]
   },
   "q_names_of_the_dead": {
     "id": "q_names_of_the_dead",
@@ -261,7 +351,15 @@
     "xpReward": 600,
     "copperReward": 250,
     "itemRewards": {},
-    "requiresQuest": "q_whispers"
+    "requiresQuest": "q_whispers",
+    "choiceRewards": [
+      "brookwatch_gloves",
+      "brookwatch_grips",
+      "brookwatch_handwraps",
+      "brookwatch_gauntlets",
+      "brookwatch_handguards",
+      "brookwatch_mitts"
+    ]
   },
   "q_silence_the_call": {
     "id": "q_silence_the_call",
@@ -281,7 +379,15 @@
     "xpReward": 750,
     "copperReward": 300,
     "itemRewards": {},
-    "requiresQuest": "q_names_of_the_dead"
+    "requiresQuest": "q_names_of_the_dead",
+    "choiceRewards": [
+      "hedgerow_robe",
+      "hedgerow_jerkin",
+      "hedgerow_tunic",
+      "hedgerow_hauberk",
+      "hedgerow_chainmail",
+      "hedgerow_vest"
+    ]
   },
   "q_rite": {
     "id": "q_rite",
@@ -307,7 +413,15 @@
     "xpReward": 700,
     "copperReward": 500,
     "itemRewards": {},
-    "requiresQuest": "q_whispers"
+    "requiresQuest": "q_whispers",
+    "choiceRewards": [
+      "hedgerow_leggings",
+      "hedgerow_breeches",
+      "hedgerow_legwraps",
+      "hedgerow_legguards",
+      "hedgerow_chausses",
+      "hedgerow_trousers"
+    ]
   },
   "q_hollow": {
     "id": "q_hollow",
@@ -332,7 +446,11 @@
       "mage": "gravecaller_staff"
     },
     "requiresQuest": "q_rite",
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "cryptbound_tunic",
+      "cryptbound_chainmail"
+    ]
   },
   "q_sexton": {
     "id": "q_sexton",
@@ -357,7 +475,12 @@
       "rogue": "gravewalker_softboots"
     },
     "requiresQuest": "q_rite",
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "gravebell_treads",
+      "gravebell_greaves",
+      "gravebell_moccasins"
+    ]
   },
   "q_gravecallers_trail": {
     "id": "q_gravecallers_trail",
@@ -377,7 +500,15 @@
     "xpReward": 900,
     "copperReward": 400,
     "itemRewards": {},
-    "requiresQuest": "q_hollow"
+    "requiresQuest": "q_hollow",
+    "choiceRewards": [
+      "brookwatch_mantle",
+      "brookwatch_shoulderpads",
+      "brookwatch_shoulderguards",
+      "brookwatch_pauldrons",
+      "brookwatch_spaulders",
+      "brookwatch_epaulets"
+    ]
   },
   "q_divine_tome": {
     "id": "q_divine_tome",
@@ -401,7 +532,15 @@
       "paladin"
     ],
     "requiresQuest": "q_bones",
-    "minLevel": 6
+    "minLevel": 6,
+    "choiceRewards": [
+      "hedgerow_slippers",
+      "hedgerow_boots",
+      "hedgerow_treads",
+      "hedgerow_sabatons",
+      "hedgerow_greaves",
+      "hedgerow_moccasins"
+    ]
   },
   "q_bandits": {
     "id": "q_bandits",
@@ -425,7 +564,15 @@
       "mage": "apprentice_staff",
       "rogue": "keen_dirk"
     },
-    "requiresQuest": "q_wolves"
+    "requiresQuest": "q_wolves",
+    "choiceRewards": [
+      "brookwatch_gloves",
+      "brookwatch_grips",
+      "brookwatch_handwraps",
+      "brookwatch_gauntlets",
+      "brookwatch_handguards",
+      "brookwatch_mitts"
+    ]
   },
   "q_ringleader": {
     "id": "q_ringleader",
@@ -449,7 +596,15 @@
       "mage": "woven_robe",
       "rogue": "shadow_jerkin"
     },
-    "requiresQuest": "q_bandits"
+    "requiresQuest": "q_bandits",
+    "choiceRewards": [
+      "hedgerow_leggings",
+      "hedgerow_breeches",
+      "hedgerow_legwraps",
+      "hedgerow_legguards",
+      "hedgerow_chausses",
+      "hedgerow_trousers"
+    ]
   },
   "q_mogger": {
     "id": "q_mogger",
@@ -475,7 +630,15 @@
     },
     "requiresQuest": "q_gravecallers_trail",
     "minLevel": 6,
-    "suggestedPlayers": 3
+    "suggestedPlayers": 3,
+    "choiceRewards": [
+      "hedgerow_slippers",
+      "hedgerow_boots",
+      "hedgerow_treads",
+      "hedgerow_sabatons",
+      "hedgerow_greaves",
+      "hedgerow_moccasins"
+    ]
   },
   "q_prof_attune_smith": {
     "id": "q_prof_attune_smith",
@@ -503,7 +666,15 @@
       "type": "attunePair",
       "mode": "new",
       "pairId": "weaponcrafting+armorcrafting"
-    }
+    },
+    "choiceRewards": [
+      "brookwatch_sash",
+      "brookwatch_belt",
+      "brookwatch_waistguard",
+      "brookwatch_girdle",
+      "brookwatch_cord",
+      "brookwatch_cinch"
+    ]
   },
   "q_prof_attune_outfitter": {
     "id": "q_prof_attune_outfitter",
@@ -528,7 +699,15 @@
       "type": "attunePair",
       "mode": "new",
       "pairId": "leatherworking+tailoring"
-    }
+    },
+    "choiceRewards": [
+      "brookwatch_robe",
+      "brookwatch_jerkin",
+      "brookwatch_tunic",
+      "brookwatch_hauberk",
+      "brookwatch_chainmail",
+      "brookwatch_vest"
+    ]
   },
   "q_prof_attune_apothecary": {
     "id": "q_prof_attune_apothecary",
@@ -553,7 +732,15 @@
       "type": "attunePair",
       "mode": "new",
       "pairId": "alchemy+cooking"
-    }
+    },
+    "choiceRewards": [
+      "brookwatch_gloves",
+      "brookwatch_grips",
+      "brookwatch_handwraps",
+      "brookwatch_gauntlets",
+      "brookwatch_handguards",
+      "brookwatch_mitts"
+    ]
   },
   "q_prof_attune_bombardier": {
     "id": "q_prof_attune_bombardier",
@@ -581,7 +768,15 @@
       "type": "attunePair",
       "mode": "new",
       "pairId": "engineering+alchemy"
-    }
+    },
+    "choiceRewards": [
+      "brookwatch_robe",
+      "brookwatch_jerkin",
+      "brookwatch_tunic",
+      "brookwatch_hauberk",
+      "brookwatch_chainmail",
+      "brookwatch_vest"
+    ]
   },
   "q_prof_amends_smith": {
     "id": "q_prof_amends_smith",
@@ -852,6 +1047,84 @@
       "type": "switchHobby"
     }
   },
+  "q_muster_summons": {
+    "id": "q_muster_summons",
+    "name": "The Muster's Summons",
+    "giverNpcId": "warden_fenwick",
+    "turnInNpcId": "muster_commander",
+    "text": "Every spear I could spare is dug in around the Starfall Crater, $N, ringing the thing that walks out of it. The Muster Commander holds the camp on the southern rise above the crater, south-east of here. Report to the Commander. You will be told how we fight him, and you will listen, because the ones who did not are in the reeds.",
+    "completionText": "Fenwick's runner, is it? Good. Listen, because I say this once and he never says it at all. Balgath walks our pickets: the crater rim, the west flats, the south rise, the gap on the south-west rim, and round again, and every post he stops at, he flattens. Steel does not bite him. His hide turns it, and a raid that hacks at him only dies tired. The one weakness is his eye. A braced pike through the Barrowglass blinds him, and while he is blind his hide sloughs off: that is when the whole raid hits him, and hits hard. Then it closes over and we wait for the next chance. The rack lends its pikes to recruits of level 19 or lower: the young ones put the eye out, the veterans make the window count. Pikes first, $N, then everyone.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "muster_commander",
+        "count": 1,
+        "label": "Report to the Muster Commander"
+      }
+    ],
+    "xpReward": 300,
+    "copperReward": 200,
+    "itemRewards": {},
+    "minLevel": 6
+  },
+  "q_muster_pike_drill": {
+    "id": "q_muster_pike_drill",
+    "name": "Pikes First",
+    "giverNpcId": "muster_commander",
+    "turnInNpcId": "muster_commander",
+    "text": "Talk is cheap and pikes are not, and the rack lends them only to recruits of level 19 or lower. Take a Shardpike off the rack beside me, then walk to the Straw Foreman at the west end of camp: the lads built him out of planks and straw, half the size of the real one, with a lantern where the eye goes. Couch the pike and hold the point true while the drillmaster pounds the ground, because the real one shakes it harder. When your arms are sure, put the point through the lantern. His planks will come off: then hit him with your own weapon, $N, and feel the difference.",
+    "completionText": "You felt it bite, did you? On the real one that is fourteen breaths with the whole raid swinging, and then his hide closes over again. Keep the lesson. The Foreman will test it.",
+    "objectives": [
+      {
+        "type": "event",
+        "eventId": "muster_pike_drawn",
+        "count": 1,
+        "label": "Shardpike taken from the muster rack"
+      },
+      {
+        "type": "event",
+        "eventId": "muster_effigy_blinded",
+        "count": 1,
+        "label": "Straw Foreman's lantern put out"
+      },
+      {
+        "type": "event",
+        "eventId": "muster_effigy_window_hit",
+        "count": 5,
+        "label": "Blows landed while its planks are down"
+      }
+    ],
+    "xpReward": 800,
+    "copperReward": 300,
+    "itemRewards": {},
+    "requiresQuest": "q_muster_summons",
+    "minLevel": 6,
+    "maxLevel": 19
+  },
+  "q_muster_trophy": {
+    "id": "q_muster_trophy",
+    "name": "A Chip Off the Foreman",
+    "giverNpcId": "muster_commander",
+    "turnInNpcId": "muster_commander",
+    "text": "Every week he stands back up, and every week we knock him down again. That takes a raid, and the muster cannot raise one on its own. Find the next raid that goes after Balgath and help bring him down, $N. Strike him, shield the ones who do, or mend them: every hand that fights him counts. When he falls, come back and report to me. The muster pays for every kill.",
+    "completionText": "Down again, and you were in the fight that did it. Fenbridge will have my report tonight. The purse is thin this far out, but it is yours. Come back when he is up again.",
+    "objectives": [
+      {
+        "type": "kill",
+        "targetMobId": "balgath_cyclops",
+        "count": 1,
+        "label": "Balgath slain"
+      }
+    ],
+    "xpReward": 900,
+    "copperReward": 1000,
+    "itemRewards": {},
+    "requiresQuest": "q_muster_summons",
+    "minLevel": 6,
+    "suggestedPlayers": 10,
+    "repeatable": true,
+    "weeklyReset": true
+  },
   "q_fenbridge_muster": {
     "id": "q_fenbridge_muster",
     "name": "Muster at Fenbridge",
@@ -870,7 +1143,39 @@
     "xpReward": 300,
     "copperReward": 200,
     "itemRewards": {},
-    "minLevel": 6
+    "minLevel": 6,
+    "choiceRewards": [
+      "hedgerow_hood",
+      "hedgerow_cap",
+      "hedgerow_headguard",
+      "hedgerow_helm",
+      "hedgerow_coif",
+      "hedgerow_cowl"
+    ]
+  },
+  "q_socketwrights_due": {
+    "id": "q_socketwrights_due",
+    "name": "The Socketwright's Due",
+    "giverNpcId": "socketwright_skerrit",
+    "turnInNpcId": "socketwright_skerrit",
+    "text": "I set the Barrowglass in that socket myself: ground the lens, seated it, wedged it true. The barrow-masters never paid me a copper, and now my work walks around flattening the fen. Take my Shardpike. Plant the butt, hold the point steady, however long it takes, and when your arms are sure, put it through the eye. The hide he wears is bound to that shard, $N: blind him, and every blade in the mire will finally bite.",
+    "completionText": "You felt it give, did you? Forty years of interest, paid through the socket. The pike is yours, friend. He will heal, he always does, so go collect again whenever the fancy takes you.",
+    "objectives": [
+      {
+        "type": "event",
+        "eventId": "balgath_blinded",
+        "count": 1,
+        "label": "The Foreman's eye put out"
+      }
+    ],
+    "xpReward": 900,
+    "copperReward": 500,
+    "itemRewards": {},
+    "requiredItems": [
+      "skerrits_shardpike"
+    ],
+    "minLevel": 6,
+    "suggestedPlayers": 5
   },
   "q_prowlers": {
     "id": "q_prowlers",
@@ -889,7 +1194,15 @@
     ],
     "xpReward": 800,
     "copperReward": 300,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "hedgerow_mantle",
+      "hedgerow_shoulderpads",
+      "hedgerow_shoulderguards",
+      "hedgerow_pauldrons",
+      "hedgerow_spaulders",
+      "hedgerow_epaulets"
+    ]
   },
   "q_prowler_pelts": {
     "id": "q_prowler_pelts",
@@ -908,7 +1221,15 @@
     ],
     "xpReward": 850,
     "copperReward": 350,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "hedgerow_sash",
+      "hedgerow_belt",
+      "hedgerow_waistguard",
+      "hedgerow_girdle",
+      "hedgerow_cord",
+      "hedgerow_cinch"
+    ]
   },
   "q_fen_supplies": {
     "id": "q_fen_supplies",
@@ -928,7 +1249,15 @@
     "xpReward": 900,
     "copperReward": 350,
     "itemRewards": {},
-    "minLevel": 7
+    "minLevel": 7,
+    "choiceRewards": [
+      "hedgerow_hood",
+      "hedgerow_cap",
+      "hedgerow_headguard",
+      "hedgerow_helm",
+      "hedgerow_coif",
+      "hedgerow_cowl"
+    ]
   },
   "q_the_codfather": {
     "id": "q_the_codfather",
@@ -948,7 +1277,15 @@
     "xpReward": 950,
     "copperReward": 450,
     "itemRewards": {},
-    "minLevel": 6
+    "minLevel": 6,
+    "choiceRewards": [
+      "hedgerow_gloves",
+      "hedgerow_grips",
+      "hedgerow_handwraps",
+      "hedgerow_gauntlets",
+      "hedgerow_handguards",
+      "hedgerow_mitts"
+    ]
   },
   "q_deepfen": {
     "id": "q_deepfen",
@@ -968,7 +1305,15 @@
     "xpReward": 1000,
     "copperReward": 400,
     "itemRewards": {},
-    "minLevel": 7
+    "minLevel": 7,
+    "choiceRewards": [
+      "bogwalker_leggings",
+      "bogwalker_breeches",
+      "bogwalker_legwraps",
+      "bogwalker_legguards",
+      "bogwalker_chausses",
+      "bogwalker_trousers"
+    ]
   },
   "q_idols": {
     "id": "q_idols",
@@ -988,7 +1333,15 @@
     "xpReward": 1050,
     "copperReward": 400,
     "itemRewards": {},
-    "requiresQuest": "q_deepfen"
+    "requiresQuest": "q_deepfen",
+    "choiceRewards": [
+      "bogwalker_slippers",
+      "bogwalker_boots",
+      "bogwalker_treads",
+      "bogwalker_sabatons",
+      "bogwalker_greaves",
+      "bogwalker_moccasins"
+    ]
   },
   "q_aldrics_fallen_star": {
     "id": "q_aldrics_fallen_star",
@@ -1037,7 +1390,15 @@
     "requiredItems": [
       "firebottle"
     ],
-    "requiresQuest": "q_idols"
+    "requiresQuest": "q_idols",
+    "choiceRewards": [
+      "bogwalker_hood",
+      "bogwalker_cap",
+      "bogwalker_headguard",
+      "bogwalker_helm",
+      "bogwalker_coif",
+      "bogwalker_cowl"
+    ]
   },
   "q_widows": {
     "id": "q_widows",
@@ -1063,7 +1424,15 @@
     "xpReward": 1200,
     "copperReward": 450,
     "itemRewards": {},
-    "minLevel": 8
+    "minLevel": 8,
+    "choiceRewards": [
+      "bogwalker_gloves",
+      "bogwalker_grips",
+      "bogwalker_handwraps",
+      "bogwalker_gauntlets",
+      "bogwalker_handguards",
+      "bogwalker_mitts"
+    ]
   },
   "q_broodmother": {
     "id": "q_broodmother",
@@ -1090,7 +1459,15 @@
     "xpReward": 1250,
     "copperReward": 500,
     "itemRewards": {},
-    "requiresQuest": "q_widows"
+    "requiresQuest": "q_widows",
+    "choiceRewards": [
+      "bogwalker_mantle",
+      "bogwalker_shoulderpads",
+      "bogwalker_shoulderguards",
+      "bogwalker_pauldrons",
+      "bogwalker_spaulders",
+      "bogwalker_epaulets"
+    ]
   },
   "q_drowned": {
     "id": "q_drowned",
@@ -1110,7 +1487,15 @@
     "xpReward": 1400,
     "copperReward": 500,
     "itemRewards": {},
-    "minLevel": 9
+    "minLevel": 9,
+    "choiceRewards": [
+      "bogwalker_sash",
+      "bogwalker_belt",
+      "bogwalker_waistguard",
+      "bogwalker_girdle",
+      "bogwalker_cord",
+      "bogwalker_cinch"
+    ]
   },
   "q_drowned_censers": {
     "id": "q_drowned_censers",
@@ -1130,7 +1515,15 @@
     "xpReward": 1300,
     "copperReward": 500,
     "itemRewards": {},
-    "requiresQuest": "q_drowned"
+    "requiresQuest": "q_drowned",
+    "choiceRewards": [
+      "bogwalker_gloves",
+      "bogwalker_grips",
+      "bogwalker_handwraps",
+      "bogwalker_gauntlets",
+      "bogwalker_handguards",
+      "bogwalker_mitts"
+    ]
   },
   "q_no_rest": {
     "id": "q_no_rest",
@@ -1155,7 +1548,15 @@
       "mage": "fenmist_robe",
       "rogue": "eelskin_tunic"
     },
-    "requiresQuest": "q_drowned_censers"
+    "requiresQuest": "q_drowned_censers",
+    "choiceRewards": [
+      "bogwalker_leggings",
+      "bogwalker_breeches",
+      "bogwalker_legwraps",
+      "bogwalker_legguards",
+      "bogwalker_chausses",
+      "bogwalker_trousers"
+    ]
   },
   "q_rite_of_redemption": {
     "id": "q_rite_of_redemption",
@@ -1179,7 +1580,15 @@
       "paladin"
     ],
     "requiresQuest": "q_divine_tome",
-    "minLevel": 6
+    "minLevel": 6,
+    "choiceRewards": [
+      "bogwalker_robe",
+      "bogwalker_jerkin",
+      "bogwalker_tunic",
+      "bogwalker_hauberk",
+      "bogwalker_chainmail",
+      "bogwalker_vest"
+    ]
   },
   "q_trolls": {
     "id": "q_trolls",
@@ -1199,7 +1608,15 @@
     "xpReward": 1600,
     "copperReward": 600,
     "itemRewards": {},
-    "minLevel": 10
+    "minLevel": 10,
+    "choiceRewards": [
+      "bogwalker_slippers",
+      "bogwalker_boots",
+      "bogwalker_treads",
+      "bogwalker_sabatons",
+      "bogwalker_greaves",
+      "bogwalker_moccasins"
+    ]
   },
   "q_troll_fetishes": {
     "id": "q_troll_fetishes",
@@ -1223,7 +1640,15 @@
       "mage": "trollhide_leggings",
       "rogue": "trollhide_leggings"
     },
-    "requiresQuest": "q_trolls"
+    "requiresQuest": "q_trolls",
+    "choiceRewards": [
+      "bogwalker_hood",
+      "bogwalker_cap",
+      "bogwalker_headguard",
+      "bogwalker_helm",
+      "bogwalker_coif",
+      "bogwalker_cowl"
+    ]
   },
   "q_grubjaw": {
     "id": "q_grubjaw",
@@ -1247,7 +1672,15 @@
       "mage": "marshstrider_boots",
       "rogue": "marshstrider_boots"
     },
-    "minLevel": 11
+    "minLevel": 11,
+    "choiceRewards": [
+      "bogwalker_gloves",
+      "bogwalker_grips",
+      "bogwalker_handwraps",
+      "bogwalker_gauntlets",
+      "bogwalker_handguards",
+      "bogwalker_mitts"
+    ]
   },
   "q_cult_camp": {
     "id": "q_cult_camp",
@@ -1267,7 +1700,15 @@
     "xpReward": 1800,
     "copperReward": 700,
     "itemRewards": {},
-    "minLevel": 11
+    "minLevel": 11,
+    "choiceRewards": [
+      "bogwalker_mantle",
+      "bogwalker_shoulderpads",
+      "bogwalker_shoulderguards",
+      "bogwalker_pauldrons",
+      "bogwalker_spaulders",
+      "bogwalker_epaulets"
+    ]
   },
   "q_summoners": {
     "id": "q_summoners",
@@ -1293,7 +1734,15 @@
     "xpReward": 1900,
     "copperReward": 750,
     "itemRewards": {},
-    "requiresQuest": "q_cult_camp"
+    "requiresQuest": "q_cult_camp",
+    "choiceRewards": [
+      "bogwalker_sash",
+      "bogwalker_belt",
+      "bogwalker_waistguard",
+      "bogwalker_girdle",
+      "bogwalker_cord",
+      "bogwalker_cinch"
+    ]
   },
   "q_deacon": {
     "id": "q_deacon",
@@ -1318,7 +1767,15 @@
       "rogue": "mistbinder_kris",
       "druid": "fenshadow_maul"
     },
-    "requiresQuest": "q_summoners"
+    "requiresQuest": "q_summoners",
+    "choiceRewards": [
+      "bogwalker_robe",
+      "bogwalker_jerkin",
+      "bogwalker_tunic",
+      "bogwalker_hauberk",
+      "bogwalker_chainmail",
+      "bogwalker_vest"
+    ]
   },
   "q_bastion_door": {
     "id": "q_bastion_door",
@@ -1337,9 +1794,19 @@
     ],
     "xpReward": 1200,
     "copperReward": 500,
-    "itemRewards": {},
+    "itemRewards": {
+      "warrior": "bastion_kite_shield"
+    },
     "requiresQuest": "q_deacon",
-    "minLevel": 12
+    "minLevel": 12,
+    "choiceRewards": [
+      "bogwalker_leggings",
+      "bogwalker_breeches",
+      "bogwalker_legwraps",
+      "bogwalker_legguards",
+      "bogwalker_chausses",
+      "bogwalker_trousers"
+    ]
   },
   "q_olen": {
     "id": "q_olen",
@@ -1365,7 +1832,15 @@
     },
     "requiresQuest": "q_bastion_door",
     "minLevel": 12,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "oathbroken_leggings",
+      "oathbroken_breeches",
+      "oathbroken_legwraps",
+      "oathbroken_legguards",
+      "oathbroken_chausses",
+      "oathbroken_trousers"
+    ]
   },
   "q_mistcaller": {
     "id": "q_mistcaller",
@@ -1391,7 +1866,11 @@
     },
     "requiresQuest": "q_bastion_door",
     "minLevel": 12,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "seamist_legwraps",
+      "seamist_chausses"
+    ]
   },
   "q_prof_workorder_tannery": {
     "id": "q_prof_workorder_tannery",
@@ -1433,7 +1912,15 @@
     "xpReward": 500,
     "copperReward": 500,
     "itemRewards": {},
-    "minLevel": 12
+    "minLevel": 12,
+    "choiceRewards": [
+      "bogwalker_slippers",
+      "bogwalker_boots",
+      "bogwalker_treads",
+      "bogwalker_sabatons",
+      "bogwalker_greaves",
+      "bogwalker_moccasins"
+    ]
   },
   "q_stalkers": {
     "id": "q_stalkers",
@@ -1452,7 +1939,15 @@
     ],
     "xpReward": 2200,
     "copperReward": 1000,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "thornspire_slippers",
+      "thornspire_boots",
+      "thornspire_treads",
+      "thornspire_sabatons",
+      "thornspire_greaves",
+      "thornspire_moccasins"
+    ]
   },
   "q_stalker_pelts": {
     "id": "q_stalker_pelts",
@@ -1475,7 +1970,15 @@
       "warrior": "ridgestalker_treads",
       "mage": "ridgestalker_treads",
       "rogue": "ridgestalker_treads"
-    }
+    },
+    "choiceRewards": [
+      "thornspire_hood",
+      "thornspire_cap",
+      "thornspire_headguard",
+      "thornspire_helm",
+      "thornspire_coif",
+      "thornspire_cowl"
+    ]
   },
   "q_stalkers_return": {
     "id": "q_stalkers_return",
@@ -1496,7 +1999,15 @@
     "copperReward": 1100,
     "itemRewards": {},
     "requiresQuest": "q_stalkers",
-    "minLevel": 13
+    "minLevel": 13,
+    "choiceRewards": [
+      "thornspire_gloves",
+      "thornspire_grips",
+      "thornspire_handwraps",
+      "thornspire_gauntlets",
+      "thornspire_handguards",
+      "thornspire_mitts"
+    ]
   },
   "q_stalker_cloaks": {
     "id": "q_stalker_cloaks",
@@ -1517,7 +2028,15 @@
     "copperReward": 1200,
     "itemRewards": {},
     "requiresQuest": "q_stalker_pelts",
-    "minLevel": 13
+    "minLevel": 13,
+    "choiceRewards": [
+      "thornspire_mantle",
+      "thornspire_shoulderpads",
+      "thornspire_shoulderguards",
+      "thornspire_pauldrons",
+      "thornspire_spaulders",
+      "thornspire_epaulets"
+    ]
   },
   "q_old_cragmaw": {
     "id": "q_old_cragmaw",
@@ -1538,7 +2057,15 @@
     "copperReward": 1500,
     "itemRewards": {},
     "requiresQuest": "q_stalkers_return",
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "thornspire_sash",
+      "thornspire_belt",
+      "thornspire_waistguard",
+      "thornspire_girdle",
+      "thornspire_cord",
+      "thornspire_cinch"
+    ]
   },
   "q_kobold_tunnels": {
     "id": "q_kobold_tunnels",
@@ -1558,7 +2085,15 @@
     "xpReward": 2500,
     "copperReward": 1200,
     "itemRewards": {},
-    "minLevel": 14
+    "minLevel": 14,
+    "choiceRewards": [
+      "thornspire_robe",
+      "thornspire_jerkin",
+      "thornspire_tunic",
+      "thornspire_hauberk",
+      "thornspire_chainmail",
+      "thornspire_vest"
+    ]
   },
   "q_glowing_wax": {
     "id": "q_glowing_wax",
@@ -1578,7 +2113,15 @@
     "xpReward": 2500,
     "copperReward": 1200,
     "itemRewards": {},
-    "requiresQuest": "q_kobold_tunnels"
+    "requiresQuest": "q_kobold_tunnels",
+    "choiceRewards": [
+      "thornspire_hood",
+      "thornspire_cap",
+      "thornspire_headguard",
+      "thornspire_helm",
+      "thornspire_coif",
+      "thornspire_cowl"
+    ]
   },
   "q_ogre_edges": {
     "id": "q_ogre_edges",
@@ -1598,7 +2141,15 @@
     "xpReward": 2900,
     "copperReward": 1400,
     "itemRewards": {},
-    "minLevel": 15
+    "minLevel": 15,
+    "choiceRewards": [
+      "thornspire_gloves",
+      "thornspire_grips",
+      "thornspire_handwraps",
+      "thornspire_gauntlets",
+      "thornspire_handguards",
+      "thornspire_mitts"
+    ]
   },
   "q_ogre_totems": {
     "id": "q_ogre_totems",
@@ -1618,7 +2169,15 @@
     "xpReward": 2800,
     "copperReward": 1400,
     "itemRewards": {},
-    "requiresQuest": "q_ogre_edges"
+    "requiresQuest": "q_ogre_edges",
+    "choiceRewards": [
+      "hollowveil_gloves",
+      "hollowveil_grips",
+      "hollowveil_handwraps",
+      "hollowveil_gauntlets",
+      "hollowveil_handguards",
+      "hollowveil_mitts"
+    ]
   },
   "q_ogre_bounty": {
     "id": "q_ogre_bounty",
@@ -1639,7 +2198,15 @@
     "xpReward": 3000,
     "copperReward": 1500,
     "itemRewards": {},
-    "requiresQuest": "q_ogre_totems"
+    "requiresQuest": "q_ogre_totems",
+    "choiceRewards": [
+      "hollowveil_robe",
+      "hollowveil_jerkin",
+      "hollowveil_tunic",
+      "hollowveil_hauberk",
+      "hollowveil_chainmail",
+      "hollowveil_vest"
+    ]
   },
   "q_crushers": {
     "id": "q_crushers",
@@ -1660,7 +2227,15 @@
     "copperReward": 2000,
     "itemRewards": {},
     "minLevel": 16,
-    "suggestedPlayers": 3
+    "suggestedPlayers": 3,
+    "choiceRewards": [
+      "hollowveil_leggings",
+      "hollowveil_breeches",
+      "hollowveil_legwraps",
+      "hollowveil_legguards",
+      "hollowveil_chausses",
+      "hollowveil_trousers"
+    ]
   },
   "q_drogmar": {
     "id": "q_drogmar",
@@ -1685,7 +2260,11 @@
       "rogue": "gutripper_shiv"
     },
     "requiresQuest": "q_crushers",
-    "suggestedPlayers": 3
+    "suggestedPlayers": 3,
+    "choiceRewards": [
+      "warmonger_treads",
+      "warmonger_greaves"
+    ]
   },
   "q_elementals": {
     "id": "q_elementals",
@@ -1705,7 +2284,15 @@
     "xpReward": 3600,
     "copperReward": 1800,
     "itemRewards": {},
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "hollowveil_gloves",
+      "hollowveil_grips",
+      "hollowveil_handwraps",
+      "hollowveil_gauntlets",
+      "hollowveil_handguards",
+      "hollowveil_mitts"
+    ]
   },
   "q_shard_cores": {
     "id": "q_shard_cores",
@@ -1725,7 +2312,15 @@
     "xpReward": 3700,
     "copperReward": 1800,
     "itemRewards": {},
-    "requiresQuest": "q_elementals"
+    "requiresQuest": "q_elementals",
+    "choiceRewards": [
+      "hollowveil_mantle",
+      "hollowveil_shoulderpads",
+      "hollowveil_shoulderguards",
+      "hollowveil_pauldrons",
+      "hollowveil_spaulders",
+      "hollowveil_epaulets"
+    ]
   },
   "q_kazzix": {
     "id": "q_kazzix",
@@ -1749,7 +2344,15 @@
       "mage": "stormshard_leggings",
       "rogue": "stormshard_leggings"
     },
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "sparkglass_leggings",
+      "sparkglass_breeches",
+      "sparkglass_legwraps",
+      "sparkglass_legguards",
+      "sparkglass_chausses",
+      "sparkglass_trousers"
+    ]
   },
   "q_zealots": {
     "id": "q_zealots",
@@ -1769,7 +2372,15 @@
     "xpReward": 4000,
     "copperReward": 2000,
     "itemRewards": {},
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "trailwarden_robe",
+      "trailwarden_jerkin",
+      "trailwarden_tunic",
+      "trailwarden_hauberk",
+      "trailwarden_chainmail",
+      "trailwarden_vest"
+    ]
   },
   "q_cult_orders": {
     "id": "q_cult_orders",
@@ -1790,7 +2401,15 @@
     "xpReward": 3800,
     "copperReward": 1800,
     "itemRewards": {},
-    "requiresQuest": "q_zealots"
+    "requiresQuest": "q_zealots",
+    "choiceRewards": [
+      "trailwarden_leggings",
+      "trailwarden_breeches",
+      "trailwarden_legwraps",
+      "trailwarden_legguards",
+      "trailwarden_chausses",
+      "trailwarden_trousers"
+    ]
   },
   "q_necromancers": {
     "id": "q_necromancers",
@@ -1812,7 +2431,15 @@
     "copperReward": 2200,
     "itemRewards": {},
     "requiresQuest": "q_cult_orders",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "trailwarden_slippers",
+      "trailwarden_boots",
+      "trailwarden_treads",
+      "trailwarden_sabatons",
+      "trailwarden_greaves",
+      "trailwarden_moccasins"
+    ]
   },
   "q_revenants": {
     "id": "q_revenants",
@@ -1831,8 +2458,18 @@
     ],
     "xpReward": 4300,
     "copperReward": 2200,
-    "itemRewards": {},
-    "minLevel": 18
+    "itemRewards": {
+      "warrior": "barrowfield_tower_shield"
+    },
+    "minLevel": 18,
+    "choiceRewards": [
+      "cairnking_mantle",
+      "cairnking_shoulderpads",
+      "cairnking_shoulderguards",
+      "cairnking_pauldrons",
+      "cairnking_spaulders",
+      "cairnking_epaulets"
+    ]
   },
   "q_revenant_vanguard": {
     "id": "q_revenant_vanguard",
@@ -1857,7 +2494,15 @@
       "mage": "revenant_silk_robe",
       "rogue": "nightwalk_jerkin"
     },
-    "requiresQuest": "q_revenants"
+    "requiresQuest": "q_revenants",
+    "choiceRewards": [
+      "trailwarden_gloves",
+      "trailwarden_grips",
+      "trailwarden_handwraps",
+      "trailwarden_gauntlets",
+      "trailwarden_handguards",
+      "trailwarden_mitts"
+    ]
   },
   "q_wyrm_sigils": {
     "id": "q_wyrm_sigils",
@@ -1878,7 +2523,15 @@
     "copperReward": 2000,
     "itemRewards": {},
     "requiresQuest": "q_necromancers",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "hollowveil_robe",
+      "hollowveil_jerkin",
+      "hollowveil_tunic",
+      "hollowveil_hauberk",
+      "hollowveil_chainmail",
+      "hollowveil_vest"
+    ]
   },
   "q_breaking_the_seal": {
     "id": "q_breaking_the_seal",
@@ -1898,7 +2551,15 @@
     "xpReward": 4200,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_wyrm_sigils"
+    "requiresQuest": "q_wyrm_sigils",
+    "choiceRewards": [
+      "hollowveil_leggings",
+      "hollowveil_breeches",
+      "hollowveil_legwraps",
+      "hollowveil_legguards",
+      "hollowveil_chausses",
+      "hollowveil_trousers"
+    ]
   },
   "q_voice_below": {
     "id": "q_voice_below",
@@ -1929,7 +2590,15 @@
       "mage": "emberwood_staff",
       "rogue": "cultist_flayer"
     },
-    "requiresQuest": "q_breaking_the_seal"
+    "requiresQuest": "q_breaking_the_seal",
+    "choiceRewards": [
+      "trailwarden_mantle",
+      "trailwarden_shoulderpads",
+      "trailwarden_shoulderguards",
+      "trailwarden_pauldrons",
+      "trailwarden_spaulders",
+      "trailwarden_epaulets"
+    ]
   },
   "q_sanctum_gate": {
     "id": "q_sanctum_gate",
@@ -1949,7 +2618,15 @@
     "xpReward": 4000,
     "copperReward": 2000,
     "itemRewards": {},
-    "requiresQuest": "q_voice_below"
+    "requiresQuest": "q_voice_below",
+    "choiceRewards": [
+      "hollowveil_mantle",
+      "hollowveil_shoulderpads",
+      "hollowveil_shoulderguards",
+      "hollowveil_pauldrons",
+      "hollowveil_spaulders",
+      "hollowveil_epaulets"
+    ]
   },
   "q_korgath": {
     "id": "q_korgath",
@@ -1975,7 +2652,15 @@
     },
     "requiresQuest": "q_sanctum_gate",
     "minLevel": 18,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "fetterbound_leggings",
+      "fetterbound_breeches",
+      "fetterbound_legwraps",
+      "fetterbound_legguards",
+      "fetterbound_chausses",
+      "fetterbound_trousers"
+    ]
   },
   "q_velkhar": {
     "id": "q_velkhar",
@@ -2001,7 +2686,11 @@
     },
     "requiresQuest": "q_sanctum_gate",
     "minLevel": 18,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "shroudcaller_tunic",
+      "shroudcaller_chainmail"
+    ]
   },
   "q_gravewyrm": {
     "id": "q_gravewyrm",
@@ -2027,7 +2716,12 @@
     },
     "requiresQuest": "q_sanctum_gate",
     "minLevel": 18,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "wyrmshadow_tunic",
+      "wyrmshadow_chainmail",
+      "wyrmshadow_vest"
+    ]
   },
   "q_nythraxis_restless_dead": {
     "id": "q_nythraxis_restless_dead",
@@ -2047,7 +2741,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_nythraxis_graves": {
     "id": "q_nythraxis_graves",
@@ -2080,7 +2782,15 @@
     "copperReward": 2200,
     "itemRewards": {},
     "requiresQuest": "q_nythraxis_restless_dead",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_nythraxis_sealed_crypt": {
     "id": "q_nythraxis_sealed_crypt",
@@ -2117,7 +2827,15 @@
       "rogue": "crypt_keystone"
     },
     "requiresQuest": "q_nythraxis_graves",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_nythraxis_bound_guardian": {
     "id": "q_nythraxis_bound_guardian",
@@ -2158,7 +2876,15 @@
       "crypt_keystone"
     ],
     "minLevel": 20,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_nythraxis_scourges_end": {
     "id": "q_nythraxis_scourges_end",
@@ -2227,7 +2953,15 @@
     "copperReward": 5000,
     "itemRewards": {},
     "minLevel": 20,
-    "requiresRidingTrained": true
+    "requiresRidingTrained": true,
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_glimmermere_light": {
     "id": "q_glimmermere_light",
@@ -2247,7 +2981,15 @@
     "xpReward": 3200,
     "copperReward": 1500,
     "itemRewards": {},
-    "minLevel": 15
+    "minLevel": 15,
+    "choiceRewards": [
+      "thornspire_leggings",
+      "thornspire_breeches",
+      "thornspire_legwraps",
+      "thornspire_legguards",
+      "thornspire_chausses",
+      "thornspire_trousers"
+    ]
   },
   "q_tarn_waders": {
     "id": "q_tarn_waders",
@@ -2267,7 +3009,15 @@
     "xpReward": 3400,
     "copperReward": 1600,
     "itemRewards": {},
-    "requiresQuest": "q_glimmermere_light"
+    "requiresQuest": "q_glimmermere_light",
+    "choiceRewards": [
+      "thornspire_mantle",
+      "thornspire_shoulderpads",
+      "thornspire_shoulderguards",
+      "thornspire_pauldrons",
+      "thornspire_spaulders",
+      "thornspire_epaulets"
+    ]
   },
   "q_drowned_choir": {
     "id": "q_drowned_choir",
@@ -2297,7 +3047,15 @@
       "mage": "tidewatchers_wraps",
       "rogue": "tidewatchers_wraps"
     },
-    "requiresQuest": "q_tarn_waders"
+    "requiresQuest": "q_tarn_waders",
+    "choiceRewards": [
+      "thornspire_sash",
+      "thornspire_belt",
+      "thornspire_waistguard",
+      "thornspire_girdle",
+      "thornspire_cord",
+      "thornspire_cinch"
+    ]
   },
   "q_palecoil": {
     "id": "q_palecoil",
@@ -2322,7 +3080,15 @@
       "rogue": "tideglass_dirk"
     },
     "requiresQuest": "q_tarn_waders",
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "thornspire_robe",
+      "thornspire_jerkin",
+      "thornspire_tunic",
+      "thornspire_hauberk",
+      "thornspire_chainmail",
+      "thornspire_vest"
+    ]
   },
   "q_silence_the_choir": {
     "id": "q_silence_the_choir",
@@ -2348,7 +3114,12 @@
     },
     "requiresQuest": "q_drowned_choir",
     "minLevel": 16,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "stillhymn_treads",
+      "stillhymn_greaves",
+      "stillhymn_moccasins"
+    ]
   },
   "q_drowned_moon": {
     "id": "q_drowned_moon",
@@ -2374,7 +3145,11 @@
     },
     "requiresQuest": "q_silence_the_choir",
     "minLevel": 16,
-    "suggestedPlayers": 5
+    "suggestedPlayers": 5,
+    "choiceRewards": [
+      "pearlglow_headguard",
+      "pearlglow_coif"
+    ]
   },
   "q_veil_thinned": {
     "id": "q_veil_thinned",
@@ -2394,7 +3169,15 @@
     "xpReward": 3600,
     "copperReward": 1600,
     "itemRewards": {},
-    "minLevel": 14
+    "minLevel": 14,
+    "choiceRewards": [
+      "thornspire_leggings",
+      "thornspire_breeches",
+      "thornspire_legwraps",
+      "thornspire_legguards",
+      "thornspire_chausses",
+      "thornspire_trousers"
+    ]
   },
   "q_calming_the_deep": {
     "id": "q_calming_the_deep",
@@ -2419,7 +3202,15 @@
       "mage": "gleamwood_stave"
     },
     "requiresQuest": "q_veil_thinned",
-    "minLevel": 15
+    "minLevel": 15,
+    "choiceRewards": [
+      "hollowveil_hood",
+      "hollowveil_cap",
+      "hollowveil_headguard",
+      "hollowveil_helm",
+      "hollowveil_coif",
+      "hollowveil_cowl"
+    ]
   },
   "q_spore_hearts": {
     "id": "q_spore_hearts",
@@ -2440,7 +3231,15 @@
     "copperReward": 2200,
     "itemRewards": {},
     "requiresQuest": "q_calming_the_deep",
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "hollowveil_gloves",
+      "hollowveil_grips",
+      "hollowveil_handwraps",
+      "hollowveil_gauntlets",
+      "hollowveil_handguards",
+      "hollowveil_mitts"
+    ]
   },
   "q_sunken_court": {
     "id": "q_sunken_court",
@@ -2461,7 +3260,15 @@
     "copperReward": 2600,
     "itemRewards": {},
     "requiresQuest": "q_spore_hearts",
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "trailwarden_sash",
+      "trailwarden_belt",
+      "trailwarden_waistguard",
+      "trailwarden_girdle",
+      "trailwarden_cord",
+      "trailwarden_cinch"
+    ]
   },
   "q_waking_warden": {
     "id": "q_waking_warden",
@@ -2483,7 +3290,15 @@
     "itemRewards": {},
     "requiresQuest": "q_sunken_court",
     "minLevel": 18,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_seal_restored": {
     "id": "q_seal_restored",
@@ -2508,7 +3323,15 @@
       "mage": "wardens_oathband"
     },
     "requiresQuest": "q_waking_warden",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "sealkeeper_gloves",
+      "sealkeeper_grips",
+      "sealkeeper_handwraps",
+      "sealkeeper_gauntlets",
+      "sealkeeper_handguards",
+      "sealkeeper_mitts"
+    ]
   },
   "q_gleaming_antlers": {
     "id": "q_gleaming_antlers",
@@ -2528,7 +3351,15 @@
     "xpReward": 3400,
     "copperReward": 1500,
     "itemRewards": {},
-    "minLevel": 14
+    "minLevel": 14,
+    "choiceRewards": [
+      "hollowveil_gloves",
+      "hollowveil_grips",
+      "hollowveil_handwraps",
+      "hollowveil_gauntlets",
+      "hollowveil_handguards",
+      "hollowveil_mitts"
+    ]
   },
   "q_wisp_lights": {
     "id": "q_wisp_lights",
@@ -2548,7 +3379,15 @@
     "xpReward": 3400,
     "copperReward": 1500,
     "itemRewards": {},
-    "minLevel": 14
+    "minLevel": 14,
+    "choiceRewards": [
+      "thornspire_slippers",
+      "thornspire_boots",
+      "thornspire_treads",
+      "thornspire_sabatons",
+      "thornspire_greaves",
+      "thornspire_moccasins"
+    ]
   },
   "q_treant_accord": {
     "id": "q_treant_accord",
@@ -2568,7 +3407,15 @@
     "xpReward": 4400,
     "copperReward": 2400,
     "itemRewards": {},
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_mantle",
+      "hollowveil_shoulderpads",
+      "hollowveil_shoulderguards",
+      "hollowveil_pauldrons",
+      "hollowveil_spaulders",
+      "hollowveil_epaulets"
+    ]
   },
   "q_monument_tour": {
     "id": "q_monument_tour",
@@ -2600,7 +3447,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "minLevel": 15
+    "minLevel": 15,
+    "choiceRewards": [
+      "thornspire_slippers",
+      "thornspire_boots",
+      "thornspire_treads",
+      "thornspire_sabatons",
+      "thornspire_greaves",
+      "thornspire_moccasins"
+    ]
   },
   "q_grove_menace": {
     "id": "q_grove_menace",
@@ -2621,7 +3476,15 @@
     "copperReward": 1900,
     "itemRewards": {},
     "requiresQuest": "q_veil_thinned",
-    "minLevel": 15
+    "minLevel": 15,
+    "choiceRewards": [
+      "thornspire_hood",
+      "thornspire_cap",
+      "thornspire_headguard",
+      "thornspire_helm",
+      "thornspire_coif",
+      "thornspire_cowl"
+    ]
   },
   "q_shards_of_starfall": {
     "id": "q_shards_of_starfall",
@@ -2642,7 +3505,15 @@
     "copperReward": 1900,
     "itemRewards": {},
     "requiresQuest": "q_monument_tour",
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "thornspire_gloves",
+      "thornspire_grips",
+      "thornspire_handwraps",
+      "thornspire_gauntlets",
+      "thornspire_handguards",
+      "thornspire_mitts"
+    ]
   },
   "q_spore_tide": {
     "id": "q_spore_tide",
@@ -2663,7 +3534,15 @@
     "copperReward": 2400,
     "itemRewards": {},
     "requiresQuest": "q_spore_hearts",
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_mantle",
+      "hollowveil_shoulderpads",
+      "hollowveil_shoulderguards",
+      "hollowveil_pauldrons",
+      "hollowveil_spaulders",
+      "hollowveil_epaulets"
+    ]
   },
   "q_wardens_echoes": {
     "id": "q_wardens_echoes",
@@ -2684,7 +3563,15 @@
     "copperReward": 2800,
     "itemRewards": {},
     "requiresQuest": "q_sunken_court",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "trailwarden_robe",
+      "trailwarden_jerkin",
+      "trailwarden_tunic",
+      "trailwarden_hauberk",
+      "trailwarden_chainmail",
+      "trailwarden_vest"
+    ]
   },
   "q_hollow_the_huntsman": {
     "id": "q_hollow_the_huntsman",
@@ -2704,7 +3591,15 @@
     "xpReward": 2400,
     "copperReward": 900,
     "itemRewards": {},
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "thornspire_mantle",
+      "thornspire_shoulderpads",
+      "thornspire_shoulderguards",
+      "thornspire_pauldrons",
+      "thornspire_spaulders",
+      "thornspire_epaulets"
+    ]
   },
   "q_hollow_old_marrowshell": {
     "id": "q_hollow_old_marrowshell",
@@ -2726,7 +3621,15 @@
     "itemRewards": {},
     "requiresQuest": "q_hollow_the_huntsman",
     "minLevel": 17,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "hollowveil_sash",
+      "hollowveil_belt",
+      "hollowveil_waistguard",
+      "hollowveil_girdle",
+      "hollowveil_cord",
+      "hollowveil_cinch"
+    ]
   },
   "q_hollow_first_of_the_herd": {
     "id": "q_hollow_first_of_the_herd",
@@ -2748,7 +3651,15 @@
     "itemRewards": {},
     "requiresQuest": "q_hollow_old_marrowshell",
     "minLevel": 18,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "hollowveil_sash",
+      "hollowveil_belt",
+      "hollowveil_waistguard",
+      "hollowveil_girdle",
+      "hollowveil_cord",
+      "hollowveil_cinch"
+    ]
   },
   "q_dk_ash_on_the_wind": {
     "id": "q_dk_ash_on_the_wind",
@@ -2768,7 +3679,15 @@
     "xpReward": 3800,
     "copperReward": 1800,
     "itemRewards": {},
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "hollowveil_leggings",
+      "hollowveil_breeches",
+      "hollowveil_legwraps",
+      "hollowveil_legguards",
+      "hollowveil_chausses",
+      "hollowveil_trousers"
+    ]
   },
   "q_dk_trolls_on_the_road": {
     "id": "q_dk_trolls_on_the_road",
@@ -2788,7 +3707,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "trailwarden_leggings",
+      "trailwarden_breeches",
+      "trailwarden_legwraps",
+      "trailwarden_legguards",
+      "trailwarden_chausses",
+      "trailwarden_trousers"
+    ]
   },
   "q_dk_scorched_stores": {
     "id": "q_dk_scorched_stores",
@@ -2813,7 +3740,15 @@
       "rogue": "cinderwalk_treads"
     },
     "requiresQuest": "q_dk_trolls_on_the_road",
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_robe",
+      "hollowveil_jerkin",
+      "hollowveil_tunic",
+      "hollowveil_hauberk",
+      "hollowveil_chainmail",
+      "hollowveil_vest"
+    ]
   },
   "q_dk_banners_over_the_dunes": {
     "id": "q_dk_banners_over_the_dunes",
@@ -2840,7 +3775,15 @@
     "copperReward": 2600,
     "itemRewards": {},
     "requiresQuest": "q_dk_ash_on_the_wind",
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "trailwarden_slippers",
+      "trailwarden_boots",
+      "trailwarden_treads",
+      "trailwarden_sabatons",
+      "trailwarden_greaves",
+      "trailwarden_moccasins"
+    ]
   },
   "q_dk_watcher_at_the_wargate": {
     "id": "q_dk_watcher_at_the_wargate",
@@ -2861,7 +3804,15 @@
     "copperReward": 950,
     "itemRewards": {},
     "requiresQuest": "q_dk_banners_over_the_dunes",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "hollowveil_slippers",
+      "hollowveil_boots",
+      "hollowveil_treads",
+      "hollowveil_sabatons",
+      "hollowveil_greaves",
+      "hollowveil_moccasins"
+    ]
   },
   "q_dk_marrow_and_ash": {
     "id": "q_dk_marrow_and_ash",
@@ -2881,7 +3832,15 @@
     "xpReward": 4400,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_dk_watcher_at_the_wargate"
+    "requiresQuest": "q_dk_watcher_at_the_wargate",
+    "choiceRewards": [
+      "trailwarden_hood",
+      "trailwarden_cap",
+      "trailwarden_headguard",
+      "trailwarden_helm",
+      "trailwarden_coif",
+      "trailwarden_cowl"
+    ]
   },
   "q_dk_scales_of_the_maw": {
     "id": "q_dk_scales_of_the_maw",
@@ -2903,7 +3862,15 @@
     "itemRewards": {},
     "requiresQuest": "q_dk_watcher_at_the_wargate",
     "minLevel": 19,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "highgale_slippers",
+      "highgale_boots",
+      "highgale_treads",
+      "highgale_sabatons",
+      "highgale_greaves",
+      "highgale_moccasins"
+    ]
   },
   "q_dk_matriarch_of_the_maw": {
     "id": "q_dk_matriarch_of_the_maw",
@@ -2929,7 +3896,14 @@
     },
     "requiresQuest": "q_dk_scales_of_the_maw",
     "minLevel": 19,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "cinderbrood_shoulderpads",
+      "cinderbrood_shoulderguards",
+      "cinderbrood_pauldrons",
+      "cinderbrood_spaulders",
+      "cinderbrood_epaulets"
+    ]
   },
   "q_fv_snowline_report": {
     "id": "q_fv_snowline_report",
@@ -2949,7 +3923,15 @@
     "xpReward": 2400,
     "copperReward": 900,
     "itemRewards": {},
-    "minLevel": 16
+    "minLevel": 16,
+    "choiceRewards": [
+      "thornspire_sash",
+      "thornspire_belt",
+      "thornspire_waistguard",
+      "thornspire_girdle",
+      "thornspire_cord",
+      "thornspire_cinch"
+    ]
   },
   "q_fv_wolves_at_the_door": {
     "id": "q_fv_wolves_at_the_door",
@@ -2969,7 +3951,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "requiresQuest": "q_fv_snowline_report"
+    "requiresQuest": "q_fv_snowline_report",
+    "choiceRewards": [
+      "hollowveil_hood",
+      "hollowveil_cap",
+      "hollowveil_headguard",
+      "hollowveil_helm",
+      "hollowveil_coif",
+      "hollowveil_cowl"
+    ]
   },
   "q_fv_winter_pelts": {
     "id": "q_fv_winter_pelts",
@@ -2993,7 +3983,15 @@
       "mage": "hearthlined_treads",
       "rogue": "hearthlined_treads"
     },
-    "requiresQuest": "q_fv_snowline_report"
+    "requiresQuest": "q_fv_snowline_report",
+    "choiceRewards": [
+      "hollowveil_gloves",
+      "hollowveil_grips",
+      "hollowveil_handwraps",
+      "hollowveil_gauntlets",
+      "hollowveil_handguards",
+      "hollowveil_mitts"
+    ]
   },
   "q_fv_ember_caches": {
     "id": "q_fv_ember_caches",
@@ -3013,7 +4011,15 @@
     "xpReward": 4000,
     "copperReward": 1900,
     "itemRewards": {},
-    "requiresQuest": "q_fv_snowline_report"
+    "requiresQuest": "q_fv_snowline_report",
+    "choiceRewards": [
+      "trailwarden_robe",
+      "trailwarden_jerkin",
+      "trailwarden_tunic",
+      "trailwarden_hauberk",
+      "trailwarden_chainmail",
+      "trailwarden_vest"
+    ]
   },
   "q_fv_lights_over_steps": {
     "id": "q_fv_lights_over_steps",
@@ -3034,7 +4040,15 @@
     "copperReward": 1000,
     "itemRewards": {},
     "requiresQuest": "q_fv_wolves_at_the_door",
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_leggings",
+      "hollowveil_breeches",
+      "hollowveil_legwraps",
+      "hollowveil_legguards",
+      "hollowveil_chausses",
+      "hollowveil_trousers"
+    ]
   },
   "q_fv_aurora_motes": {
     "id": "q_fv_aurora_motes",
@@ -3054,7 +4068,15 @@
     "xpReward": 4400,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_fv_lights_over_steps"
+    "requiresQuest": "q_fv_lights_over_steps",
+    "choiceRewards": [
+      "hollowveil_mantle",
+      "hollowveil_shoulderpads",
+      "hollowveil_shoulderguards",
+      "hollowveil_pauldrons",
+      "hollowveil_spaulders",
+      "hollowveil_epaulets"
+    ]
   },
   "q_fv_rime_unbound": {
     "id": "q_fv_rime_unbound",
@@ -3074,7 +4096,15 @@
     "xpReward": 4400,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_fv_lights_over_steps"
+    "requiresQuest": "q_fv_lights_over_steps",
+    "choiceRewards": [
+      "trailwarden_gloves",
+      "trailwarden_grips",
+      "trailwarden_handwraps",
+      "trailwarden_gauntlets",
+      "trailwarden_handguards",
+      "trailwarden_mitts"
+    ]
   },
   "q_fv_silent_trapline": {
     "id": "q_fv_silent_trapline",
@@ -3094,7 +4124,15 @@
     "xpReward": 2600,
     "copperReward": 1000,
     "itemRewards": {},
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_slippers",
+      "hollowveil_boots",
+      "hollowveil_treads",
+      "hollowveil_sabatons",
+      "hollowveil_greaves",
+      "hollowveil_moccasins"
+    ]
   },
   "q_fv_sprung_traps": {
     "id": "q_fv_sprung_traps",
@@ -3120,7 +4158,15 @@
     "xpReward": 4800,
     "copperReward": 2600,
     "itemRewards": {},
-    "requiresQuest": "q_fv_silent_trapline"
+    "requiresQuest": "q_fv_silent_trapline",
+    "choiceRewards": [
+      "hollowveil_sash",
+      "hollowveil_belt",
+      "hollowveil_waistguard",
+      "hollowveil_girdle",
+      "hollowveil_cord",
+      "hollowveil_cinch"
+    ]
   },
   "q_fv_seeing_wren_home": {
     "id": "q_fv_seeing_wren_home",
@@ -3141,7 +4187,15 @@
     "copperReward": 3000,
     "itemRewards": {},
     "requiresQuest": "q_fv_sprung_traps",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "hollowveil_robe",
+      "hollowveil_jerkin",
+      "hollowveil_tunic",
+      "hollowveil_hauberk",
+      "hollowveil_chainmail",
+      "hollowveil_vest"
+    ]
   },
   "q_fv_howl_above": {
     "id": "q_fv_howl_above",
@@ -3162,7 +4216,15 @@
     "copperReward": 2600,
     "itemRewards": {},
     "requiresQuest": "q_fv_lights_over_steps",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_fv_frostmane_tyrant": {
     "id": "q_fv_frostmane_tyrant",
@@ -3188,7 +4250,15 @@
     },
     "requiresQuest": "q_fv_howl_above",
     "minLevel": 19,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "hoarfrost_mantle",
+      "hoarfrost_shoulderpads",
+      "hoarfrost_shoulderguards",
+      "hoarfrost_pauldrons",
+      "hoarfrost_spaulders",
+      "hoarfrost_epaulets"
+    ]
   },
   "q_af_goldmelt_road": {
     "id": "q_af_goldmelt_road",
@@ -3208,7 +4278,15 @@
     "xpReward": 2400,
     "copperReward": 900,
     "itemRewards": {},
-    "minLevel": 17
+    "minLevel": 17,
+    "choiceRewards": [
+      "hollowveil_hood",
+      "hollowveil_cap",
+      "hollowveil_headguard",
+      "hollowveil_helm",
+      "hollowveil_coif",
+      "hollowveil_cowl"
+    ]
   },
   "q_af_foxes_in_the_lamplight": {
     "id": "q_af_foxes_in_the_lamplight",
@@ -3228,7 +4306,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "requiresQuest": "q_af_goldmelt_road"
+    "requiresQuest": "q_af_goldmelt_road",
+    "choiceRewards": [
+      "hollowveil_leggings",
+      "hollowveil_breeches",
+      "hollowveil_legwraps",
+      "hollowveil_legguards",
+      "hollowveil_chausses",
+      "hollowveil_trousers"
+    ]
   },
   "q_af_orchard_call": {
     "id": "q_af_orchard_call",
@@ -3249,7 +4335,15 @@
     "copperReward": 1000,
     "itemRewards": {},
     "requiresQuest": "q_af_goldmelt_road",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "hollowveil_slippers",
+      "hollowveil_boots",
+      "hollowveil_treads",
+      "hollowveil_sabatons",
+      "hollowveil_greaves",
+      "hollowveil_moccasins"
+    ]
   },
   "q_af_sprites_and_spigots": {
     "id": "q_af_sprites_and_spigots",
@@ -3275,7 +4369,15 @@
     "xpReward": 4800,
     "copperReward": 2600,
     "itemRewards": {},
-    "requiresQuest": "q_af_orchard_call"
+    "requiresQuest": "q_af_orchard_call",
+    "choiceRewards": [
+      "trailwarden_sash",
+      "trailwarden_belt",
+      "trailwarden_waistguard",
+      "trailwarden_girdle",
+      "trailwarden_cord",
+      "trailwarden_cinch"
+    ]
   },
   "q_af_amber_from_the_herd": {
     "id": "q_af_amber_from_the_herd",
@@ -3299,7 +4401,15 @@
       "mage": "orchard_sapbinder_grips",
       "rogue": "orchard_sapbinder_grips"
     },
-    "requiresQuest": "q_af_orchard_call"
+    "requiresQuest": "q_af_orchard_call",
+    "choiceRewards": [
+      "trailwarden_mantle",
+      "trailwarden_shoulderpads",
+      "trailwarden_shoulderguards",
+      "trailwarden_pauldrons",
+      "trailwarden_spaulders",
+      "trailwarden_epaulets"
+    ]
   },
   "q_af_lanterns_on_the_water": {
     "id": "q_af_lanterns_on_the_water",
@@ -3319,7 +4429,15 @@
     "xpReward": 4200,
     "copperReward": 2000,
     "itemRewards": {},
-    "requiresQuest": "q_af_goldmelt_road"
+    "requiresQuest": "q_af_goldmelt_road",
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_af_what_took_the_moorings": {
     "id": "q_af_what_took_the_moorings",
@@ -3340,7 +4458,15 @@
     "copperReward": 2400,
     "itemRewards": {},
     "requiresQuest": "q_af_lanterns_on_the_water",
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_af_the_meredark": {
     "id": "q_af_the_meredark",
@@ -3366,7 +4492,15 @@
     },
     "requiresQuest": "q_af_what_took_the_moorings",
     "minLevel": 19,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "blackmere_mantle",
+      "blackmere_shoulderpads",
+      "blackmere_shoulderguards",
+      "blackmere_pauldrons",
+      "blackmere_spaulders",
+      "blackmere_epaulets"
+    ]
   },
   "q_wf_across_the_fenway": {
     "id": "q_wf_across_the_fenway",
@@ -3386,7 +4520,15 @@
     "xpReward": 2600,
     "copperReward": 950,
     "itemRewards": {},
-    "minLevel": 18
+    "minLevel": 18,
+    "choiceRewards": [
+      "hollowveil_hood",
+      "hollowveil_cap",
+      "hollowveil_headguard",
+      "hollowveil_helm",
+      "hollowveil_coif",
+      "hollowveil_cowl"
+    ]
   },
   "q_wf_rope_chewers": {
     "id": "q_wf_rope_chewers",
@@ -3406,7 +4548,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_wf_across_the_fenway"
+    "requiresQuest": "q_wf_across_the_fenway",
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_wf_mind_the_moorings": {
     "id": "q_wf_mind_the_moorings",
@@ -3426,7 +4576,15 @@
     "xpReward": 4400,
     "copperReward": 2100,
     "itemRewards": {},
-    "requiresQuest": "q_wf_across_the_fenway"
+    "requiresQuest": "q_wf_across_the_fenway",
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_wf_eels_for_the_smokehouse": {
     "id": "q_wf_eels_for_the_smokehouse",
@@ -3450,7 +4608,15 @@
       "mage": "eelskin_mudwaders",
       "rogue": "eelskin_mudwaders"
     },
-    "requiresQuest": "q_wf_across_the_fenway"
+    "requiresQuest": "q_wf_across_the_fenway",
+    "choiceRewards": [
+      "highgale_slippers",
+      "highgale_boots",
+      "highgale_treads",
+      "highgale_sabatons",
+      "highgale_greaves",
+      "highgale_moccasins"
+    ]
   },
   "q_wf_toll_and_tangle": {
     "id": "q_wf_toll_and_tangle",
@@ -3477,7 +4643,15 @@
     "copperReward": 2800,
     "itemRewards": {},
     "requiresQuest": "q_wf_eels_for_the_smokehouse",
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_wf_witch_of_willowweep": {
     "id": "q_wf_witch_of_willowweep",
@@ -3498,7 +4672,15 @@
     "copperReward": 1000,
     "itemRewards": {},
     "requiresQuest": "q_wf_rope_chewers",
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_robe",
+      "trailwarden_jerkin",
+      "trailwarden_tunic",
+      "trailwarden_hauberk",
+      "trailwarden_chainmail",
+      "trailwarden_vest"
+    ]
   },
   "q_wf_wisplight_charms": {
     "id": "q_wf_wisplight_charms",
@@ -3518,7 +4700,15 @@
     "xpReward": 4800,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_wf_witch_of_willowweep"
+    "requiresQuest": "q_wf_witch_of_willowweep",
+    "choiceRewards": [
+      "trailwarden_leggings",
+      "trailwarden_breeches",
+      "trailwarden_legwraps",
+      "trailwarden_legguards",
+      "trailwarden_chausses",
+      "trailwarden_trousers"
+    ]
   },
   "q_wf_croakers_hush": {
     "id": "q_wf_croakers_hush",
@@ -3544,7 +4734,15 @@
     },
     "requiresQuest": "q_wf_wisplight_charms",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "reedhush_mantle",
+      "reedhush_shoulderpads",
+      "reedhush_shoulderguards",
+      "reedhush_pauldrons",
+      "reedhush_spaulders",
+      "reedhush_epaulets"
+    ]
   },
   "q_nb_road_of_lanterns": {
     "id": "q_nb_road_of_lanterns",
@@ -3564,7 +4762,15 @@
     "xpReward": 2600,
     "copperReward": 950,
     "itemRewards": {},
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_slippers",
+      "trailwarden_boots",
+      "trailwarden_treads",
+      "trailwarden_sabatons",
+      "trailwarden_greaves",
+      "trailwarden_moccasins"
+    ]
   },
   "q_nb_striders_in_the_dark": {
     "id": "q_nb_striders_in_the_dark",
@@ -3584,7 +4790,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_nb_road_of_lanterns"
+    "requiresQuest": "q_nb_road_of_lanterns",
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_nb_wool_by_moonlight": {
     "id": "q_nb_wool_by_moonlight",
@@ -3608,7 +4822,15 @@
       "mage": "moonfleece_mitts",
       "rogue": "moonfleece_mitts"
     },
-    "requiresQuest": "q_nb_road_of_lanterns"
+    "requiresQuest": "q_nb_road_of_lanterns",
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_nb_night_gardens": {
     "id": "q_nb_night_gardens",
@@ -3628,7 +4850,15 @@
     "xpReward": 4800,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_nb_road_of_lanterns"
+    "requiresQuest": "q_nb_road_of_lanterns",
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_nb_eyes_on_the_vigil": {
     "id": "q_nb_eyes_on_the_vigil",
@@ -3649,7 +4879,15 @@
     "copperReward": 1050,
     "itemRewards": {},
     "requiresQuest": "q_nb_striders_in_the_dark",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_nb_charts_of_the_stones": {
     "id": "q_nb_charts_of_the_stones",
@@ -3669,7 +4907,15 @@
     "xpReward": 5000,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_nb_eyes_on_the_vigil"
+    "requiresQuest": "q_nb_eyes_on_the_vigil",
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_nb_restless_mounds": {
     "id": "q_nb_restless_mounds",
@@ -3696,7 +4942,15 @@
     "copperReward": 2800,
     "itemRewards": {},
     "requiresQuest": "q_nb_charts_of_the_stones",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_nb_the_barrow_king": {
     "id": "q_nb_the_barrow_king",
@@ -3722,7 +4976,15 @@
     },
     "requiresQuest": "q_nb_restless_mounds",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "cairnking_mantle",
+      "cairnking_shoulderpads",
+      "cairnking_shoulderguards",
+      "cairnking_pauldrons",
+      "cairnking_spaulders",
+      "cairnking_epaulets"
+    ]
   },
   "q_ww_bells_of_gallowmere": {
     "id": "q_ww_bells_of_gallowmere",
@@ -3742,7 +5004,15 @@
     "xpReward": 2600,
     "copperReward": 1000,
     "itemRewards": {},
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_hood",
+      "trailwarden_cap",
+      "trailwarden_headguard",
+      "trailwarden_helm",
+      "trailwarden_coif",
+      "trailwarden_cowl"
+    ]
   },
   "q_ww_silk_in_the_eaves": {
     "id": "q_ww_silk_in_the_eaves",
@@ -3762,7 +5032,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_ww_bells_of_gallowmere"
+    "requiresQuest": "q_ww_bells_of_gallowmere",
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_ww_widows_skeins": {
     "id": "q_ww_widows_skeins",
@@ -3786,7 +5064,15 @@
       "mage": "gravebound_silk_wraps",
       "rogue": "gravebound_silk_wraps"
     },
-    "requiresQuest": "q_ww_bells_of_gallowmere"
+    "requiresQuest": "q_ww_bells_of_gallowmere",
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_ww_candles_at_the_bounds": {
     "id": "q_ww_candles_at_the_bounds",
@@ -3806,7 +5092,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_ww_bells_of_gallowmere"
+    "requiresQuest": "q_ww_bells_of_gallowmere",
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_ww_the_last_vicar": {
     "id": "q_ww_the_last_vicar",
@@ -3827,7 +5121,15 @@
     "copperReward": 1100,
     "itemRewards": {},
     "requiresQuest": "q_ww_silk_in_the_eaves",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_ww_wraiths_of_the_tarn": {
     "id": "q_ww_wraiths_of_the_tarn",
@@ -3847,7 +5149,15 @@
     "xpReward": 4800,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_ww_the_last_vicar"
+    "requiresQuest": "q_ww_the_last_vicar",
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_ww_what_the_bark_holds": {
     "id": "q_ww_what_the_bark_holds",
@@ -3873,7 +5183,15 @@
     "xpReward": 5200,
     "copperReward": 2800,
     "itemRewards": {},
-    "requiresQuest": "q_ww_the_last_vicar"
+    "requiresQuest": "q_ww_the_last_vicar",
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_ww_walking_mosley_home": {
     "id": "q_ww_walking_mosley_home",
@@ -3894,7 +5212,15 @@
     "copperReward": 3200,
     "itemRewards": {},
     "requiresQuest": "q_ww_the_last_vicar",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_ww_horn_of_the_huntsman": {
     "id": "q_ww_horn_of_the_huntsman",
@@ -3920,7 +5246,15 @@
     },
     "requiresQuest": "q_ww_what_the_bark_holds",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "palehunt_mantle",
+      "palehunt_shoulderpads",
+      "palehunt_shoulderguards",
+      "palehunt_pauldrons",
+      "palehunt_spaulders",
+      "palehunt_epaulets"
+    ]
   },
   "q_pr_down_to_drifthaven": {
     "id": "q_pr_down_to_drifthaven",
@@ -3940,7 +5274,15 @@
     "xpReward": 2600,
     "copperReward": 1000,
     "itemRewards": {},
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_gloves",
+      "trailwarden_grips",
+      "trailwarden_handwraps",
+      "trailwarden_gauntlets",
+      "trailwarden_handguards",
+      "trailwarden_mitts"
+    ]
   },
   "q_pr_wreck_line_cargo": {
     "id": "q_pr_wreck_line_cargo",
@@ -3960,7 +5302,15 @@
     "xpReward": 4600,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_pr_down_to_drifthaven"
+    "requiresQuest": "q_pr_down_to_drifthaven",
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_pr_scuttler_cull": {
     "id": "q_pr_scuttler_cull",
@@ -3980,7 +5330,15 @@
     "xpReward": 4800,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_pr_down_to_drifthaven"
+    "requiresQuest": "q_pr_down_to_drifthaven",
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_pr_the_lost_navigator": {
     "id": "q_pr_the_lost_navigator",
@@ -4005,7 +5363,15 @@
       "rogue": "saltwalker_sandals"
     },
     "requiresQuest": "q_pr_wreck_line_cargo",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_pr_boars_in_the_gardens": {
     "id": "q_pr_boars_in_the_gardens",
@@ -4025,7 +5391,15 @@
     "xpReward": 4600,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_pr_down_to_drifthaven"
+    "requiresQuest": "q_pr_down_to_drifthaven",
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_pr_the_man_who_went_in": {
     "id": "q_pr_the_man_who_went_in",
@@ -4046,7 +5420,15 @@
     "copperReward": 1100,
     "itemRewards": {},
     "requiresQuest": "q_pr_down_to_drifthaven",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_pr_canopy_silk": {
     "id": "q_pr_canopy_silk",
@@ -4066,7 +5448,15 @@
     "xpReward": 5000,
     "copperReward": 2600,
     "itemRewards": {},
-    "requiresQuest": "q_pr_the_man_who_went_in"
+    "requiresQuest": "q_pr_the_man_who_went_in",
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_pr_what_the_drums_guard": {
     "id": "q_pr_what_the_drums_guard",
@@ -4093,7 +5483,15 @@
     "copperReward": 2800,
     "itemRewards": {},
     "requiresQuest": "q_pr_canopy_silk",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_pr_idol_guardian": {
     "id": "q_pr_idol_guardian",
@@ -4119,7 +5517,15 @@
     },
     "requiresQuest": "q_pr_what_the_drums_guard",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "jadeshrine_mantle",
+      "jadeshrine_shoulderpads",
+      "jadeshrine_shoulderguards",
+      "jadeshrine_pauldrons",
+      "jadeshrine_spaulders",
+      "jadeshrine_epaulets"
+    ]
   },
   "q_eg_gate_report": {
     "id": "q_eg_gate_report",
@@ -4139,7 +5545,15 @@
     "xpReward": 2600,
     "copperReward": 950,
     "itemRewards": {},
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_mantle",
+      "trailwarden_shoulderpads",
+      "trailwarden_shoulderguards",
+      "trailwarden_pauldrons",
+      "trailwarden_spaulders",
+      "trailwarden_epaulets"
+    ]
   },
   "q_eg_hungry_shapes": {
     "id": "q_eg_hungry_shapes",
@@ -4159,7 +5573,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_eg_gate_report"
+    "requiresQuest": "q_eg_gate_report",
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_eg_stolen_shears": {
     "id": "q_eg_stolen_shears",
@@ -4183,7 +5605,15 @@
       "mage": "shearkeeper_gloves",
       "rogue": "shearkeeper_gloves"
     },
-    "requiresQuest": "q_eg_gate_report"
+    "requiresQuest": "q_eg_gate_report",
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_eg_gnomes_in_the_green": {
     "id": "q_eg_gnomes_in_the_green",
@@ -4210,7 +5640,15 @@
     "copperReward": 2600,
     "itemRewards": {},
     "requiresQuest": "q_eg_stolen_shears",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_eg_who_trims_the_hedges": {
     "id": "q_eg_who_trims_the_hedges",
@@ -4231,7 +5669,15 @@
     "copperReward": 1000,
     "itemRewards": {},
     "requiresQuest": "q_eg_hungry_shapes",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_eg_bloom_clippings": {
     "id": "q_eg_bloom_clippings",
@@ -4251,7 +5697,15 @@
     "xpReward": 4600,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_eg_who_trims_the_hedges"
+    "requiresQuest": "q_eg_who_trims_the_hedges",
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_eg_four_statues": {
     "id": "q_eg_four_statues",
@@ -4272,7 +5726,15 @@
     "copperReward": 2600,
     "itemRewards": {},
     "requiresQuest": "q_eg_who_trims_the_hedges",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_eg_bull_of_the_court": {
     "id": "q_eg_bull_of_the_court",
@@ -4298,7 +5760,15 @@
     },
     "requiresQuest": "q_eg_four_statues",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "gildhedge_mantle",
+      "gildhedge_shoulderpads",
+      "gildhedge_shoulderguards",
+      "gildhedge_pauldrons",
+      "gildhedge_spaulders",
+      "gildhedge_epaulets"
+    ]
   },
   "q_gc_down_the_windway": {
     "id": "q_gc_down_the_windway",
@@ -4318,7 +5788,15 @@
     "xpReward": 2600,
     "copperReward": 1000,
     "itemRewards": {},
-    "minLevel": 19
+    "minLevel": 19,
+    "choiceRewards": [
+      "trailwarden_sash",
+      "trailwarden_belt",
+      "trailwarden_waistguard",
+      "trailwarden_girdle",
+      "trailwarden_cord",
+      "trailwarden_cinch"
+    ]
   },
   "q_gc_wool_off_the_downs": {
     "id": "q_gc_wool_off_the_downs",
@@ -4342,7 +5820,15 @@
       "mage": "wickspun_treads",
       "rogue": "wickspun_treads"
     },
-    "requiresQuest": "q_gc_down_the_windway"
+    "requiresQuest": "q_gc_down_the_windway",
+    "choiceRewards": [
+      "highgale_hood",
+      "highgale_cap",
+      "highgale_headguard",
+      "highgale_helm",
+      "highgale_coif",
+      "highgale_cowl"
+    ]
   },
   "q_gc_scuttlers_in_the_pots": {
     "id": "q_gc_scuttlers_in_the_pots",
@@ -4362,7 +5848,15 @@
     "xpReward": 4600,
     "copperReward": 2400,
     "itemRewards": {},
-    "requiresQuest": "q_gc_down_the_windway"
+    "requiresQuest": "q_gc_down_the_windway",
+    "choiceRewards": [
+      "highgale_gloves",
+      "highgale_grips",
+      "highgale_handwraps",
+      "highgale_gauntlets",
+      "highgale_handguards",
+      "highgale_mitts"
+    ]
   },
   "q_gc_keeper_of_the_flame": {
     "id": "q_gc_keeper_of_the_flame",
@@ -4383,7 +5877,15 @@
     "copperReward": 1000,
     "itemRewards": {},
     "requiresQuest": "q_gc_scuttlers_in_the_pots",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_mantle",
+      "highgale_shoulderpads",
+      "highgale_shoulderguards",
+      "highgale_pauldrons",
+      "highgale_spaulders",
+      "highgale_epaulets"
+    ]
   },
   "q_gc_lanterns_on_the_shear": {
     "id": "q_gc_lanterns_on_the_shear",
@@ -4403,7 +5905,15 @@
     "xpReward": 4800,
     "copperReward": 2200,
     "itemRewards": {},
-    "requiresQuest": "q_gc_keeper_of_the_flame"
+    "requiresQuest": "q_gc_keeper_of_the_flame",
+    "choiceRewards": [
+      "highgale_slippers",
+      "highgale_boots",
+      "highgale_treads",
+      "highgale_sabatons",
+      "highgale_greaves",
+      "highgale_moccasins"
+    ]
   },
   "q_gc_wind_against_the_wick": {
     "id": "q_gc_wind_against_the_wick",
@@ -4423,7 +5933,15 @@
     "xpReward": 5000,
     "copperReward": 2600,
     "itemRewards": {},
-    "requiresQuest": "q_gc_keeper_of_the_flame"
+    "requiresQuest": "q_gc_keeper_of_the_flame",
+    "choiceRewards": [
+      "highgale_sash",
+      "highgale_belt",
+      "highgale_waistguard",
+      "highgale_girdle",
+      "highgale_cord",
+      "highgale_cinch"
+    ]
   },
   "q_gc_the_far_shore": {
     "id": "q_gc_the_far_shore",
@@ -4444,7 +5962,15 @@
     "copperReward": 1100,
     "itemRewards": {},
     "requiresQuest": "q_gc_lanterns_on_the_shear",
-    "minLevel": 20
+    "minLevel": 20,
+    "choiceRewards": [
+      "highgale_robe",
+      "highgale_jerkin",
+      "highgale_tunic",
+      "highgale_hauberk",
+      "highgale_chainmail",
+      "highgale_vest"
+    ]
   },
   "q_gc_dead_mens_cargo": {
     "id": "q_gc_dead_mens_cargo",
@@ -4470,7 +5996,15 @@
     "xpReward": 5400,
     "copperReward": 2800,
     "itemRewards": {},
-    "requiresQuest": "q_gc_the_far_shore"
+    "requiresQuest": "q_gc_the_far_shore",
+    "choiceRewards": [
+      "highgale_leggings",
+      "highgale_breeches",
+      "highgale_legwraps",
+      "highgale_legguards",
+      "highgale_chausses",
+      "highgale_trousers"
+    ]
   },
   "q_gc_the_wreck_warden": {
     "id": "q_gc_the_wreck_warden",
@@ -4496,7 +6030,15 @@
     },
     "requiresQuest": "q_gc_dead_mens_cargo",
     "minLevel": 20,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "saltwrack_mantle",
+      "saltwrack_shoulderpads",
+      "saltwrack_shoulderguards",
+      "saltwrack_pauldrons",
+      "saltwrack_spaulders",
+      "saltwrack_epaulets"
+    ]
   },
   "q_fs_bell_at_the_landing": {
     "id": "q_fs_bell_at_the_landing",
@@ -4516,7 +6058,15 @@
     "xpReward": 150,
     "copperReward": 60,
     "itemRewards": {},
-    "minLevel": 2
+    "minLevel": 2,
+    "choiceRewards": [
+      "brookwatch_leggings",
+      "brookwatch_breeches",
+      "brookwatch_legwraps",
+      "brookwatch_legguards",
+      "brookwatch_chausses",
+      "brookwatch_trousers"
+    ]
   },
   "q_fs_hold_the_riftfields": {
     "id": "q_fs_hold_the_riftfields",
@@ -4536,7 +6086,15 @@
     "xpReward": 400,
     "copperReward": 180,
     "itemRewards": {},
-    "requiresQuest": "q_fs_bell_at_the_landing"
+    "requiresQuest": "q_fs_bell_at_the_landing",
+    "choiceRewards": [
+      "brookwatch_mantle",
+      "brookwatch_shoulderpads",
+      "brookwatch_shoulderguards",
+      "brookwatch_pauldrons",
+      "brookwatch_spaulders",
+      "brookwatch_epaulets"
+    ]
   },
   "q_fs_steel_for_the_redoubt": {
     "id": "q_fs_steel_for_the_redoubt",
@@ -4560,7 +6118,15 @@
       "mage": "saltforged_grips",
       "rogue": "saltforged_grips"
     },
-    "requiresQuest": "q_fs_bell_at_the_landing"
+    "requiresQuest": "q_fs_bell_at_the_landing",
+    "choiceRewards": [
+      "brookwatch_sash",
+      "brookwatch_belt",
+      "brookwatch_waistguard",
+      "brookwatch_girdle",
+      "brookwatch_cord",
+      "brookwatch_cinch"
+    ]
   },
   "q_fs_the_three_bells": {
     "id": "q_fs_the_three_bells",
@@ -4580,7 +6146,15 @@
     "xpReward": 400,
     "copperReward": 180,
     "itemRewards": {},
-    "requiresQuest": "q_fs_bell_at_the_landing"
+    "requiresQuest": "q_fs_bell_at_the_landing",
+    "choiceRewards": [
+      "brookwatch_leggings",
+      "brookwatch_breeches",
+      "brookwatch_legwraps",
+      "brookwatch_legguards",
+      "brookwatch_chausses",
+      "brookwatch_trousers"
+    ]
   },
   "q_fs_song_before_the_break": {
     "id": "q_fs_song_before_the_break",
@@ -4601,7 +6175,15 @@
     "copperReward": 100,
     "itemRewards": {},
     "requiresQuest": "q_fs_hold_the_riftfields",
-    "minLevel": 4
+    "minLevel": 4,
+    "choiceRewards": [
+      "brookwatch_leggings",
+      "brookwatch_breeches",
+      "brookwatch_legwraps",
+      "brookwatch_legguards",
+      "brookwatch_chausses",
+      "brookwatch_trousers"
+    ]
   },
   "q_fs_moss_and_mending": {
     "id": "q_fs_moss_and_mending",
@@ -4628,7 +6210,15 @@
     "copperReward": 350,
     "itemRewards": {},
     "requiresQuest": "q_fs_bell_at_the_landing",
-    "minLevel": 4
+    "minLevel": 4,
+    "choiceRewards": [
+      "brookwatch_slippers",
+      "brookwatch_boots",
+      "brookwatch_treads",
+      "brookwatch_sabatons",
+      "brookwatch_greaves",
+      "brookwatch_moccasins"
+    ]
   },
   "q_fs_bram_come_home": {
     "id": "q_fs_bram_come_home",
@@ -4649,7 +6239,15 @@
     "copperReward": 400,
     "itemRewards": {},
     "requiresQuest": "q_fs_bell_at_the_landing",
-    "minLevel": 5
+    "minLevel": 5,
+    "choiceRewards": [
+      "brookwatch_robe",
+      "brookwatch_jerkin",
+      "brookwatch_tunic",
+      "brookwatch_hauberk",
+      "brookwatch_chainmail",
+      "brookwatch_vest"
+    ]
   },
   "q_fs_stalkers_off_the_light": {
     "id": "q_fs_stalkers_off_the_light",
@@ -4670,7 +6268,15 @@
     "copperReward": 300,
     "itemRewards": {},
     "requiresQuest": "q_fs_song_before_the_break",
-    "minLevel": 5
+    "minLevel": 5,
+    "choiceRewards": [
+      "hedgerow_mantle",
+      "hedgerow_shoulderpads",
+      "hedgerow_shoulderguards",
+      "hedgerow_pauldrons",
+      "hedgerow_spaulders",
+      "hedgerow_epaulets"
+    ]
   },
   "q_fs_the_great_break": {
     "id": "q_fs_the_great_break",
@@ -4696,7 +6302,15 @@
     },
     "requiresQuest": "q_fs_stalkers_off_the_light",
     "minLevel": 6,
-    "suggestedPlayers": 2
+    "suggestedPlayers": 2,
+    "choiceRewards": [
+      "breakwater_mantle",
+      "breakwater_shoulderpads",
+      "breakwater_shoulderguards",
+      "breakwater_pauldrons",
+      "breakwater_spaulders",
+      "breakwater_epaulets"
+    ]
   },
   "q_ps_the_gauntlet": {
     "id": "q_ps_the_gauntlet",
@@ -5076,7 +6690,15 @@
     ],
     "xpReward": 60,
     "copperReward": 40,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "brookwatch_slippers",
+      "brookwatch_boots",
+      "brookwatch_treads",
+      "brookwatch_sabatons",
+      "brookwatch_greaves",
+      "brookwatch_moccasins"
+    ]
   },
   "q_hub_healing_numbers": {
     "id": "q_hub_healing_numbers",
@@ -5103,6 +6725,14 @@
     ],
     "xpReward": 60,
     "copperReward": 40,
-    "itemRewards": {}
+    "itemRewards": {},
+    "choiceRewards": [
+      "brookwatch_hood",
+      "brookwatch_cap",
+      "brookwatch_headguard",
+      "brookwatch_helm",
+      "brookwatch_coif",
+      "brookwatch_cowl"
+    ]
   }
 }

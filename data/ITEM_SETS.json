@@ -175,7 +175,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Life Covenant's cooldown is reduced by 30 sec."
+        "text": "Life Covenant's cooldown is reduced by 30 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -191,7 +191,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Oath Chain's cooldown is reduced by 2 sec."
+        "text": "Oath Chain's cooldown is reduced by 2 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -207,7 +207,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Valkyr's Calling's cooldown is reduced by 15 sec."
+        "text": "Valkyr's Calling's cooldown is reduced by 15 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -223,7 +223,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Rattling Shot's cooldown is reduced by 4 sec."
+        "text": "Rattling Shot's cooldown is reduced by 4 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -239,7 +239,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Trailbreak's cooldown is reduced by 4 sec."
+        "text": "Trailbreak's cooldown is reduced by 4 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -255,7 +255,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Bloodhook's cooldown is reduced by 3 sec."
+        "text": "Bloodhook's cooldown is reduced by 3 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -287,7 +287,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Swift Heels' cooldown is reduced by 60 sec."
+        "text": "Swift Heels' cooldown is reduced by 15 sec."
       },
       {
         "pieces": 4,
@@ -319,7 +319,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Terror Canticle's cooldown is reduced by 3 sec."
+        "text": "Terror Canticle's cooldown is reduced by 3 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -335,7 +335,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Veilstep's cooldown is reduced by 6 sec."
+        "text": "Veilstep's cooldown is reduced by 6 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -351,7 +351,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Litany of Woe also slows the target's movement by 30 percent while you channel it."
+        "text": "Litany of Woe also slows the target's movement by 30 percent while you channel it. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -367,7 +367,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Unleash Weapon's cooldown is reduced by 3 sec."
+        "text": "Unleash Weapon's cooldown is reduced by 3 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -383,7 +383,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Ancestral Strike slows the target's movement speed by 30 percent for 4 sec."
+        "text": "Ancestral Strike slows the target's movement speed by 30 percent for 4 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -399,7 +399,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Mending Waters casts 0.5 sec faster on an ally below 50 percent health."
+        "text": "Mending Waters casts 0.5 sec faster on an ally below 50 percent health. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -415,7 +415,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Temporal Barrier's cooldown is reduced by 2 sec."
+        "text": "Temporal Barrier's cooldown is reduced by 2 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -431,7 +431,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Cinderfall recharges 3 sec faster."
+        "text": "Cinderfall recharges 3 sec faster. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -447,7 +447,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Icebind's cooldown is reduced by 2 sec."
+        "text": "Icebind's cooldown is reduced by 2 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -463,7 +463,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Harrow's cast time is reduced by 0.3 sec."
+        "text": "Harrow's cast time is reduced by 0.3 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -479,7 +479,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Bone Armor's cooldown is reduced by 10 sec."
+        "text": "Bone Armor's cooldown is reduced by 10 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -495,7 +495,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Cinderhide's cooldown is reduced by 30 sec."
+        "text": "Cinderhide's cooldown is reduced by 30 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -511,7 +511,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Gripping Roots' cast time is reduced by 0.5 sec."
+        "text": "Gripping Roots' cast time is reduced by 0.5 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -527,12 +527,12 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Reduces the cooldowns of Lunge and Bruin Rush by 3 sec."
+        "text": "Bruin Rush's cooldown is reduced by 3 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
         "effect": {},
-        "text": "Dash's cooldown is reduced by 15 sec."
+        "text": "Bruin Rush shields you for 6 percent of your maximum health for 6 sec."
       }
     ]
   },
@@ -543,7 +543,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Fleetmend's cooldown is reduced by 1 sec."
+        "text": "Fleetmend's cooldown is reduced by 1 sec. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1010,9 +1010,10 @@
       {
         "pieces": 2,
         "effect": {
-          "pvpDefenseRating": 40
+          "pvpDefenseRating": 40,
+          "castPushbackReduction": 1
         },
-        "text": "Increases Warfare Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1049,9 +1050,10 @@
       {
         "pieces": 2,
         "effect": {
-          "pvpDefenseRating": 40
+          "pvpDefenseRating": 40,
+          "castPushbackReduction": 1
         },
-        "text": "Increases Warfare Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1089,9 +1091,10 @@
       {
         "pieces": 2,
         "effect": {
-          "pvpDefenseRating": 40
+          "pvpDefenseRating": 40,
+          "castPushbackReduction": 1
         },
-        "text": "Increases Warfare Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1128,9 +1131,10 @@
       {
         "pieces": 2,
         "effect": {
-          "pvpDefenseRating": 40
+          "pvpDefenseRating": 40,
+          "castPushbackReduction": 1
         },
-        "text": "Increases Warfare Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1168,9 +1172,10 @@
       {
         "pieces": 2,
         "effect": {
-          "pvpDefenseRating": 40
+          "pvpDefenseRating": 40,
+          "castPushbackReduction": 1
         },
-        "text": "Increases Warfare Defense Rating by 40."
+        "text": "Increases Warfare Defense Rating by 40. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,
@@ -1240,7 +1245,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Iron Resolve converts rage at 5 absorb per point instead of 4."
+        "text": "Iron Resolve's shield absorbs 25% of your maximum health instead of 20%."
       },
       {
         "pieces": 4,
@@ -1656,7 +1661,7 @@
       {
         "pieces": 2,
         "effect": {},
-        "text": "Fleetmend consumes your own Wildbloom or Second Bloom first and heals 25 percent more. Damage taken no longer delays your spellcasting."
+        "text": "Fleetmend consumes your own Sporemending or Second Bloom first and heals 25 percent more. Damage taken no longer delays your spellcasting."
       },
       {
         "pieces": 4,

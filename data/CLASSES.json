@@ -359,7 +359,7 @@
       "max": 9,
       "speed": 2.3,
       "maxRange": 35,
-      "minRange": 8
+      "minRange": 0
     },
     "abilities": [
       "raptor_strike",
@@ -378,6 +378,8 @@
       "wildheart",
       "shellskin",
       "frostjaw_trap",
+      "bear_trap",
+      "scatterbolt",
       "tame_beast",
       "dismiss_pet",
       "revive_pet",
@@ -387,7 +389,10 @@
       "rapid_fire",
       "shrapnel_charge",
       "bloodtrail_assault",
+      "tactical_camo",
+      "play_dead",
       "volley",
+      "phosphor_flask",
       "counter_shot"
     ],
     "color": 10934351
@@ -684,6 +689,7 @@
       "prowl",
       "rake",
       "claw",
+      "scratch",
       "regrowth",
       "ferocious_bite",
       "barkskin",
@@ -704,7 +710,10 @@
       "skull_bash",
       "primal_reflexes",
       "wildwake",
-      "grove_awakening"
+      "grove_awakening",
+      "sporemender_form",
+      "spore_burst",
+      "natures_boon"
     ],
     "color": 16747546
   }
