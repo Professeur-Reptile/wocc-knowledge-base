@@ -1,7 +1,6 @@
 [
   {
     "id": "eastbrook_vale",
-    "worldPvp": "sanctuary",
     "name": "Eastbrook Vale",
     "zMin": -180,
     "zMax": 180,
@@ -440,7 +439,6 @@
   },
   {
     "id": "drakelands",
-    "worldPvp": "ffa",
     "name": "The Drakelands",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -540,7 +538,6 @@
   },
   {
     "id": "frostveil",
-    "worldPvp": "ffa",
     "name": "The Frostveil Reach",
     "riftPortalEligible": true,
     "riftTierWeights": {
@@ -626,7 +623,6 @@
   },
   {
     "id": "amberfall",
-    "worldPvp": "ffa",
     "name": "The Amberfall",
     "riftPortalEligible": true,
     "riftTierWeights": {
