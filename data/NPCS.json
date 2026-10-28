@@ -2984,5 +2984,48 @@
     "questIds": [],
     "dynamic": true,
     "greeting": "Every map of this marsh I've ever bought was wrong within a season. The water moves the paths, and the paths move the water. So I draw my own, and I sit here where it's dry while the ink sets."
+  },
+  "gourdlight_keeper": {
+    "id": "gourdlight_keeper",
+    "name": "Hester Gourdwick",
+    "title": "Gourdlight Keeper",
+    "pos": {
+      "x": -4.2,
+      "z": -110.5
+    },
+    "facing": -1.5707963267948966,
+    "color": 14251036,
+    "questIds": [
+      "q_gourdlight_rounds",
+      "q_gourdlight_daily_patch",
+      "q_gourdlight_daily_boo",
+      "q_gourdlight_daily_wicks",
+      "q_gourdlight_daily_towns",
+      "q_gourdlight_daily_feathers",
+      "q_gourdlight_daily_baskets"
+    ],
+    "vendorItems": [
+      "jar_of_mischief",
+      "prankers_pumpkin",
+      "wanderwisp_lantern",
+      "sack_of_startled_bats",
+      "murmurwick_candle",
+      "gurglegreen_cauldron",
+      "hearthroot_toffee",
+      "gourdseed_brittle",
+      "crabapple_chew",
+      "owlwatch_fudge",
+      "lantern_mint_drop",
+      "rattlebone_draught",
+      "haunting_draught",
+      "batwing_draught",
+      "writ_of_the_gourdlit",
+      "writ_of_the_trickster",
+      "writ_of_the_hollow_grin",
+      "reins_emberbristle_broom"
+    ],
+    "dynamic": true,
+    "seasonalKeeper": true,
+    "greeting": "The gourds are lit and the lanterns are up, so it must be Gourdlight Eve. Knock on the doors of the townsfolk in Eastbrook, Fenbridge and Highwatch, and say the words: trick or treat. Most will hand you a sweet. A few will play a trick on you. Bring the sweets to me, at any of my stalls, and I will trade you something to wear."
   }
 }

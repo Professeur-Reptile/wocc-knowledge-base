@@ -15807,5 +15807,162 @@
     "loot": [],
     "scale": 1,
     "color": 8032678
+  },
+  "gourdlight_thatchgrin": {
+    "id": "gourdlight_thatchgrin",
+    "name": "Old Thatchgrin",
+    "minLevel": 12,
+    "maxLevel": 12,
+    "family": "elemental",
+    "worldBoss": true,
+    "seasonalEvent": "gourdlight_eve",
+    "boss": true,
+    "elite": true,
+    "ccImmune": true,
+    "untameable": true,
+    "idleStationary": true,
+    "slumber": {
+      "auraName": "Pole-Bound",
+      "sleepYell": "Sun is up. Back on the post, back to watching.",
+      "wakeYell": "NIGHT falls on the patch! Who walks in MY field?",
+      "yellRange": 120,
+      "bedRadius": 1.5,
+      "snapToBed": true,
+      "awakeAt": "night",
+      "riseSeconds": 3
+    },
+    "hardLeashRadius": 40,
+    "hpBase": 420,
+    "hpPerLevel": 60,
+    "dmgBase": 18,
+    "dmgPerLevel": 4,
+    "attackSpeed": 2.1,
+    "armorPerLevel": 32,
+    "moveSpeed": 7,
+    "aggroRadius": 10,
+    "bodyRadius": 1.8,
+    "enrage": {
+      "belowHpPct": 0.3,
+      "dmgMult": 1.35,
+      "hasteMult": 1.25
+    },
+    "mechanicLevelScale": {
+      "fromLevel": 6,
+      "toLevel": 20,
+      "toMult": 3
+    },
+    "quietMechanics": true,
+    "yells": {
+      "engage": "Off my field! The harvest is MINE!",
+      "summon": "Up, up, little ones! Pick them clean!",
+      "enrage": "Burn the stubble! Burn it ALL!"
+    },
+    "loot": [
+      {
+        "itemId": "thatchgrin_sweet_sack",
+        "chance": 1
+      },
+      {
+        "itemId": "strawling_charm",
+        "chance": 0.05
+      },
+      {
+        "itemId": "carved_pumpkin_head",
+        "chance": 1,
+        "unlessOwned": true
+      },
+      {
+        "itemId": "emberwoven_sheaf",
+        "chance": 1,
+        "unlessOwnedItem": "reins_emberbristle_broom"
+      },
+      {
+        "itemId": "reins_emberbristle_broom",
+        "chance": 0.03,
+        "unlessOwned": true
+      }
+    ],
+    "corpseSink": {
+      "seconds": 4,
+      "depth": 2
+    },
+    "scale": 1,
+    "color": 13208110
+  },
+  "gourdlight_crow": {
+    "id": "gourdlight_crow",
+    "name": "Gourdlight Crow",
+    "minLevel": 11,
+    "maxLevel": 12,
+    "family": "beast",
+    "hpBase": 18,
+    "hpPerLevel": 7,
+    "dmgBase": 3,
+    "dmgPerLevel": 1,
+    "attackSpeed": 2,
+    "armorPerLevel": 4,
+    "moveSpeed": 11,
+    "aggroRadius": 12,
+    "untameable": true,
+    "blind": {
+      "chance": 0.08,
+      "miss": 0.2,
+      "duration": 4,
+      "name": "Gouging Beak",
+      "school": "physical"
+    },
+    "loot": [
+      {
+        "itemId": "gourdlight_crow_feather",
+        "chance": 1,
+        "questId": "q_gourdlight_daily_feathers"
+      }
+    ],
+    "scale": 1,
+    "color": 2828336
+  },
+  "gourdlight_strawling": {
+    "id": "gourdlight_strawling",
+    "name": "Strawling",
+    "minLevel": 11,
+    "maxLevel": 12,
+    "family": "elemental",
+    "hpBase": 42,
+    "hpPerLevel": 17,
+    "dmgBase": 6,
+    "dmgPerLevel": 1.8,
+    "attackSpeed": 2.2,
+    "armorPerLevel": 12,
+    "moveSpeed": 7,
+    "aggroRadius": 12,
+    "untameable": true,
+    "loot": [],
+    "scale": 1,
+    "color": 14201434
+  },
+  "gourdlight_swelling_gourd": {
+    "id": "gourdlight_swelling_gourd",
+    "name": "Swelling Gourd",
+    "minLevel": 12,
+    "maxLevel": 12,
+    "family": "elemental",
+    "ccImmune": true,
+    "slowImmune": true,
+    "ignoreTaunt": true,
+    "quietMechanics": true,
+    "untameable": true,
+    "xpMult": 0,
+    "hpBase": 100,
+    "hpPerLevel": 0,
+    "dmgBase": 0,
+    "dmgPerLevel": 0,
+    "attackSpeed": 2.6,
+    "armorPerLevel": 0,
+    "moveSpeed": 0,
+    "aggroRadius": 0,
+    "bodyRadius": 1.6,
+    "loot": [],
+    "scale": 1,
+    "color": 14710300
   }
 }

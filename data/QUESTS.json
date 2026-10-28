@@ -6734,5 +6734,260 @@
       "brookwatch_coif",
       "brookwatch_cowl"
     ]
+  },
+  "q_gourdlight_rounds": {
+    "id": "q_gourdlight_rounds",
+    "name": "Gourdlight Rounds",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "Every Gourdlight Eve the children of the Vale make their rounds, and this year you are joining them, $N. Knock on five doors in our towns, say the words, and see what you are given. Come back to me when you are done.",
+    "completionText": "Five doors and you still have all your fingers. Here, a pouch of sweets for the walk home. Come back tomorrow, the doors open again.",
+    "objectives": [
+      {
+        "type": "event",
+        "eventId": "gourdlight_trick_or_treat",
+        "count": 5,
+        "label": "Doors knocked on"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_patch": {
+    "id": "q_gourdlight_daily_patch",
+    "name": "Pumpkins from the Patch",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "Old Thatchgrin's patch past Boar Meadow is fat with pumpkins, and half of them have rolled out past his straw where a careful soul can reach them. Bring me five, $N. Stay wide of the old scarecrow himself. He counts every one.",
+    "completionText": "Five round ones, and not a bite out of any. That is pie for the whole Vale. Here, for your trouble.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "thatchgrin_patch_pumpkin",
+        "count": 5,
+        "label": "Patch Pumpkins"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_boo": {
+    "id": "q_gourdlight_daily_boo",
+    "name": "Boo!",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "Nobody in these towns has had a proper fright in a year, $N, and a Gourdlight Eve without one is just a cold night. Put on a costume, any of mine will do, or that pumpkin head if you have earned one. Then creep up on three of the townsfolk and give them a good loud BOO.",
+    "completionText": "Three of them? I heard the cook drop a pan from across the square. Well done. Here is your share.",
+    "objectives": [
+      {
+        "type": "event",
+        "eventId": "gourdlight_boo",
+        "count": 3,
+        "label": "Townsfolk frightened"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_wicks": {
+    "id": "q_gourdlight_daily_wicks",
+    "name": "Wicked Wicks",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "Someone has been setting candles with green flames at the feet of our lamp posts. They burn without melting and they whisper when you turn your back. Snuff six of them for me, $N, in any of the three towns, and bring me the stubs.",
+    "completionText": "Six stubs, cold as frost. Whoever lit them will have to try harder than that. Take this, and wash your hands.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "cursed_candle_stub",
+        "count": 6,
+        "label": "Cursed candles snuffed"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_towns": {
+    "id": "q_gourdlight_daily_towns",
+    "name": "A Door in Every Town",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "The children say a true Gourdlight walker knocks in every town before the night is out. Prove them right, $N. Trick or treat at one door in Eastbrook, one in Fenbridge and one in Highwatch. The lanterns on the roads will light your way.",
+    "completionText": "Three towns in one night! Your boots have earned this more than you have.",
+    "objectives": [
+      {
+        "type": "event",
+        "eventId": "gourdlight_knock_eastbrook",
+        "count": 1,
+        "label": "A door knocked in Eastbrook"
+      },
+      {
+        "type": "event",
+        "eventId": "gourdlight_knock_fenbridge",
+        "count": 1,
+        "label": "A door knocked in Fenbridge"
+      },
+      {
+        "type": "event",
+        "eventId": "gourdlight_knock_highwatch",
+        "count": 1,
+        "label": "A door knocked in Highwatch"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_feathers": {
+    "id": "q_gourdlight_daily_feathers",
+    "name": "Feathers for the Fire",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "When Old Thatchgrin is pressed, he calls his crows down on whoever is beating at his straw. Their feathers burn green in a hearth, and I need three for tonight's bonfire. Find a fight at his patch, $N, and pluck them from his crows.",
+    "completionText": "Black as a moonless field, and they smell of smoke already. The bonfire will be a sight. Thank you.",
+    "objectives": [
+      {
+        "type": "collect",
+        "itemId": "gourdlight_crow_feather",
+        "count": 3,
+        "label": "Crow feathers"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
+  },
+  "q_gourdlight_daily_baskets": {
+    "id": "q_gourdlight_daily_baskets",
+    "name": "Baskets for the Neighbours",
+    "giverNpcId": "gourdlight_keeper",
+    "turnInNpcId": "gourdlight_keeper",
+    "text": "I fill a basket of sweets for an old friend in each town every Gourdlight Eve, and my knees are not what they were. Take them round for me, $N: Cook Marlow in Eastbrook, Yara the herbalist in Fenbridge, and Loremaster Caddis up in Highwatch.",
+    "completionText": "All three delivered, and I hear Marlow cried. He always cries. Here is a basket of your own.",
+    "objectives": [
+      {
+        "type": "interact",
+        "targetNpcId": "cook_marlow",
+        "count": 1,
+        "label": "Basket left with Cook Marlow"
+      },
+      {
+        "type": "interact",
+        "targetNpcId": "herbalist_yara",
+        "count": 1,
+        "label": "Basket left with Yara the herbalist"
+      },
+      {
+        "type": "interact",
+        "targetNpcId": "loremaster_caddis",
+        "count": 1,
+        "label": "Basket left with Loremaster Caddis"
+      }
+    ],
+    "xpReward": 0,
+    "copperReward": 0,
+    "itemRewards": {
+      "warrior": "gourdlight_treat_pouch",
+      "paladin": "gourdlight_treat_pouch",
+      "hunter": "gourdlight_treat_pouch",
+      "rogue": "gourdlight_treat_pouch",
+      "priest": "gourdlight_treat_pouch",
+      "shaman": "gourdlight_treat_pouch",
+      "mage": "gourdlight_treat_pouch",
+      "warlock": "gourdlight_treat_pouch",
+      "druid": "gourdlight_treat_pouch"
+    },
+    "repeatable": true,
+    "dailyReset": true,
+    "seasonalEvent": "gourdlight_eve",
+    "shareable": false
   }
 }

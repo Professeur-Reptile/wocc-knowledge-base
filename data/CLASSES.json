@@ -460,8 +460,11 @@
       "holy_nova",
       "seraphic_vigil",
       "shadowform",
+      "vampiric_touch",
+      "void_rupture",
       "summon_tithefiend",
-      "prayer_of_returning"
+      "prayer_of_returning",
+      "spirit_bomb"
     ],
     "color": 13030640
   },
