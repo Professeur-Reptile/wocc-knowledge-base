@@ -440,12 +440,6 @@
   {
     "id": "drakelands",
     "name": "The Drakelands",
-    "riftPortalEligible": true,
-    "riftTierWeights": {
-      "B": 0.45,
-      "A": 0.4,
-      "S": 0.15
-    },
     "zMin": 1820,
     "zMax": 2420,
     "xMin": 180,
@@ -539,12 +533,6 @@
   {
     "id": "frostveil",
     "name": "The Frostveil Reach",
-    "riftPortalEligible": true,
-    "riftTierWeights": {
-      "B": 0.45,
-      "A": 0.4,
-      "S": 0.15
-    },
     "zMin": 1440,
     "zMax": 1960,
     "levelRange": [
@@ -624,12 +612,6 @@
   {
     "id": "amberfall",
     "name": "The Amberfall",
-    "riftPortalEligible": true,
-    "riftTierWeights": {
-      "B": 0.15,
-      "A": 0.55,
-      "S": 0.3
-    },
     "zMin": 1820,
     "zMax": 2380,
     "xMin": -540,
